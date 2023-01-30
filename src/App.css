@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.zoom-effect-2{
+  overflow: hidden;
+}
+
+.zoom-effect-2 img{
+  transform:  scale(0.7);
+  -webkit-transform: scale(90%);
+}
+
+.zoom-effect-2:hover img{
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}

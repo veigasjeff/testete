@@ -50,7 +50,8 @@ const scrollSearch = myKey => {
 	<meta name="twitter:title" content="Uwatch4free™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
 	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
- 
+  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
+  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
  
       </Head>
        

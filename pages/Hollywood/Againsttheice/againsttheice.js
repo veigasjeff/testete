@@ -39,8 +39,7 @@ const scrollSearch = myKey => {
 <meta name="twitter:title" content="Watch Against The Ice - 2022 | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/public/against-the-ice-2022.webp" />
 <meta name="description" content="Watch Against The Ice Full Movie Online on Uwatch4free™, You can also download Against The Ice - 2022 in full HD quality to watch later offline." />
-<script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706824"></script>
-  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706898"></script>
+<script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
  
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>

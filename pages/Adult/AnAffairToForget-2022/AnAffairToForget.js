@@ -25,7 +25,6 @@ const scrollSearch = myKey => {
      <title>Watch An Affair To Forget - 2023 | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of an affair to forget,an affair to forget - 2023 movie,watch an affair to forget - 2023 movie online,an affair to forget - 2023 movie download,an affair to forget - 2023 movie trailer" />
-
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
@@ -39,8 +38,7 @@ const scrollSearch = myKey => {
 <meta name="twitter:title" content="Watch An Affair To Forget - 2023 | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/public/an-affair-to-forget-2022.webp" />
 <meta name="description" content="Watch An Affair To Forget Full Movie Online on Uwatch4free™, You can also download An Affair To Forget - 2023 in full HD quality to watch later offline." />
-<script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706824"></script>
-  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706898"></script>
+<script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
  
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>

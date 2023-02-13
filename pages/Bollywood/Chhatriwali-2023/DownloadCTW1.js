@@ -6,7 +6,7 @@ const DownloadCTW1 = () => {
            <div class="bg-[#1a202c]">
   <Head>
  
- 
+  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
   </Head>

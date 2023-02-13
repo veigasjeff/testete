@@ -64,7 +64,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/Pamasahe-2023/PSEAds">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../pamasahe-2022.webp' alt='PAMASAHE - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/pamasahe-2022.webp' alt='PAMASAHE - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-lg title-font text-white mb-3 font-bold md:text-lg ">PAMASAHE - 2023</h2>
@@ -89,7 +89,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/ILoveyou-2023/ILUAds">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl "  src='/public../../i-love-you-P2-2023.webp' alt='I LOVE YOU PART 2 - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl "  src='/i-love-you-P2-2023.webp' alt='I LOVE YOU PART 2 - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">I LOVE YOU PART 2 - 2023</h2>
@@ -115,7 +115,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/PlanB-2023/PLBAds">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../plan-b-2023.webp' alt='PLAN B 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/plan-b-2023.webp' alt='PLAN B 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">PLAN B 2023</h2>
@@ -140,7 +140,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/LustDaries-2023/LUDAds">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../lust-diaries-pehla-pyar-2023.webp' alt='LUST DARIES... - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/lust-diaries-pehla-pyar-2023.webp' alt='LUST DARIES... - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">LUST DARIES... - 2023</h2>
@@ -165,7 +165,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/Imli-2023/IMIAds">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../Imli-P2-2023.webp' alt='IMLI - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/Imli-P2-2023.webp' alt='IMLI - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IMLI - 2023</h2>
@@ -190,7 +190,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/TeekhiChutteny-2022/TCTAds">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../teekhi-chutney-part2-2022.webp' alt='TEEKHI CHUTENY PART 2 - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/teekhi-chutney-part2-2022.webp' alt='TEEKHI CHUTENY PART 2 - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">TEEKHI CHUTENY PART 2 - 2023</h2>
@@ -215,7 +215,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/Darji-2022/DAJAds">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../darji-2022.webp' alt='DARJI - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/darji-2022.webp' alt='DARJI - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">DARJI - 2023</h2>
@@ -240,7 +240,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/AnAffairToForget-2022/ATFAds">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../an-affair-to-forget-2022.webp' alt='AN AFFAIR TO FORGET - 2022' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/an-affair-to-forget-2022.webp' alt='AN AFFAIR TO FORGET - 2022' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">AN AFFAIR TO FORGET - 2022</h2>
@@ -265,7 +265,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/ChingariChaubey-2023/CCBAds">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../chingari-chaubey-2023.webp' alt='CHINGARI CHAUBEY - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/chingari-chaubey-2023.webp' alt='CHINGARI CHAUBEY - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">CHINGARI CHAUBEY - 2023</h2>
@@ -290,7 +290,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/VirginBahus-2023/VJBAds">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../virgin-bahus-2023.webp' alt='VIRGIN BAHUS - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/virgin-bahus-2023.webp' alt='VIRGIN BAHUS - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">VIRGIN BAHUS - 2023</h2>
@@ -316,7 +316,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/WalkManP1-2022/WlkP1Ads">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../walkman1-2022.webp' alt='WALKMAN PART 1 - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/walkman1-2022.webp' alt='WALKMAN PART 1 - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">WALKMAN PART 1 - 2023</h2>
@@ -341,7 +341,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/WalkManP2-2022/WlkP2Ads">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../walkman2-2022.webp' alt='WALKMAN PART 2 - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/walkman2-2022.webp' alt='WALKMAN PART 2 - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">WALKMAN PART 2 - 2023</h2>
@@ -366,7 +366,7 @@ const scrollSearch = myKey => {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/WalkManP3-2022/WlkP3Ads">
      
-<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../walkman3-2022.webp' alt='WALKMAN PART 3 - 2023' width={400} height={300}  loading="lazy"/></a>
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/walkman3-2022.webp' alt='WALKMAN PART 3 - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">WALKMAN PART 3 - 2023</h2>

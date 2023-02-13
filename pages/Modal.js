@@ -16,7 +16,7 @@ export default () => {
           <div class="sm:flex sm:items-start">
             <div class="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
              
-            <Image class=""  src='/public../../adult-18.svg' alt='Logo' width={200} height={200}  loading="lazy"/>
+            <Image class=""  src='/adult-18.svg' alt='Logo' width={200} height={200}  loading="lazy"/>
             </div>
             <div class="mt-5 text-center sm:mt-0 sm:ml-4 sm:text-left">
               <h3 class="text-xl font-bold leading-6 text-red-600" id="modal-title">Are You Sure You Want to Continue?</h3>

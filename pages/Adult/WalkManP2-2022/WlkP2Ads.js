@@ -30,7 +30,7 @@ export default () => {
         </div>
         <div class="mt-2">
               <video class="w-full" controls autoPlay loop  >
-  <source src="../../official-trailer.mp4" type="video/mp4">
+  <source src="../../official-trailer.mp4" type="video/mp4" alt="Official Trailer">
   </source>
 </video> </div>
 <div class="mt-5 text-center sm:mt-0 sm:ml-4 sm:text-center">

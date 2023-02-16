@@ -6,7 +6,7 @@ const DownloadATF1 = () => {
            <div class="bg-[#1a202c]">
   <Head>
  
-  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+ 
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
   </Head>
@@ -71,7 +71,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item active relative float-left w-full">
 <a href="/ddhokha1" >
   <img
-    src="../../../pathan-2023.webp"
+    src="/pathan-2023.webp"
     className="block w-full"
     alt="Pathaan - 2023"
   /></a>
@@ -81,7 +81,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <a href="/ddhokha2" >
   <img
-    src="../../../the-last-of-us-2023.webp"
+    src="/the-last-of-us-2023.webp"
     className="block w-full"
     alt="The Last of Us - 2023"
   /></a>
@@ -92,7 +92,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <a href="/ddhokha3" >
   <img
-    src="../../../pamasahe-2022.webp"
+    src="/pamasahe-2022.webp"
     className="block w-full"
     alt="Pamasahe - 2022"
   /></a>
@@ -102,7 +102,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <a href="/ddhokha4" >
   <img
-    src="../../../hunters-2023.webp"
+    src="/hunters-2023.webp"
     className="block w-full"
     alt="Hunters - 2023"
   /></a>
@@ -112,7 +112,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <a href="/ddhokha5" >
   <img
-    src="../../../the-last-heist-2022.webp"
+    src="/the-last-heist-2022.webp"
     className="block w-full"
     alt="The Last Heist - 2022"
   /></a>

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://uwatchfree.vercel.app/',
+    siteUrl: 'https://uwatch4free.vercel.app/',
     changefreq: 'daily',
     priority: 0.80,
     generateRobotsTxt: true,

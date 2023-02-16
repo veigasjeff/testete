@@ -72,7 +72,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item active relative float-left w-full">
 <a href="/ddhokha1" >
   <img
-    src="../../../pathan-2023.webp"
+    src="/pathan-2023.webp"
     className="block w-full"
     alt="Pathaan - 2023"
   /></a>
@@ -82,7 +82,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <a href="/ddhokha2" >
   <img
-    src="../../../the-last-of-us-2023.webp"
+    src="/the-last-of-us-2023.webp"
     className="block w-full"
     alt="The Last of Us - 2023"
   /></a>
@@ -93,7 +93,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <a href="/ddhokha3" >
   <img
-    src="../../../pamasahe-2022.webp"
+    src="/pamasahe-2022.webp"
     className="block w-full"
     alt="Pamasahe - 2022"
   /></a>
@@ -103,7 +103,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <a href="/ddhokha4" >
   <img
-    src="../../../hunters-2023.webp"
+    src="/hunters-2023.webp"
     className="block w-full"
     alt="Hunters - 2023"
   /></a>
@@ -113,7 +113,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <a href="/ddhokha5" >
   <img
-    src="../../../the-last-heist-2022.webp"
+    src="/the-last-heist-2022.webp"
     className="block w-full"
     alt="The Last Heist - 2022"
   /></a>

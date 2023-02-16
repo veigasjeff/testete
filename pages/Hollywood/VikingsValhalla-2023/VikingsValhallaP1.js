@@ -14,6 +14,37 @@ const VikingsValhallaP1  = () => {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
+const schemaData   = {
+  "@context": "https://schema.org",
+  
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://uwatch4free.vercel.app/Hollywood/VikingsValhalla-2023/VikingsValhallaP1"
+    
+  },
+  "headline": "Vikings Valhalla Part 1 - 2023 | Uwatch4free™",
+  "image": "https://uwatch4free.vercel.app/vikings-valhalla-2023.webp",
+
+  "datePublished": '2023-01-01T09:00:00.000Z',
+  "dateModified": '2023-01-01T09:00:00.000Z',
+  "author": [{
+      "@type": "Person",
+      "name": "Uwatch4free",
+      "url": "https://uwatch4free.vercel.app/"
+    }],
+  
+  "publisher": {
+      "@type": "Organization",
+      "name": "Uwatch4free",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://uwatch4free.vercel.app/og_image.jpg"
+      }
+    },
+  "description": "Uwatch4free™ Vikings Valhalla Part 1 - 2023 | Watch now the Best TV shows and Movies"
+
+};
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
@@ -21,25 +52,29 @@ const scrollSearch = myKey => {
 
   return (
     <div>
+               <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+  />
      <Head>
      <title>Watch Vikings Valhalla Part 1 (2023)  | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of vikings valhalla part 1,vikings valhalla part 1 (2023) movie,watch vikings valhalla part 1 (2023) movie online,vikings valhalla part 1 (2023) movie download,vikings valhalla part 1 (2023) movie trailer" />
-
+<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of vikings valhalla part 1,vikings valhalla part 1 (2023) movie,watch vikings valhalla part 1 (2023) movie online,vikings valhalla part 1 (2023) movie download,vikings valhalla part 1 (2023) movie trailer" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
 <meta property="og:title" content="Watch Vikings Valhalla Part 1 (2023)  | Uwatch4free™" />
-<meta property="og:url" content="https://uwatch4free.vercel.app/VikingsValhalla-2023/" />
-<meta property="og:image" content="https://uwatch4free.vercel.app/public/vikings-valhalla-2023.webp" />
+<meta property="og:url" content="https://uwatch4free.vercel.app/Hollywood/VikingsValhalla-2023/VikingsValhallaP1" />
+<meta property="og:image" content="https://uwatch4free.vercel.app/vikings-valhalla-2023.webp" />
 <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Vikings Valhalla Part 1 (2023)  | Uwatch4free™" />
-<meta name="twitter:image" content="https://uwatch4free.vercel.app/public/vikings-valhalla-2023.webp" />
+<meta name="twitter:image" content="https://uwatch4free.vercel.app/vikings-valhalla-2023.webp" />
 <meta name="description" content="Watch Vikings Valhalla Part 1 Full Movie Online on Uwatch4free™, You can also download Vikings Valhalla Part 1 (2023) in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+
  
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
@@ -98,36 +133,22 @@ const scrollSearch = myKey => {
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
  <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Vikings Valhalla PART 1 (2023) </h3>
- <Link href="../../Hollywood/VikingsValhalla-2023/DownloadVKVP1A">
+ <Link href="../../Hollywood/VikingsValhalla-2023/DownloadVKV1">
  <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-white scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
  <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0  ">
  Download 
  </span>
 </button></Link>
 
-<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Vikings Valhalla PART 1 (2023)</h3>
-<Link href="../../Hollywood/VikingsValhalla-2023/DownloadVKVP1B">
+<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Vikings Valhalla PART 2 (2023)</h3>
+<Link href="../../Hollywood/VikingsValhalla-2023/DownloadVKV2">
 <button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-white scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
 <span className="relative px-5 py-2.5  transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
 Download 
 </span>
 </button></Link>
 
-<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Vikings Valhalla PART 2 (2023)</h3>
-<Link href="../../Hollywood/VikingsValhalla-2023/DownloadVKVP2A">
-<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-white scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
-<span className="relative px-5 py-2.5  transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
-Download 
-</span>
-</button></Link>
 
-<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Vikings Valhalla PART 2 (2023)</h3>
-<Link href="../../Hollywood/VikingsValhalla-2023/DownloadVKVP2B">
-<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-white scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
-<span className="relative px-5 py-2.5  transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
-Download 
-</span>
-</button></Link>
 <h2 className="text-blue-500 text-4xl py-5  title-font mb-3 font-bold ">
 Most Watch Movies & Tv Series.</h2>
 
@@ -172,53 +193,35 @@ Most Watch Movies & Tv Series.</h2>
   <div className="carousel-inner relative w-full cursor-pointer overflow-hidden">
 
 <div className="carousel-item active relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="../../../pathan-2023.webp"
+<img
+    src="/pathan-2023.webp"
     className="block w-full"
-    alt="Pathaan - 2023"
-  /></Link>
- 
+    alt="Pathaan - 2023"/>
 </div>
-
 <div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="../../../the-last-of-us-2023.webp"
+<img
+    src="/the-last-of-us-2023.webp"
     className="block w-full"
-    alt="The Last of Us - 2023"
-  /></Link>
-
+    alt="The Last of Us - 2023"/>
 </div>
-
-
 <div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="../../../pamasahe-2022.webp"
+<img
+    src="/pamasahe-2022.webp"
     className="block w-full"
-    alt="Pamasahe - 2022"
-  /></Link>
-  
+    alt="Pamasahe - 2022"/>
 </div>
-
 <div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="../../../hunters-2023.webp"
+<img
+    src="/hunters-2023.webp"
     className="block w-full"
-    alt="Hunters - 2023"
-  /></Link>
-  
+    alt="Hunters - 2023"/>
 </div>
-
 <div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
+
   <img
-    src="../../../the-last-heist-2022.webp"
+    src="/the-last-heist-2022.webp"
     className="block w-full"
-    alt="The Last Heist - 2022"
-  /></Link>
+    alt="The Last Heist - 2022"/>
  
 </div>
 </div>

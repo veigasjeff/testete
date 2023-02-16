@@ -14,6 +14,37 @@ const Darji  = () => {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
+const schemaData   = {
+  "@context": "https://schema.org",
+  
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://uwatch4free.vercel.app/Adult/Darji-2022/Darji"
+    
+  },
+  "headline": "Darji - 2022 | Uwatch4free™",
+  "image": "https://uwatch4free.vercel.app/Darji-2022.webp",
+
+  "datePublished": '2022-01-01T09:00:00.000Z',
+  "dateModified": '2022-01-01T09:00:00.000Z',
+  "author": [{
+      "@type": "Person",
+      "name": "Uwatch4free",
+      "url": "https://uwatch4free.vercel.app/"
+    }],
+  
+  "publisher": {
+      "@type": "Organization",
+      "name": "Uwatch4free",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://uwatch4free.vercel.app/og_image.jpg"
+      }
+    },
+  "description": "Uwatch4free™ Darji - 2022 | Watch now the Best TV shows and Movies"
+
+};
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
@@ -21,31 +52,35 @@ const scrollSearch = myKey => {
 
   return (
     <div>
+         <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+  />
      <Head>
-     <title>Watch Darji (2023) | Uwatch4free™</title>
+     <title>Watch Darji (2022) | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of darji ,darji - 2023 movie,watch darji - 2023 movie online,darji - 2023 movie download,darji - 2023 movie trailer" />
-
+<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of darji ,darji - 2022 movie,watch darji - 2022 movie online,darji - 2022 movie download,darji - 2022 movie trailer" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Darji (2023) | Uwatch4free™" />
-<meta property="og:url" content="https://uwatch4free.vercel.app/Darji-2023/" />
-<meta property="og:image" content="https://uwatch4free.vercel.app/public/darji-2022.webp" />
+<meta property="og:title" content="Watch Darji (2022) | Uwatch4free™" />
+<meta property="og:url" content="https://uwatch4free.vercel.app/Adult/Darji-2022/Darji/" />
+<meta property="og:image" content="https://uwatch4free.vercel.app/darji-2022.webp" />
 <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Darji (2023) | Uwatch4free™" />
-<meta name="twitter:image" content="https://uwatch4free.vercel.app/public/darji-2022.webp" />
-<meta name="description" content="Watch Darji Full Movie Online on Uwatch4free™, You can also download darji  - 2023 in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch Darji (2022) | Uwatch4free™" />
+<meta name="twitter:image" content="https://uwatch4free.vercel.app/darji-2022.webp" />
+<meta name="description" content="Watch Darji Full Movie Online on Uwatch4free™, You can also download darji  - 2022 in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+
  
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
       </Head>
       <div class="bg-[#1a202c]">
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Darji - 2023 </h1>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Darji - 2022 </h1>
 
      
     <iframe className="w-full aspect-w-16 aspect-h-9" src="https://sbhight.com/e/ud1tis9irdy9.html" height={550}></iframe>
@@ -64,7 +99,7 @@ const scrollSearch = myKey => {
     
 </div>
 <h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong> Action, Drama & Thriller</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
+<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2022</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong> Matt Nable</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Country:</strong> USA</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white "><strong>Starring:</strong> Sam Worthington, Phoebe Tonkin, Matt Nable, Susie Porter, Edward Carmody, Jeremy Lindsay Taylor, George Houvardas, Sam Cotton.</h2>
@@ -79,7 +114,7 @@ const scrollSearch = myKey => {
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
- <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Darji (2023) </h3>
+ <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Darji (2022) </h3>
  <Link href="../../Adult/Darji-2022/DownloadDAJ1">
  <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-white scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
  <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0  ">
@@ -87,7 +122,7 @@ const scrollSearch = myKey => {
  </span>
 </button></Link>
 
-<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Darji (2023)</h3>
+<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Darji (2022)</h3>
 <Link href="../../Adult/Darji-2022/DownloadDAJ2">
 <button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-white scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
 <span className="relative px-5 py-2.5  transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
@@ -139,7 +174,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item active relative float-left w-full">
 <Link href="../../Bollywood/Dhokha-2022/dhokha" >
   <img
-    src="../../../pathan-2023.webp"
+    src="/pathan-2023.webp"
     className="block w-full"
     alt="Pathaan - 2023"
   /></Link>
@@ -149,7 +184,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <Link href="../../Bollywood/Dhokha-2022/dhokha" >
   <img
-    src="../../../the-last-of-us-2023.webp"
+    src="/the-last-of-us-2023.webp"
     className="block w-full"
     alt="The Last of Us - 2023"
   /></Link>
@@ -160,7 +195,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <Link href="../../Bollywood/Dhokha-2022/dhokha" >
   <img
-    src="../../../pamasahe-2022.webp"
+    src="/pamasahe-2022.webp"
     className="block w-full"
     alt="Pamasahe - 2022"
   /></Link>
@@ -170,7 +205,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <Link href="../../Bollywood/Dhokha-2022/dhokha" >
   <img
-    src="../../../hunters-2023.webp"
+    src="/hunters-2023.webp"
     className="block w-full"
     alt="Hunters - 2023"
   /></Link>
@@ -178,9 +213,9 @@ Most Watch Movies & Tv Series.</h2>
 </div>
 
 <div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
+<Link href="../../Hollywood/TheLastHeist-2022/TheLastHeist" >
   <img
-    src="../../../the-last-heist-2022.webp"
+    src="/the-last-heist-2022.webp"
     className="block w-full"
     alt="The Last Heist - 2022"
   /></Link>

@@ -14,6 +14,37 @@ const WalkManP1  = () => {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
+const schemaData   = {
+  "@context": "https://schema.org",
+  
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://uwatch4free.vercel.app/Adult/WalkManP1-2022/WalkManP1"
+    
+  },
+  "headline": "Walkman Part 1 - 2022 | Uwatch4free™",
+  "image": "https://uwatch4free.vercel.app/walkman1-2022.webp",
+
+  "datePublished": '2022-01-01T09:00:00.000Z',
+  "dateModified": '2022-01-01T09:00:00.000Z',
+  "author": [{
+      "@type": "Person",
+      "name": "Uwatch4free",
+      "url": "https://uwatch4free.vercel.app/"
+    }],
+  
+  "publisher": {
+      "@type": "Organization",
+      "name": "Uwatch4free",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://uwatch4free.vercel.app/og_image.jpg"
+      }
+    },
+  "description": "Uwatch4free™ Walkman Part 1 - 2022 | Watch now the Best TV shows and Movies"
+
+};
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
@@ -21,31 +52,36 @@ const scrollSearch = myKey => {
 
   return (
     <div>
+       <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+  />
      <Head>
-     <title>Watch Walkman Part 1 (2023) | Uwatch4free™</title>
+     <title>Watch Walkman Part 1 (2022) | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of walkman Part 1 ,walkman Part 1 (2023) movie,watch walkman Part 1 (2023) movie online,Walkman Part 1 (2023) movie download,walkman Part 1 (2023) movie trailer" />
+<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of walkman Part 1 ,walkman Part 1 (2022) movie,watch walkman Part 1 (2022) movie online,Walkman Part 1 (2022) movie download,walkman Part 1 (2022) movie trailer" />
 
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Walkman Part 1 (2023) | Uwatch4free™" />
-<meta property="og:url" content="https://uwatch4free.vercel.app/WalkManP1-2022/" />
-<meta property="og:image" content="../../public/og_image.jpg" />
+<meta property="og:title" content="Watch Walkman Part 1 (2022) | Uwatch4free™" />
+<meta property="og:url" content="https://uwatch4free.vercel.app/Adult/WalkManP1-2022/WalkManP1" />
+<meta property="og:image" content="../../og_image.jpg" />
 <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Walkman Part 1 (2023) | Uwatch4free™" />
-<meta name="twitter:image" content="https://uwatch4free.vercel.app/public/walkman1-2022.webp" />
-<meta name="description" content="Watch WalkManP1 Full Movie Online on Uwatch4free™, You can also download Walkman Part 1 (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch Walkman Part 1 (2022) | Uwatch4free™" />
+<meta name="twitter:image" content="https://uwatch4free.vercel.app/walkman1-2022.webp" />
+<meta name="description" content="Watch WalkManP1 Full Movie Online on Uwatch4free™, You can also download Walkman Part 1 (2022) in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+
  
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
       </Head>
       <div class="bg-[#1a202c]">
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Walkman Part 1 (2023) </h1>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Walkman Part 1 (2022) </h1>
 
      
     <iframe className="w-full aspect-w-16 aspect-h-9" src="https://sbhight.com/e/a8vyrlt1hgac.html" height={550}></iframe>
@@ -64,7 +100,7 @@ const scrollSearch = myKey => {
     
 </div>
 <h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong>  Adult, Hot, Romance.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
+<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2022</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong> Ullu Originals</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Country:</strong> India</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white "><strong>Starring:</strong> NA.</h2>
@@ -139,9 +175,9 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item active relative float-left w-full">
 <Link href="../../Bollywood/Dhokha-2022/dhokha" >
   <img
-    src="../../../pathan-2023.webp"
+    src="/pathan-2022.webp"
     className="block w-full"
-    alt="Pathaan - 2023"
+    alt="Pathaan - 2022"
   /></Link>
  
 </div>
@@ -149,9 +185,9 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <Link href="../../Bollywood/Dhokha-2022/dhokha" >
   <img
-    src="../../../the-last-of-us-2023.webp"
+    src="/the-last-of-us-2022.webp"
     className="block w-full"
-    alt="The Last of Us - 2023"
+    alt="The Last of Us - 2022"
   /></Link>
 
 </div>
@@ -160,7 +196,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <Link href="../../Bollywood/Dhokha-2022/dhokha" >
   <img
-    src="../../../pamasahe-2022.webp"
+    src="/pamasahe-2022.webp"
     className="block w-full"
     alt="Pamasahe - 2022"
   /></Link>
@@ -170,9 +206,9 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <Link href="../../Bollywood/Dhokha-2022/dhokha" >
   <img
-    src="../../../hunters-2023.webp"
+    src="/hunters-2022.webp"
     className="block w-full"
-    alt="Hunters - 2023"
+    alt="Hunters - 2022"
   /></Link>
   
 </div>
@@ -180,7 +216,7 @@ Most Watch Movies & Tv Series.</h2>
 <div className="carousel-item relative float-left w-full">
 <Link href="../../Bollywood/Dhokha-2022/dhokha" >
   <img
-    src="../../../the-last-heist-2022.webp"
+    src="/the-last-heist-2022.webp"
     className="block w-full"
     alt="The Last Heist - 2022"
   /></Link>

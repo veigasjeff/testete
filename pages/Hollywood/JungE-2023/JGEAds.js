@@ -21,7 +21,7 @@ export default () => {
               <h3 class="text-2xl font-bold leading-6 text-red-600" id="modal-title">Are You Sure You Want to Continue?</h3>
               <div class="mt-2">
               <video class="w-full" controls autoPlay loop >
-  <source src="../../official-trailer.mp4" type="video/mp4">
+  <source src="../../official-trailer.mp4" type="video/mp4" alt="Official Trailer">
   </source>
 </video>
               </div>

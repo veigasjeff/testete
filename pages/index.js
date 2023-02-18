@@ -29,29 +29,63 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/"
     
   },
-  "headline": "Uwatch4free™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies",
+  "headline": "uwatch4free™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies",
   "image": "https://uwatch4free.vercel.app/logo.png",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "Uwatch4free",
+      "name": "uwatch4free",
       "url": "https://uwatch4free.vercel.app/"
     }],
   
   "publisher": {
       "@type": "Organization",
-      "name": "Uwatch4free",
+      "name": "uwatch4free",
       "logo": {
         "@type": "ImageObject",
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies"
+  "description": "uwatch4free™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies"
 
 };
+const maxData   = {
 
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Hollywood",
+    "item": "https://hbomaxmovies.netlify.app/Hollywood/hollywood"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Bollywood",
+    "item": "https://hbomaxmovies.netlify.app/Bollywood/bollywood"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Adult",
+    "item": "https://hbomaxmovies.netlify.app/Adult/adult"
+  }]
+};
+const searchData   = {
+  "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.example.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://query.example.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      
+  }
+  };
   return (
   
     <div >
@@ -59,46 +93,70 @@ const schemaData   = {
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
+     <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(maxData) }}
+  />
+<script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
+  />
       <div class="bg-[#1a202c] ">
       <Head>
-        <title>Uwatch4free™</title>
-      
-	<meta name="description" content="Watch
- now the Best TV shows and Movies " />
-	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
-	<meta name="revisit-after" content="1 days" />
-	<meta property="og:locale" content="en_US" />
-  <meta name="robots" content="index, follow" />  
-	<meta name="robots" content="index, follow, archive" />
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-	<meta property="og:site_name" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
-	<meta property="og:type" content="website" />
-	<meta property="og:image:height" content="1280"/>
-	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
-	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
-	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
-	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Uwatch4free™ " />
-	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
-	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
+        <title>uwatch4free™</title>
+        <meta name="robots" content="index, follow" />   
+        <meta name="revisit-after" content="1 days" />  
+      	<meta name="description" content="Watch now the Best TV shows and Movies " />
+	      <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="keywords" content="uwatch4free, watch movies online, watch free movies, free movies hd, free tv shows stream, best movies, watch online movies, movies streaming free, free movies, free full hd movies, latest free movies, watch series online"/>
+        <meta http-equiv="content-language" content="en"/>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	      <meta property="og:site_name" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
+      	<meta property="og:type" content="website" />
+	      <meta property="og:image:height" content="1280"/>
+	      <meta property="og:image:width" content="720"/>
+	      <meta property="og:title" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
+	      <meta property="og:description" content="Watch now the Best TV shows and Movies " />
+	      <meta property="og:url" content="https://uwatch4free.vercel.app/" />
+	      <meta property="og:image:type" content="image/jpeg" />
+	      <meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
+	      <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
+	      <meta name="twitter:card" content="summary_large_image" />
+	      <meta name="twitter:title" content="uwatch4free™ " />
+	      <meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
+	      <meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+
+        <link rel="alternate" hreflang="en-us" 
+	       href="https://uwatch4free.vercel.app/"/>
+	      <link rel="alternate" hreflang="en-gb" 
+	       href="https://uwatch4free.vercel.app/"/>
+	      <link rel="alternate" hreflang="en-ca" 
+	       href="https://uwatch4free.vercel.app/"/>
+	      <link rel="alternate" hreflang="en-au" 
+	       href="https://uwatch4free.vercel.app/"/>
+	      <link rel="alternate" hreflang="en-se" 
+	       href="https://uwatch4free.vercel.app/"/>
+	      <link rel="alternate" hreflang="en-fr" 
+	       href="https://uwatch4free.vercel.app/"/>
+	      <link rel="alternate" hreflang="en-dk" 
+	       href="https://uwatch4free.vercel.app/"/>
+	      <link rel="alternate" hreflang="en-no" 
+	       href="https://uwatch4free.vercel.app/"/>
+	      <link rel="alternate" hreflang="x-default" 
+	       href="https://uwatch4free.vercel.app/"/>
       </Head>
        
       <main>
         <div>
       <div className="flex flex-col items-center justify-center space-y-12">
     <section className="text-gray-600 body-font ">
-    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> Uwatch4free™ Watch Latest Movies</h1>
+    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> uwatch4free™ Watch Latest Movies</h1>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/Amigos-2023/AMGAds">
+        <a href="../../Bollywood/Amigos-2023/Amigos">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/amigos-2023.webp' alt='AMIGOS - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -115,14 +173,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
        </div>
-       <a href="../../Bollywood/Amigos-2023/AMGAds">
+       <a href="../../Bollywood/Amigos-2023/Amigos">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/Christopher-2023/CHRAds">
+        <a href="../../Bollywood/Christopher-2023/Christopher">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/christopher-2023.webp' alt='CHRISTOPHER - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -139,14 +197,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
        </div>
-       <a href="../../Bollywood/Christopher-2023/CHRAds">
+       <a href="../../Bollywood/Christopher-2023/Christopher">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/Dishkiyaoon-2023/DKYAds">
+        <a href="../../Bollywood/Dishkiyaoon-2023/Dishkiyaoon">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/dishkiyaoon-2023.webp' alt='DISHKIYAOON - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -163,14 +221,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>COMEDY, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/Dishkiyaoon-2023/DKYAds">
+       <a href="../../Bollywood/Dishkiyaoon-2023/Dishkiyaoon">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/Farzi-2023/FARAds">
+        <a href="../../Bollywood/Farzi-2023/Farzi">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/farzi-2023.webp' alt='FARZI - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -187,14 +245,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/Farzi-2023/FARAds">
+       <a href="../../Bollywood/Farzi-2023/Farzi">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/JaanbaazHindustanKe-2023/JHKAds">
+        <a href="../../Bollywood/JaanbaazHindustanKe-2023/JaanbaazHindustanKe">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/jaanbaaz-hindustan-ke-2023.webp' alt='JAANBAAZ HINDUSTAN KE - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -211,14 +269,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/JaanbaazHindustanKe-2023/JHKAds">
+       <a href="../../Bollywood/JaanbaazHindustanKe-2023/JaanbaazHindustanKe">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/JagguAniJulite-2023/JAJAds">
+        <a href="../../Bollywood/JagguAniJulite-2023/JagguAniJulite">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/jaggu-ani-juliet-2023.webp' alt='JAGGU ANI JULIET - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -235,14 +293,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ROMANCE, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/JagguAniJulite-2023/JAJAds">
+       <a href="../../Bollywood/JagguAniJulite-2023/JagguAniJulite">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/Kranti-2023/KRTAds">
+        <a href="../../Bollywood/Kranti-2023/Kranti">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/kranti-2023.webp' alt='KRANTI - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -259,14 +317,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/Kranti-2023/KRTAds">
+       <a href="../../Bollywood/Kranti-2023/Kranti">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/BlackPantherWaka-2023/BPWAds" >
+          <a href="../../Hollywood/BlackPantherWaka-2023/BlackPantherWaka" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/black-panther-wakanda-forever-2022.webp' alt='BLACK PANTHER WAKANDA FOREVER - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -284,13 +342,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
        </div>
           
-       <a href="../../Hollywood/BlackPantherWaka-2023/BPWAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/BlackPantherWaka-2023/BlackPantherWaka"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/ExtraOrdinary-2023/EXTAds" >
+          <a href="../../Hollywood/ExtraOrdinary-2023/ExtraOrdinaryP1" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/extraordinary-2023.webp' alt='EXTRAORDINARY - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -308,13 +366,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
        </div>
           
-       <a href="../../Hollywood/ExtraOrdinary-2023/EXTAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/ExtraOrdinary-2023/ExtraOrdinaryP1"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/Fear-2023/FERAds" >
+          <a href="../../Hollywood/Fear-2023/Fear" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/fear-2023.webp' alt='FEAR - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -332,13 +390,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>HORROR, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/Fear-2023/FERAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/Fear-2023/Fear"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/Watchman-2023/WHMAds">
+        <a href="../../Adult/Watchman-2023/WatchmanP1">
      
          <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/watchman-part1-2023.webp' alt='WATCHMAN - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -356,14 +414,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/Watchman-2023/WHMAds">
+       <a href="../../Adult/Watchman-2023/WatchmanP1">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/LadyDoctor-2023/LYDAds">
+        <a href="../../Adult/LadyDoctor-2023/LadyDoctor">
      
          <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/lady-doctor-2023.webp' alt='LADY DOCTOR - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -381,14 +439,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/LadyDoctor-2023/LYDAds">
+       <a href="../../Adult/LadyDoctor-2023/LadyDoctor">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/Kaand-2023/KADAds">
+        <a href="../../Adult/Kaand-2023/KaandP1">
      
          <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/kaand-2023.webp' alt='KAAD - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -406,14 +464,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/Kaand-2023/KADAds">
+       <a href="../../Adult/Kaand-2023/KaandP1">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/Ishqiya-2023/IQYAds">
+        <a href="../../Adult/Ishqiya-2023/Ishqiya">
      
          <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/ishqiya-2023.webp' alt='ISHQIYA - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -431,14 +489,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/Ishqiya-2023/IQYAds">
+       <a href="../../Adult/Ishqiya-2023/Ishqiya">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/Imani-2023/IMNAds" >
+          <a href="../../Hollywood/Imani-2023/Imani" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/imani-2023.webp' alt='IMANI - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -456,13 +514,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/Imani-2023/IMNAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/Imani-2023/Imani"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/Kaleidoscope-2023/KDSAds" >
+          <a href="../../Hollywood/Kaleidoscope-2023/KaleidoscopeP1" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/kaleidoscope-2022.webp' alt='KALEIDOSCOPE - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -480,13 +538,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>CRIME, ACTION</strong>
        </div>
           
-       <a href="../../Hollywood/Kaleidoscope-2023/KDSAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/Kaleidoscope-2023/KaleidoscopeP1"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/KnockAtTheCabin-2023/KACAds" >
+          <a href="../../Hollywood/KnockAtTheCabin-2023/KnockAtTheCabin" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/knock-at-the-cabin-2023.webp' alt='KNOCK AT THE CABIN - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -504,13 +562,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>HORROR, MYSTERY</strong>
        </div>
           
-       <a href="../../Hollywood/KnockAtTheCabin-2023/KACAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/KnockAtTheCabin-2023/KnockAtTheCabin"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/LockwoodAndCo-2023/LWCAds" >
+          <a href="../../Hollywood/LockwoodAndCo-2023/LockwoodAndCoP1" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/lockwood-and-co-2023.webp' alt='LOCKWOOD AND CO - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -528,13 +586,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
        </div>
           
-       <a href="../../Hollywood/LockwoodAndCo-2023/LWCAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/LockwoodAndCo-2023/LockwoodAndCoP1"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/FarebiYarr-2023/FBYAds">
+        <a href="../../Adult/FarebiYarr-2023/FarebiYarrP1">
      
          <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/farebi-yaar-part-1-2023.webp' alt='FAREBI YARR - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -552,14 +610,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/FarebiYarr-2023/FBYAds">
+       <a href="../../Adult/FarebiYarr-2023/FarebiYarrP1">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/Babuji-2023/BBJAds">
+        <a href="../../Adult/Babuji-2023/BabujiP1">
      
          <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/babuJi-2023.webp' alt='BABUJI - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -577,14 +635,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/Pamasahe-2023/PSEAds">
+       <a href="../../Adult/Babuji-2023/BabujiP1">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/Michale-2023/MCHAds">
+        <a href="../../Bollywood/Michale-2023/Michale">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/michael-2023.webp' alt='MICHAEL - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -601,14 +659,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/Michale-2023/MCHAds">
+       <a href="../../Bollywood/Michale-2023/Michale">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/MrTharak-2023/MTKAds">
+        <a href="../../Bollywood/MrTharak-2023/MrTharak">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/mr-tharak-2023.webp' alt='MR THARAK - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -625,14 +683,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>FAMILY, MYSTERY</strong>
        </div>
-       <a href="../../Bollywood/MrTharak-2023/MTKAds">
+       <a href="../../Bollywood/MrTharak-2023/MrTharak">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/RaftaRafta-2023/RFRAds">
+        <a href="../../Bollywood/RaftaRafta-2023/RaftaRafta">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/rafta-rafta-2023.webp' alt='RAFTA RAFTA - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -649,14 +707,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ROMANCE, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/RaftaRafta-2023/RFRAds">
+       <a href="../../Bollywood/RaftaRafta-2023/RaftaRafta">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/ShivShastriBalboa-2023/SSBAds">
+        <a href="../../Bollywood/ShivShastriBalboa-2023/ShivShastriBalboa">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/shiv-shastri-balboa-2023.webp' alt='SHIV SHASTRI BALBOA - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -673,14 +731,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>COMEDY, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/ShivShastriBalboa-2023/SSBAds">
+       <a href="../../Bollywood/ShivShastriBalboa-2023/ShivShastriBalboa">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/LaQuerida-2023/LAQAds">
+        <a href="../../Adult/LaQuerida-2023/LaQuerida">
      
          <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/la-querida-2023.webp' alt='LA QUERIDA - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -698,14 +756,14 @@ const schemaData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/LaQuerida-2023/LAQAds">
+       <a href="../../Adult/LaQuerida-2023/LaQuerida">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/NightTrain-2023/NGTAds" >
+          <a href="../../Hollywood/NightTrain-2023/NightTrain" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/night-train-2023.webp' alt='NIGHT TRAIN - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -723,13 +781,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/NightTrain-2023/NGTAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/NightTrain-2023/NightTrain"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/TeenWolfTheMovie-2023/TWMAds" >
+          <a href="../../Hollywood/TeenWolfTheMovie-2023/TeenWolfTheMovie" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/teen-wolf-the-movie-2023.webp' alt='TEEN WOLF THE MOVIE - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -747,13 +805,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>ACTION, FANTASY</strong>
        </div>
           
-       <a href="../../Hollywood/TeenWolfTheMovie-2023/TWMAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/TeenWolfTheMovie-2023/TeenWolfTheMovie"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/TheMummyResurrection-2023/TMRAds" >
+          <a href="../../Hollywood/TheMummyResurrection-2023/TheMummyResurrection" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/the-mummy-resurrection-2022.webp' alt='THE MUMMY RESURRECTION - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -771,13 +829,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>HORROR, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/TheMummyResurrection-2023/TMRAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/TheMummyResurrection-2023/TheMummyResurrection"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/TheRig-2023/TRGAds" >
+          <a href="../../Hollywood/TheRig-2023/TheRig" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/the-rig-2023.webp' alt='THE RIG - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -795,13 +853,13 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>DRAMA, SCI-FI</strong>
        </div>
           
-       <a href="../../Hollywood/TheRig-2023/TRGAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/TheRig-2023/TheRig"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/TulsaKing-2023/TSKAds" >
+          <a href="../../Hollywood/TulsaKing-2023/TulsaKing" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/tulsa-king-2023.webp' alt='TULSA KING - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -819,7 +877,7 @@ const schemaData   = {
        <strong>GENRE :</strong> <strong>CRIME, DRAMA</strong>
        </div>
           
-       <a href="../../Hollywood/TulsaKing-2023/TSKAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/TulsaKing-2023/TulsaKing"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>

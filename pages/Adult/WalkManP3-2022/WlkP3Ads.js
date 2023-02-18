@@ -1,11 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import Head from "next/head";
 
 export default () => {
     return (
         <div>
-            
+             <Head>
+     <title>Watch Walkman Part 3 (2022) | uwatch4free™</title>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of walkman Part 3 ,walkman Part 3 (2022) movie,watch walkman Part 3 (2022) movie online,Walkman Part 3 (2022) movie download,walkman Part 3 (2022) movie trailer" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:type" content="movie" />
+<meta property="og:title" content="Watch Walkman Part 3 (2022) | uwatch4free™" />
+<meta property="og:url" content="https://uwatch4free.vercel.app/Adult/WalkManP3-2022/WalkManP3" />
+<meta property="og:image" content="https://uwatch4free.vercel.app/walkman3-2022.webp" />
+<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="720" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Watch Walkman Part 3 (2022) | uwatch4free™" />
+<meta name="twitter:image" content="https://uwatch4free.vercel.app/walkman3-2022.webp" />
+<meta name="description" content="Watch WalkManP3 Full Movie Online on uwatch4free™, You can also download Walkman Part 3 (2022) in full HD quality to watch later offline." />
+
+      </Head>
             <div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
 
   <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
@@ -21,7 +39,7 @@ export default () => {
             <Image class=""  src='/adult-18.svg' alt='Logo' width={200} height={200}  loading="lazy"/>
             </div>
             <div class="mt-5 text-center sm:mt-0 sm:ml-4 sm:text-left">
-              <h3 class="text-xl font-bold leading-6 text-red-600" id="modal-title">Are You Sure You Want to Continue?</h3>
+              <h1 class="text-xl font-bold leading-6 text-red-600" id="modal-title">Are You Sure You Want to Continue?</h1>
               <div class="mt-2">
                 <p class="text-lg font-bold text-gray-500">This Part of the Website Requires you to be 18 years of Age or Older.</p>
                </div>

@@ -23,26 +23,26 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/Adult/WalkManP2-2022/WalkManP2"
     
   },
-  "headline": "Walkman Part 2 - 2022 | Uwatch4free™",
+  "headline": "Walkman Part 2 - 2022 | uwatch4free™",
   "image": "https://uwatch4free.vercel.app/walkman2-2022.webp",
 
   "datePublished": '2022-01-01T09:00:00.000Z',
   "dateModified": '2022-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "Uwatch4free",
+      "name": "uwatch4free",
       "url": "https://uwatch4free.vercel.app/"
     }],
   
   "publisher": {
       "@type": "Organization",
-      "name": "Uwatch4free",
+      "name": "uwatch4free",
       "logo": {
         "@type": "ImageObject",
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Walkman Part 2 - 2022 | Watch now the Best TV shows and Movies"
+  "description": "uwatch4free™ Walkman Part 2 - 2022 | Watch now the Best TV shows and Movies"
 
 };
 const scrollSearch = myKey => {
@@ -57,22 +57,22 @@ const scrollSearch = myKey => {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Walkman Part 2 (2022) | Uwatch4free™</title>
+     <title>Watch Walkman Part 2 (2022) | uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of walkman Part 2 ,walkman Part 2 (2022) movie,watch walkman Part 2 (2022) movie online,Walkman Part 2 (2022) movie download,walkman Part 2 (2022) movie trailer" />
+<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of walkman Part 2 ,walkman Part 2 (2022) movie,watch walkman Part 2 (2022) movie online,Walkman Part 2 (2022) movie download,walkman Part 2 (2022) movie trailer" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Walkman Part 2 (2022) | Uwatch4free™" />
+<meta property="og:title" content="Watch Walkman Part 2 (2022) | uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Adult/WalkManP2-2022/WalkManP2" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/walkman2-2022.webp" />
 <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Walkman Part 2 (2022) | Uwatch4free™" />
+<meta name="twitter:title" content="Watch Walkman Part 2 (2022) | uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/walkman2-2022.webp" />
-<meta name="description" content="Watch WalkManP1 Full Movie Online on Uwatch4free™, You can also download Walkman Part 2 (2022) in full HD quality to watch later offline." />
+<meta name="description" content="Watch WalkManP1 Full Movie Online on uwatch4free™, You can also download Walkman Part 2 (2022) in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
 
 

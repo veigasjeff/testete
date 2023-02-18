@@ -19,49 +19,147 @@ const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
 };
+const schemaData   = {
+  "@context": "https://schema.org",
+  
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://uwatch4free.vercel.app/"
+    
+  },
+  "headline": "uwatch4free™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies",
+  "image": "https://uwatch4free.vercel.app/logo.png",
+
+  "datePublished": '2023-01-01T09:00:00.000Z',
+  "dateModified": '2023-01-01T09:00:00.000Z',
+  "author": [{
+      "@type": "Person",
+      "name": "uwatch4free",
+      "url": "https://uwatch4free.vercel.app/"
+    }],
+  
+  "publisher": {
+      "@type": "Organization",
+      "name": "uwatch4free",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://uwatch4free.vercel.app/og_image.jpg"
+      }
+    },
+  "description": "uwatch4free™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies"
+
+};
+const maxData   = {
+
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Hollywood",
+    "item": "https://uwatch4free.netlify.app/Hollywood/hollywood"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Bollywood",
+    "item": "https://uwatch4free.netlify.app/Bollywood/bollywood"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Adult",
+    "item": "https://uwatch4free.netlify.app/Adult/adult"
+  }]
+};
+const searchData   = {
+  "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.example.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://query.example.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      
+  }
+  };
   return (
 <div>
+<script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+  />
+     <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(maxData) }}
+  />
+<script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
+  />
 <div class="bg-[#1a202c]">
 
 <Head>
-        <title>Uwatch4free™</title>
+        <title>uwatch4free™ Page1</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
 	<meta name="robots" content="index, follow, archive" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
 	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Uwatch4free™ " />
+	<meta name="twitter:title" content="uwatch4free™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
 	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
- 
- 
+  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
+  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+  <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+  <link rel="alternate" hreflang="en-us" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-gb" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-ca" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-au" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-se" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-fr" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-dk" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-no" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="x-default" 
+	href="https://uwatch4free.vercel.app/"/>
+
       </Head>
 <main>
         <div>
         
         <div className="flex flex-col items-center justify-center space-y-12">
     <section className="text-gray-600 body-font ">
-    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> Uwatch4free™ Watch Latest Movies</h1>
+    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> uwatch4free™ Watch Latest Movies</h1>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/WakingKarma-2023/WKMAds" >
+          <a href="../../Hollywood/WakingKarma-2023/WakingKarma" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/waking-karma-2023.webp' alt='WAKING KARMA - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -79,13 +177,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>HORROR, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/WakingKarma-2023/WKMAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/WakingKarma-2023/WakingKarma"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/The3rdGuest-2023/T3GAds" >
+          <a href="../../Hollywood/The3rdGuest-2023/The3rdGuest" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/the-3rd-guest-2023.webp' alt='THE 3RD GUEST - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -103,13 +201,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>DRAMA, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/The3rdGuest-2023/T3GAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/The3rdGuest-2023/The3rdGuest"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/PockerFace-2023/POFAds" >
+          <a href="../../Hollywood/PockerFace-2023/PockerFace" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/poker-face-2022.webp' alt='POKER FACE - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -127,13 +225,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/PockerFace-2023/POFAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/PockerFace-2023/PockerFace"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/ZindagiShatranjHai-2023/ZSHAds">
+        <a href="../../Bollywood/ZindagiShatranjHai-2023/ZindagiShatranjHai">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/zindagi-shatranj-hai-2023.webp' alt='ZINDAGI SHATRANJ HAI - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -150,14 +248,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/ZindagiShatranjHai-2023/ZSHAds">
+       <a href="../../Bollywood/ZindagiShatranjHai-2023/ZindagiShatranjHai">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/MissBriganaza-2023/MBZAds">
+        <a href="../../Adult/MissBriganaza-2023/MissBriganaza">
      
          <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/miss-briganaza-2023.webp' alt='WATCHMAN - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -175,14 +273,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/MissBriganaza-2023/MBZAds">
+       <a href="../../Adult/MissBriganaza-2023/MissBriganaza">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/Transfusion-2023/TranAds" >
+          <a href="../../Hollywood/Transfusion-2023/Transfusion" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/transfusion-2023.webp' alt='TRANSFUSION - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -200,13 +298,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>CRIME, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/Transfusion-2023/TranAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/Transfusion-2023/Transfusion"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/MissionMajnu-2023/MMJAds">
+        <a href="../../Bollywood/MissionMajnu-2023/MissionMajnu">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/mission-maju-2023.webp' alt='MASSION MAJNU - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -223,14 +321,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/MissionMajnu-2023/MMJAds">
+       <a href="../../Bollywood/MissionMajnu-2023/MissionMajnu">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/Pathaan-2023/PTNAds">
+        <a href="../../Bollywood/Pathaan-2023/Pathaan">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/pathan-2023.webp' alt='PATHAAN - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -248,14 +346,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-white text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
-       <a href="../../Bollywood/Pathaan-2023/PTNAds">
+       <a href="../../Bollywood/Pathaan-2023/Pathaan">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Plane-2023/PLNAds">
+        <a href="../../Hollywood/Plane-2023/Plane">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/plane-2023.webp' alt='PLANE - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -273,14 +371,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
-       <a href="../../Hollywood/Plane-2023/PLNAds">
+       <a href="../../Hollywood/Plane-2023/Plane">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/TheY-2023/YAds">
+        <a href="../../Bollywood/TheY-2023/TheY">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/the-y-2023.webp' alt='THE Y - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -298,14 +396,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-white text-center items-center">
        <strong>GENRE :</strong> <strong>HORROR, THRILLER</strong>
        </div>
-       <a href="../../Bollywood/TheY-2023/YAds">
+       <a href="../../Bollywood/TheY-2023/TheY">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/TaazaKhabar-2023/TKAds">
+        <a href="../../Bollywood/TaazaKhabar-2023/TaazaKhabar">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl "  src='/taaza-khabar-2023.webp' alt='TAAZA KHABAR - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -323,14 +421,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-white text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/TaazaKhabar-2023/TKAds">
+       <a href="../../Bollywood/TaazaKhabar-2023/TaazaKhabar">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/Pamasahe-2023/PSEAds">
+        <a href="../../Adult/Pamasahe-2023/Pamasahe">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/pamasahe-2022.webp' alt='PAMASAHE - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -348,14 +446,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/Pamasahe-2023/PSEAds">
+       <a href="../../Adult/Pamasahe-2023/Pamasahe">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/ILoveyou-2023/ILUAds">
+        <a href="../../Adult/ILoveyou-2023/ILoveyou">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl "  src='/i-love-you-P2-2023.webp' alt='I LOVE YOU PART 2 - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -373,7 +471,7 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/ILoveyou-2023/ILUAds">
+       <a href="../../Adult/ILoveyou-2023/ILoveyou">
         <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
 
          
@@ -381,7 +479,7 @@ const scrollSearch = myKey => {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/PlanB-2023/PLBAds">
+        <a href="../../Adult/PlanB-2023/PlanB">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/plan-b-2023.webp' alt='PLAN B 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -399,14 +497,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/PlanB-2023/PLBAds">
+       <a href="../../Adult/PlanB-2023/PlanB">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/Thunivu-2023/THUAds">
+        <a href="../../Bollywood/Thunivu-2023/Thunivu">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/thunivu-2023.webp' alt='THUNIVU - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -424,14 +522,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-white text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
-       <a href="../../Bollywood/Thunivu-2023/THUAds">
+       <a href="../../Bollywood/Thunivu-2023/Thunivu">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/Varisu-2023/VRUAds">
+        <a href="../../Bollywood/Varisu-2023/Varisu">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/varisu-2023.webp' alt='VARISU - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -449,7 +547,7 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-white text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/Varisu-2023/VRUAds">
+       <a href="../../Bollywood/Varisu-2023/Varisu">
         <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
 
          
@@ -457,7 +555,7 @@ const scrollSearch = myKey => {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/TrailByFire-2023/TBFAds">
+        <a href="../../Bollywood/TrailByFire-2023/TrailByFire">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/trial-by-fire-2023.webp' alt='TRAIL BY FIRE - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -475,14 +573,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-white text-center items-center">
        <strong>GENRE :</strong> <strong>CRIME, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/TrailByFire-2023/TBFAds">
+       <a href="../../Bollywood/TrailByFire-2023/TrailByFire">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/MumbaiMafia-2023/MUMAds">
+        <a href="../../Bollywood/MumbaiMafia-2023/MumbaiMafia">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/mumbai-mafia-2022.webp' alt='MUMBAI MAFIA... - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -500,14 +598,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-white text-center items-center">
        <strong>GENRE :</strong> <strong>CRIME, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/MumbaiMafia-2023/MUMAds">
+       <a href="../../Bollywood/MumbaiMafia-2023/MumbaiMafia">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Bollywood/Chhatriwali-2023/CTWAds">
+        <a href="../../Bollywood/Chhatriwali-2023/Chhatriwali">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/chhatriwali-2023.webp' alt='CHHATRIWALI - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -525,14 +623,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>COMEDY, DRAMA</strong>
        </div>
-       <a href="../../Bollywood/Chhatriwali-2023/CTWAds">
+       <a href="../../Bollywood/Chhatriwali-2023/Chhatriwali">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Narvik-2023/NRKAds">
+        <a href="../../Hollywood/Narvik-2023/Narvik">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/narvik-2022.webp' alt='NARVIK 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -550,14 +648,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>DARAM, WAR</strong>
        </div>
-       <a href="../../Hollywood/Narvik-2023/NRKAds">
+       <a href="../../Hollywood/Narvik-2023/Narvik">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/OperationFortune-2023/OFGAds">
+        <a href="../../Hollywood/OperationFortune-2023/OperationFortune">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/operation-fortune-ruse-de-uerre-2023.webp' alt='OPERATION FORTUNE... - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -575,14 +673,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>CRIME, THRILLER</strong>
        </div>
-       <a href="../../Hollywood/OperationFortune-2023/OFGAds">
+       <a href="../../Hollywood/OperationFortune-2023/OperationFortune">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Babylon-2023/BYLAds">
+        <a href="../../Hollywood/Babylon-2023/Babylon">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/babylon-2022.webp' alt='BABYLON - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -600,14 +698,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>COMEDY, DRAMA</strong>
        </div>
-       <a href="../../Hollywood/Babylon-2023/BYLAds">
+       <a href="../../Hollywood/Babylon-2023/Babylon">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Devotion-2023/DVTAds">
+        <a href="../../Hollywood/Devotion-2023/Devotion">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/devotion-2023.webp' alt='DEVOTION - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -625,14 +723,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-white text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, WAR</strong>
        </div>
-       <a href="../../Hollywood/Devotion-2023/DVTAds">
+       <a href="../../Hollywood/Devotion-2023/Devotion">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Shahmaran-2023/SMRAds">
+        <a href="../../Hollywood/Shahmaran-2023/Shahmaran">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/shahmaran-2023.webp' alt='SHAHMARAN - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -650,14 +748,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ADVENTURE, DRAMA</strong>
        </div>
-       <a href="../../Hollywood/Shahmaran-2023/SMRAds">
+       <a href="../../Hollywood/Shahmaran-2023/Shahmaran">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/JungE-2023/JGEAds">
+        <a href="../../Hollywood/JungE-2023/JungE">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/jung-e-2023.webp' alt='JUNG-E - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -675,14 +773,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
        </div>
-       <a href="../../Hollywood/JungE-2023/JGEAds">
+       <a href="../../Hollywood/JungE-2023/JungE">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/TheOldWay-2023/TOWAds">
+        <a href="../../Hollywood/TheOldWay-2023/TheOldWay">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/the-old-way-2023.webp' alt='THE OLD WAY - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -700,14 +798,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, WESTERN</strong>
        </div>
-       <a href="../../Hollywood/TheOldWay-2023/TOWAds">
+       <a href="../../Hollywood/TheOldWay-2023/TheOldWay">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/VikingsValhalla-2023/VKVAds">
+        <a href="../../Hollywood/VikingsValhalla-2023/VikingsValhallaP1">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/vikings-valhalla-2023.webp' alt='VIKINGS VALHALLA - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -725,14 +823,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
        </div>
-       <a href="../../Hollywood/VikingsValhalla-2023/VKVAds">
+       <a href="../../Hollywood/VikingsValhalla-2023/VikingsValhallaP1">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/LustDaries-2023/LUDAds">
+        <a href="../../Adult/LustDaries-2023/LustDaries">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/lust-diaries-pehla-pyar-2023.webp' alt='LUST DARIES... - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -750,14 +848,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/LustDaries-2023/LUDAds">
+       <a href="../../Adult/LustDaries-2023/LustDaries">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/Imli-2023/IMIAds">
+        <a href="../../Adult/Imli-2023/Imli">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/Imli-P2-2023.webp' alt='IMLI - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -775,14 +873,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-red-600 flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/Imli-2023/IMIAds">
+       <a href="../../Adult/Imli-2023/Imli">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/TeekhiChutteny-2022/TCTAds">
+        <a href="../../Adult/TeekhiChutteny-2022/TeekhiChutteny">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/teekhi-chutney-part2-2022.webp' alt='TEEKHI CHUTENY PART 2 - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -800,7 +898,7 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-red-600 flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/TeekhiChutteny-2022/TCTAds">
+       <a href="../../Adult/TeekhiChutteny-2022/TeekhiChutteny">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>

@@ -23,26 +23,26 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/Adult/FarebiYarr-2023/FarebiYarrP2"
     
   },
-  "headline": "Farebi Yaar Episode 2 (2023) | Uwatch4free™",
+  "headline": "Farebi Yaar Episode 2 (2023) | uwatch4free™",
   "image": "https://uwatch4free.vercel.app/farebi-yaar-part-1-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "Uwatch4free",
+      "name": "uwatch4free",
       "url": "https://uwatch4free.vercel.app/"
     }],
   
   "publisher": {
       "@type": "Organization",
-      "name": "Uwatch4free",
+      "name": "uwatch4free",
       "logo": {
         "@type": "ImageObject",
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Farebi Yaar Episode 2 (2023) | Watch now the Best TV shows and Movies"
+  "description": "uwatch4free™ Farebi Yaar Episode 2 (2023) | Watch now the Best TV shows and Movies"
 
 };
 const scrollSearch = myKey => {
@@ -57,23 +57,23 @@ const scrollSearch = myKey => {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Farebi Yaar Episode 2 (2023) | Uwatch4free™</title>
+     <title>Watch Farebi Yaar Episode 2 (2023) | uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of Farebi Yaar Episode 2,Farebi Yaar Episode 2 (2023) movie,watch Farebi Yaar Episode 2 (2023) movie online,Farebi Yaar Episode 2 (2023) movie download,Farebi Yaar Episode 2 (2023) movie trailer" />
+<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of Farebi Yaar Episode 2,Farebi Yaar Episode 2 (2023) movie,watch Farebi Yaar Episode 2 (2023) movie online,Farebi Yaar Episode 2 (2023) movie download,Farebi Yaar Episode 2 (2023) movie trailer" />
 
 <meta property="og:locale" content="en_US" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Farebi Yaar Episode 2 (2023)  | Uwatch4free™" />
+<meta property="og:title" content="Watch Farebi Yaar Episode 2 (2023)  | uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Adult/FarebiYarr-2023/FarebiYarrP2" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/farebi-yaar-part-1-2023.webp" />
 <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Farebi Yaar Episode 2 (2023)  | Uwatch4free™" />
+<meta name="twitter:title" content="Watch Farebi Yaar Episode 2 (2023)  | uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/farebi-yaar-part-1-2023.webp" />
-<meta name="description" content="Watch Farebi Yaar Episode 2 Full Movie Online on Uwatch4free™, You can also download Farebi Yaar Episode 2 (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch Farebi Yaar Episode 2 Full Movie Online on uwatch4free™, You can also download Farebi Yaar Episode 2 (2023) in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
 
  

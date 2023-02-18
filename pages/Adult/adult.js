@@ -23,28 +23,63 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/Adult/adult"
     
   },
-  "headline": "Uwatch4free™ Adult | Watch now the Best TV shows and Movies",
+  "headline": "uwatch4free™ Adult | Watch now the Best TV shows and Movies",
   "image": "https://uwatch4free.vercel.app/logo.png",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "Uwatch4free",
+      "name": "uwatch4free",
       "url": "https://uwatch4free.vercel.app/Adult/adult"
     }],
   
   "publisher": {
       "@type": "Organization",
-      "name": "Uwatch4free",
+      "name": "uwatch4free",
       "logo": {
         "@type": "ImageObject",
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Adult | Watch now the Best TV shows and Movies"
+  "description": "uwatch4free™ Adult | Watch now the Best TV shows and Movies"
 
 };
+const maxData   = {
+
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Hollywood",
+    "item": "https://hbomaxmovies.netlify.app/Hollywood/hollywood"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Bollywood",
+    "item": "https://hbomaxmovies.netlify.app/Bollywood/bollywood"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Adult",
+    "item": "https://hbomaxmovies.netlify.app/Adult/adult"
+  }]
+};
+const searchData   = {
+  "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.example.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://query.example.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      
+  }
+  };
 
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
@@ -58,43 +93,69 @@ const scrollSearch = myKey => {
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
+   <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(maxData) }}
+  />
+<script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
+  />
       <div class="bg-[#1a202c]">
       <Head>
-        <title>Uwatch4free™</title>
+        <title>uwatch4free™ Adult</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
 	<meta name="robots" content="index, follow, archive" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
 	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Uwatch4free™ " />
+	<meta name="twitter:title" content="uwatch4free™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
 	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
- 
+  <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+  <link rel="alternate" hreflang="en-us" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-gb" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-ca" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-au" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-se" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-fr" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-dk" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-no" 
+	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="x-default" 
+	href="https://uwatch4free.vercel.app/"/>
       </Head>
        
       <main>
         <div>
       <div className="flex flex-col items-center justify-center space-y-12">
     <section className="text-gray-600 body-font">
-    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white">Uwatch4free™ Watch Latest Movies</h1>
+    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white">uwatch4free™ Watch Latest Movies</h1>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
@@ -291,14 +352,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/Pamasahe-2023/PSEAds">
+       <a href="../../Adult/Babuji-2023/BBJAds">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/Babuji-2023/BBJAds">
+        <a href="../../Adult/Pamasahe-2023/PSEAds">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/pamasahe-2022.webp' alt='PAMASAHE - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>

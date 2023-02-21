@@ -6,7 +6,7 @@ const Privacy = () => {
   return (
     <div>
        <Head>
-        <title>uwatch4free™ Privacy Policy</title>
+        <title>Uwatch4free™ Privacy Policy</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
@@ -15,20 +15,20 @@ const Privacy = () => {
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
-	<meta name="robots" content="index, follow, archive" />
+	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
 	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="uwatch4free™ " />
+	<meta name="twitter:title" content="Uwatch4free™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
 	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
@@ -59,24 +59,24 @@ const Privacy = () => {
   <div class="flex flex-wrap">
     <div class="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full  px-3 lg:px-6">
       <h1 class="text-3xl font-bold mb-6">Privacy Policy</h1>
-      <p class="font-bold mb-2">uwatch4free</p>
+      <p class="font-bold mb-2">Uwatch4free</p>
       <p class="text-gray-500 mb-6">
-      Please read the following terms and conditions carefully and pay attention to the fact that by entering this site you completely agree to its terms and conditions. uwatch4free site reserves the right to change these terms and conditions without any prior notice. To get the changes check this policy on a regular base. This Site (uwatch4free) shall have no responsibilities or liabilities for the content, data, opinions, statements and links this site contains.
+      Please read the following terms and conditions carefully and pay attention to the fact that by entering this site you completely agree to its terms and conditions. Uwatch4free site reserves the right to change these terms and conditions without any prior notice. To get the changes check this policy on a regular base. This Site (Uwatch4free) shall have no responsibilities or liabilities for the content, data, opinions, statements and links this site contains.
       </p>
       <p class="font-bold mb-2">Note: Important</p>
       <p class="text-gray-500 mb-6">
       YOU HEREBY FURTHER AFFIRM AND WARRANT THAT YOU ARE CURRENTLY OVER THE AGE OF EIGHTEEN (<strong>18</strong>) YEARS (TWENTYONE (<strong>21</strong>) IN PLACES WHERE EIGHTEEN (<strong>18</strong>) YEARS IS NOT THE AGE OF MAJORITY) AND ARE CAPABLE OF LAWFULLY ENTERING INTO AND EXECUTING THE TERMS OF THIS AGREEMENT.
       </p>
       <p class="font-bold mb-2">
-      uwatch4free uses the right of &#8220;Free Speech&#8221;.
+      Uwatch4free uses the right of &#8220;Free Speech&#8221;.
       </p>
       <p class="text-gray-500 mb-6">
-      This site (uwatch4free) works in accordance with copyright law. Persons who reproduce or distribute any works without a copyright owner&#8217;s consent, may be in violation of this law.
+      This site (Uwatch4free) works in accordance with copyright law. Persons who reproduce or distribute any works without a copyright owner&#8217;s consent, may be in violation of this law.
       </p>
 
      
       <p class="text-gray-500">
-      We do not make warranties that this site will operate error free. If you see an error, please contact the <a class="font-bold text-blue-500 mb-6" href="mailto:drtrailer@gmail.com ">webmaster</a>. By entering this site you agree to hold the owners, employees, advertisers of uwatch4free free from any and all liability.This site (uwatch4free) do not offer any membership.If you have any questions please feel free to <a class="font-bold text-blue-500 mb-6" href="mailto:drtrailer@gmail.com">contact us</a>.
+      We do not make warranties that this site will operate error free. If you see an error, please contact the <a class="font-bold text-blue-500 mb-6" href="mailto:drtrailer@gmail.com ">webmaster</a>. By entering this site you agree to hold the owners, employees, advertisers of Uwatch4free free from any and all liability.This site (Uwatch4free) do not offer any membership.If you have any questions please feel free to <a class="font-bold text-blue-500 mb-6" href="mailto:drtrailer@gmail.com">contact us</a>.
       </p>
     </div>
 

@@ -23,26 +23,26 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/Bollywood/bollywood"
     
   },
-  "headline": "uwatch4free™ Bollywood | Watch now the Best TV shows and Movies",
+  "headline": "Uwatch4free™ Bollywood | Watch now the Best TV shows and Movies",
   "image": "https://uwatch4free.vercel.app/logo.png",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "uwatch4free",
+      "name": "Uwatch4free",
       "url": "https://uwatch4free.vercel.app/Bollywood/bollywood"
     }],
   
   "publisher": {
       "@type": "Organization",
-      "name": "uwatch4free",
+      "name": "Uwatch4free",
       "logo": {
         "@type": "ImageObject",
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "uwatch4free™ Bollywood | Watch now the Best TV shows and Movies"
+  "description": "Uwatch4free™ Bollywood | Watch now the Best TV shows and Movies"
 
 };
 const maxData   = {
@@ -100,62 +100,246 @@ const scrollSearch = myKey => {
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
   />
-      <div class="bg-[#1a202c]">
+      <div className="bg-[#1a202c]">
       <Head>
-        <title>uwatch4free™ Bollywood</title>
+        <title>Uwatch4free™ Bollywood</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+  <meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
-	<meta name="robots" content="index, follow, archive" />
+	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
 	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="uwatch4free™ " />
+	<meta name="twitter:title" content="Uwatch4free™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
 	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+  <link rel="canonical" href="https://uwatch4free.vercel.app/Bollywood/" />
   <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
-  <link rel="alternate" hreflang="en-us" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-gb" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-ca" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-au" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-se" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-fr" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-dk" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-no" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="x-default" 
-	href="https://uwatch4free.vercel.app/"/>
+  <link rel="alternate" hreflang="en-us" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-gb" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-ca" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-au" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-se" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-fr" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-dk" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-no" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="x-default" 	href="https://uwatch4free.vercel.app/"/>
       </Head>
        
       <main>
         <div>
       <div className="flex flex-col items-center justify-center space-y-12">
     <section className="text-gray-600 body-font">
-    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white">uwatch4free™ Watch Latest Movies</h1>
+    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white">Uwatch4free™ Watch Latest Movies</h1>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../Bollywood/HoJaMukat-2023/HoJaMukat">
+     
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/ho-ja-mukat-2023.webp' alt='HO JA MUKAT - 2023' width={400} height={300}  loading="lazy"/></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">HO JA MUKAT - 2023</h2>
+          <h3 className="leading-relaxed text-white text-base">21-year old Vicky is diagnosed with mental health issues and starts having illusory images which he needs to break out his situation.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                8.1 out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
+       </div>
+       <a href="../../Bollywood/HoJaMukat-2023/HoJaMukat">
+          <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../Bollywood/Shehzada-2023/Shehzada">
+     
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/shehzada-2023.webp' alt='SHEHZADA - 2023' width={400} height={300}  loading="lazy"/></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">SHEHZADA - 2023</h2>
+          <h3 className="leading-relaxed text-white text-base">Bantu is hated by his father Valmiki since he was a toddler. Samara, his boss show him affection and love until he discovers that the Jindals are his parents.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                8.1 out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
+       </div>
+       <a href="../../Bollywood/Shehzada-2023/Shehzada">
+          <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../Bollywood/TheNightManager-2023/TheNightManager">
+     
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/the-night-manager-2023.webp' alt='THE NIGHT MANAGER - 2023' width={400} height={300}  loading="lazy"/></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">THE NIGHT MANAGER - 2023</h2>
+          <h3 className="leading-relaxed text-white text-base">Follows Jonathan, an ex-soldier, who must infiltrate an arms dealer's inner circle to avenge the death of his girlfriend.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                8.1 out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
+       </div>
+       <a href="../../Bollywood/TheNightManager-2023/TheNightManager">
+          <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../Bollywood/Vaathi-2023/Vaathi">
+     
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/vaathi-2023.webp' alt='VAATHI - 2023' width={400} height={300}  loading="lazy"/></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">VAATHI - 2023</h2>
+          <h3 className="leading-relaxed text-white text-base">The life of a young man and his struggles against the privatization of education.Vaathi is a Action Dram Movies.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                8.1 out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
+       </div>
+       <a href="../../Bollywood/Vaathi-2023/Vaathi">
+          <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../Bollywood/MrLocal-2023/MrLocal">
+     
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/mr-local-2023.webp' alt='MR.LOCAL - 2023' width={400} height={300}  loading="lazy"/></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">MR.LOCAL - 2023</h2>
+          <h3 className="leading-relaxed text-white text-base">The film revolves around a carefree "local" guy, Manohar, who leads a happy life with his mother and sister.A hilarious turn when he picks up frequent fights </h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                8.1 out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
+       </div>
+       <a href="../../Bollywood/MrLocal-2023/MrLocal">
+          <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../Bollywood/TheCheckPost-2023/TheCheckPost">
+     
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/the-check-post-2023.webp' alt='THE CHECK POST - 2023' width={400} height={300}  loading="lazy"/></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">THE CHECK POST - 2023</h2>
+          <h3 className="leading-relaxed text-white text-base">Check Post 1995 is a Telugu movie featuring Master Mahendran and Shagna in lead roles. The Check Post Ia remake of Telugu Movie.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                8.1 out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
+       </div>
+       <a href="../../Bollywood/TheCheckPost-2023/TheCheckPost">
+          <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../Bollywood/Lost-2023/Lost">
+     
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/lost-2023.webp' alt='LOST - 2023' width={400} height={300}  loading="lazy"/></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">LOST - 2023</h2>
+          <h3 className="leading-relaxed text-white text-base">An emotional thriller that represents a higher quest, a search for lost values of empathy and integrity. Lost is a Dram Movies.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                8.1 out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
+       </div>
+       <a href="../../Bollywood/Lost-2023/Lost">
+          <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../Bollywood/MinusOne-2023/MinusOne">
+     
+<Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/minus-one-2023.webp' alt='MINUS ONE - 2023' width={400} height={300}  loading="lazy"/></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">MINUS ONE - 2023</h2>
+          <h3 className="leading-relaxed text-white text-base">Minus One - New Chapter is an ode to a relationship that spans several phases of life. Through the relationship of Varun and Ria.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                8.1 out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
+       </div>
+       <a href="../../Bollywood/MinusOne-2023/MinusOne">
+          <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+         
+        </div>
+      </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Bollywood/Amigos-2023/Amigos">

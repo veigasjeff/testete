@@ -23,26 +23,26 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/Adult/Watchman-2023/WatchmanP3"
     
   },
-  "headline": "Watchman - Episode 3 (2023) | uwatch4free™",
+  "headline": "Watchman - Episode 3 (2023) | Uwatch4free™",
   "image": "https://uwatch4free.vercel.app/watchman-part1-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "uwatch4free",
+      "name": "Uwatch4free",
       "url": "https://uwatch4free.vercel.app/"
     }],
   
   "publisher": {
       "@type": "Organization",
-      "name": "uwatch4free",
+      "name": "Uwatch4free",
       "logo": {
         "@type": "ImageObject",
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "uwatch4free™ Watchman - Episode 3 (2023) | Watch now the Best TV shows and Movies"
+  "description": "Uwatch4free™ Watchman - Episode 3 (2023) | Watch now the Best TV shows and Movies"
 
 };
 const scrollSearch = myKey => {
@@ -57,30 +57,29 @@ const scrollSearch = myKey => {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Watchman - Episode 3 (2023) | uwatch4free™</title>
+     <title>Watch Watchman - Episode 3 (2023) | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of Watchman Episode 3,Watchman Episode 3 (2023) movie,watch Watchman Episode 3 (2023) movie online,Watchman Episode 3 (2023) movie download,Watchman Episode 3 (2023) movie trailer" />
+<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 
 <meta property="og:locale" content="en_US" />
-<meta property="og:site_name" content="uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Watchman Episode 3 (2023) | uwatch4free™" />
+<meta property="og:title" content="Watch Watchman Episode 3 (2023) | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Adult/Watchman-2023/WatchmanP3" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/watchman-part1-2023.webp" />
 <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Watchman Episode 3 (2023) | uwatch4free™" />
+<meta name="twitter:title" content="Watch Watchman Episode 3 (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/watchman-part1-2023.webp" />
-<meta name="description" content="Watch Watchman Episode 3 Full Movie Online on uwatch4free™, You can also download Watchman Episode 3 (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch Watchman Episode 3 Full Movie Online on Uwatch4free™, You can also download Watchman Episode 3 (2023) in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
 
  
-  <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+
       </Head>
-      <div class="bg-[#1a202c]">
+      <div className="bg-[#1a202c]">
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Watchman - Episode 3 </h1>
 
      
@@ -140,120 +139,9 @@ const scrollSearch = myKey => {
 Download 
 </span>
 </button></Link>
-<h2 className="text-blue-500 text-4xl py-5  title-font mb-3 font-bold ">
-Most Watch Movies & Tv Series.</h2>
-<div
-  id="carouselDarkVariant"
-  className="carousel slide carousel-fade carousel-dark relative"
-  data-bs-ride="carousel"
->
- 
-  <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-    <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="0"
-      className="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="1"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="2"
-      aria-label="Slide 1"
-    ></button>
-     <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="3"
-      aria-label="Slide 1"
-    ></button>
-     <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="4"
-      aria-label="Slide 1"
-    ></button>
-
-  </div>
 
 
-  <div className="carousel-inner relative w-full cursor-pointer overflow-hidden">
-
-<div className="carousel-item active relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="/pathan-2023.webp"
-    className="block w-full"
-    alt="Pathaan - 2023"
-  /></Link>
- 
-</div>
-
-<div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="/the-last-of-us-2023.webp"
-    className="block w-full"
-    alt="The Last of Us - 2023"
-  /></Link>
-
-</div>
-
-
-<div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="/watchman-part1-2023.webp"
-    className="block w-full"
-    alt="Pamasahe - 2022"
-  /></Link>
-  
-</div>
-
-<div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="/hunters-2023.webp"
-    className="block w-full"
-    alt="Hunters - 2023"
-  /></Link>
-  
-</div>
-
-<div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="/the-last-heist-2022.webp"
-    className="block w-full"
-    alt="The Last Heist - 2022"
-  /></Link>
- 
-</div>
-</div>
-  <button
-    className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-    type="button"
-    data-bs-target="#carouselDarkVariant"
-    data-bs-slide="prev"
-  >
-    <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button
-    className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-    type="button"
-    data-bs-target="#carouselDarkVariant"
-    data-bs-slide="next"
-  >
-    <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-
-<Link href="../adult">
+<Link href="../../AdultAds">
   <h3 className="text-medium font-bold py-10 leading-normal m-10 mt-0 mb-2 text-blue-600 "> 
   <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
   <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">

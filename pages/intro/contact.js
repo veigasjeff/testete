@@ -5,7 +5,7 @@ const contact = () => {
   return (
     <div>
         <Head>
-        <title>uwatch4free™ Contact Us</title>
+        <title>Uwatch4free™ Contact Us</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
@@ -14,20 +14,20 @@ const contact = () => {
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
-	<meta name="robots" content="index, follow, archive" />
+	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
 	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="uwatch4free™ " />
+	<meta name="twitter:title" content="Uwatch4free™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
 	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>

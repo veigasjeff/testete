@@ -3,9 +3,8 @@ import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
-import { StickyShareButtons } from 'sharethis-reactjs';
 import SkipAds from '@components/SkipAds';
-
+import styles from '@styles/video-player.module.css'
 
 const TulsaKingP5  = () => {
   useEffect(() => {
@@ -62,7 +61,7 @@ const scrollSearch = myKey => {
      <Head>
      <title>Watch Tulsa King (2023) | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="uwatchfree,uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,uwatch4free,latest full movies online" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
@@ -76,7 +75,7 @@ const scrollSearch = myKey => {
 <meta name="twitter:title" content="Watch Tulsa King (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/tulsa-king-2023.webp" />
 <meta name="description" content="Watch Tulsa King Full Movie Online on Uwatch4free™, You can also download Tulsa King (2023) in full HD quality to watch later offline." />
-<script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+
 <link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/TulsaKing-2023/TulsaKingP1" />
  
 
@@ -85,48 +84,72 @@ const scrollSearch = myKey => {
         <SkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Tulsa King - Episode 5</h1>
 
-     
-    <iframe className="w-full aspect-w-16 aspect-h-9" src="https://sbhight.com/e/edzq8yfauky2.html" height={550}></iframe>
-
-  
+    <div className={styles['iframe-container']}>
+      <iframe src="https://sbhight.com/e/edzq8yfauky2.html" />
+    </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-    <div class="flex items-center justify-center">
-  
-    <div class="inline-flex shadow-md hover:shadow-lg space-x-4 focus:shadow-lg" role="group">
+   
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    
+  <div class="flex justify-center">
   <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP1">
-    <button type="button" class="rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110 ">  Part 1 </button></Link>
-
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP2">
-    <button type="button" class=" rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">Part 2</button></Link>
-
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP3">
-    <button type="button" class=" rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">Part 3</button></Link>
-
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP4">
-    <button type="button" class=" rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">Part 4</button></Link>
-    </div>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2  px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    Episode 1
+    </button></Link>
+  </div>
+  <div class="flex justify-center">
+  <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP2">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    Episode 2
+    </button></Link>
+  </div>
+  <div class="flex justify-center">
+  <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP3">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    Episode 3
+    </button></Link>
+  </div>
+  <div class="flex justify-center">
+  <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP4">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    Episode 4
+    </button></Link>
+  </div>
+  <div class="flex justify-center">
+  <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP5">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    Episode 5
+    </button></Link>
+  </div>
+  <div class="flex justify-center">
+  <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP6">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    Episode 6
+    </button></Link>
+  </div>
+  <div class="flex justify-center">
+  <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP7">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    Episode 7
+    </button></Link>
+  </div>
+  <div class="flex justify-center">
+  <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP8">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    Episode 8
+    </button></Link>
+  </div>
+  <div class="flex justify-center">
+  <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP9">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    Episode 9
+    </button></Link>
+  </div>
 </div>
-<div class="flex items-center justify-center">
-<div class="inline-flex shadow-md hover:shadow-lg space-x-4 my-5 focus:shadow-lg" role="group">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP5">
-    <button type="button" class=" rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">Part 5</button></Link></div></div>
-
-    <div class="flex items-center justify-center">
-    <div class="inline-flex shadow-md hover:shadow-lg space-x-4 my-2 focus:shadow-lg" role="group">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP6">
-    <button type="button" class=" rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">Part 6</button></Link>
-
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP7">
-    <button type="button" class=" rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">Part 7</button></Link>
-
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP8">
-    <button type="button" class=" rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">Part 8</button></Link>
-
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP9">
-    <button type="button" class=" rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">Part 9</button></Link>
- 
-</div></div>
-<div className="flex flex-col my-10 space-y-4 ...">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 " >
+    <a href="../TulsaKing-2023/TSKSR5" > 
+      <h1 >Click To Watch Tulsa King - Episode 5 (2023) Server 2</h1></a></button>
+    <div className="flex flex-col space-y-4 m-8">
     
     <Rating /></div>
     <div className="flex flex-col space-y-4 ...">
@@ -146,9 +169,9 @@ const scrollSearch = myKey => {
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Description:</strong> Following his release from prison, Mafia capo Dwight "The General" Manfredi is exiled to Tulsa, Oklahoma, where he builds a new criminal empire with a group of unlikely characters.</h2>
 
   <h2 className="text-4xl font-bold text-center text-white  ">Watch Offical Trailer</h2>
- 
-
-    <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/yj62qjv0i3yz.html"  position="relative"  height={350} ></iframe>
+  <div className={styles['iframe-container']}>
+      <iframe src="https://sbhight.com/e/yj62qjv0i3yz.html" />
+    </div>
     </div>
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">

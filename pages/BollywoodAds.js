@@ -42,13 +42,13 @@ function Most() {
 
 
 
-<div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity">
+<div class="flex bg-gray-500 bg-opacity-75 transition-opacity">
   <div className="carousel-inner relative w-full cursor-pointer m-10 overflow-hidden">
 
 
 
   
-   <h2 className="text- sm-gray-500 bg-opacity-75  text-2xl py-15  title-font  mx-5 m-10 mb-1 font-bold md:text-2xl ">
+   <h2 className="text- sm-gray-500 bg-opacity-75  text-2xl py-15  title-font items-center justify-center mx-5 m-10 mb-1 font-bold md:text-2xl ">
     Latest Updated Bollywood Movies On 10 Feb 2023.
    </h2>
  

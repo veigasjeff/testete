@@ -4,7 +4,7 @@ import Rating from 'pages/Rating';
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import SkipAds from '@components/SkipAds';
-
+import styles from '@styles/video-player.module.css'
 
 const VikingsValhallaP1  = () => {
   useEffect(() => {
@@ -61,7 +61,7 @@ const scrollSearch = myKey => {
      <Head>
      <title>Watch Vikings Valhalla Part 1 (2023)  | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="uwatchfree,uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,uwatch4free,latest full movies online" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
@@ -75,7 +75,7 @@ const scrollSearch = myKey => {
 <meta name="twitter:title" content="Watch Vikings Valhalla Part 1 (2023)  | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/vikings-valhalla-2023.webp" />
 <meta name="description" content="Watch Vikings Valhalla Part 1 Full Movie Online on Uwatch4free™, You can also download Vikings Valhalla Part 1 (2023) in full HD quality to watch later offline." />
-<script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+
 <link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/VikingsValhalla-2023/" />
  
 
@@ -84,32 +84,32 @@ const scrollSearch = myKey => {
         <SkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Vikings Valhalla Part 1 (2023) </h1>
 
-     
-    <iframe className="w-full aspect-w-16 aspect-h-9" src="https://sbhight.com/e/tl2j9vmcwnh8.html" height={550}></iframe>
-
- 
+    <div className={styles['iframe-container']}>
+      <iframe src="https://sbhight.com/e/tl2j9vmcwnh8.html" />
+    </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
+   
 
-    <div class="flex items-center mx-5 py-29 my-10 justify-center">
-  <div class="inline-flex shadow-md hover:shadow-lg focus:shadow-lg" role="group">
- 
-  <div class="flex items-center justify-center">
- 
-  <div class="inline-flex shadow-md hover:shadow-lg space-x-4 focus:shadow-lg" role="group">
-  <Link href="../../Hollywood/VikingsValhalla-2023/VikingsValhallaP1">
-    <button type="button" class="rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110 ">  Part 1 </button></Link>
-
+<div class="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+    
+    <div class="flex justify-center  ">
+    <Link href="../../Hollywood/VikingsValhalla-2023/VikingsValhallaP1">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2  px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+      Episode 1
+      </button></Link>
+    </div>
+    <div class="flex justify-center">
     <Link href="../../Hollywood/VikingsValhalla-2023/VikingsValhallaP2">
-    <button type="button" class=" rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">Part 2</button></Link>
-
- 
-  </div>
-</div>
-  </div>
-
-  </div>
-
-    <Rating /> 
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+      Episode 2
+      </button></Link>
+    </div>
+   </div>
+  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 " >
+    <a href="../VikingsValhalla-2023/VKVSR1" > 
+      <h1 >Click To Watch Vikings Valhalla Part 1 (2023) Server 2</h1></a></button>
+    <div className="flex flex-col space-y-4 m-8">
+    <Rating /> </div>
     <div className="flex flex-col space-y-4 ...">
     <div className="flex items-center  justify-center">
     <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -128,8 +128,10 @@ const scrollSearch = myKey => {
 
   <h2 className="text-4xl font-bold text-center text-white  ">Watch Offical Trailer</h2>
  
+  <div className={styles['iframe-container']}>
+      <iframe src="https://sbhight.com/e/p5u45x96chi6.html" />
+    </div>   
 
-    <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/p5u45x96chi6.html"  position="relative"  height={350} ></iframe>
     </div>
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
@@ -151,118 +153,7 @@ Download
 </button></Link>
 
 
-<h2 className="text-blue-500 text-4xl py-5  title-font mb-3 font-bold ">
-Most Watch Movies & Tv Series.</h2>
 
-<div
-  id="carouselDarkVariant"
-  className="carousel slide carousel-fade carousel-dark relative"
-  data-bs-ride="carousel"
->
- 
-  <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-    <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="0"
-      className="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="1"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="2"
-      aria-label="Slide 1"
-    ></button>
-     <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="3"
-      aria-label="Slide 1"
-    ></button>
-     <button
-      data-bs-target="#carouselDarkVariant"
-      data-bs-slide-to="4"
-      aria-label="Slide 1"
-    ></button>
-
-  </div>
-
-
-  <div className="carousel-inner relative w-full cursor-pointer overflow-hidden">
-
-<div className="carousel-item active relative float-left w-full">
-
-  <img
-    src="/pathan-2023.webp"
-    className="block w-full"
-    alt="Pathaan - 2023"
-  />
- 
-</div>
-
-<div className="carousel-item relative float-left w-full">
-
-  <img
-    src="/the-last-of-us-2023.webp"
-    className="block w-full"
-    alt="The Last of Us - 2023"
-  />
-
-</div>
-
-
-<div className="carousel-item relative float-left w-full">
-
-  <img
-    src="/pamasahe-2022.webp"
-    className="block w-full"
-    alt="Pamasahe - 2022"
-  />
-  
-</div>
-
-<div className="carousel-item relative float-left w-full">
-
-  <img
-    src="/hunters-2023.webp"
-    className="block w-full"
-    alt="Hunters - 2023"
-  />
-  
-</div>
-
-<div className="carousel-item relative float-left w-full">
-
-  <img
-    src="/the-last-heist-2022.webp"
-    className="block w-full"
-    alt="The Last Heist - 2022"
-  />
- 
-</div>
-</div>
-  <button
-    className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-    type="button"
-    data-bs-target="#carouselDarkVariant"
-    data-bs-slide="prev"
-  >
-    <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button
-    className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-    type="button"
-    data-bs-target="#carouselDarkVariant"
-    data-bs-slide="next"
-  >
-    <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
 </div>
 
 <Link href="../../HollywoodAds">
@@ -275,7 +166,7 @@ Most Watch Movies & Tv Series.</h2>
 </button></h3></Link>
 
 </div>
-    </div> </div>
+    </div> 
   )
 }
 

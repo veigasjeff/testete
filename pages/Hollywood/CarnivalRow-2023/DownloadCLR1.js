@@ -7,7 +7,7 @@ const DownloadCLR1 = () => {
            <div className="bg-[#1a202c]">
   <Head>
  
-  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+  
 
   </Head>
   <SkipAds />
@@ -19,7 +19,7 @@ const DownloadCLR1 = () => {
     <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
   Carnival Row  Episode 1 </h2>
 <a href="https://sbbrisk.com/d/k0ems3ya8icz.html" target={"_blamk"} id="download_link" > 
-<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-125 ease-in duration-500 cursor-pointer">  
+<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
 <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
 Download Now
 </span>
@@ -27,7 +27,7 @@ Download Now
 <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
   Carnival Row  Episode 2</h2>
 <a href="https://sbbrisk.com/d/dmrhuqg74djb.html" target={"_blamk"} id="download_link" > 
-<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-125 ease-in duration-500 cursor-pointer">  
+<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
 <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
 Download Now
 </span>
@@ -35,7 +35,7 @@ Download Now
 <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
   Carnival Row  Hindi Dubbed </h2>
 <a href="https://sbbrisk.com/d/nhm22cvex1oo.html" target={"_blamk"} id="download_link" > 
-<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-125 ease-in duration-500 cursor-pointer">  
+<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
 <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
 Download Now
 </span>

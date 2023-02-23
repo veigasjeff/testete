@@ -17,7 +17,7 @@ function SkipAds() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowAd(true);
-    }, 1000); // Display ad after 5 seconds
+    }, 2000); // Display ad after 5 seconds
 
     return () => clearTimeout(timer);
   }, []);
@@ -63,7 +63,7 @@ function SkipAds() {
       {remainingTime > 0 && (
         <div class="text-xl font-bold text-red-600">
 
-          Connecting To Server in {remainingTime} seconds...
+          Connecting To Server in {remainingTime} Sec...
         </div>
       )}
        {remainingTime <= 0 && (

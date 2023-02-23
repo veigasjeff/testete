@@ -4,7 +4,7 @@ import Rating from 'pages/Rating';
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import SkipAds from '@components/SkipAds';
-
+import styles from '@styles/video-player.module.css'
 
 const ExtraOrdinaryP6  = () => {
   useEffect(() => {
@@ -61,7 +61,7 @@ const scrollSearch = myKey => {
      <Head>
      <title>Watch ExtraOrdinary Episode 6 (2023) | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="uwatchfree,uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,uwatch4free,latest full movies online" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
@@ -75,7 +75,7 @@ const scrollSearch = myKey => {
 <meta name="twitter:title" content="Watch ExtraOrdinary Episode 6 (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/extraordinary-2023.webp" />
 <meta name="description" content="Watch ExtraOrdinary Full Movie Online on Uwatch4free™, You can also download ExtraOrdinary Episode 6 (2023) in full HD quality to watch later offline." />
-<script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+
 <link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/ExtraOrdinary-2023/ExtraOrdinaryP1" />
  
 
@@ -84,13 +84,13 @@ const scrollSearch = myKey => {
         <SkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch ExtraOrdinary Episode 6 (2023) </h1>
 
-     
-    <iframe className="w-full aspect-w-16 aspect-h-9" src="https://sbhight.com/e/xn41kxweaaqt.html" height={550}></iframe>
-
- 
+    <div className={styles['iframe-container']}>
+      <iframe src="https://sbbrisk.com/e/tpr1gd7wp1ll.html" />
+    </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-    <div class="flex items-center justify-center">
   
+    <div class="flex items-center justify-center">
+    <div className="flex flex-col space-y-4 m-8">
     <div class="inline-flex shadow-md hover:shadow-lg space-x-4 focus:shadow-lg" role="group">
   <Link href="../../Hollywood/ExtraOrdinary-2023/ExtraOrdinaryP1">
     <button type="button" class="rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110 ">  Episode 1 </button></Link>
@@ -121,8 +121,11 @@ const scrollSearch = myKey => {
     <button type="button" class=" rounded-full inline-block px-6 py-2.5 bg-blue-600 text-white font-bold text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">Episode 8</button></Link>
 
  
-</div></div>
-    <div className="flex flex-col space-y-4 my-5 ...">
+</div></div></div>
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 " >
+    <a href="../ExtraOrdinary-2023/EXTSR6" > 
+      <h1 >Click To Watch ExtraOrdinary Episode 6 (2023) Server 2</h1></a></button>
+    <div className="flex flex-col space-y-4 m-8">
     <Rating /></div>
     <div className="flex flex-col space-y-4 ...">
     <div className="flex items-center  justify-center">
@@ -142,9 +145,9 @@ Emma Moran</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Description:</strong> Jen, a young, self-aware woman who lives in a world where everyone has a superpower except her.</h2>
 
   <h2 className="text-4xl font-bold text-center text-white  ">Watch Offical Trailer</h2>
- 
-
-    <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/tpr1gd7wp1ll.html"  position="relative"  height={350} ></iframe>
+  <div className={styles['iframe-container']}>
+      <iframe src="https://sbhight.com/e/d75wldx75eg3.html" />
+    </div>  
     </div>
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">

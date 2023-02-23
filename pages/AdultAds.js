@@ -42,7 +42,7 @@ function Most() {
 
 
 
-<div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity">
+<div class="flex bg-gray-500 bg-opacity-75 transition-opacity">
   <div className="carousel-inner relative w-full cursor-pointer m-10 overflow-hidden">
 
 

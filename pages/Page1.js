@@ -107,7 +107,7 @@ const searchData   = {
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <meta name="keywords" content="uwatchfree,uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,uwatch4free,latest full movies online" />
+  <meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
@@ -222,7 +222,7 @@ const searchData   = {
         </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/FarebiYarr-2023/FBYAds">
+        <a href="../../Adult/FarebiYarr-2023/FarebiYarrP1">
      
          <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/farebi-yaar-part-1-2023.webp' alt='FAREBI YARR - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -240,14 +240,14 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/FarebiYarr-2023/FBYAds">
+       <a href="../../Adult/FarebiYarr-2023/FarebiYarrP1">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/Babuji-2023/BBJAds">
+        <a href="../../Adult/Babuji-2023/BabujiP1">
      
          <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/babuJi-2023.webp' alt='BABUJI - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -265,7 +265,7 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/Babuji-2023/BBJAds">
+       <a href="../../Adult/Babuji-2023/BabujiP1">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
@@ -368,7 +368,7 @@ const searchData   = {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/LaQuerida-2023/LAQAds">
+        <a href="../../Adult/LaQuerida-2023/LaQuerida">
      
          <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/la-querida-2023.webp' alt='LA QUERIDA - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -386,7 +386,7 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/LaQuerida-2023/LAQAds">
+       <a href="../../Adult/LaQuerida-2023/LaQuerida">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
@@ -609,7 +609,7 @@ const searchData   = {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/MissBriganaza-2023/MBZAds">
+        <a href="../../Adult/MissBriganaza-2023/MissBriganaza">
      
          <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/miss-briganaza-2023.webp' alt='WATCHMAN - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -627,7 +627,7 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/MissBriganaza-2023/MBZAds">
+       <a href="../../Adult/MissBriganaza-2023/MissBriganaza">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
@@ -782,7 +782,7 @@ const searchData   = {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/Pamasahe-2023/PSEAds">
+        <a href="../../Adult/Pamasahe-2023/Pamasahe">
      
 <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/pamasahe-2022.webp' alt='PAMASAHE - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -800,14 +800,14 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/Pamasahe-2023/PSEAds">
+       <a href="../../Adult/Pamasahe-2023/Pamasahe">
        <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/ILoveyou-2023/ILUAds">
+        <a href="../../Adult/ILoveyou-2023/ILoveyou">
      
 <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl "  src='/i-love-you-P2-2023.webp' alt='I LOVE YOU PART 2 - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -825,7 +825,7 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/ILoveyou-2023/ILUAds">
+       <a href="../../Adult/ILoveyou-2023/ILoveyou">
         <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
 
          
@@ -833,7 +833,7 @@ const searchData   = {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/PlanB-2023/PLBAds">
+        <a href="../../Adult/PlanB-2023/PlanB">
      
 <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/plan-b-2023.webp' alt='PLAN B 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -851,7 +851,7 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/PlanB-2023/PLBAds">
+       <a href="../../Adult/PlanB-2023/PlanB">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>

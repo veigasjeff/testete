@@ -25,18 +25,18 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://Uwatch4free.vercel.app/"
+    "@id": "https://uwatch4free.vercel.app/"
     
   },
   "headline": "Uwatch4free™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies",
-  "image": "https://Uwatch4free.vercel.app/logo.png",
+  "image": "https://uwatch4free.vercel.app/logo.png",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
       "name": "Uwatch4free",
-      "url": "https://Uwatch4free.vercel.app/"
+      "url": "https://uwatch4free.vercel.app/"
     }],
   
   "publisher": {
@@ -44,7 +44,7 @@ const schemaData   = {
       "name": "Uwatch4free",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://Uwatch4free.vercel.app/og_image.jpg"
+        "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
   "description": "Uwatch4free™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies"
@@ -107,7 +107,7 @@ const searchData   = {
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <meta name="keywords" content="uwatchfree,uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,uwatch4free,latest full movies online" />
+  <meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
@@ -119,26 +119,26 @@ const searchData   = {
 	<meta property="og:image:width" content="720"/>
 	<meta property="og:title" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
-	<meta property="og:url" content="https://Uwatch4free.vercel.app/" />
+	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://Uwatch4free.vercel.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://Uwatch4free.vercel.app/og_image.jpg" />
+	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
+	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Uwatch4free™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
-	<meta name="twitter:image" content="https://Uwatch4free.vercel.app/og_image.jpg" />
+	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
 
-  <link rel="canonical" href="https://Uwatch4free.vercel.app/Page2" />
+  <link rel="canonical" href="https://uwatch4free.vercel.app/Page2" />
   <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
-  <link rel="alternate" hreflang="en-us" 	href="https://Uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-gb" 	href="https://Uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-ca" 	href="https://Uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-au" 	href="https://Uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-se" 	href="https://Uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-fr" 	href="https://Uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-dk" 	href="https://Uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-no" 	href="https://Uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="x-default" 	href="https://Uwatch4free.vercel.app/"/>
+  <link rel="alternate" hreflang="en-us" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-gb" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-ca" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-au" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-se" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-fr" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-dk" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-no" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="x-default" 	href="https://uwatch4free.vercel.app/"/>
 
  
       </Head>
@@ -328,7 +328,7 @@ const searchData   = {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/AnAffairToForget-2022/ATFAAds">
+        <a href="../../Adult/AnAffairToForget-2022/AnAffairToForget">
      
 <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/an-affair-to-forget-2022.webp' alt='AN AFFAIR TO FORGET - 2022' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -346,14 +346,14 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex text-red-600 flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/AnAffairToForget-2022/ATFAAds">
+       <a href="../../Adult/AnAffairToForget-2022/AnAffairToForget">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/ChingariChaubey-2023/CCBAds">
+        <a href="../../Adult/ChingariChaubey-2023/ChingariChaubey">
      
 <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/chingari-chaubey-2023.webp' alt='CHINGARI CHAUBEY - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -371,14 +371,14 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex text-red-600 flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/ChingariChaubey-2023/CCBAds">
+       <a href="../../Adult/ChingariChaubey-2023/ChingariChaubey">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/VirginBahus-2023/VJBAds">
+        <a href="../../Adult/VirginBahus-2023/VirginBahus">
      
 <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/virgin-bahus-2023.webp' alt='VIRGIN BAHUS - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -396,7 +396,7 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex flex-row text-red-600 text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/VirginBahus-2023/VJBAds">
+       <a href="../../Adult/VirginBahus-2023/VirginBahus">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
 
          
@@ -422,14 +422,14 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex text-red-600 flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/WalkManP1-2022/WlkP1Ads">
+       <a href="../../Adult/WalkManP1-2022/WalkManP1">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/WalkManP2-2022/WlkP2Ads">
+        <a href="../../Adult/WalkManP2-2022/WalkManP2">
      
 <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/walkman2-2022.webp' alt='WALKMAN PART 2 - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -447,14 +447,14 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex text-red-600 flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
-       <a href="../../Adult/WalkManP2-2022/WlkP2Ads">
+       <a href="../../Adult/WalkManP2-2022/WalkManP2">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Adult/WalkManP3-2022/WlkP3Ads">
+        <a href="../../Adult/WalkManP3-2022/WalkManP3">
      
 <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/walkman3-2022.webp' alt='WALKMAN PART 3 - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -472,7 +472,7 @@ const searchData   = {
              <div className="p-4 mx-5 py-1flex text-red-600 flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ADULT, HOT +18 </strong>
        </div>
-       <a href="../../Adult/WalkManP3-2022/WlkP3Ads">
+       <a href="../../Adult/WalkManP3-2022/WalkManP3">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>

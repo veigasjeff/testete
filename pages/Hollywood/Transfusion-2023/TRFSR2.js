@@ -51,7 +51,11 @@ const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
 };
+const [showPopup, setShowPopup] = useState(false);
 
+function togglePopup() {
+  setShowPopup(!showPopup);
+}
   return (
     <div>
                <script
@@ -65,6 +69,7 @@ const scrollSearch = myKey => {
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta property="og:title" content="Watch Transfusion - 2023 | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Hollywood/Transfusion-2023/Transfusion" />
 <meta property="og:image" content="../../og_image.jpg" />
@@ -85,10 +90,10 @@ const scrollSearch = myKey => {
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Transfusion (2023) </h1>
 
     <div className={styles['iframe-container']}>
-      <iframe src="https://dood.yt/e/x0qolw9rsi4y" />
+      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://dood.yt/e/x0qolw9rsi4y" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-    <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 " >
+   <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
     <a href="../Transfusion-2023/Transfusion" > 
       <h1 >Click To Watch Transfusion (2023) Server 1</h1></a></button>
     <div className="flex flex-col space-y-4 m-8">
@@ -109,17 +114,66 @@ const scrollSearch = myKey => {
 <h2 className="text-medium font-sm text-center dark:text-white text-white "><strong>Starring:</strong> Sam Worthington, Phoebe Tonkin, Matt Nable, Susie Porter, Edward Carmody, Jeremy Lindsay Taylor, George Houvardas, Sam Cotton.</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Description:</strong> A former Special Forces operative thrust into the criminal underworld to keep his only son from being taken from him.</h2>
 
-  <h2 className="text-4xl font-bold text-center text-white  ">Watch Offical Trailer</h2>
- 
-  <div className={styles['iframe-container']}>
-      <iframe src="https://sbhight.com/e/mfl5rhs6ev0x.html" />
-    </div>   
-    
+<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
+
+        <h2 >Watch Offical Trailer</h2></button>
+        </div>
+   
+        {showPopup && (
+        <div className="popup-overlay">
+         
+         <div className="popup ">
+               <button className="close-button" onClick={togglePopup}>
+               <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
+          </button>
+          <h2 className="text-2xl font-bold" >Offical Trailer Transfusion (2023) </h2>
+           <div className={styles['iframe-container']}>
+ <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbhight.com/e/mfl5rhs6ev0x.html" />
+                   
+             </div> </div>
+          </div>
+       
+      )}
+
+      <style jsx>{`
+        .popup-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(0, 0, 0, 0.5);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+             .popup {
+          width: 800px;
+          background-color: gray;
+          padding: 10px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          animation: slide-down 0.5s ease;
+        }
+
+       
+        @keyframes slide-down {
+          from {
+            transform: translateY(-100%);
+          }
+          to {
+            transform: translateY(0);
+          }
+        }
+      `}</style>
     </div>
 
     <div className="flex flex-col space-y-10 text-blue-600 text-center items-center justify-center">
  
-    <h3  className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Click to Download </h3>
+    <h3  className="text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600 "> Transfusion (2023) </h3>
     <Link href="../../Hollywood/Transfusion-2023/down2">
     <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
     <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0  ">
@@ -127,7 +181,7 @@ const scrollSearch = myKey => {
     </span>
   </button></Link>
  
-  <h3 className="flex flex-col items-center justify-center text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Click to Download </h3>
+  <h3 className="flex flex-col items-center justify-center text-3xl font-bold leading-normal mt-0 mb-2 text-blue-600 "> Transfusion (2023) </h3>
   <Link href="../../Hollywood/Transfusion-2023/down2">
   <button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
   <span className="relative px-5 py-2.5  transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">

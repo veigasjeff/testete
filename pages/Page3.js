@@ -25,18 +25,18 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://uwatch4free.vercel.app/"
+    "@id": "https://Uwatch4free.vercel.app/"
     
   },
   "headline": "Uwatch4free™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies",
-  "image": "https://uwatch4free.vercel.app/logo.png",
+  "image": "https://Uwatch4free.vercel.app/logo.png",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
       "name": "Uwatch4free",
-      "url": "https://uwatch4free.vercel.app/"
+      "url": "https://Uwatch4free.vercel.app/"
     }],
   
   "publisher": {
@@ -44,7 +44,7 @@ const schemaData   = {
       "name": "Uwatch4free",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://uwatch4free.vercel.app/og_image.jpg"
+        "url": "https://Uwatch4free.vercel.app/og_image.jpg"
       }
     },
   "description": "Uwatch4free™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies"
@@ -58,17 +58,17 @@ const maxData   = {
     "@type": "ListItem",
     "position": 1,
     "name": "Hollywood",
-    "item": "https://uwatch4free.vercel.app/Hollywood/hollywood"
+    "item": "https://Uwatch4free.vercel.app/Hollywood/hollywood"
   },{
     "@type": "ListItem",
     "position": 2,
     "name": "Bollywood",
-    "item": "https://uwatch4free.vercel.app/Bollywood/bollywood"
+    "item": "https://Uwatch4free.vercel.app/Bollywood/bollywood"
   },{
     "@type": "ListItem",
     "position": 3,
     "name": "Adult",
-    "item": "https://uwatch4free.vercel.app/Adult/adult"
+    "item": "https://Uwatch4free.vercel.app/Adult/adult"
   }]
 };
 const searchData   = {
@@ -107,7 +107,7 @@ const searchData   = {
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+  <meta name="keywords" content="uwatchfree,uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,uwatch4free,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
@@ -119,26 +119,26 @@ const searchData   = {
 	<meta property="og:image:width" content="720"/>
 	<meta property="og:title" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
-	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
+	<meta property="og:url" content="https://Uwatch4free.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
+	<meta property="og:image" content="https://Uwatch4free.vercel.app/og_image.jpg" />
+	<meta property="og:image:secure_url" content="https://Uwatch4free.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Uwatch4free™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
-	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
+	<meta name="twitter:image" content="https://Uwatch4free.vercel.app/og_image.jpg" />
 
-  <link rel="canonical" href="https://uwatch4free.vercel.app/Page2" />
+  <link rel="canonical" href="https://Uwatch4free.vercel.app/Page2" />
   <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
-  <link rel="alternate" hreflang="en-us" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-gb" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-ca" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-au" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-se" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-fr" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-dk" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-no" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="x-default" 	href="https://uwatch4free.vercel.app/"/>
+  <link rel="alternate" hreflang="en-us" 	href="https://Uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-gb" 	href="https://Uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-ca" 	href="https://Uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-au" 	href="https://Uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-se" 	href="https://Uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-fr" 	href="https://Uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-dk" 	href="https://Uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-no" 	href="https://Uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="x-default" 	href="https://Uwatch4free.vercel.app/"/>
 
  
       </Head>

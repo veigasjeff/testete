@@ -35,10 +35,7 @@ function TimerAd() {
           <div class="mt-5 text-center sm:mt-0 sm:ml-4 sm:text-left">
             <h3 class="text-2xl font-bold leading-6 text-red-600" id="modal-title">Are You Sure You Want to Continue?</h3>
             <div class="mt-2">
-            <video class="w-full" controls autoPlay loop >
-<source src="../../official-trailer.mp4" type="video/mp4" alt="Official Trailer">
-</source>
-</video>
+            <iframe className="  rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-gray-600 to-white-500 group-hover:from-white-600  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " src="https://sbbrisk.com/e/hhcf3mplawo4.html" />
             </div>
           </div>
         </div>

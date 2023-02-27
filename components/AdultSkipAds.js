@@ -5,7 +5,7 @@ import Link from "next/link";
 function ATFAAds() {
   const [showAd, setShowAd] = useState(false);
   const [isClosed, setIsClosed] = useState(false);
-  const [remainingTime, setRemainingTime] = useState(30);
+  const [remainingTime, setRemainingTime] = useState(10);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -18,7 +18,7 @@ function ATFAAds() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowAd(true);
-    }, 2000); // Display ad after 5 seconds
+    }, 1000); // Display ad after 5 seconds
 
     return () => clearTimeout(timer);
   }, []);
@@ -49,7 +49,7 @@ function ATFAAds() {
             <h2 class="text-4xl font-bold leading-6 text-red-600" id="modal-title">Connecting To Server 
            </h2>
             <h3 class="text-2xl font-bold leading-6 text-center items-center text-gray-500 my-5"  id="modal-title"> 
-            Retrieving File Pls Wait For 30 Sec...</h3> 
+            Retrieving File Wait For 10 Sec...</h3> 
             <div class="sm:flex sm:items-start">
             <div class="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
              

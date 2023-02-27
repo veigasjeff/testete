@@ -18,7 +18,7 @@ const DownloadVKVP1A = () => {
     <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
     Vikings Valhalla Part 1 (2023)  LINK BELOW </h2>
 <a href="https://sbhight.com/d/tl2j9vmcwnh8.html" target={"_blamk"} id="download_link" > 
-<button className="relative inline-flex items-center  rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
+<button className="relative inline-flex items-center  rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
   <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
   Download Now
   </span>
@@ -26,7 +26,7 @@ const DownloadVKVP1A = () => {
 <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
   Vikings Valhalla Part 2 (2023)  LINK BELOW </h2>
 <a href="https://sbhight.com/d/7j0v5hlzzxjj.html" target={"_blamk"} id="download_link" > 
-<button className="relative inline-flex items-center  rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
+<button className="relative inline-flex items-center  rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
 <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
 Download Now
 </span>
@@ -41,7 +41,7 @@ Please Share the Link.</h2>
 
 
 <a href="../../Hollywood/VikingsValhalla-2023/VikingsValhallaP1" > 
-<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
+<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
   <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
   Back
   </span>

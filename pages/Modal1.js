@@ -20,7 +20,7 @@ export default () => {
               <h3 class="text-2xl font-bold leading-6 text-red-600" id="modal-title">Are You Sure You Want to Continue?</h3>
               <div class="mt-2">
               <div class="aspect-w-16 aspect-h-9">
-  <iframe src="https://www.youtube.com/embed/vqu4z34wENw?&autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=vqu4z34wENw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://www.youtube.com/embed/vqu4z34wENw?&autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=vqu4z34wENw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
               </div>
             </div>

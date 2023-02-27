@@ -51,7 +51,11 @@ const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
 };
+const [showPopup, setShowPopup] = useState(false);
 
+function togglePopup() {
+  setShowPopup(!showPopup);
+}
   return (
     <div>
                <script
@@ -65,6 +69,7 @@ const scrollSearch = myKey => {
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta property="og:title" content="Watch Mayfair Witches S01E01 (2023) | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Hollywood/MayfairWitches-2023/MayfairWitchesP1" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/mayfair-witches-2023.webp" />
@@ -85,54 +90,55 @@ const scrollSearch = myKey => {
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Mayfair Witches S01E01 (2023) </h1>
 
 <div className={styles['iframe-container']}>
-      <iframe src="https://dood.yt/e/dmv2p1sr37y2" />
+      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://dood.yt/e/dmv2p1sr37y2" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div class="grid grid-cols-2 sm:grid-cols-5 x:grid-cols-3 gap-4">
     
-  <div class="flex justify-center">
+    <div class="flex justify-center">
   <Link href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP1">
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2  px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    <button class="bg-blue-500  text-white font-bold py-2  px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
     Episode 1
     </button></Link>
   </div>
   <div class="flex justify-center">
   <Link href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP2">
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    <button class="bg-blue-500  text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
     Episode 2
     </button></Link>
   </div>
   <div class="flex justify-center">
   <Link href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP3">
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    <button class="bg-blue-500  text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
     Episode 3
     </button></Link>
   </div>
   <div class="flex justify-center">
   <Link href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP4">
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    <button class="bg-blue-500  text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
     Episode 4
     </button></Link>
   </div>
   <div class="flex justify-center">
   <Link href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP5">
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    <button class="bg-blue-500  text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
     Episode 5
     </button></Link>
   </div>
-  <div class="flex justify-center">
+  <div class="flex justify-center ">
   <Link href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP6">
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    <button class="bg-blue-500  text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
     Episode 6
     </button></Link>
-    <div class="flex justify-center">
+    </div>
+    <div class="flex justify-center ">
     <Link href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP7">
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
+    <button class="bg-blue-500  text-white font-bold py-2 px-4 rounded-xl  hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out hover:scale-110">
     Episode 7
     </button></Link>
   </div>
-  </div></div>
-  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 " >
+  </div>
+ <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
     <a href="../MayfairWitches-2023/MayfairWitchesP1" > 
       <h1 >Click To Watch Mayfair Witches S01E01 (2023) Server 1</h1></a></button>
       <div className="flex flex-col space-y-4 m-8">
@@ -153,19 +159,68 @@ const scrollSearch = myKey => {
 <h2 className="text-medium font-sm text-center dark:text-white text-white "><strong>Starring:</strong> Alexandra Daddario, Tongayi Chirisa, Jack Huston, Harry Hamlin, Hannah Alline, Beth Grant, Ravi Naidu, Jen Richards, Ian Hoch, Annabeth Gish, Geraldine Singer.</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Description:</strong> Follows a neurosurgeon who discovers she is the unlikely heir to a family of witches. She must contend with a sinister presence that has haunted her family for generations.</h2>
 
-  <h2 className="text-4xl font-bold text-center text-white  ">Watch Offical Trailer</h2>
- 
-  <div className={styles['iframe-container']}>
-      <iframe src="https://sbbrisk.com/e/qczachsha96l.html" />
-    </div>  
-  
+<div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >
+
+        <h2 >Watch Offical Trailer</h2></button>
+        </div>
+   
+        {showPopup && (
+        <div className="popup-overlay">
+         
+         <div className="popup ">
+               <button className="close-button" onClick={togglePopup}>
+               <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
+          </button>
+          <h2 className="text-2xl font-bold" >Offical Trailer Mayfair Witches (2023) </h2>
+           <div className={styles['iframe-container']}>
+ <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbbrisk.com/e/qczachsha96l.html" />
+                   
+             </div>
+          </div></div>
+       
+      )}
+
+      <style jsx>{`
+        .popup-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(0, 0, 0, 0.5);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+             .popup {
+          width: 800px;
+          background-color: gray;
+          padding: 10px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          animation: slide-down 0.5s ease;
+        }
+
+       
+        @keyframes slide-down {
+          from {
+            transform: translateY(-100%);
+          }
+          to {
+            transform: translateY(0);
+          }
+        }
+      `}</style>
     </div>
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
  <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Mayfair Witches S01E01 (2023) </h3>
  <Link href="../../Hollywood/MayfairWitches-2023/DownloadMFW1">
- <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-white scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
+ <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-white scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
  <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0  ">
  Download 
  </span>
@@ -173,7 +228,7 @@ const scrollSearch = myKey => {
 
 <h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Mayfair Witches S01E01 (2023)</h3>
 <Link href="../../Hollywood/MayfairWitches-2023/DownloadMFW2">
-<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-white scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
+<button className="relative inline-flex items-center rounded-3xl  justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-white scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
 <span className="relative px-5 py-2.5  transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
 Download 
 </span>
@@ -182,7 +237,7 @@ Download
 
 <Link href="../../HollywoodAds">
   <h3 className="text-medium font-bold py-10 leading-normal m-10 mt-0 mb-2 text-blue-600 "> 
-  <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
+  <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
   <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
  
   Back To Hollywood Section

@@ -61,7 +61,7 @@ const scrollSearch = myKey => {
      <Head>
      <title>Watch Young Kindaichi Part 2 (2023) | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="uwatchfree,uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,uwatch4free,latest full movies online" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />

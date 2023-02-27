@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 function SkipAds() {
   const [showAd, setShowAd] = useState(false);
   const [isClosed, setIsClosed] = useState(false);
-  const [remainingTime, setRemainingTime] = useState(30);
+  const [remainingTime, setRemainingTime] = useState(10);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -17,7 +17,7 @@ function SkipAds() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowAd(true);
-    }, 2000); // Display ad after 5 seconds
+    }, 1000); // Display ad after 5 seconds
 
     return () => clearTimeout(timer);
   }, []);
@@ -48,10 +48,10 @@ function SkipAds() {
             <h2 class="text-4xl font-bold leading-6 text-red-600" id="modal-title">Connecting To Server 
            </h2>
             <h3 class="text-2xl font-bold leading-6 text-center items-center text-gray-500 my-5"  id="modal-title"> 
-            Retrieving File Pls Wait For 30 Sec...</h3> 
+            Retrieving File Wait For 10 Sec...</h3> 
         
             <div class="mt-2">
-            <video class="w-full" controls autoPlay loop >
+            <video class="w-full"  autoPlay loop >
 <source src="../../official-trailer.mp4" type="video/mp4" alt="Official Trailer">
 </source>
 </video>

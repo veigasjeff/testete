@@ -12,7 +12,7 @@ function Application({ Component, pageProps }) {
   return ( 
     
   <div>
-     <script src="../../propler/ads.js" defer></script>
+   <script src="../../propler/ads.js" defer></script>
       <PageTransition>  
   <Hamburger />
   
@@ -21,7 +21,9 @@ function Application({ Component, pageProps }) {
   <Footer />
   
    </PageTransition>
+ 
    <ShareThis />
+   <script src="../../propler/chat.js" defer></script>
   </div>
   );
 }

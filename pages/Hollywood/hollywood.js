@@ -14,72 +14,6 @@ const hollywood = () => {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
-const schemaData   = {
-  "@context": "https://schema.org",
-  
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://uwatch4free.vercel.app/Hollywood/hollywood"
-    
-  },
-  "headline": "Uwatch4free™ Hollywood | Watch now the Best TV shows and Movies",
-  "image": "https://uwatch4free.vercel.app/logo.png",
-
-  "datePublished": '2023-01-01T09:00:00.000Z',
-  "dateModified": '2023-01-01T09:00:00.000Z',
-  "author": [{
-      "@type": "Person",
-      "name": "Uwatch4free",
-      "url": "https://uwatch4free.vercel.app/Hollywood/hollywood"
-    }],
-  
-  "publisher": {
-      "@type": "Organization",
-      "name": "Uwatch4free",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://uwatch4free.vercel.app/og_image.jpg"
-      }
-    },
-  "description": "Uwatch4free™ Hollywood | Watch now the Best TV shows and Movies"
-
-};
-const maxData   = {
-
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Hollywood",
-    "item": "https://uwatch4free.vercel.app/Hollywood/hollywood"
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Bollywood",
-    "item": "https://uwatch4free.vercel.app/Bollywood/bollywood"
-  },{
-    "@type": "ListItem",
-    "position": 3,
-    "name": "Adult",
-    "item": "https://uwatch4free.vercel.app/Adult/adult"
-  }]
-};
-const searchData   = {
-  "@context": "https://schema.org",
-      "@type": "WebSite",
-      "url": "https://www.example.com/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://query.example.com/search?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      
-  }
-  };
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
@@ -88,18 +22,6 @@ const scrollSearch = myKey => {
   return (
   
     <div >
-    <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-  />
-    <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(maxData) }}
-  />
-<script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
-  />
       <div className="bg-[#1a202c]">
       <Head>
         <title>Uwatch4free™ Hollywood</title>

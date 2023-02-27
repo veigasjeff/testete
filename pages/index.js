@@ -135,7 +135,7 @@ const searchData   = {
 	<link rel="alternate" hreflang="en-dk" 	href="https://uwatch4free.vercel.app/"/>
 	<link rel="alternate" hreflang="en-no" 	href="https://uwatch4free.vercel.app/"/>
 	<link rel="alternate" hreflang="x-default" 	href="https://uwatch4free.vercel.app/"/>
- 
+  <meta name="clckd" content="32a5af738fbaad27a87e341bea8b9726" />
       </Head>
        
       <main>

@@ -80,9 +80,8 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch ExtraOrdinary Episode 2 (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/extraordinary-2023.webp" />
 <meta name="description" content="Watch ExtraOrdinary Full Movie Online on Uwatch4free™, You can also download ExtraOrdinary Episode 2 (2023) in full HD quality to watch later offline." />
-
-<link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/ExtraOrdinary-2023/ExtraOrdinaryP1" />
- 
+<script src="../../propler/ads.js" defer></script> 
+<link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/ExtraOrdinary-2023/" />
 
       </Head>
       <div className="bg-[#1a202c]">

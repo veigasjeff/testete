@@ -6,10 +6,8 @@ const DownloadMBZ2 = () => {
     <div>
            <div className="bg-[#1a202c]">
   <Head>
- 
-  
-
-  </Head>
+  <script src="../../propler/ads.js" defer></script>
+    </Head>
   <SkipAds />
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">

@@ -83,7 +83,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Lust Diaries Pehla Pyar (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/lust-diaries-pehla-pyar-2023.webp" />
 <meta name="description" content="Watch Lust Diaries Pehla Pyar  Full Movie Online on Uwatch4free™, You can also download Lust Diaries Pehla Pyar (2023) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script>
 <link rel="canonical" href="https://uwatch4free.vercel.app/Adult/LustDaries-2023/" />
  
 

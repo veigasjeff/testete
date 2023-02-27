@@ -1,9 +1,14 @@
 
 import SkipAds from "@components/SkipAds";
+import Head from "next/head"
 
 const DownloadFAR2 = () => {
   return (
     <div>
+            <Head>
+  <script src="../../propler/ads.js" defer></script> 
+
+  </Head>
            <div className="bg-[#1a202c]">
  
   <SkipAds />

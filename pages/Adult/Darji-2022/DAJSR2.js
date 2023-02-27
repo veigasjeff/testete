@@ -83,7 +83,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Darji (2022) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/darji-2022.webp" />
 <meta name="description" content="Watch Darji Full Movie Online on Uwatch4free™, You can also download darji  - 2022 in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script>
 <link rel="canonical" href="https://uwatch4free.vercel.app/Adult/Darji-2022/" />
  
 

@@ -82,9 +82,8 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Babuji Episode 2 (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/babuJi-2023.webp" />
 <meta name="description" content="Watch Babuji Episode 2 Full Movie Online on Uwatch4free™, You can also download Babuji Episode 2 (2023) in full HD quality to watch later offline." />
-
-
- 
+<script src="../../propler/ads.js" defer></script>
+<link rel="canonical" href="https://uwatch4free.vercel.app/Adult/Babuji-2023/" />
 
       </Head>
       <div className="bg-[#1a202c]">

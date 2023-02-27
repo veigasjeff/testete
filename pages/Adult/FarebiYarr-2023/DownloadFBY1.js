@@ -7,8 +7,7 @@ const DownloadFB1PY1 = () => {
            <div className="bg-[#1a202c]">
   <Head>
  
-  
-
+  <script src="../../propler/ads.js" defer></script>
   </Head>
   <SkipAds />
   <div className="flex flex-col items-center  justify-center space-y-12">

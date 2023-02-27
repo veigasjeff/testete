@@ -86,7 +86,7 @@ function togglePopup() {
 <meta name="description" content="Watch Amigos Full Movie Online on Uwatch4free™, You can also download Amigos (2023) in full HD quality to watch later offline." />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="canonical" href="https://uwatch4free.vercel.app/Bollywood/Amigos-2023/" />
- 
+<script src="../../propler/ads.js" defer></script>
 
       </Head>
       <div className="bg-[#1a202c]">

@@ -84,7 +84,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Imli Part 2 (2023)  | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/Imli-P2-2023.webp" />
 <meta name="description" content="Watch Imli-2023 Full Movie Online on Uwatch4free™, You can also download Imli Part 2 (2023) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script>
 <link rel="canonical" href="https://uwatch4free.vercel.app/Adult/Imli-2023/" />
  
 

@@ -82,7 +82,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Christopher (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/christopher-2023.webp" />
 <meta name="description" content="Watch Christopher Full Movie Online on Uwatch4free™, You can also download Christopher (2023) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script>
 <link rel="canonical" href="https://uwatch4free.vercel.app/Bollywood/Christopher-2023/" />
  
 

@@ -30,27 +30,18 @@ const Tearms = () => {
 	<meta name="twitter:title" content="Uwatch4free™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
 	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
-  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
+  <script src="../../propler/ads.js" defer></script> 
   
   <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
-  <link rel="alternate" hreflang="en-us" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-gb" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-ca" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-au" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-se" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-fr" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-dk" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-no" 
-	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="x-default" 
-	href="https://uwatch4free.vercel.app/"/>
+  <link rel="alternate" hreflang="en-us" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-gb" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-ca" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-au" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-se" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-fr" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-dk" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-no" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="x-default" 	href="https://uwatch4free.vercel.app/"/>
       </Head>
        <div class="container my-24 px-6 mx-auto">
         

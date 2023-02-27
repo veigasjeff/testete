@@ -83,7 +83,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch I Love You Part 2 (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/i-love-you-P2-2023.webp" />
 <meta name="description" content="Watch I Love You Part 2  Full Movie Online on Uwatch4free™, You can also download I Love You Part 2 - 2023 in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script>
 <link rel="canonical" href="https://uwatch4free.vercel.app/Adult/ILoveyou-2023/" />
  
 

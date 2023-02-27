@@ -80,7 +80,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Poker Face (2022) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/poker-face-2022.webp" />
 <meta name="description" content="Watch PockerFace Full Movie Online on Uwatch4free™, You can also download Poker Face (2022) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/PockerFace-2023/" />
  
 

@@ -80,8 +80,8 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch The Rig (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/the-rig-2023.webp" />
 <meta name="description" content="Watch The Rig Full Movie Online on Uwatch4free™, You can also download The Rig (2023) in full HD quality to watch later offline." />
-
-<link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/TheRig-2023/TheRigP1" />
+<script src="../../propler/ads.js" defer></script> 
+<link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/TheRig-2023/" />
  
 
       </Head>

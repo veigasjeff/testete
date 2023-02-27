@@ -81,7 +81,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Zindagi Shatranj Hai (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/zindagi-shatranj-hai-2023.webp" />
 <meta name="description" content="Watch Zindagi Shatranj Hai Full Movie Online on Uwatch4free™, You can also download Zindagi Shatranj Hai (2023) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatch4free.vercel.app/Bollywood/ZindagiShatranjHai-2023/" />
  
 

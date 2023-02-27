@@ -80,8 +80,9 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Kaleidoscope Episode 3 (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/kaleidoscope-2022.webp" />
 <meta name="description" content="Watch Kaleidoscope Full Movie Online on Uwatch4free™, You can also download Kaleidoscope Episode 3 (2023) in full HD quality to watch later offline." />
-
-<link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/Kaleidoscope-2023/KaleidoscopeP1" />
+<script src="../../propler/ads.js" defer></script> 
+<link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/Kaleidoscope-2023/" />
+ 
  
 
       </Head>

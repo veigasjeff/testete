@@ -81,7 +81,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Minus One (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/minus-one-2023.webp" />
 <meta name="description" content="Watch Minus One Full Movie Online on Uwatch4free™, You can also download Minus One (2023) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatch4free.vercel.app/Bollywood/MinusOne-2023/" />
  
 

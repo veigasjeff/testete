@@ -81,7 +81,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Varisu (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/varisu-2023.webp" />
 <meta name="description" content="Watch Varisu  Full Movie Online on Uwatch4free™, You can also download Varisu (2023) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatch4free.vercel.app/Bollywood/Varisu-2023/" />
  
 

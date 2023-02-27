@@ -84,7 +84,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Pamasahe (2023)  | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/pamasahe-2022.webp" />
 <meta name="description" content="Watch Pamasahe Full Movie Online on Uwatch4free™, You can also download Pamasahe (2023) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script>
 <link rel="canonical" href="https://uwatch4free.vercel.app/Adult/Pamasahe-2023/" />
  
 

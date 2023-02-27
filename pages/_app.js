@@ -12,7 +12,7 @@ function Application({ Component, pageProps }) {
   return ( 
     
   <div>
-   <script src="../../propler/ads.js" defer></script>
+  
       <PageTransition>  
   <Hamburger />
   

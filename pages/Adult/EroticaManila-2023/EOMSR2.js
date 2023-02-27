@@ -83,7 +83,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Erotica Manila (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/erotica-manila-2023.webp" />
 <meta name="description" content="Watch Erotica Manila  Full Movie Online on Uwatch4free™, You can also download Erotica Manila - 2023 in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script>
 <link rel="canonical" href="https://uwatch4free.vercel.app/Adult/EroticaManila-2023/" />
  
 

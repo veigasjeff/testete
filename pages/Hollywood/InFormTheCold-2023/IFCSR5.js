@@ -80,7 +80,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch In From the Cold S01E05 (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/in-from-the-cold-2023.webp" />
 <meta name="description" content="Watch In Form The Cold Full Movie Online on Uwatch4free™, You can also download In From the Cold S01E05 (2023) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/InFormTheCold-2023/" />
  
 

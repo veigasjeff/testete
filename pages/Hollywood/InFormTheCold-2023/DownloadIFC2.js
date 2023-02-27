@@ -6,8 +6,7 @@ const DownloadIFC2 = () => {
     <div>
            <div className="bg-[#1a202c]">
   <Head>
- 
-  
+  <script src="../../propler/ads.js" defer></script>  
 
   </Head>
   <SkipAds />

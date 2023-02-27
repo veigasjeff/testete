@@ -6,8 +6,7 @@ const DownloadMUM2 = () => {
     <div>
            <div class="bg-[#1a202c]">
   <Head>
- 
-  
+  <script src="../../propler/ads.js" defer></script>  
 
   </Head>
   <SkipAds />

@@ -22,7 +22,7 @@ const ShareThis = () => {
   `}} />
   <StickyShareButtons
   config={{
-    alignment: 'right',    // alignment of buttons (left, right)
+    alignment: 'left',    // alignment of buttons (left, right)
     color: 'social',      // set the color of buttons (social, white)
     enabled: true,        // show/hide buttons (true, false)
     font_size: 16,        // font size for the buttons
@@ -43,7 +43,7 @@ const ShareThis = () => {
     show_mobile: true,    // show/hide the buttons on mobile (true, false)
     show_toggle: true,    // show/hide the toggle buttons (true, false)
     size: 48,             // the size of each button (INTEGER)
-    top: 160,             // offset in pixels from the top of the page
+    top: 120,             // offset in pixels from the top of the page
 
   }}
 />

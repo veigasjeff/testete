@@ -22,16 +22,16 @@ export default function Footer() {
         <h2 className="title-font text-blue-600 tracking-widest text-sm mb-3 font-bold md:text-sm">HOLLYWOOD MOVIES</h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">ACTION</a>
+          <a href="../Hollywood/hollywood" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">ACTION</a>
           </li>
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">DRAMA</a>
+          <a href="../Hollywood/hollywood" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">DRAMA</a>
           </li>
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">THRILLER</a>
+          <a href="../Hollywood/hollywood" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">THRILLER</a>
           </li>
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">ROMANCE</a>
+          <a href="../Hollywood/hollywood" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">ROMANCE</a>
           </li>
         </nav>
       </div>
@@ -40,16 +40,16 @@ export default function Footer() {
         <h2 className="title-font text-blue-600 tracking-widest text-sm mb-3 font-bold md:text-sm">BOLLYWOOD MOVIES</h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">ACTION </a>
+          <a href="../Bollywood/bollywood" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">ACTION </a>
           </li>
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">DRAMA</a>
+          <a href="../Bollywood/bollywood" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">DRAMA</a>
           </li>
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">THRILLER</a>
+          <a href="../Bollywood/bollywood" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">THRILLER</a>
           </li>
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">ROMANCE</a>
+          <a href="../Bollywood/bollywood" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">ROMANCE</a>
           </li>
         </nav>
       </div>
@@ -57,33 +57,33 @@ export default function Footer() {
         <h2 className="title-font  text-blue-600 tracking-widest text-sm mb-3 font-bold md:text-sm">ADULT MOVIES</h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">GENERAL</a>
+          <a href="../Adult/adult" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">GENERAL</a>
           </li>
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">HOT +18</a>
+          <a href="../Adult/adult" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">HOT +18</a>
           </li>
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">PURE ADULT</a>
+          <a href="../Adult/adult" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">PURE ADULT</a>
           </li>
           <li>
-            <a className="text-gray-600 font-bold hover:text-blue-800">EROTICA</a>
+          <a href="../Adult/adult" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">EROTICA</a>
           </li>
         </nav>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+      <div className="lg:w-1/4 md:w-1/2 w-full  px-4">
         <h2 className="title-font  text-blue-600 tracking-widest text-sm mb-3 font-bold md:text-sm">ABOUT US</h2>
         <nav className="list-none mb-10">
           <li>
-          <a href="../../../intro/contact" className="text-gray-600 font-bold hover:text-blue-800">Contact</a>
+          <a href="../../../intro/contact" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">Contact</a>
           </li>
           <li>
-          <a href="../../../intro/privacy" className="text-gray-600 font-bold hover:text-blue-800">Privacy Policy</a>
+          <a href="../../../intro/privacy" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">Privacy Policy</a>
           </li>
           <li>
-          <a href="../../../intro/tearms" className="text-gray-600 font-bold hover:text-blue-800">Tearm of Use</a>
+          <a href="../../../intro/tearms" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">Tearm of Use</a>
           </li>
           <li>
-          <a href="../../../intro/dmca" className="text-gray-600 font-bold hover:text-blue-800">D.M.C.A</a>
+          <a href="../../../intro/dmca" className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0">D.M.C.A</a>
           </li>
         </nav>
       </div>

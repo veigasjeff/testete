@@ -14,7 +14,7 @@ function Application({ Component, pageProps }) {
 
       <PageTransition>  
   <Hamburger />
-  <script src="../../propler/chat.js" defer></script>
+ 
   <ShareThis />
   <Component {...pageProps} />
 

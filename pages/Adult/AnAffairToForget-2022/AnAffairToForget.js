@@ -1,12 +1,10 @@
 
 import Link from 'next/link'
 import Rating from 'pages/Rating';
-import Head from 'next/head'
+import Head from 'next/head';
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
-
-
 
 const AnAffairToForget  = () => {
   useEffect(() => {
@@ -18,37 +16,7 @@ const AnAffairToForget  = () => {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
-const schemaData   = {
-  "@context": "https://schema.org",
-  
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget"
-    
-  },
-  "headline": "An Affair To Forget - 2023 | uwatch4free™",
-  "image": "https://uwatch4free.vercel.app/an-affair-to-forget-2022.webp",
 
-  "datePublished": '2023-01-01T09:00:00.000Z',
-  "dateModified": '2023-01-01T09:00:00.000Z',
-  "author": [{
-      "@type": "Person",
-      "name": "uwatch4free",
-      "url": "https://uwatch4free.vercel.app/"
-    }],
-  
-  "publisher": {
-      "@type": "Organization",
-      "name": "uwatch4free",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://uwatch4free.vercel.app/an-affair-to-forget-2022.webp"
-      }
-    },
-  "description": "uwatch4free™ An Affair To Forget - 2023 | Watch now the Best TV shows and Movies"
-
-};
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
@@ -60,35 +28,87 @@ function togglePopup() {
 }
   return (
     <div>
-       <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-  />
-     <Head>
-     <title>Watch An Affair To Forget - 2023 | uwatch4free™</title>
+    
+    <Head>
+    <title>Watch An Affair To Forget - 2023 | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="uwatch4free,an affair to forget movie,index of an affair to forget movie,an affair to forget movie 2022,an affair to forget movie online,watch an affair to forget movie,dubbed movies,an affair to forget movie download,an affair to forget movie latest,an affair to forget movie videos,an affair to forget movie trailer,an affair to forget movie cast,an affair to forget movie story,an affair to forget movie release date,an affair to forget movie watch online free,an affair to forget movie free download,an affair to forget movie download" />
 
 <meta property="og:locale" content="en_US" />
-<meta property="og:site_name" content="uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Watch An Affair To Forget - 2023 | uwatch4free™" />
+<meta property="og:title" content="Watch An Affair To Forget - 2023 | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/an-affair-to-forget-2022.webp" />
 <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch An Affair To Forget - 2023 | uwatch4free™" />
+<meta name="twitter:title" content="Watch An Affair To Forget - 2023 | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/an-affair-to-forget-2022.webp" />
-<meta name="description" content="Watch An Affair To Forget Full Movie Online on uwatch4free™, You can also download An Affair To Forget - 2023 in full HD quality to watch later offline." />
+<meta name="description" content="Watch An Affair To Forget Full Movie Online on Uwatch4free™, You can also download An Affair To Forget - 2023 in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
 
 <link rel="canonical" href="https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/" />
- 
+<script type="application/ld+json"   class="yoast-schema-graph" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Watch An Affair To Forget (2022) ",
+  "description": "Watch An Affair To Forget (2022) | Uwatch4free™",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget/"
+  },
+  "image": [
+    "https://uwatch4free.vercel.app/an-affair-to-forget-2022.webp"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "DrTrailer",
+    "url": "https://uwatch4free.vercel.app/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Uwatch4free™",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://uwatch4free.vercel.app/logo.png"
+    }
+  },
+  "datePublished": "2023-01-01T04:43:05+05:00",
+  "dateModified": "2023-01-01T04:43:05+05:00",
+  "articleSection": "Hollywood Movies, Bollywood Movies, Adult Movies ",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "headline": "Watch An Affair To Forget (2022) ",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://uwatch4free.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Adult",
+        "item": "https://uwatch4free.vercel.app/Adult/adult/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "An Affair To Forget",
+        "item": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget"
+      }
+    ]
+  }
+})}}></script>
 
+
+        
       </Head>
+       
       <div className="bg-[#1a202c]">
         <AdultSkipAds/>
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch An Affair to Forget  - 2023 </h1>

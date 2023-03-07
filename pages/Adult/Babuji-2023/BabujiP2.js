@@ -67,7 +67,7 @@ function togglePopup() {
      <Head>
      <title>Watch Babuji Episode 2 (2023) | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="uwatch4free,babuji movie,index of babuji movie,babuji movie 2022,babuji movie online,watch babuji movie,dubbed movies,babuji movie download,babuji movie latest,babuji movie videos,babuji movie trailer,babuji movie cast,babuji movie story,babuji movie release date,babuji movie watch online free,babuji movie free download,babuji movie download" />
 
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />

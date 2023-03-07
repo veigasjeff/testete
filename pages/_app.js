@@ -14,7 +14,7 @@ function Application({ Component, pageProps }) {
 
       <PageTransition>  
   <Hamburger />
- 
+
   <ShareThis />
   <Component {...pageProps} />
 

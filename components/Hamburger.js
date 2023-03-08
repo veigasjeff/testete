@@ -8,7 +8,7 @@ export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-     
+    
       <nav className="w-full bg-gray-800 shadow">
         <div className="justify-between px-4  mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>

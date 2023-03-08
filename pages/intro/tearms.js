@@ -12,7 +12,9 @@ const Tearms = () => {
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
-	<meta property="og:locale" content="en_US" />
+	<meta property="og:locale" content="en_US" />   
+<meta name="robots" content="index, follow" />  
+<meta name="revisit-after" content="1 days" />
   <meta name="robots" content="index, follow" />
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />

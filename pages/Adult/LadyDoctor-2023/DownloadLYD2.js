@@ -1,5 +1,6 @@
 
 import AdultSkipAds from '@components/AdultSkipAds'
+import Max from 'pages/Max';
 import Head from "next/head"
 const DownloadLYD2 = () => {
   return (

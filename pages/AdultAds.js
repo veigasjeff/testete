@@ -48,7 +48,7 @@ function Most() {
 
 
   
-   <h2 className="  rounded-3xl text-center inline-flex  bg-gray-600 p-2 text- sm-gray-500 bg-opacity-75  text-2xl  title-font  m-10 mb-5 font-bold justify-center  ">
+  <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center text-3xl dark:text-white">
     Latest Updated Adult Movies
    </h2>
  

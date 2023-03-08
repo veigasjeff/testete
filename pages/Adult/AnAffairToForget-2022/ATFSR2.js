@@ -5,6 +5,7 @@ import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
+import Max from 'pages/Max';
 
 
 
@@ -19,7 +20,37 @@ const ATFSR2  = () => {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
+const schemaData   = {
+  "@context": "https://schema.org",
+  
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget"
+    
+  },
+  "headline": "An Affair To Forget - 2023 | Uwatch4free™",
+  "image": "https://uwatch4free.vercel.app/an-affair-to-forget-2022.webp",
 
+  "datePublished": '2023-01-01T09:00:00.000Z',
+  "dateModified": '2023-01-01T09:00:00.000Z',
+  "author": [{
+      "@type": "Person",
+      "name": "DrTrailer",
+      "url": "https://uwatch4free.vercel.app/DrTrailer.png"
+    }],
+  
+  "publisher": {
+      "@type": "Organization",
+      "name": "Uwatch4free",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://uwatch4free.vercel.app/og_image.jpg"
+      }
+    },
+  "description": "Uwatch4free™ An Affair To Forget - 2023 | Watch now the Best TV shows and Movies"
+
+};
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
@@ -31,13 +62,18 @@ function togglePopup() {
 }
   return (
     <div>
-      
-      <Head>
-    <title>Watch An Affair To Forget - 2023 | Uwatch4free™</title>
+       <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+  />
+     <Head>
+     <title>Watch An Affair To Forget - 2023 | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,an affair to forget movie,index of an affair to forget movie,an affair to forget movie 2022,an affair to forget movie online,watch an affair to forget movie,dubbed movies,an affair to forget movie download,an affair to forget movie latest,an affair to forget movie videos,an affair to forget movie trailer,an affair to forget movie cast,an affair to forget movie story,an affair to forget movie release date,an affair to forget movie watch online free,an affair to forget movie free download,an affair to forget movie download" />
+<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 
-<meta property="og:locale" content="en_US" />
+<meta property="og:locale" content="en_US" />   
+<meta name="robots" content="index, follow" />  
+<meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -54,78 +90,8 @@ function togglePopup() {
 <script src="../../propler/ads.js" defer></script>
 
 <link rel="canonical" href="https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/" />
-<script type="application/ld+json"   class="yoast-schema-graph" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-   "@context": "http://schema.org",
-   "@type": "Movie",
-   "@id": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget",
-   "image": "https://uwatch4free.vercel.app/an-affair-to-forget-2022.webp",
-   "name": "An Affair To Forget",
-   "url": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget",
-   "datePublished": "2023-01-01",
-   "dateCreated": "2023-01-01T04:43:05+05:00",
-   "dateModified": "2023-01-01T04:43:05+05:00",
-   "description": "Wife seeks the help of a young woman to find out if her husband is having an affair. The plot thickens when the young woman falls for the husband instead.",
-   "director": {
-     "@type": "Person",
-     "name": "Viva Max",
-     "sameAs": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget"
-   },
-   "actor": [
-    {
-      "@type": "Person",
-      "name": "Dhanush",
-      "sameAs": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget"
-    },
-    {
-      "@type": "Person",
-      "name": "Samyuktha Menon",
-      "sameAs": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget"
-    },
-    {
-      "@type": "Person",
-      "name": "Tanikella Bharani",
-      "sameAs": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget"
-    },
-  ],
-  "publisher": {
-    "@type": "Organization",
-    "name": "Uwatch4free™",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://uwatch4free.vercel.app/logo.png"
-    }
-  },
-  "datePublished": "2023-01-01T04:43:05+05:00",
-  "dateModified": "2023-01-01T04:43:05+05:00",
  
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-  
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://uwatch4free.vercel.app/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Adult",
-        "item": "https://uwatch4free.vercel.app/Adult/adult/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "An Affair To Forget",
-        "item": "https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget"
-      }
-    ]
-  }
-})}}></script>
 
-
-        
       </Head>
       <div className="bg-[#1a202c]">
     <AdultSkipAds />
@@ -135,7 +101,7 @@ function togglePopup() {
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://dood.yt/e/z274hetwlqgi" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-    <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../AnAffairToForget-2022/AnAffairToForget" > 
       <h1 >Click To Watch An Affair to Forget (2023) Server 1</h1></a></button>
     <div className="flex flex-col space-y-4 m-8">
@@ -230,8 +196,9 @@ Download
 </button></Link>
 
 
- <Link href="../../AdultAds">
-    <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+<Max /> 
+<Link href="../../AdultAds">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
   Back To Adult Section
 
 </button></Link>

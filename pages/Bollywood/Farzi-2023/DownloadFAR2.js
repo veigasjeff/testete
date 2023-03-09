@@ -7,7 +7,7 @@ const DownloadFAR2 = () => {
     <div>
             <Head>
    <script src="../../propler/ads.js" defer></script>  
-  <meta name="robots" content="noindex" />
+
 
   </Head>
            <div className="bg-[#1a202c]">

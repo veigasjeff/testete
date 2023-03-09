@@ -8,7 +8,7 @@ const DownloadAMG1 = () => {
            <div className="bg-[#1a202c]">
   <Head>
    <script src="../../propler/ads.js" defer></script>  
-  <meta name="robots" content="noindex" />
+
 
   </Head>
   <SkipAds />

@@ -2,6 +2,8 @@
 import AdultSkipAds from '@components/AdultSkipAds'
 import Max from 'pages/Max';
 import Head from "next/head"
+import Image from 'next/image';
+
 const DownloadWHM1 = () => {
   return (
     <div>
@@ -16,7 +18,8 @@ const DownloadWHM1 = () => {
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
     CLICK TO DOWNLOAD WATCHMAN SERIES - 2023 LINK BELOW </h2>
   
-
+    <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/miss-briganaza-2023.webp' alt='WATCHMAN - 2023' width={400} height={300}  loading="lazy"/>
+    
     <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
     Watchman Episode 1 </h2>
 <a href="https://sbhight.com/d/2ms6b6j6hvdx.html" target={"_blamk"} id="download_link" > 
@@ -42,6 +45,7 @@ Watchman Episode 3 </h2>
 Thank you for Dowloading and Enjoy. </h2>
 <h2 className="text-blue-500 text-lg title-font  mb-3 font-bold md:text-lg ">
 Please Share the Link.</h2>
+<Max />
 
 
 

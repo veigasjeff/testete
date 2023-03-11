@@ -1,6 +1,9 @@
 
 import SkipAds from "@components/SkipAds";
 import Head from "next/head"
+import Max from 'pages/Max';
+import Image from "next/image";
+
 const DownloadLWC1 = () => {
   return (
     <div>
@@ -14,6 +17,8 @@ const DownloadLWC1 = () => {
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
   CLICK TO DOWNLOAD LOCKWOOD AND CO (2023) </h2>
+  
+  <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/lockwood-and-co-2023.webp' alt='LOCKWOOD AND CO - 2023' width={400} height={300}  loading="lazy"/>
   
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
   Lockwood And Co Episode 1 </h2>
@@ -75,6 +80,7 @@ Download Now
 Thank you for Dowloading and Enjoy. </h2>
 <h2 className="text-blue-500 text-lg title-font  mb-3 font-bold md:text-lg ">
 Please Share the Link.</h2>
+<Max />
 
 
 

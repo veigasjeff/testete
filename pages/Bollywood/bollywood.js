@@ -33,7 +33,7 @@ const schemaData   = {
       "about":{
         "@id":"https://uwatch4free.vercel.app/#organization"
       },
-      "description":"Uwatch4free™ - Hollywood | Bollywood | Adult Watch now the Best TV shows and Movies",
+      "description":"Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free",
       "breadcrumb":{
         "@id":"https://uwatch4free.vercel.app/#breadcrumb"
       },
@@ -46,7 +46,7 @@ const schemaData   = {
         {
           "@type":"ListItem",
           "position":1,
-          "name":"Uwatch4free™ | Watch now the Best TV shows and Movies"
+          "name":"Uwatch4free™ | Watch Movies and TV-Series Online Free"
         }
       ]
     },
@@ -54,8 +54,8 @@ const schemaData   = {
       "@type":"WebSite",
       "@id":"https://uwatch4free.vercel.app/#website",
       "url":"https://uwatch4free.vercel.app/",
-      "name":"Uwatch4free™ | Watch now the Best TV shows and Movies",
-      "description":"Uwatch4free™ - Hollywood | Bollywood | Adult Watch now the Best TV shows and Movies",
+      "name":"Uwatch4free™ | Watch Movies and TV-Series Online Free",
+      "description":"Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free",
       "publisher":{
         "@id":"https://uwatch4free.vercel.app/#organization"
       },
@@ -74,7 +74,7 @@ const schemaData   = {
     {
       "@type":"Organization",
       "@id":"https://uwatch4free.vercel.app/#organization",
-      "name":"Uwatch4free™ | Watch now the Best TV shows and Movies",
+      "name":"Uwatch4free™ | Watch Movies and TV-Series Online Free",
       "url":"https://uwatch4free.vercel.app/",
       "logo":{
         "@type":"ImageObject",
@@ -84,7 +84,7 @@ const schemaData   = {
         "contentUrl":"https://uwatch4free.vercel.app/logo.png",
         "width":834,
         "height":135,
-        "caption":"Uwatch4free™ | Watch now the Best TV shows and Movies"
+        "caption":"Uwatch4free™ | Watch Movies and TV-Series Online Free"
       },
       "image":{
         "@id":"https://uwatch4free.vercel.app/#/schema/logo/image/"
@@ -102,29 +102,29 @@ const schemaData   = {
   />
       <div className="bg-[#1a202c]">
       <Head>
-        <title>Uwatch4free™ Bollywood | Watch now the Best TV shows and Movies</title>
+        <title>Uwatch4free™ Bollywood | Watch Movies and TV-Series Online Free</title>
       
         <meta name="robots" content="index, follow" />  
         <meta name="revisit-after" content="1 days" />
-	      <meta name="description" content="Uwatch4free™ - Hollywood | Bollywood | Adult Watch now the Best TV shows and Movies" />
+	      <meta name="description" content="Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free" />
 	     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
        <meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	     <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-	     <meta property="og:site_name" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
+	     <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free " />
 	     <meta property="og:type" content="website" />
 	     <meta property="og:image:height" content="1280"/>
 	     <meta property="og:image:width" content="720"/>
-	     <meta property="og:title" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
-	     <meta property="og:description" content="Uwatch4free™ - Hollywood | Bollywood | Adult Watch now the Best TV shows and Movies " />
+	     <meta property="og:title" content="Uwatch4free™ | Watch Movies and TV-Series Online Free " />
+	     <meta property="og:description" content="Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free " />
 	     <meta property="og:url" content="https://uwatch4free.vercel.app/" />
 	     <meta property="og:image:type" content="image/jpeg" />
 	     <meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	     <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	     <meta name="twitter:card" content="summary_large_image" />
 	     <meta name="twitter:title" content="Uwatch4free™ " />
-	     <meta name="twitter:description" content=" Uwatch4free™ - Hollywood | Bollywood | Adult Watch now the Best TV shows and Movies " />
+	     <meta name="twitter:description" content=" Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free " />
 	     <meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
        <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
   <link rel="alternate" hreflang="en-us" 	href="https://uwatch4free.vercel.app/"/>
@@ -247,6 +247,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
          
         </div>
       </div>
+    
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Bollywood/DieHart-2023/DieHart">
@@ -257,7 +258,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">DIE HART - 2023</h2>
           <h3 className="leading-relaxed text-white text-base">Follows a fictionalized version of Kevin Hart, as he tries to become an action movie star. He attends a school run by Ron Wilcox.</h3>
         
-          <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
+          <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 fl ex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
           <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
     <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
                 4.6 Out of 10</h3>
@@ -481,6 +482,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, CRIME</strong>
        </div>
+
        <a href="../../Bollywood/MinusOne-2023/MinusOne">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          

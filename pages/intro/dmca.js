@@ -19,19 +19,19 @@ const Dmca = () => {
   <meta name="robots" content="index, follow" />
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Uwatch4free™ | Watch now the Best TV shows and Movies " />
-	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="Uwatch4free™ | Watch Movies and TV-Series Online Free " />
+	<meta property="og:description" content="Watch Movies and TV-Series Online Free " />
 	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Uwatch4free™ " />
-	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
+	<meta name="twitter:description" content=" Watch Movies and TV-Series Online Free " />
 	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<script src="../../propler/ads.js" defer></script> 
   

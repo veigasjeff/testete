@@ -1,6 +1,9 @@
 
 import SkipAds from "@components/SkipAds";
 import Head from "next/head"
+import Max from 'pages/Max';
+import Image from "next/image";
+
 const DownloadMFW2 = () => {
   return (
     <div>
@@ -13,8 +16,9 @@ const DownloadMFW2 = () => {
   <SkipAds />
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-    CLICK TO DOWNLOAD Mayfair Witches (2023) LINK BELOW </h2>
+    CLICK TO DOWNLOAD MAYFAIR WITCHES (2023) LINK BELOW </h2>
   
+    <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/mayfair-witches-2023.webp' alt='MAYFAIR WITCHES - 2023' width={400} height={300}  loading="lazy"/>
 
     <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
   Mayfair Witches Episode 1 </h2>
@@ -70,9 +74,10 @@ Download Now
 Thank you for Dowloading and Enjoy. </h2>
 <h2 className="text-blue-500 text-lg title-font  mb-3 font-bold md:text-lg ">
 Please Share the Link.</h2>
+<Max />
 
 
-<a href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP1" >
+<a href="../../Hollywood/MayfairWitches-2023/MFWSR1" >
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
   Back
 

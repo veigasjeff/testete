@@ -27,7 +27,7 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/Hollywood/AntMan-2023/Ant-Man"
     
   },
-  "headline": "Ant-Man and the Wasp Quantumania (2023) | Uwatch4free™",
+  "headline": "Ant-Man and the Wasp Quantumania (2023) Full Movie Online Free | Uwatch4free™",
   "image": "https://uwatch4free.vercel.app/ant-Man-and-the-wasp-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -35,7 +35,7 @@ const schemaData   = {
   "author": [{
       "@type": "Person",
       "name": "DrTrailer",
-      "url": "https://uwatch4free.vercel.app/DrTrailer.png"
+      "url": "https://uwatch4free.vercel.app/DrTrailer.webp"
     }],
   
   "publisher": {
@@ -46,7 +46,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Ant-Man and the Wasp Quantumania (2023) | Watch now the Best TV shows and Movies"
+  "description": "Uwatch4free™ Ant-Man and the Wasp Quantumania (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -65,7 +65,7 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Ant-Man and the Wasp Quantumania (2023) | Uwatch4free™</title>
+     <title>Watch Ant-Man and the Wasp..(2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="Uwatch4free,ant-man and the wasp quantumania movie,index of ant-man and the wasp quantumania movie,ant-man and the wasp quantumania movie 2022,ant-man and the wasp quantumania movie online,watch ant-man and the wasp quantumania movie,dubbed movies,ant-man and the wasp quantumania movie download,ant-man and the wasp quantumania movie latest,ant-man and the wasp quantumania movie videos,ant-man and the wasp quantumania movie trailer,ant-man and the wasp quantumania movie cast,ant-man and the wasp quantumania movie story,ant-man and the wasp quantumania movie release date,ant-man and the wasp quantumania movie watch online free,ant-man and the wasp quantumania movie free download,ant-man and the wasp quantumania movie download" />
 <meta property="og:locale" content="en_US" />   
@@ -107,7 +107,7 @@ function togglePopup() {
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../AntMan-2023/ATMSR2" > 
-      <h1 >Click To Watch Ant-Man and the Wasp Quantumania (2023) Server 2</h1></a></button>
+      <h2 >Click To Watch Ant-Man and the Wasp Quantumania (2023) Server 2</h2></a></button>
 
     <div className="flex flex-col space-y-4 m-8">
     <Rating /></div>
@@ -123,8 +123,8 @@ function togglePopup() {
 </div>
 <div>
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
-    <a href="https://www.imdb.com/title/tt10954600/" > 
-      <h1 >IDBM Ranking</h1></a></button></div>
+    <a href="https://www.imdb.com/title/tt10954600/" target="_blank" > 
+      <h2 >IDBM Ranking</h2></a></button></div>
 <h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong> Action, Adventure, Comedy.</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong>Peyton Reed</h2>

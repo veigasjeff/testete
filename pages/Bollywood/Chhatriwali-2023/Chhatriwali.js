@@ -28,7 +28,7 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/Bollywood/Chhatriwali-2023/Chhatriwali"
     
   },
-  "headline": "Chhatriwali - 2023 | Uwatch4free™",
+  "headline": "Chhatriwali - (2023) Full Movie Online Free | Uwatch4free™",
   "image": "https://uwatch4free.vercel.app/chhatriwali-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -36,7 +36,7 @@ const schemaData   = {
   "author": [{
       "@type": "Person",
       "name": "DrTrailer",
-      "url": "https://uwatch4free.vercel.app/DrTrailer.png"
+      "url": "https://uwatch4free.vercel.app/DrTrailer.webp"
     }],
   
   "publisher": {
@@ -47,7 +47,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Chhatriwali - 2023 | Watch now the Best TV shows and Movies"
+  "description": "Uwatch4free™ Chhatriwali - (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -67,7 +67,7 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Chhatriwali (2023) | Uwatch4free™</title>
+     <title>Watch Chhatriwali - (2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />   
@@ -76,16 +76,16 @@ function togglePopup() {
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Watch Chhatriwali (2023) | Uwatch4free™" />
+<meta property="og:title" content="Watch Chhatriwali - (2023) Full Movie Online Free | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Bollywood/Chhatriwali-2023/Chhatriwali" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/chhatriwali-2023.webp" />
 <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Chhatriwali (2023) | Uwatch4free™" />
+<meta name="twitter:title" content="Watch Chhatriwali - (2023) Full Movie Online Free | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/chhatriwali-2023.webp" />
-<meta name="description" content="Watch Chhatriwali  Full Movie Online on Uwatch4free™, You can also download Chhatriwali (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch Chhatriwali  Full Movie Online on Uwatch4free™, You can also download Chhatriwali - (2023) Full Movie Online Free in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
 <link rel="canonical" href="https://uwatch4free.vercel.app/Bollywood/Chhatriwali-2023/" />
  
@@ -93,7 +93,7 @@ function togglePopup() {
       </Head>
       <div className="bg-[#1a202c]">
         <SkipAds />
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Chhatriwali (2023) </h1>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Chhatriwali - (2023) Full Movie Online Free </h1>
    
     <div className={styles['iframe-container']}>
     <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbbrisk.com/e/nb2ubbtfajrl.html" />
@@ -101,7 +101,7 @@ function togglePopup() {
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
    <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../Chhatriwali-2023/CTWSR2" > 
-      <h1 >Click To Watch Chhatriwali (2023) Server 2</h1></a></button>
+      <h2 >Click To Watch Chhatriwali - (2023) Server 2</h2></a></button>
     <div className="flex flex-col space-y-4 m-8">
     <Rating /></div>
     <div className="flex flex-col space-y-4 ...">
@@ -115,8 +115,8 @@ function togglePopup() {
 </div>
 <div>
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
-    <a href="https://www.imdb.com/title/tt15516226/" > 
-      <h1 >IDBM Ranking</h1></a></button></div>
+    <a href="https://www.imdb.com/title/tt15516226/" target="_blank" > 
+      <h2 >IDBM Ranking</h2></a></button></div>
 <h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong> Comedy, Drama, Family.</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong> Tejas Prabhaa, Vijay Deoskar</h2>
@@ -138,7 +138,7 @@ function togglePopup() {
                <button className="close-button" onClick={togglePopup}>
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
-          <h2 className="text-2xl font-bold" >Offical Trailer Chhatriwali (2023) </h2>
+          <h2 className="text-2xl font-bold" >Offical Trailer Chhatriwali - (2023) </h2>
           <div className={styles['iframe-container']}>
           <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbhight.com/e/unyk2oopww23.html" />
                    
@@ -184,14 +184,14 @@ function togglePopup() {
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
- <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Chhatriwali (2023) </h3>
+ <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Chhatriwali - (2023)  </h3>
  <Link href="../../Bollywood/Chhatriwali-2023/DownloadCTW1">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 
 
 </button></Link>
 
-<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Chhatriwali (2023)</h3>
+<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Chhatriwali - (2023) </h3>
 <Link href="../../Bollywood/Chhatriwali-2023/DownloadCTW2">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 

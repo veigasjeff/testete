@@ -64,7 +64,7 @@ function ATFAAds() {
           </div>
             <div class="mt-2">
             <video class="w-full"  autoPlay loop >
-<source src="../../official-trailer.mp4" type="video/mp4" alt="Official Trailer">
+<source src="../../official-trailer.mp4" type="video/mp4" alt="Official Trailer" poster="https://uwatch4free.vercel.app/coverads.webp">
 </source>
 </video>
             

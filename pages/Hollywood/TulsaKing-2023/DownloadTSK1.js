@@ -1,6 +1,9 @@
 
 import SkipAds from "@components/SkipAds";
 import Head from "next/head"
+import Max from 'pages/Max';
+import Image from "next/image";
+
 const DownloadTSK1 = () => {
   return (
     <div>
@@ -15,6 +18,8 @@ const DownloadTSK1 = () => {
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
     CLICK TO DOWNLOAD MOVIE TULSA KING (2023) </h2>
   
+    <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/tulsa-king-2023.webp' alt='TULSA KING - 2023' width={400} height={300}  loading="lazy"/>
+    
     <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
     Tulsa King Episode 1 </h2>
 <a href="https://sbhight.com/d/0y2ahmz6f4w8.html" target={"_blamk"} id="download_link" > 
@@ -82,6 +87,7 @@ const DownloadTSK1 = () => {
 Thank you for Dowloading and Enjoy. </h2>
 <h2 className="text-blue-500 text-lg title-font  mb-3 font-bold md:text-lg ">
 Please Share the Link.</h2>
+<Max />
 
 
 

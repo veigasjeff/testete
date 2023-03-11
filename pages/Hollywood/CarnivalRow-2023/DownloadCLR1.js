@@ -1,6 +1,9 @@
 
 import SkipAds from "@components/SkipAds";
 import Head from "next/head"
+import Max from 'pages/Max';
+import Image from "next/image";
+
 const DownloadCLR1 = () => {
   return (
     <div>
@@ -13,9 +16,10 @@ const DownloadCLR1 = () => {
   <SkipAds />
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
-    CLICK TO DOWNLOAD MOVIE Carnival Row (2023) LINK BELOW </h2>
+    CLICK TO DOWNLOAD MOVIE CARNIVAL ROW (2023) LINK BELOW </h2>
   
-
+    <Image className="scale-100 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/carnival-row-2023.webp' alt='CARNIVAL ROW - 2023' width={400} height={300}  loading="lazy"/>
+    
     <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
   Carnival Row  Episode 1 </h2>
 <a href="https://sbbrisk.com/d/k0ems3ya8icz.html" target={"_blamk"} id="download_link" > 
@@ -41,6 +45,7 @@ Download Now
 Thank you for Dowloading and Enjoy. </h2>
 <h2 className="text-blue-500 text-lg title-font  mb-3 font-bold md:text-lg ">
 Please Share the Link.</h2>
+<Max />
 
 
 

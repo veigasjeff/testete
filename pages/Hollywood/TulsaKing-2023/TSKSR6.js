@@ -26,7 +26,7 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/Hollywood/TulsaKing-2023/TulsaKingP6"
     
   },
-  "headline": "Tulsa King (2023) | Uwatch4free™",
+  "headline": "Tulsa King (2023) Full Movie Online Free | Uwatch4free™",
   "image": "https://uwatch4free.vercel.app/tulsa-king-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -34,7 +34,7 @@ const schemaData   = {
   "author": [{
       "@type": "Person",
       "name": "DrTrailer",
-      "url": "https://uwatch4free.vercel.app/DrTrailer.png"
+      "url": "https://uwatch4free.vercel.app/DrTrailer.webp"
     }],
   
   "publisher": {
@@ -45,7 +45,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Tulsa King (2023) | Watch now the Best TV shows and Movies"
+  "description": "Uwatch4free™ Tulsa King (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -64,7 +64,7 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Tulsa King (2023) | Uwatch4free™</title>
+     <title>Watch Tulsa King (2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />   
@@ -100,55 +100,55 @@ function togglePopup() {
     <div class="grid grid-cols-2 sm:grid-cols-5 x:grid-cols-3 gap-4">
     
     <div class="flex justify-center">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP1">
+    <Link href="../../Hollywood/TulsaKing-2023/TSKSR1">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 1
       </button></Link>
     </div>
     <div class="flex justify-center">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP2">
+    <Link href="../../Hollywood/TulsaKing-2023/TSKSR2">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 2
       </button></Link>
     </div>
     <div class="flex justify-center">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP3">
+    <Link href="../../Hollywood/TulsaKing-2023/TSKSR3">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 3
       </button></Link>
     </div>
     <div class="flex justify-center">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP4">
+    <Link href="../../Hollywood/TulsaKing-2023/TSKSR4">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 4
       </button></Link>
     </div>
     <div class="flex justify-center">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP5">
+    <Link href="../../Hollywood/TulsaKing-2023/TSKSR5">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 5
       </button></Link>
     </div>
     <div class="flex justify-center">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP6">
+    <Link href="../../Hollywood/TulsaKing-2023/TSKSR6">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 6
       </button></Link>
     </div>
     <div class="flex justify-center">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP7">
+    <Link href="../../Hollywood/TulsaKing-2023/TSKSR7">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 7
       </button></Link>
     </div>
     <div class="flex justify-center">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP8">
+    <Link href="../../Hollywood/TulsaKing-2023/TSKSR8">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 8
       </button></Link>
     </div>
     <div class="flex justify-center">
-    <Link href="../../Hollywood/TulsaKing-2023/TulsaKingP9">
+    <Link href="../../Hollywood/TulsaKing-2023/TSKSR9">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 9
       </button></Link>
@@ -156,7 +156,7 @@ function togglePopup() {
   </div>
  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../TulsaKing-2023/TulsaKingP6" > 
-      <h1 >Click To Watch Tulsa King - Episode 6 (2023) Server 1</h1></a></button>
+      <h2 >Click To Watch Tulsa King - Episode 6 (2023) Server 1</h2></a></button>
     <div className="flex flex-col space-y-4 m-8">
     
     <Rating /></div>
@@ -171,8 +171,8 @@ function togglePopup() {
 </div>
 <div>
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
-    <a href="https://www.imdb.com/title/tt16358384/" > 
-      <h1 >IDBM Ranking</h1></a></button></div>
+    <a href="https://www.imdb.com/title/tt16358384/" target="_blank" > 
+      <h2 >IDBM Ranking</h2></a></button></div>
 <h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong> Crime, Drama, Thriller.</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong>Taylor Sheridan</h2>

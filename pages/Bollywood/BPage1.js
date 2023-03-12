@@ -109,7 +109,7 @@ const schemaData   = {
         <meta name="revisit-after" content="1 days" />
 	      <meta name="description" content="Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free" />
 	     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-       <meta name="keywords" content="uwatchfree,uwatch4free,free movies,watch movies,movie watch free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+       <meta name="keywords" content="watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
 	     <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -150,7 +150,7 @@ const schemaData   = {
         <div className="flex flex-col items-center justify-center space-y-12">
     <section className="text-gray-600 body-font ">
     <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> Uwatch4free™ Watch Latest Movies</h1>
-    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+    <div className="flex container flex-wrap sm:-m-4 -mx-0 -mb-10 -mt-4 md:space-y-0 space-y-6">
     <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Bollywood/Dishkiyaoon-2023/Dishkiyaoon">
@@ -159,7 +159,7 @@ const schemaData   = {
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">DISHKIYAOON - 2023</h2>
-          <h3 className="leading-relaxed text-white text-base">Dishkiyaoon is a story of ambition, revenge and deception. It chronicles the life of Vicky Kartoos as he makes way top in the uncertain world of gangsters.</h3>
+          <h3 className="leading-relaxed text-white text-base">Dishkiyaoon is a story of ambition, revenge and deception. It chronicles the life of Vicky Kartoos as he makes way top in the world of gangsters.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
           <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
@@ -208,7 +208,7 @@ const schemaData   = {
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">VARISU - 2023</h2>
-          <h3 className="leading-relaxed text-white text-base">Varisu is a family drama with lost of action scene Vijay Rajendran is a happy to-go lucky man. Things change when his foster father dies unexpectedly</h3>
+          <h3 className="leading-relaxed text-white text-base">Varisu is a family drama with lost of action scene Vijay Rajendran is a happy to-go lucky man. Things change when his father dies unexpectedly</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
       
@@ -259,7 +259,7 @@ const schemaData   = {
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">MUMBAI MAFIA... - 2023</h2>
-          <h3 className="leading-relaxed text-white text-base">In 1990s Mumbai, a crime boss and his network wield unchecked power over the city - until the rise of 'encounter cops' who brazenly kill their targets.</h3>
+          <h3 className="leading-relaxed text-white text-base">In 1990s Mumbai, a crime boss and his network wield unchecked power over the city - the rise of 'encounter cops' who brazenly kill their targets.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
       
@@ -333,7 +333,7 @@ const schemaData   = {
           </div>
           <div className="flex-grow">
             <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">DHARAVI BANK - 2022</h2>
-            <p className="leading-relaxed text-white text-base">A 30,000 Crore crime nexus is being ruled by the unattainable Thalaivan right in the heart of Mumbai, in Dharavi. JCP Jayant Gavaskar is on a mission.</p>
+            <p className="leading-relaxed text-white text-base">A 30,000 Crore crime nexus is being ruled by the unattainable Thalaivan right in the heart of Mumbai, in Dharavi. JCP Jayant is on a mission.</p>
           
             <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong> </h3>
           

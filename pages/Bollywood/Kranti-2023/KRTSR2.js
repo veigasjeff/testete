@@ -67,7 +67,7 @@ function togglePopup() {
      <Head>
      <title>Watch Kranti (2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,uwatch4free,free movies,watch movies,movie watch free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,kranti movie,index of kranti movie,kranti movie 2023,kranti tv series,kranti movie online,watch kranti movie,dubbed movies,kranti movie download,kranti movie latest,kranti movie videos,kranti movie trailer,kranti movie cast,kranti movie story,kranti movie release date,kranti movie watch online free,kranti movie free download,kranti movie download" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -114,14 +114,15 @@ function togglePopup() {
 <div>
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
     <a href="https://www.imdb.com/title/tt15373868/" target="_blank" > 
-      <h2 >IDBM Ranking</h2></a></button></div>
-<h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong>Action, Drama, Thriller.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong> V. Harikrishna</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Country:</strong> India</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white "><strong>Starring:</strong> Darshan Thoogudeep, Rachita Ram, V. Ravichandran, Sumalatha, Mukhyamantri Chandru, Dharma Chowdaiah, Vaibhav Gohil, Samyuktha Hornadu, Vainidhi Jagdish, Dharmanna Kadur, Achyuth Kumar, Girija Lokesh, Kiran Naik, Sampath Raj, Nimita Ratnkar.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Description:</strong>Protecting government schools and the hero is business man when he knows there family in trubel the was come and slove this case.</h2>
-
+     <h2 >IDBM Ranking</h2></a></button></div>
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
+<h2 ><strong>Genre:</strong>Action, Drama, Thriller.</h2>
+<h2 ><strong>Release year:</strong> 2023</h2>
+<h2 ><strong>Director:</strong> V. Harikrishna</h2>
+<h2 ><strong>Country:</strong> India</h2>
+<h2 ><strong>Starring:</strong> Darshan Thoogudeep, Rachita Ram, V. Ravichandran, Sumalatha, Mukhyamantri Chandru, Dharma Chowdaiah, Vaibhav Gohil, Samyuktha Hornadu, Vainidhi Jagdish, Dharmanna Kadur, Achyuth Kumar, Girija Lokesh, Kiran Naik, Sampath Raj, Nimita Ratnkar.</h2>
+<h2 ><strong>Description:</strong>Protecting government schools and the hero is business man when he knows there family in trubel the was come and slove this case.</h2>
+</div>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >

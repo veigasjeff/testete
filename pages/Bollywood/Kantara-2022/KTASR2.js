@@ -68,7 +68,7 @@ function togglePopup() {
      <Head>
      <title>Watch Kantara (2022) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,uwatch4free,free movies,watch movies,movie watch free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,kantara movie,index of kantara movie,kantara movie 2023,kantara tv series,kantara movie online,watch kantara movie,dubbed movies,kantara movie download,kantara movie latest,kantara movie videos,kantara movie trailer,kantara movie cast,kantara movie story,kantara movie release date,kantara movie watch online free,kantara movie free download,kantara movie download" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -115,14 +115,15 @@ function togglePopup() {
 <div>
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
     <a href="https://www.imdb.com/title/tt15327088/" target="_blank" > 
-      <h2 >IDBM Ranking</h2></a></button></div>
-<h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong>  Action, Drama, Adventure.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2022 </h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong> Rishab Shetty</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Country:</strong> India</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white "><strong>Starring:</strong> Rishab Shetty, Sapthami Gowda, Kishore Kumar G., Achyuth Kumar, Pramod Shetty, Prakash Thuminad, Swaraj Sheety, Manasi Sudhir, Vinay Bidappa, Mime Ramdas, Deepak Rai Panaje, Ragu Pandeshwar, Suchan Shetty.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Description:</strong> It involves culture of Kambla and Bhootha Kola. A human and nature conflict where Shiva is the rebellion who works against nature. A loop leads to war between villagers and evil forces. Will he able to replace peace in the village?</h2>
-
+     <h2 >IDBM Ranking</h2></a></button></div>
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
+<h2 ><strong>Genre:</strong>  Action, Drama, Adventure.</h2>
+<h2 ><strong>Release year:</strong> 2022 </h2>
+<h2 ><strong>Director:</strong> Rishab Shetty</h2>
+<h2 ><strong>Country:</strong> India</h2>
+<h2 ><strong>Starring:</strong> Rishab Shetty, Sapthami Gowda, Kishore Kumar G., Achyuth Kumar, Pramod Shetty, Prakash Thuminad, Swaraj Sheety, Manasi Sudhir, Vinay Bidappa, Mime Ramdas, Deepak Rai Panaje, Ragu Pandeshwar, Suchan Shetty.</h2>
+<h2 ><strong>Description:</strong> It involves culture of Kambla and Bhootha Kola. A human and nature conflict where Shiva is the rebellion who works against nature. A loop leads to war between villagers and evil forces. Will he able to replace peace in the village?</h2>
+</div>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >

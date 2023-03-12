@@ -67,7 +67,7 @@ function togglePopup() {
      <Head>
      <title>Watch The Head of Joaquin..(2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,uwatch4free,free movies,watch movies,movie watch free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,the head of joaquin murrieta movie,index of the head of joaquin murrieta movie,the head of joaquin murrieta movie 2023,the head of joaquin murrieta tv series,the head of joaquin murrieta movie online,watch the head of joaquin murrieta movie,dubbed movies,the head of joaquin murrieta movie download,the head of joaquin murrieta movie latest,the head of joaquin murrieta movie videos,the head of joaquin murrieta movie trailer,the head of joaquin murrieta movie cast,the head of joaquin murrieta movie story,the head of joaquin murrieta movie release date,the head of joaquin murrieta movie watch online free,the head of joaquin murrieta movie free download,the head of joaquin murrieta movie download" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -114,14 +114,15 @@ function togglePopup() {
 <div>
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
     <a href="https://www.imdb.com/title/tt15383758/" target="_blank" > 
-      <h2 >IDBM Ranking</h2></a></button></div>
-      <h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong> Action, Drama, Western.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong>Mauricio Leiva-Cock, Diego Ramírez-Schrempp</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Country:</strong> USA</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white "><strong>Starring:</strong> Liam Sharpe, Juan Manuel Bernal, Steve Wilcox, Michael Wilson Morgan, Alejandro Speitzer, Becky Zhu Wu, Gustavo Carr, Yoshira Escárrega Godínez, Emiliano Zurita, Andrew Leland Rogers, Leidi Gutiérrez.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Description:</strong>Follows the adventures of Joaquín Murrieta and Carrillo as they unite to face a common enemy.</h2>
-
+     <h2 >IDBM Ranking</h2></a></button></div>
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
+      <h2 ><strong>Genre:</strong> Action, Drama, Western.</h2>
+<h2 ><strong>Release year:</strong> 2023</h2>
+<h2 ><strong>Director:</strong>Mauricio Leiva-Cock, Diego Ramírez-Schrempp</h2>
+<h2 ><strong>Country:</strong> USA</h2>
+<h2 ><strong>Starring:</strong> Liam Sharpe, Juan Manuel Bernal, Steve Wilcox, Michael Wilson Morgan, Alejandro Speitzer, Becky Zhu Wu, Gustavo Carr, Yoshira Escárrega Godínez, Emiliano Zurita, Andrew Leland Rogers, Leidi Gutiérrez.</h2>
+<h2 ><strong>Description:</strong>Follows the adventures of Joaquín Murrieta and Carrillo as they unite to face a common enemy.</h2>
+</div>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >

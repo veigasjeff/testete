@@ -5,11 +5,12 @@ import Image from 'next/image';
 
 const Max = ({ }) => {
   const images = [
-    { src: '/the-night-manager-2023.webp', alt: 'The Night Manager', link: '../../Bollywood/TheNightManager-2023/TheNightManager' },
+    { src: '/ant-Man-and-the-wasp-2023.webp', alt: 'AntMan', link: '../../Hollywood/AntMan-2023/AntMan' },
     { src: '/farzi-2023.webp', alt: 'Farzi', link: '../../Bollywood/Farzi-2023/Farzi' },
-    { src: '/shehzada-2023.webp', alt: 'Shehzada', link: '../../Bollywood/Shehzada-2023/Shehzada' },
-    { src: '/lost-2023.webp', alt: 'Lost', link: '../../Bollywood/Lost-2023/Lost' },
-    { src: '/selfiee-2023.webp', alt: 'Lost', link: '../../Bollywood/Selfiee-2023/Selfiee' },
+    { src: '/mayfair-witches-2023.webp', alt: 'Mayfair Witches', link: '../../Hollywood/MayfairWitches-2023/MayfairWitchesP1' },
+    { src: '/lady-doctor-2023.webp', alt: 'Lady Doctor', link: '../../Adult/LadyDoctor-2023/LadyDoctor' },
+    { src: '/hunt-2023.webp', alt: 'Hunt', link: '../../Bollywood/Hunt-2023/Hunt' },
+    { src: '/ishqiya-2023.webp', alt: 'Ishqiya', link: '../../Adult/Ishqiya-2023/Ishqiya' },
   ];
   
   const settings = {

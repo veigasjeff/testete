@@ -69,7 +69,7 @@ function togglePopup() {
      <Head>
      <title>Watch Lagaslas (2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,uwatch4free,free movies,watch movies,movie watch free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,lagaslas movie,index of lagaslas movie,lagaslas movie 2023,lagaslas tv series,lagaslas movie online,watch lagaslas movie,dubbed movies,lagaslas movie download,lagaslas movie latest,lagaslas movie videos,lagaslas movie trailer,lagaslas movie cast,lagaslas movie story,lagaslas movie release date,lagaslas movie watch online free,lagaslas movie free download,lagaslas movie download" />
 
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
@@ -114,13 +114,14 @@ function togglePopup() {
    <h2 className="text-white font-bold text-xl ">  7.2 Out of 10</h2>
     
 </div>
-<h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong> Adult, Hot, Romance.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong> Christopher Novabos</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Country:</strong> Korean</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white "><strong>Starring:</strong> VR Relosa, Maebelle Medina, Julio Diaz, Rubi Rubi, Arnold Reyes, Elora Españo, Star Orjaliza, Cataleya Surio, Pow Pai, Sky Alvarez, Massimo Scofield, Meriam Lopez, Claire Bondoc, Maria Denice Valeda</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Description:</strong> A young man named Edmar falls madly in love with Karisma, a barrio lass. Will he still love her if he finds out Karisma's deepest darkest secret? </h2>
-
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
+<h2 ><strong>Genre:</strong> Adult, Hot, Romance.</h2>
+<h2 ><strong>Release year:</strong> 2023</h2>
+<h2 ><strong>Director:</strong> Christopher Novabos</h2>
+<h2 ><strong>Country:</strong> Korean</h2>
+<h2 ><strong>Starring:</strong> VR Relosa, Maebelle Medina, Julio Diaz, Rubi Rubi, Arnold Reyes, Elora Españo, Star Orjaliza, Cataleya Surio, Pow Pai, Sky Alvarez, Massimo Scofield, Meriam Lopez, Claire Bondoc, Maria Denice Valeda</h2>
+<h2 ><strong>Description:</strong> A young man named Edmar falls madly in love with Karisma, a barrio lass. Will he still love her if he finds out Karisma's deepest darkest secret? </h2>
+</div>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >

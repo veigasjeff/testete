@@ -69,7 +69,7 @@ function togglePopup() {
      <Head>
      <title>Watch Chingari Chaubey - 2023 Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,uwatch4free,free movies,watch movies,movie watch free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,chingari chaubey movie,index of chingari chaubey movie,chingari chaubey movie 2023,chingari chaubey tv series,chingari chaubey movie online,watch chingari chaubey movie,dubbed movies,chingari chaubey movie download,chingari chaubey movie latest,chingari chaubey movie videos,chingari chaubey movie trailer,chingari chaubey movie cast,chingari chaubey movie story,chingari chaubey movie release date,chingari chaubey movie watch online free,chingari chaubey movie free download,chingari chaubey movie download" />
 
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
@@ -114,13 +114,14 @@ function togglePopup() {
    <h2 className="text-white font-bold text-xl ">  5.3 Out of 10</h2>
     
 </div>
-<h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong> Adult, Hot, Romance.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong> ULLU Orignals</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Country:</strong> India</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white "><strong>Starring:</strong> Neha Gupta.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Description:</strong> The plot revolves around the youngster roaming around the find his true love. He mts another lady and it inches close to his fantasy.</h2>
-
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
+<h2 ><strong>Genre:</strong> Adult, Hot, Romance.</h2>
+<h2 ><strong>Release year:</strong> 2023</h2>
+<h2 ><strong>Director:</strong> ULLU Orignals</h2>
+<h2 ><strong>Country:</strong> India</h2>
+<h2 ><strong>Starring:</strong> Neha Gupta.</h2>
+<h2 ><strong>Description:</strong> The plot revolves around the youngster roaming around the find his true love. He mts another lady and it inches close to his fantasy.</h2>
+</div>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >

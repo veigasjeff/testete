@@ -10,7 +10,7 @@ const contact = () => {
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="uwatchfree,uwatch4free,free movies,watch movies,movie watch free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  

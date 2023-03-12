@@ -5,10 +5,11 @@ import Image from 'next/image';
 
 export const Carousel = () => {
   const images = [
-    { src: '/the-night-manager-2023.webp', alt: 'The Night Manager', link: '../../Bollywood/TheNightManager-2023/TheNightManager' },
-    { src: '/farzi-2023.webp', alt: 'Farzi', link: '../../Bollywood/Farzi-2023/Farzi' },
-    { src: '/shehzada-2023.webp', alt: 'Shehzada', link: '../../Bollywood/Shehzada-2023/Shehzada' },
-    { src: '/lost-2023.webp', alt: 'Lost', link: '../../Bollywood/Lost-2023/Lost' },
+    { src: '/selfiee-2023.webp', alt: 'Selfiee', link: '../../Bollywood/Selfiee-2023/Selfiee' },
+    { src: '/gulmohar-2023.webp', alt: 'Gulmohar', link: '../../Bollywood/Gulmohar-2023/Gulmohar' },
+    { src: '/incar-2023.webp', alt: 'InCar', link: '../../Bollywood/InCar-2023/InCar' },
+    { src: '/raundal-2023.webp', alt: 'Raundal', link: '../../Bollywood/Raundal-2023/Raundal' },
+    { src: '/tu-jhoothi-main-makkaar-2023.webp', alt: 'Tu Jhoothi Main Makkaar', link: '../../Bollywood/TuJhoothiMainMakkaar-2023/TuJhoothiMainMakkaar' },
   ];
 
   const settings = {

@@ -108,7 +108,7 @@ const schemaData   = {
         <meta name="revisit-after" content="1 days" />
 	      <meta name="description" content="Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free" />
 	     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-       <meta name="keywords" content="uwatchfree,uwatch4free,free movies,watch movies,movie watch free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+       <meta name="keywords" content="watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
 	     <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -149,7 +149,7 @@ const schemaData   = {
       <div className="flex flex-col items-center justify-center space-y-12">
     <section className="text-gray-600 body-font">
     <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white">Uwatch4free™ Watch Latest Movies</h1>
-      <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+      <div className="flex container flex-wrap sm:-m-4 -mx-0 -mb-10 -mt-4 md:space-y-0 space-y-6">
 
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">

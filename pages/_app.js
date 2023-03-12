@@ -15,13 +15,13 @@ function Application({ Component, pageProps }) {
       <PageTransition>  
   <Hamburger />
 
-  <ShareThis />
+  
   <Component {...pageProps} />
 
   <Footer />
-  
+  < ShareThis async defer />
    </PageTransition>
- 
+  
    
   
   </div>

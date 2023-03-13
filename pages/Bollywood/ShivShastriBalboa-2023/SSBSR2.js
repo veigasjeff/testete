@@ -25,29 +25,29 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://uwatch4free.vercel.app/Bollywood/ShivShastriBalboa-2023/ShivShastriBalboa"
+    "@id": "https://uwatchfree.vercel.app/Bollywood/ShivShastriBalboa-2023/ShivShastriBalboa"
     
   },
-  "headline": "Shiv Shastri Balboa (2023) Full Movie Online Free | Uwatch4free™",
-  "image": "https://uwatch4free.vercel.app/shiv-shastri-balboa-2023.webp",
+  "headline": "Shiv Shastri Balboa (2023) Full Movie Online Free | Uwatchfree™",
+  "image": "https://uwatchfree.vercel.app/shiv-shastri-balboa-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
       "name": "DrTrailer",
-      "url": "https://uwatch4free.vercel.app/DrTrailer.webp"
+      "url": "https://uwatchfree.vercel.app/DrTrailer.webp"
     }],
   
   "publisher": {
       "@type": "Organization",
-      "name": "Uwatch4free",
+      "name": "Uwatchfree",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://uwatch4free.vercel.app/og_image.jpg"
+        "url": "https://uwatchfree.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Shiv Shastri Balboa (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "Uwatchfree™ Shiv Shastri Balboa (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -66,27 +66,27 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Shiv Shastri Balboa (2023) Full Movie Online Free | Uwatch4free™</title>
+     <title>Watch Shiv Shastri Balboa (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,shiv shastri balboa movie,index of shiv shastri balboa movie,shiv shastri balboa movie 2023,shiv shastri balboa tv series,shiv shastri balboa movie online,watch shiv shastri balboa movie,dubbed movies,shiv shastri balboa movie download,shiv shastri balboa movie latest,shiv shastri balboa movie videos,shiv shastri balboa movie trailer,shiv shastri balboa movie cast,shiv shastri balboa movie story,shiv shastri balboa movie release date,shiv shastri balboa movie watch online free,shiv shastri balboa movie free download,shiv shastri balboa movie download" />
+<meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,shiv shastri balboa movie,index of shiv shastri balboa movie,shiv shastri balboa movie 2023,shiv shastri balboa tv series,shiv shastri balboa movie online,watch shiv shastri balboa movie,dubbed movies,shiv shastri balboa movie download,shiv shastri balboa movie latest,shiv shastri balboa movie videos,shiv shastri balboa movie trailer,shiv shastri balboa movie cast,shiv shastri balboa movie story,shiv shastri balboa movie release date,shiv shastri balboa movie watch online free,shiv shastri balboa movie free download,shiv shastri balboa movie download" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatchfree™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Watch Shiv Shastri Balboa (2023) | Uwatch4free™" />
-<meta property="og:url" content="https://uwatch4free.vercel.app/Bollywood/ShivShastriBalboa-2023/ShivShastriBalboa" />
-<meta property="og:image" content="https://uwatch4free.vercel.app/shiv-shastri-balboa-2023.webp" />
-<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
+<meta property="og:title" content="Watch Shiv Shastri Balboa (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Bollywood/ShivShastriBalboa-2023/ShivShastriBalboa" />
+<meta property="og:image" content="https://uwatchfree.vercel.app/shiv-shastri-balboa-2023.webp" />
+<meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Shiv Shastri Balboa (2023) | Uwatch4free™" />
-<meta name="twitter:image" content="https://uwatch4free.vercel.app/shiv-shastri-balboa-2023.webp" />
-<meta name="description" content="Watch Shiv Shastri Balboa Full Movie Online on Uwatch4free™, You can also download Shiv Shastri Balboa (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch Shiv Shastri Balboa (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://uwatchfree.vercel.app/shiv-shastri-balboa-2023.webp" />
+<meta name="description" content="Watch Shiv Shastri Balboa Full Movie Online on Uwatchfree™, You can also download Shiv Shastri Balboa (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
-<link rel="canonical" href="https://uwatch4free.vercel.app/Bollywood/ShivShastriBalboa-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Bollywood/ShivShastriBalboa-2023/" />
  
 
       </Head>

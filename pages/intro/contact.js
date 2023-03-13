@@ -5,12 +5,12 @@ const contact = () => {
   return (
     <div>
         <Head>
-        <title>Uwatch4free™ Contact Us</title>
+        <title>Uwatchfree™ Contact Us</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	<meta name="keywords" content="uwatchfree,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
@@ -18,32 +18,32 @@ const contact = () => {
   <meta name="robots" content="index, follow" />
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free " />
+	<meta property="og:site_name" content="Uwatchfree™ | Watch Movies and TV-Series Online Free " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Uwatch4free™ | Watch Movies and TV-Series Online Free " />
+	<meta property="og:title" content="Uwatchfree™ | Watch Movies and TV-Series Online Free " />
 	<meta property="og:description" content="Watch Movies and TV-Series Online Free " />
-	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
+	<meta property="og:url" content="https://uwatchfree.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
+	<meta property="og:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
+	<meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Uwatch4free™ " />
+	<meta name="twitter:title" content="Uwatchfree™ " />
 	<meta name="twitter:description" content=" Watch Movies and TV-Series Online Free " />
-	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
+	<meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
   <script src="../../propler/ads.js" defer></script> 
   
   <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
-  <link rel="alternate" hreflang="en-us" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-gb" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-ca" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-au" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-se" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-fr" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-dk" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-no" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="x-default" 	href="https://uwatch4free.vercel.app/"/>
+  <link rel="alternate" hreflang="en-us" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-gb" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-ca" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-au" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-se" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-fr" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-dk" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-no" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="x-default" 	href="https://uwatchfree.vercel.app/"/>
       </Head>
 <div class="container my-24 px-6 mx-auto">
 

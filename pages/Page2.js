@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 import React, { useEffect } from 'react'
 
+
 export default function Page2() {
   useEffect(() => {
     const handleContextmenu = e => {
@@ -24,47 +25,47 @@ const schemaData   = {
   "@graph":[
     {
       "@type":"CollectionPage",
-      "@id":"https://uwatch4free.vercel.app/",
-      "url":"https://uwatch4free.vercel.app/",
-      "name":"Uwatch4free™ | Watch Movies and TV-Series Online Free",
+      "@id":"https://uwatchfree.vercel.app/",
+      "url":"https://uwatchfree.vercel.app/",
+      "name":"Uwatchfree™ | Watch Movies and TV-Series Online Free",
       "isPartOf":{
-        "@id":"https://uwatch4free.vercel.app/#website"
+        "@id":"https://uwatchfree.vercel.app/#website"
       },
       "about":{
-        "@id":"https://uwatch4free.vercel.app/#organization"
+        "@id":"https://uwatchfree.vercel.app/#organization"
       },
-      "description":"Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free",
+      "description":"Uwatchfree™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free",
       "breadcrumb":{
-        "@id":"https://uwatch4free.vercel.app/#breadcrumb"
+        "@id":"https://uwatchfree.vercel.app/#breadcrumb"
       },
       "inLanguage":"en-US"
     },
     {
       "@type":"BreadcrumbList",
-      "@id":"https://uwatch4free.vercel.app/#breadcrumb",
+      "@id":"https://uwatchfree.vercel.app/#breadcrumb",
       "itemListElement":[
         {
           "@type":"ListItem",
           "position":1,
-          "name":"Uwatch4free™ | Watch Movies and TV-Series Online Free"
+          "name":"Uwatchfree™ | Watch Movies and TV-Series Online Free"
         }
       ]
     },
     {
       "@type":"WebSite",
-      "@id":"https://uwatch4free.vercel.app/#website",
-      "url":"https://uwatch4free.vercel.app/",
-      "name":"Uwatch4free™ | Watch Movies and TV-Series Online Free",
-      "description":"Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free",
+      "@id":"https://uwatchfree.vercel.app/#website",
+      "url":"https://uwatchfree.vercel.app/",
+      "name":"Uwatchfree™ | Watch Movies and TV-Series Online Free",
+      "description":"Uwatchfree™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free",
       "publisher":{
-        "@id":"https://uwatch4free.vercel.app/#organization"
+        "@id":"https://uwatchfree.vercel.app/#organization"
       },
       "potentialAction":[
         {
           "@type":"SearchAction",
           "target":{
             "@type":"EntryPoint",
-            "urlTemplate":"https://uwatch4free.vercel.app/?s={search_term_string}"
+            "urlTemplate":"https://uwatchfree.vercel.app/?s={search_term_string}"
           },
           "query-input":"required name=search_term_string"
         }
@@ -73,21 +74,21 @@ const schemaData   = {
     },
     {
       "@type":"Organization",
-      "@id":"https://uwatch4free.vercel.app/#organization",
-      "name":"Uwatch4free™ | Watch Movies and TV-Series Online Free",
-      "url":"https://uwatch4free.vercel.app/",
+      "@id":"https://uwatchfree.vercel.app/#organization",
+      "name":"Uwatchfree™ | Watch Movies and TV-Series Online Free",
+      "url":"https://uwatchfree.vercel.app/",
       "logo":{
         "@type":"ImageObject",
         "inLanguage":"en-US",
-        "@id":"https://uwatch4free.vercel.app/#/schema/logo/image/",
-        "url":"https://uwatch4free.vercel.app/logo.png",
-        "contentUrl":"https://uwatch4free.vercel.app/logo.png",
+        "@id":"https://uwatchfree.vercel.app/#/schema/logo/image/",
+        "url":"https://uwatchfree.vercel.app/logo.png",
+        "contentUrl":"https://uwatchfree.vercel.app/logo.png",
         "width":834,
         "height":135,
-        "caption":"Uwatch4free™ | Watch Movies and TV-Series Online Free"
+        "caption":"Uwatchfree™ | Watch Movies and TV-Series Online Free"
       },
       "image":{
-        "@id":"https://uwatch4free.vercel.app/#/schema/logo/image/"
+        "@id":"https://uwatchfree.vercel.app/#/schema/logo/image/"
       }
     }
   ]
@@ -103,56 +104,56 @@ const schemaData   = {
 <div className="bg-gray-900 ">
 
 <Head>
-        <title>Uwatch4free™ Page2</title>
+        <title>Uwatchfree™ Page2</title>
       
         <meta name="robots" content="index, follow" />  
         <meta name="revisit-after" content="1 days" />
-        <meta name="facebook-domain-verification" content="rjh9cmn92v1sdwgyxyswfj5ytqpoef" />
+        <meta name="facebook-domain-verification" content="13auzwhblf4oo4jn5vl6gcmebugsqb" />
         <meta property="fb:app_id" content="602176271414602" />
-	      <meta name="description" content="Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free" />
+	      <meta name="description" content="Uwatchfree™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free" />
 	     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-      <meta name="keywords" content="watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
+       <meta name="keywords" content="uwatchfree ,streaming, latest movies, online tv, latest free movies, watch latest movies online, latest full movies online, watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India" />
 	     <meta property="og:locale" content="en_US" />   
 
-	     <meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free " />
+	     <meta property="og:site_name" content="Uwatchfree™ | Watch Movies and TV-Series Online Free " />
 	     <meta property="og:type" content="website" />
 	     <meta property="og:image:height" content="1280"/>
 	     <meta property="og:image:width" content="720"/>
-	     <meta property="og:title" content="Uwatch4free™ | Watch Movies and TV-Series Online Free " />
-	     <meta property="og:description" content="Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free " />
-	     <meta property="og:url" content="https://uwatch4free.vercel.app/" />
+	     <meta property="og:title" content="Uwatchfree™ | Watch Movies and TV-Series Online Free " />
+	     <meta property="og:description" content="Uwatchfree™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free " />
+	     <meta property="og:url" content="https://uwatchfree.vercel.app/" />
 	     <meta property="og:image:type" content="image/jpeg" />
-	     <meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
-	     <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
+	     <meta property="og:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
+	     <meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/og_image.jpg" />
 	     <meta name="twitter:card" content="summary_large_image" />
-	     <meta name="twitter:title" content="Uwatch4free™ " />
-	     <meta name="twitter:description" content=" Uwatch4free™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free " />
-	     <meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
+	     <meta name="twitter:title" content="Uwatchfree™ " />
+	     <meta name="twitter:description" content=" Uwatchfree™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free " />
+	     <meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
        <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
      
-  <link rel="alternate" hreflang="en-us" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-gb" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-ca" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-au" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-se" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-fr" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-dk" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="en-no" 	href="https://uwatch4free.vercel.app/"/>
-	<link rel="alternate" hreflang="x-default" 	href="https://uwatch4free.vercel.app/"/>
+  <link rel="alternate" hreflang="en-us" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-gb" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-ca" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-au" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-se" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-fr" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-dk" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="en-no" 	href="https://uwatchfree.vercel.app/"/>
+	<link rel="alternate" hreflang="x-default" 	href="https://uwatchfree.vercel.app/"/>
 
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest"></link>
-  <link rel="canonical" href="https://uwatch4free.vercel.app/Page2" />
+  <link rel="canonical" href="https://uwatchfree.vercel.app/Page2" />
       </Head>
 <main>
         <div>
-        
+     
       <div className="flex flex-col items-center justify-center space-y-12">
     <section className="text-gray-600 body-font">
-    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> Uwatch4free™ Watch Latest Movies</h1>
+    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> Uwatchfree™ Watch Latest Movies</h1>
       <div className="flex container flex-wrap sm:-m-4 -mx-0 -mb-10 -mt-4 md:space-y-0 space-y-6">
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">

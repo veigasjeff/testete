@@ -23,29 +23,29 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://uwatch4free.vercel.app/Hollywood/TheRig-2023/TheRigP1"
+    "@id": "https://uwatchfree.vercel.app/Hollywood/TheRig-2023/TheRigP1"
     
   },
-  "headline": "The Rig (2023) Full Movie Online Free | Uwatch4free™",
-  "image": "https://uwatch4free.vercel.app/the-rig-2023.webp",
+  "headline": "The Rig (2023) Full Movie Online Free | Uwatchfree™",
+  "image": "https://uwatchfree.vercel.app/the-rig-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
       "name": "DrTrailer",
-      "url": "https://uwatch4free.vercel.app/DrTrailer.webp"
+      "url": "https://uwatchfree.vercel.app/DrTrailer.webp"
     }],
   
   "publisher": {
       "@type": "Organization",
-      "name": "Uwatch4free",
+      "name": "Uwatchfree",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://uwatch4free.vercel.app/og_image.jpg"
+        "url": "https://uwatchfree.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ The Rig (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "Uwatchfree™ The Rig (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -64,27 +64,27 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch The Rig (2023) Full Movie Online Free | Uwatch4free™</title>
+     <title>Watch The Rig (2023) Full Movie Online Free | Uwatchfree™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,the rig movie,index of the rig movie,the rig movie 2023,the rig tv series,the rig movie online,watch the rig movie,dubbed movies,the rig movie download,the rig movie latest,the rig movie videos,the rig movie trailer,the rig movie cast,the rig movie story,the rig movie release date,the rig movie watch online free,the rig movie free download,the rig movie download" />
+<meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,the rig movie,index of the rig movie,the rig movie 2023,the rig tv series,the rig movie online,watch the rig movie,dubbed movies,the rig movie download,the rig movie latest,the rig movie videos,the rig movie trailer,the rig movie cast,the rig movie story,the rig movie release date,the rig movie watch online free,the rig movie free download,the rig movie download" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatchfree™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Watch The Rig (2023) | Uwatch4free™" />
-<meta property="og:url" content="https://uwatch4free.vercel.app/Hollywood/TheRig-2023/TheRigP1" />
-<meta property="og:image" content="https://uwatch4free.vercel.app/the-rig-2023.webp" />
-<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
+<meta property="og:title" content="Watch The Rig (2023) | Uwatchfree™" />
+<meta property="og:url" content="https://uwatchfree.vercel.app/Hollywood/TheRig-2023/TheRigP1" />
+<meta property="og:image" content="https://uwatchfree.vercel.app/the-rig-2023.webp" />
+<meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch The Rig (2023) | Uwatch4free™" />
-<meta name="twitter:image" content="https://uwatch4free.vercel.app/the-rig-2023.webp" />
-<meta name="description" content="Watch The Rig Full Movie Online on Uwatch4free™, You can also download The Rig (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch The Rig (2023) | Uwatchfree™" />
+<meta name="twitter:image" content="https://uwatchfree.vercel.app/the-rig-2023.webp" />
+<meta name="description" content="Watch The Rig Full Movie Online on Uwatchfree™, You can also download The Rig (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
-<link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/TheRig-2023/" />
+<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/TheRig-2023/" />
  
 
       </Head>

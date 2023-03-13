@@ -92,7 +92,7 @@ function togglePopup() {
  
 
       </Head>
-      <div className="bg-[#1a202c]">
+      <div className="bg-gray-900 ">
          <AdultSkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Erotica Manila (2023) </h1>
 

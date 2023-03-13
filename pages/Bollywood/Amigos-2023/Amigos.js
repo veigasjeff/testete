@@ -93,7 +93,7 @@ return (
 <script src="../../propler/ads.js" defer></script>
 
       </Head>
-      <div className="bg-[#1a202c]">
+      <div className="bg-gray-900 ">
       <SkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Amigos (2023)  </h1>
 
@@ -122,12 +122,12 @@ return (
     <a href="https://www.imdb.com/title/tt23490586/" target="_blank" > 
      <h2 >IDBM Ranking</h2></a></button></div>
      <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
-<h2 ><strong>Genre:</strong>Action, Thriller, Crime.</h2>
-<h2 ><strong>Release year:</strong> 2023</h2>
-<h2 ><strong>Director:</strong>Rajendra Reddy</h2>
-<h2 ><strong>Country:</strong> India</h2>
-<h2 ><strong>Starring:</strong> Nithin Prasanna, Nandamuri Kalyan Ram, Ashika Ranganath.</h2>
-<h2 ><strong>Description:</strong>  Plot revolves around the 2 Doppelgangers, Siddharth an entrepreneur and Manjunath a software engineer of the Gangster Michael.</h2>
+<h2 >Genre:Action, Thriller, Crime.</h2>
+<h2 >Release year: 2023</h2>
+<h2 >Director:Rajendra Reddy</h2>
+<h2 >Country: India</h2>
+<h2 >Starring: Nithin Prasanna, Nandamuri Kalyan Ram, Ashika Ranganath.</h2>
+<h2 >Description:  Plot revolves around the 2 Doppelgangers, Siddharth an entrepreneur and Manjunath a software engineer of the Gangster Michael.</h2>
 </div>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 "  onClick={togglePopup} >

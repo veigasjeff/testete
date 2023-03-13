@@ -7,7 +7,7 @@ import Image from 'next/image';
 const DownloadBBJ2 = () => {
   return (
     <div>
-           <div className="bg-[#1a202c]">
+           <div className="bg-gray-900 ">
   <Head>
    <script src="../../propler/ads.js" defer></script>  
  

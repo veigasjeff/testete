@@ -5,6 +5,7 @@ const ShareThis = () => {
   return (
     <div>
     <style dangerouslySetInnerHTML={{__html: `
+
     html, body {
       margin: 0;
       padding: 0;
@@ -43,7 +44,7 @@ const ShareThis = () => {
     show_mobile: true,    // show/hide the buttons on mobile (true, false)
     show_toggle: true,    // show/hide the toggle buttons (true, false)
     size: 48,             // the size of each button (INTEGER)
-    top: 120,             // offset in pixels from the top of the page
+    top: 155,             // offset in pixels from the top of the page
 
   }}
 />

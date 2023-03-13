@@ -14,7 +14,7 @@ const DownloadFAR1 = () => {
 
 
   </Head>
-           <div className="bg-[#1a202c]">
+           <div className="bg-gray-900 ">
 
   <SkipAds />
   <div className="flex flex-col items-center  justify-center space-y-12">

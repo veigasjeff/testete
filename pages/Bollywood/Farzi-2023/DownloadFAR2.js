@@ -2,6 +2,8 @@
 import SkipAds from "@components/SkipAds";
 import Head from "next/head"
 import Max from 'pages/Max';
+import Translate from '@components/Translate';
+import ShareThis from '@components/ShareThis';
 import Image from "next/image";
 
 
@@ -13,6 +15,7 @@ const DownloadFAR2 = () => {
 
 
   </Head>
+<Translate/>
            <div className="bg-gray-900 ">
  
   <SkipAds />
@@ -40,6 +43,7 @@ Please Share the Link.</h2>
   Back
 
 </button></a>
+ < ShareThis async defer />
 </div></div>
     </div> 
   )

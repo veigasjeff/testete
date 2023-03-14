@@ -42,30 +42,32 @@ function Most() {
 
 
 
-<div class="flex bg-gray-500 bg-opacity-75 transition-opacity">
-  <div className="carousel-inner relative w-full cursor-pointer m-10 overflow-hidden">
+<div class="flex bg-gray-500 bg-opacity-75 transition-opacity " >
+  <div className="carousel-inner relative w-full cursor-pointer mx-10 flex-col overflow-hidden " >
 
 
-
+  <h1 className="mb-4 py-5  font-bold leading-none tracking-tight text-white  flex flex-col items-center justify-center text-3xl dark:text-white"  >
+      
+    Latest Updated Bollywood Movies</h1>
   
-  <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center text-3xl dark:text-white">
-    Latest Updated Bollywood Movies
-   </h2>
- 
-              <Carousel />
-             
 
-     
+    <Carousel />
+             
+    <div className="mb-4 py-5  font-bold leading-none tracking-tight text-white  flex flex-col items-center justify-center text-3xl dark:text-white"  >   
       {remainingTime > 0 && (
-        <div>
+        <div >
           Ad will be skippable in {remainingTime} seconds...
-        </div>
+        </div> 
+         
       )}
+    
+        
        {remainingTime <= 0 && (
         <Link href="../Bollywood/bollywood">
-      <button onClick={handleClose} type="button" className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 ">Skip Ad</button></Link>
+      <button onClick={handleClose}  type="button" className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 ">Skip Ad</button></Link>
        )}
-      </div></div> 
+    </div></div></div>
+
 
   
 
@@ -73,7 +75,7 @@ function Most() {
           
         </>
       )}
-    </div>
+    </div> 
   );
 }
 

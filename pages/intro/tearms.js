@@ -1,16 +1,17 @@
 import React from 'react'
 import Head from 'next/head'
+import Translate from '@components/Translate'
 
 const Tearms = () => {
   return (
     <div>
         <Head>
-        <title>Uwatchfree™ Terms of Service</title>
+        <title>Uwatch4free™ Terms of Service</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="uwatchfree,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
@@ -18,58 +19,59 @@ const Tearms = () => {
   <meta name="robots" content="index, follow" />
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="Uwatchfree™ | Watch Movies and TV-Series Online Free " />
+	<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Uwatchfree™ | Watch Movies and TV-Series Online Free " />
+	<meta property="og:title" content="Uwatch4free™ | Watch Movies and TV-Series Online Free " />
 	<meta property="og:description" content="Watch Movies and TV-Series Online Free " />
-	<meta property="og:url" content="https://uwatchfree.vercel.app/" />
+	<meta property="og:url" content="https://uwatch4free.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/og_image.jpg" />
+	<meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
+	<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Uwatchfree™ " />
+	<meta name="twitter:title" content="Uwatch4free™ " />
 	<meta name="twitter:description" content=" Watch Movies and TV-Series Online Free " />
-	<meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
+	<meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
   <script src="../../propler/ads.js" defer></script> 
   
   <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
-  <link rel="alternate" hreflang="en-us" 	href="https://uwatchfree.vercel.app/"/>
-	<link rel="alternate" hreflang="en-gb" 	href="https://uwatchfree.vercel.app/"/>
-	<link rel="alternate" hreflang="en-ca" 	href="https://uwatchfree.vercel.app/"/>
-	<link rel="alternate" hreflang="en-au" 	href="https://uwatchfree.vercel.app/"/>
-	<link rel="alternate" hreflang="en-se" 	href="https://uwatchfree.vercel.app/"/>
-	<link rel="alternate" hreflang="en-fr" 	href="https://uwatchfree.vercel.app/"/>
-	<link rel="alternate" hreflang="en-dk" 	href="https://uwatchfree.vercel.app/"/>
-	<link rel="alternate" hreflang="en-no" 	href="https://uwatchfree.vercel.app/"/>
-	<link rel="alternate" hreflang="x-default" 	href="https://uwatchfree.vercel.app/"/>
+  <link rel="alternate" hreflang="en-us" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-gb" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-ca" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-au" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-se" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-fr" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-dk" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="en-no" 	href="https://uwatch4free.vercel.app/"/>
+	<link rel="alternate" hreflang="x-default" 	href="https://uwatch4free.vercel.app/"/>
       </Head>
+     
        <div class="container my-24 px-6 mx-auto">
-        
+       <Translate />
               <section class="mb-32 text-gray-800">
   <div class="flex flex-wrap">
     <div class="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full  px-3 lg:px-6">
       <h1 class="text-3xl font-bold mb-6">Terms of Service</h1>
-      <p class="font-bold mb-2">Using uwatchfree</p>
+      <p class="font-bold mb-2">Using Uwatch4free</p>
       <p class="text-gray-500 mb-6">
-      When you enter uwatchfree you automatically agree to all our rules and regulations!
+      When you enter Uwatch4free you automatically agree to all our rules and regulations!
       </p>
       <p class="font-bold mb-2">Hosting and Legal Issues</p>
       <p class="text-gray-500 mb-6">
-      uwatchfree is not hosting or uploading any copyrighted content or media of any kind, we only store links to third-party websites that carry their own legal responsibility for their content. If you want to remove content from these websites, please contact these media hosts directly.
-      uwatchfree is working according to DMCA, so if you need to remove any content from the website, you can contact us @ <a class="font-bold text-blue-500 mb-6" href="mailto:drtrailer@gmail.com">drtrailer2022@gmail.com</a>.
+      Uwatch4free is not hosting or uploading any copyrighted content or media of any kind, we only store links to third-party websites that carry their own legal responsibility for their content. If you want to remove content from these websites, please contact these media hosts directly.
+      Uwatch4free is working according to DMCA, so if you need to remove any content from the website, you can contact us @ <a class="font-bold text-blue-500 mb-6" href="mailto:drtrailer@gmail.com">drtrailer2022@gmail.com</a>.
       </p>
       <p class="font-bold mb-2">
       Responsibilities.
       </p>
       <p class="text-gray-500 mb-6">
-      uwatchfree is not responsible for anything that might happen on third-party websites. We are not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. Please, be careful when you install, download or submit any personal or CC information!
+      Uwatch4free is not responsible for anything that might happen on third-party websites. We are not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of other linked sites. Please, be careful when you install, download or submit any personal or CC information!
       </p>
 
      
       <p class="text-gray-500">
-      uwatchfree holds no responsibility for any legal or copyright issues that may occur due to the use of uwatchfreemovie. Please check local copyright laws or the rules of your provider to avoid legal problems.
+      Uwatch4free holds no responsibility for any legal or copyright issues that may occur due to the use of Uwatch4freemovie. Please check local copyright laws or the rules of your provider to avoid legal problems.
       </p>
     </div>
 

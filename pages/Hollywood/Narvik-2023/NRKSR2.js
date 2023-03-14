@@ -6,6 +6,8 @@ import React, { useEffect, useState } from 'react';
 import SkipAds from '@components/SkipAds';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
+import Translate from '@components/Translate';
+import ShareThis from '@components/ShareThis';
 
 const NRKSR2  = () => {
   useEffect(() => {
@@ -23,29 +25,29 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://uwatchfree.vercel.app/Hollywood/Narvik-2023/Narvik"
+    "@id": "https://uwatch4free.vercel.app/Hollywood/Narvik-2023/Narvik"
     
   },
-  "headline": "Narvik - 2023 Full Movie Online Free | Uwatchfree™",
-  "image": "https://uwatchfree.vercel.app/narvik-2022.webp",
+  "headline": "Narvik - 2023 Full Movie Online Free | Uwatch4free™",
+  "image": "https://uwatch4free.vercel.app/narvik-2022.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
       "name": "DrTrailer",
-      "url": "https://uwatchfree.vercel.app/DrTrailer.webp"
+      "url": "https://uwatch4free.vercel.app/DrTrailer.webp"
     }],
   
   "publisher": {
       "@type": "Organization",
-      "name": "Uwatchfree",
+      "name": "Uwatch4free",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://uwatchfree.vercel.app/og_image.jpg"
+        "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatchfree™ Narvik - 2023 Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "Uwatch4free™ Narvik - 2023 Full Movie Online Free | Watch Movies and TV-Series Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -64,31 +66,33 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Narvik (2023) Full Movie Online Free | Uwatchfree™</title>
+     <title>Watch Narvik (2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatchfree,full movie online free,HD movies,movie 2023,narvik movie,index of narvik movie,narvik movie 2023,narvik tv series,narvik movie online,watch narvik movie,dubbed movies,narvik movie download,narvik movie latest,narvik movie videos,narvik movie trailer,narvik movie cast,narvik movie story,narvik movie release date,narvik movie watch online free,narvik movie free download,narvik movie download" />
+<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,narvik movie,index of narvik movie,narvik movie 2023,narvik tv series,narvik movie online,watch narvik movie,dubbed movies,narvik movie download,narvik movie latest,narvik movie videos,narvik movie trailer,narvik movie cast,narvik movie story,narvik movie release date,narvik movie watch online free,narvik movie free download,narvik movie download" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatchfree™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Watch Narvik (2023) | Uwatchfree™" />
-<meta property="og:url" content="https://uwatchfree.vercel.app/Hollywood/Narvik-2023/Narvik" />
-<meta property="og:image" content="https://uwatchfree.vercel.app/narvik-2022.webp" />
-<meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/" />
+<meta property="og:title" content="Watch Narvik (2023) | Uwatch4free™" />
+<meta property="og:url" content="https://uwatch4free.vercel.app/Hollywood/Narvik-2023/Narvik" />
+<meta property="og:image" content="https://uwatch4free.vercel.app/narvik-2022.webp" />
+<meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Narvik (2023) | Uwatchfree™" />
-<meta name="twitter:image" content="https://uwatchfree.vercel.app/narvik-2022.webp" />
-<meta name="description" content="Watch Narvik Full Movie Online on Uwatchfree™, You can also download Narvik (2023) in full HD quality to watch later offline." />
+<meta name="twitter:title" content="Watch Narvik (2023) | Uwatch4free™" />
+<meta name="twitter:image" content="https://uwatch4free.vercel.app/narvik-2022.webp" />
+<meta name="description" content="Watch Narvik Full Movie Online on Uwatch4free™, You can also download Narvik (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
-<link rel="canonical" href="https://uwatchfree.vercel.app/Hollywood/Narvik-2023/" />
+<link rel="canonical" href="https://uwatch4free.vercel.app/Hollywood/Narvik-2023/" />
  
 
       </Head>
+
       <div className="bg-gray-900 ">
+        <Translate/>
         <SkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Narvik (2023) </h1>
 
@@ -203,7 +207,7 @@ Download
   Back To Hollywood Section
 
 </button></Link>
-
+ < ShareThis async defer />
 </div>
     </div> </div>
   )

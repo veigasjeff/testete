@@ -13,9 +13,9 @@ const DownloadMBZ2 = () => {
   <Head>
    <script src="../../propler/ads.js" defer></script>  
 
-    </Head>
+  </Head>
 <Translate/>
-   <AdultSkipAds />
+<AdultSkipAds />
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
   CLICK TO DOWNLOAD MOVIE  MISS BRIGANZA (2023) LINK BELOW </h2>

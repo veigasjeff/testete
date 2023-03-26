@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
@@ -50,7 +51,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/an-affair-to-forget-2022.webp"
       }
     },
-  "description": "Uwatch4free™ An Affair To Forget - 2023 Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "Uwatch4free™ An Affair To Forget - 2023 Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -71,14 +72,15 @@ function togglePopup() {
      <Head>
      <title>Watch An Affair To Forget - 2023 Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,an affair to forget movie,index of an affair to forget movie,an affair to forget movie 2023,an affair to forget tv series,an affair to forget movie online,watch an affair to forget movie,dubbed movies,an affair to forget movie download,an affair to forget movie latest,an affair to forget movie videos,an affair to forget movie trailer,an affair to forget movie cast,an affair to forget movie story,an affair to forget movie release date,an affair to forget movie watch online free,an affair to forget movie free download,an affair to forget movie download" />
+<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch An Affair To Forget - 2023 | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Adult/AnAffairToForget-2022/AnAffairToForget" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/an-affair-to-forget-2022.webp" />

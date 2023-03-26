@@ -1,10 +1,12 @@
 
-import SkipAds from "@components/SkipAds";
+
+     
 import Head from "next/head"
 import Max from 'pages/Max';
 import Translate from '@components/Translate';
 import ShareThis from '@components/ShareThis';
 import Image from "next/image";
+import SkipAds from '@components/SkipAds'
 
 const DownloadMUM2 = () => {
   return (
@@ -16,7 +18,7 @@ const DownloadMUM2 = () => {
 
   </Head>
 <Translate/>
-  <SkipAds />
+
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
     CLICK TO DOWNLOAD MOVIE MUMBAI MAFIA (2023) LINK BELOW </h2>

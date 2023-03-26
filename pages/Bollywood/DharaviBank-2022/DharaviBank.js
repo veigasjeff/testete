@@ -2,8 +2,9 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
-import SkipAds from '@components/SkipAds';
+;
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
 import Translate from '@components/Translate';
@@ -50,7 +51,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Dharavi Bank - 2022 Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "Uwatch4free™ Dharavi Bank - 2022 Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -74,11 +75,12 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,dharavi bank movie,index of dharavi bank movie,dharavi bank movie 2023,dharavi bank tv series,dharavi bank movie online,watch dharavi bank movie,dubbed movies,dharavi bank movie download,dharavi bank movie latest,dharavi bank movie videos,dharavi bank movie trailer,dharavi bank movie cast,dharavi bank movie story,dharavi bank movie release date,dharavi bank movie watch online free,dharavi bank movie free download,dharavi bank movie download" />
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch Dharavi Bank (2023) | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Bollywood/DharaviBank-2022/DharaviBank" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/dharavi-bank-2022.webp" />
@@ -96,8 +98,10 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
+<SkipAds />
         <Translate/>
-        <SkipAds />
+    
+        
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Dharavi Bank (2022) </h1>
      
      <div className={styles['iframe-container']}>

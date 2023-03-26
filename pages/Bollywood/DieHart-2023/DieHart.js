@@ -51,7 +51,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Die Hart The Movie (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "Uwatch4free™ Die Hart The Movie (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -75,9 +75,10 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,die hart the movie movie,index of die hart the movie movie,die hart the movie movie 2023,die hart the movie tv series,die hart the movie movie online,watch die hart the movie movie,dubbed movies,die hart the movie movie download,die hart the movie movie latest,die hart the movie movie videos,die hart the movie movie trailer,die hart the movie movie cast,die hart the movie movie story,die hart the movie movie release date,die hart the movie movie watch online free,die hart the movie movie free download,die hart the movie movie download" />
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
 
 <meta property="og:title" content="Watch Die Hart The Movie (2023) | Uwatch4free™" />
@@ -97,7 +98,8 @@ function togglePopup() {
       </Head>
 <Translate/>
       <div className="bg-gray-900 ">
-      <SkipAds />
+<SkipAds />
+     
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Die Hart The Movie (2023) </h1>
 
      

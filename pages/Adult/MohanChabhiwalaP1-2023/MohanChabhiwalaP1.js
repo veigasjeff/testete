@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
@@ -30,7 +31,7 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/Adult/MohanChabhiwalaP1-2023/MohanChabhiwalaP1"
     
   },
-  "headline": "Mohan Chabhiwala Part 1 (2023) Full Movie Online Free | Uwatch4free™",
+  "headline": "Mohan Chabhiwala  (2023) Full Movie Online Free | Uwatch4free™",
   "image": "https://uwatch4free.vercel.app/mohan-chabhiwala-p1-2023",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -49,7 +50,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Mohan Chabhiwala Part 1 (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free."
+  "description": "Uwatch4free™ Mohan Chabhiwala  (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free."
 
 };
 const scrollSearch = myKey => {
@@ -69,26 +70,27 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Mohan Chabhiwala P1 (2023) Full Movie Online Free | Uwatch4free™</title>
+     <title>Watch Mohan Chabhiwala (2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,mohan chabhiwala part 1 movie,index of mohan chabhiwala part 1 movie,mohan chabhiwala part 1 movie 2023,mohan chabhiwala part 1 tv series,mohan chabhiwala part 1 movie online,watch mohan chabhiwala part 1 movie,dubbed movies,mohan chabhiwala part 1 movie download,mohan chabhiwala part 1 movie latest,mohan chabhiwala part 1 movie videos,mohan chabhiwala part 1 movie trailer,mohan chabhiwala part 1 movie cast,mohan chabhiwala part 1 movie story,mohan chabhiwala part 1 movie release date,mohan chabhiwala part 1 movie watch online free,mohan chabhiwala part 1 movie free download,mohan chabhiwala part 1 movie download" />
+<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Watch Mohan Chabhiwala Part 1 (2023) | Uwatch4free™" />
+
+<meta property="og:title" content="Watch Mohan Chabhiwala  (2023) | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Adult/MohanChabhiwalaP1-2023/MohanChabhiwalaP1" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/mohan-chabhiwala-p1-2023" />
 <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Mohan Chabhiwala Part 1 (2023) | Uwatch4free™" />
+<meta name="twitter:title" content="Watch Mohan Chabhiwala  (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/mohan-chabhiwala-p1-2023" />
-<meta name="description" content="Watch Ishqiya Full Movie Online on Uwatch4free™, You can also download Mohan Chabhiwala Part 1 (2023)  in full HD quality to watch later offline." />
+<meta name="description" content="Watch Ishqiya Full Movie Online on Uwatch4free™, You can also download Mohan Chabhiwala  (2023)  in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
 <link rel="canonical" href="https://uwatch4free.vercel.app/Adult/MohanChabhiwalaP1-2023/" />
  
@@ -96,17 +98,33 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
+
         <Translate/>
         <AdultSkipAds />
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Mohan Chabhiwala Part 1 (2023)  </h1>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Mohan Chabhiwala Episode 1 (2023)  </h1>
 
     <div className={styles['iframe-container']}>
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbbrisk.com/e/6numzwynryv1.html" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
+    <div class="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+    
+    <div class="flex justify-center">
+    <Link href="../../Adult/MohanChabhiwalaP1-2023/MohanChabhiwalaP1">
+  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+      Episode 1
+      </button></Link>
+    </div>
+    <div class="flex justify-center">
+    <Link href="../../Adult/MohanChabhiwalaP1-2023/MohanChabhiwalaP2">
+  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+      Episode 2
+      </button></Link>
+    </div>
+    </div>
    <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../MohanChabhiwalaP1-2023/MCBSR2" > 
-      <h2 >Click To Watch Mohan Chabhiwala Part 1 (2023) Server 2</h2></a></button>
+      <h2 >Click To Watch Mohan Chabhiwala Episode 1 (2023) Server 2</h2></a></button>
     <div className="flex flex-col space-y-4 m-8">
     <Rating /></div>
     <div className="flex flex-col space-y-4 ...">
@@ -140,7 +158,7 @@ function togglePopup() {
                <button className="close-button" onClick={togglePopup}>
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
-          <h2 className="text-2xl font-bold" >Offical Trailer Mohan Chabhiwala Part 1 (2023) </h2>
+          <h2 className="text-2xl font-bold" >Offical Trailer Mohan Chabhiwala </h2>
            <div className={styles['iframe-container']}>
  <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbbrisk.com/e/1jh25ndrc0na.html" />
                    
@@ -185,14 +203,14 @@ function togglePopup() {
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
  
- <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Mohan Chabhiwala Part 1 (2023)  </h3>
+ <h3  className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 ">Mohan Chabhiwala  (2023)  </h3>
  <Link href="../../Adult/MohanChabhiwalaP1-2023/DownloadMCB1">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 
 
 </button></Link>
 
-<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 "> Mohan Chabhiwala Part 1 (2023) </h3>
+<h3 className="text-xl font-bold leading-normal mt-0 mb-2 text-blue-600 "> Mohan Chabhiwala  (2023) </h3>
 <Link href="../../Adult/MohanChabhiwalaP1-2023/DownloadMCB2">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
 Download 

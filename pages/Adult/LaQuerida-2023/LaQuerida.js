@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
@@ -49,7 +50,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ La Querida (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free."
+  "description": "Uwatch4free™ La Querida (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free."
 
 };
 const scrollSearch = myKey => {
@@ -71,14 +72,15 @@ function togglePopup() {
      <Head>
      <title>Watch La Querida (2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,la querida movie,index of la querida movie,la querida movie 2023,la querida tv series,la querida movie online,watch la querida movie,dubbed movies,la querida movie download,la querida movie latest,la querida movie videos,la querida movie trailer,la querida movie cast,la querida movie story,la querida movie release date,la querida movie watch online free,la querida movie free download,la querida movie download" />
+<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch La Querida (2023) | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Adult/LaQuerida-2023/LaQuerida" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/la-querida-2023.webp" />
@@ -96,6 +98,7 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
+
         <Translate/>
         <AdultSkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Movies La Querida (2023) </h1>

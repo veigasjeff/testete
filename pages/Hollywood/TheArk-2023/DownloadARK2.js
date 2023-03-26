@@ -1,22 +1,25 @@
 
-import SkipAds from "@components/SkipAds";
+
+     
 import Head from "next/head"
 import Max from 'pages/Max';
 import Translate from '@components/Translate';
 import ShareThis from '@components/ShareThis';
 import Image from "next/image";
+import SkipAds from '@components/SkipAds'
 
 const DownloadARK2 = () => {
   return (
     <div>
            <div className="bg-gray-900 ">
+<SkipAds />
   <Head>
    <script src="../../propler/ads.js" defer></script>  
  
 
   </Head>
 <Translate/>
-  <SkipAds />
+
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
     CLICK TO DOWNLOAD MOVIE THE ARK (2023) LINK BELOW </h2>
@@ -56,6 +59,22 @@ Download Now
 <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
   The Ark  Episode 5</h2>
 <a href="https://dood.yt/d/9i9lcdedf0uc" target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+Download Now
+
+</button></a>
+
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+  The Ark  Episode 6</h2>
+<a href="https://dood.yt/d/qbfxd5mb9ckw" target={"_blamk"} id="download_link" > 
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
+Download Now
+
+</button></a>
+
+<h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
+  The Ark  Episode 7</h2>
+<a href="https://dood.yt/d/tr7uo4kl4btz" target={"_blamk"} id="download_link" > 
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0  ">
 Download Now
 

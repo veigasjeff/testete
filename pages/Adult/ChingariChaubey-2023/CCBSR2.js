@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
@@ -50,7 +51,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Chingari Chaubey - 2023 Full Movie Online Free | Watch Movies and TV-Series Online Free."
+  "description": "Uwatch4free™ Chingari Chaubey - 2023 Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free."
 
 };
 const scrollSearch = myKey => {
@@ -72,14 +73,15 @@ function togglePopup() {
      <Head>
      <title>Watch Chingari Chaubey - 2023 Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,chingari chaubey movie,index of chingari chaubey movie,chingari chaubey movie 2023,chingari chaubey tv series,chingari chaubey movie online,watch chingari chaubey movie,dubbed movies,chingari chaubey movie download,chingari chaubey movie latest,chingari chaubey movie videos,chingari chaubey movie trailer,chingari chaubey movie cast,chingari chaubey movie story,chingari chaubey movie release date,chingari chaubey movie watch online free,chingari chaubey movie free download,chingari chaubey movie download" />
+<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch Chingari Chaubey - 2023  | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Adult/ChingariChaubey-2023/ChingariChaubey" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/chingari-chaubey-2023.webp" />

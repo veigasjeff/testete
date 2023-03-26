@@ -44,7 +44,7 @@ const ShareThis = () => {
     show_mobile: true,    // show/hide the buttons on mobile (true, false)
     show_toggle: true,    // show/hide the toggle buttons (true, false)
     size: 48,             // the size of each button (INTEGER)
-    top: 155,             // offset in pixels from the top of the page
+    top: 220,             // offset in pixels from the top of the page
 
   }}
 />

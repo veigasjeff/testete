@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
@@ -49,7 +50,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Virgin Bahus - 2023 Full Movie Online Free | Watch Movies and TV-Series Online Free."
+  "description": "Uwatch4free™ Virgin Bahus - 2023 Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free."
 
 };
 const scrollSearch = myKey => {
@@ -71,14 +72,15 @@ function togglePopup() {
      <Head>
      <title>Watch Virgin Bahus (2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,virgin bahus movie,index of virgin bahus movie,virgin bahus movie 2023,virgin bahus tv series,virgin bahus movie online,watch virgin bahus movie,dubbed movies,virgin bahus movie download,virgin bahus movie latest,virgin bahus movie videos,virgin bahus movie trailer,virgin bahus movie cast,virgin bahus movie story,virgin bahus movie release date,virgin bahus movie watch online free,virgin bahus movie free download,virgin bahus movie download" />
+<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch Virgin Bahus (2023) | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Adult/VirginBahus-2023/VirginBahus" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/virgin-bahus-2023.webp" />
@@ -96,6 +98,7 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
+
         <Translate/>
         <AdultSkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Virgin Bahus (2023) </h1>

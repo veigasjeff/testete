@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "postbuild": "next-sitemap --config next-sitemap.config.js"
+    "postbuild": "next-sitemap --config next-sitemap.config.js",
+    "analyze": "cross-env ANALYZE=true next build && webpack-bundle-analyzer ./.next/static/stats/*.json"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
@@ -14,19 +15,26 @@
     "cypress": "^10.0.3",
     "framer-motion": "^9.0.7",
     "install": "^0.13.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.41",
     "next": "^12.1.5",
+    "next-optimized-images": "^2.6.2",
     "next-sitemap": "^3.1.52",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-modal": "^3.16.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.29.0",
     "sharethis-reactjs": "^1.6.0",
     "slick-carousel": "^1.8.1",
     "tw-elements": "^1.0.0-alpha13"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^13.2.4",
     "autoprefixer": "^10.4.13",
+    "cross-env": "^7.0.3",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.4",
+    "webpack-bundle-analyzer": "^4.8.0"
   }
 }

@@ -2,8 +2,9 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
-import SkipAds from '@components/SkipAds';
+;
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
 import Translate from '@components/Translate';
@@ -47,7 +48,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Tulsa King (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "Uwatch4free™ Tulsa King (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -70,11 +71,12 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,Tulsa King  movie,index of Tulsa King  movie,Tulsa King  movie 2023,Tulsa King  tv series,Tulsa King  movie online,watch Tulsa King  movie,dubbed movies,Tulsa King  movie download,Tulsa King  movie latest,Tulsa King  movie videos,Tulsa King  movie trailer,Tulsa King movie cast,Tulsa King  movie story,Tulsa King  movie release date,Tulsa King  movie watch online free,Tulsa King  movie free download,Tulsa King  movie download" />
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch Tulsa King (2023) | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Hollywood/TulsaKing-2023/TulsaKingP8" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/tulsa-king-2023.webp" />
@@ -92,8 +94,10 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
+<SkipAds />
         <Translate/>
-        <SkipAds />
+    
+        
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Tulsa King (2023) </h1>
 
     <div className={styles['iframe-container']}>

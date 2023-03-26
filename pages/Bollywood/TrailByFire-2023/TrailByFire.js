@@ -2,8 +2,9 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
-import SkipAds from '@components/SkipAds';
+;
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
 import Translate from '@components/Translate';
@@ -49,7 +50,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Trail By Fire - 2023 Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "Uwatch4free™ Trail By Fire - 2023 Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -72,11 +73,12 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,trail by fire movie,index of trail by fire movie,trail by fire movie 2023,trail by fire tv series,trail by fire movie online,watch trail by fire movie,dubbed movies,trail by fire movie download,trail by fire movie latest,trail by fire movie videos,trail by fire movie trailer,trail by fire movie cast,trail by fire movie story,trail by fire movie release date,trail by fire movie watch online free,trail by fire movie free download,trail by fire movie download" />
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch Trail By Fire (2023) | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Bollywood/TrailByFire-2023/TrailByFire" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/trial-by-fire-2023.webp" />
@@ -94,8 +96,10 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
+<SkipAds />
         <Translate/>
-        <SkipAds />
+    
+        
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Trail By Fire (2023) </h1>
 
     <div className={styles['iframe-container']}>

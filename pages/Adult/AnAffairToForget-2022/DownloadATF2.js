@@ -15,9 +15,9 @@ const DownloadATF2 = () => {
 
 
 
-  </Head>
+</Head>
 <Translate/>
-   <AdultSkipAds />
+<AdultSkipAds />
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">
     CLICK TO DOWNLOAD MOVIE AN AFFAIR TO FORGET (2022) LINK BELOW </h2>

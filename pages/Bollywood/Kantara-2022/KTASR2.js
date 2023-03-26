@@ -2,13 +2,14 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
 import Translate from '@components/Translate';
 import ShareThis from '@components/ShareThis';
 
-import SkipAds from '@components/SkipAds';
+;
 
 
 const KTASR2  = () => {
@@ -49,7 +50,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ Kantara - 2022 Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "Uwatch4free™ Kantara - 2022 Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -72,11 +73,12 @@ function togglePopup() {
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,kantara movie,index of kantara movie,kantara movie 2023,kantara tv series,kantara movie online,watch kantara movie,dubbed movies,kantara movie download,kantara movie latest,kantara movie videos,kantara movie trailer,kantara movie cast,kantara movie story,kantara movie release date,kantara movie watch online free,kantara movie free download,kantara movie download" />
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Uwatch4free™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch Kantara (2022) | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/Bollywood/Kantara-2022/Kantara" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/kantara-2022.webp" />
@@ -94,8 +96,10 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
+<SkipAds />
         <Translate/>
-        <SkipAds />
+    
+        
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Kantara (2022) </h1>
 
     <div className={styles['iframe-container']}>

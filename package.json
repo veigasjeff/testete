@@ -20,6 +20,8 @@
     "next": "^12.1.5",
     "next-optimized-images": "^2.6.2",
     "next-sitemap": "^3.1.52",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^8.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-modal": "^3.16.1",
@@ -31,10 +33,10 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.2.4",
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.14",
     "cross-env": "^7.0.3",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4",
+    "tailwindcss": "^3.2.7",
     "webpack-bundle-analyzer": "^4.8.0"
   }
 }

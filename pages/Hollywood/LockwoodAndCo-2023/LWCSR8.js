@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react';
 ;
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 
 const LWCSR8  = () => {
@@ -69,9 +69,8 @@ function togglePopup() {
      <Head>
      <title>Watch Lockwood And Co EP 8 (2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Uwatch4free,full movie online free,HD movies,movie 2023,lockwood and co movie,index of lockwood and co movie,lockwood and co movie 2023,lockwood and co tv series,lockwood and co movie online,watch lockwood and co movie,dubbed movies,lockwood and co movie download,lockwood and co movie latest,lockwood and co movie videos,lockwood and co movie trailer,lockwood and co movie cast,lockwood and co movie story,lockwood and co movie release date,lockwood and co movie watch online free,lockwood and co movie free download,lockwood and co movie download" />
+<meta name="keywords" content="Uwatch4free,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch lockwood and co complete season 1 movie,index of lockwood and co complete season 1 movie,lockwood and co complete season 1 movie 2023,lockwood and co complete season 1 movie online,watch lockwood and co complete season 1 movie online free,lockwood and co complete season 1 tv series,lockwood and co complete season 1 movie download,lockwood and co complete season 1 movie free download,lockwood and co complete season 1 movie download" />
 <meta property="og:locale" content="en_US" />   
-
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -96,13 +95,13 @@ function togglePopup() {
 
       <div className="bg-gray-900 ">
 
-<Translate/>
+        
     
         
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Lockwood And Co Complete Season 1 (2023) </h1>
 
       <div className={styles['iframe-container']}>
-      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://dood.yt/e/aljijm9drtgb" />
+      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://dood.yt/e/aljijm9drtgb" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
     <div className="grid grid-cols-2 sm:grid-cols-5 x:grid-cols-3 gap-4">
@@ -174,7 +173,7 @@ function togglePopup() {
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
     <a href="https://www.imdb.com/title/tt13802576/" target="_blank" > 
      <h2 >IDBM Ranking</h2></a></button></div>
-<div className="flex container flex-col items-center justify-center space-y-3 mx-10 text-xl font-bold text-center text-yellow-100/50" >
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
 <h2 ><strong>Genre:</strong> Action, Adventure, Drama.</h2>
 <h2 ><strong>Release year:</strong> 2023</h2>
 <h2 ><strong>Director:</strong> 
@@ -198,7 +197,7 @@ William McGregor</h2>
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer Lockwood And Co (2023) </h2>
-            <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreenclassName="  relative flex items-center rounded-3xl w-full aspect-video  " src="https://sbbrisk.com/e/yur5nehga9ka.html" />
+            <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreenclassName="  relative flex items-center rounded-3xl w-full aspect-video  " src="https://sbbrisk.com/e/yur5nehga9ka.html" />
                    
              </div>
           </div>

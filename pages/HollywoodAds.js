@@ -8,7 +8,7 @@ import { Carousel } from "@components/HCarousel";
 function Most() {
   const [showAd, setShowAd] = useState(false);
   const [isClosed, setIsClosed] = useState(false);
-  const [remainingTime, setRemainingTime] = useState(30);
+  const [remainingTime, setRemainingTime] = useState(10);
 
   useEffect(() => {
     const timer = setInterval(() => {

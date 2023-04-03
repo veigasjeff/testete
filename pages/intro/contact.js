@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import Translate from '@components/Translate';
+
 
 const contact = () => {
   return (
@@ -12,10 +12,9 @@ const contact = () => {
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	<meta name="keywords" content="uwatch4free,uwatch free.com,uwatch free.ns,uwatch free tv,uwatch free.ce,uwatch free in,uwatchfree.to,uwatchfree uv,uwatchfree.it,www2 uwatch free tv,uwatchfree.now,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />   
-
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -49,7 +48,7 @@ const contact = () => {
 	<link rel="alternate" hrefLang="en-no" 	href="https://uwatch4free.vercel.app/"/>
 	<link rel="alternate" hrefLang="x-default" 	href="https://uwatch4free.vercel.app/"/>
       </Head>
-      <Translate />
+  
 <div className="container my-24 px-6 mx-auto">
 
 

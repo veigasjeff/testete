@@ -6,14 +6,16 @@ export default function Home() {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      const currentTime = moment.tz('Europe/London').format('HH:mm:ss');
+      // const currentTime = moment().tz('Europe/Paris').format('HH:mm:ss');
+         //   const currentTime = moment.tz('Europe/Madrid').format('HH:mm:ss');
+         const currentTime = moment.tz('Europe/London').format('HH:mm:ss');
       setTime(currentTime);
     }, 1000);
     return () => clearInterval(intervalId);
   }, []);
 
   return (
-    <div className="container text-2xl font-bold text-center leading-none tracking-tight text-black">
+    <div className="container text-2xl font-bold text-center leading-none tracking-tight text-blue-600">
       <h2>Current time in UK (GMT+1)</h2>
       <div className="clock">{time}</div>
       <style jsx>{`

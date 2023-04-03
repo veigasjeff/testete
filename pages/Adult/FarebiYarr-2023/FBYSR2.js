@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 
 
@@ -72,10 +72,9 @@ function togglePopup() {
      <Head>
      <title>Watch Farebi Yaar EP 2 (2023) Full Movie Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="Uwatch4free,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch farebi yaar movie,index of farebi yaar movie,farebi yaar movie 2023,farebi yaar movie online,watch farebi yaar movie online free,farebi yaar tv series,farebi yaar movie download,farebi yaar movie free download,farebi yaar movie download" />
 
 <meta property="og:locale" content="en_US" />   
-
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -98,12 +97,12 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
-        <Translate/>
+        
          <AdultSkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Farebi Yaar Episode 2 (2023) </h1>
 
     <div className={styles['iframe-container']}>
-      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://dood.yt/e/sts8sxf6mnwi" />
+      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://dood.yt/e/sts8sxf6mnwi" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
   
@@ -142,7 +141,7 @@ function togglePopup() {
    <h2 className="text-white font-bold text-xl ">  5.3 Out of 10</h2>
     
 </div>
-<div className="flex container flex-col items-center justify-center space-y-3 mx-10 text-xl font-bold text-center text-yellow-100/50" >
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
 <h2 ><strong>Genre:</strong> Adult, Hot, Romance.</h2>
 <h2 ><strong>Release year:</strong> 2023</h2>
 <h2 ><strong>Director:</strong>ULLU Originals</h2>
@@ -166,7 +165,7 @@ function togglePopup() {
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer Farebi Yarr Series (2023) </h2>
            <div className={styles['iframe-container']}>
- <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbhight.com/e/1vpvvnlrf0l0.html" />
+ <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbhight.com/e/1vpvvnlrf0l0.html" />
                    
              </div> </div>
           </div>

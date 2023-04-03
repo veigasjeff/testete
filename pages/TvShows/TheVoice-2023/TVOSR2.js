@@ -2,13 +2,12 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
-import '@styles/mystyles.module.css'
 import React, { useEffect, useState } from 'react';
-import WorldClock from '@components/WorldClock';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
+import WorldClock from '@components/WorldClock';
 
 const TVOSR2  = () => {
   useEffect(() => {
@@ -29,7 +28,7 @@ const schemaData   = {
     "@id": "https://uwatch4free.vercel.app/TvShows/TheVoice-2023/TheVoice"
     
   },
-  "headline": "The Voice - S23 (2023) Tv Show Online Free | Uwatch4free™",
+  "headline": "The Voice S23 (2023) Tv Show Online Free | Uwatch4free™",
   "image": "https://uwatch4free.vercel.app/the-voice-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -48,7 +47,7 @@ const schemaData   = {
         "url": "https://uwatch4free.vercel.app/og_image.jpg"
       }
     },
-  "description": "Uwatch4free™ The Voice - S23, EP7 (2023) Tv Show Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+  "description": "Uwatch4free™ The Voice S23 (2023) Tv Show Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -67,45 +66,45 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch The Voice - S23 (2023) Tv Show Online Free | Uwatch4free™</title>
+     <title>Watch The Voice S23 (2023) Tv Show Online Free | Uwatch4free™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="Uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest Tv Shows online" />
 <meta property="og:locale" content="en_US" />   
 
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
-
-<meta property="og:title" content="Watch The Voice - S23 (2023)| Uwatch4free™" />
+<meta property="og:title" content="Watch The Voice S23 (2023) | Uwatch4free™" />
 <meta property="og:url" content="https://uwatch4free.vercel.app/TvShows/TheVoice-2023/TheVoice" />
 <meta property="og:image" content="https://uwatch4free.vercel.app/the-voice-2023.webp" />
 <meta property="og:image:secure_url" content="https://uwatch4free.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch The Voice - S23 (2023)| Uwatch4free™" />
+<meta name="twitter:title" content="Watch The Voice S23 (2023) | Uwatch4free™" />
 <meta name="twitter:image" content="https://uwatch4free.vercel.app/the-voice-2023.webp" />
-<meta name="description" content="Watch TheVoice Tv Show Online on Uwatch4free™, You can also download The The Voice - S23 (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch The Voice S23 Tv Show Online on Uwatch4free™, You can also download The Voice S23 (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://uwatch4free.vercel.app/TvShows/TheVoice-2023/" />
  
 
       </Head>
 
-      <div className="bg-gray-900  ">
+      <div className="bg-gray-900 ">
 
-        <Translate/>
-     
         
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch The Voice - S23, EP7 (2023)</h1>
+    
+        
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch The Voice S23 (2023) </h1>
     <WorldClock />
-    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Monday 27th March 2023 - Schedule Time UK GMT+1 @ 01:00 </h2>
+    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Monday 03rd April 2023 - Schedule Time UK GMT+1 @ 01:00 </h2>
     <div className={styles['iframe-container']}>
-    <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitAllowFullScreen mozallowfullscreen allowFullScreen" marginheight="0" marginwidth="0" src="https://daddylivehd.sx/embed/stream-51.php" name="iframe_a" scrolling="no" allowfullscreen="yes" width="100%" height="100%" frameborder="0"></iframe>
-    </div>   
+    <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitallowFullScreen mozallowFullScreen allowFullScreen" marginHeight="0" marginWidth="0" src="https://daddylivehd.sx/embed/stream-53.php" name="iframe_a" scrolling="no" allowFullScreen="yes" width="100%" height="100%" frameBorder="0" />
+    </div>     
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+   
    <a href="../TheVoice-2023/TheVoice" > 
       <h2 >Click To Watch The Voice Server 1</h2></a></button>
     <div className="flex flex-col space-y-4 m-8">
@@ -123,14 +122,14 @@ function togglePopup() {
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
     <a href="https://www.imdb.com/title/tt1839337/" target="_blank" > 
      <h2 >IDBM Ranking</h2></a></button></div>
- <div className="flex container flex-col items-center justify-center space-y-3 mx-10 text-xl font-bold text-center text-yellow-100/50" >
-<h2 ><strong>Genre:</strong> Reality Tv, Music.</h2>
+ <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
+<h2 ><strong>Genre:</strong> Reality Tv Show, Music</h2>
 <h2 ><strong>Release year:</strong> 2023</h2>
-<h2 ><strong>Production company:</strong>  NBC USA  <img className=" relative inline-flex bg-white items-right justify-center rounded-3xl"  src='/nbc.webp' alt='NBC USA (2023)'  width={50} height={100} loading="lazy"/>
+<h2 ><strong>Production Company:</strong> NBC USA  <img className=" relative inline-flex bg-white items-right justify-center rounded-3xl"  src='/nbc.webp' alt='NBC USA (2023)'  width={50} height={100} loading="lazy"/>
  </h2>
-<h2 ><strong>Creators :</strong> John de Mol</h2>
+<h2 ><strong>Creators :</strong> John de Mol </h2>
 <h2 ><strong>Country:</strong> USA </h2>
-<h2 ><strong>Starring:</strong> Blake Shelton, Carson Daly, Adam Levine, Christina Aguilera, J'Dvonte, Pharrell Williams, Kelly Clarkson, Gwen Stefani, CeeLo Green, Christina Milian, John Legend, Miley Cyrus, Alicia Keys, Shakira.</h2>
+<h2 ><strong>Starring:</strong> Blake Shelton, Carson Daly, Adam Levine, Christina Aguilera, J'Dvonte, Pharrell Williams, Kelly Clarkson, Gwen Stefani, CeeLo Green, Christina Milian, John Legend, Miley Cyrus, Alicia Keys.</h2>
 <h2 ><strong>Description:</strong> Four famous musicians search for the best voices in America and will mentor these singers to become artists. America will decide which singer will be worthy of the grand prize.</h2>
 </div>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
@@ -147,9 +146,9 @@ function togglePopup() {
                <button className="close-button" onClick={togglePopup}>
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
-          <h2 className="text-2xl font-bold" >Offical Trailer The Voice - S23 (2023)</h2>
+          <h2 className="text-2xl font-bold" >Offical Trailer The Voice (2023)</h2>
            <div className={styles['iframe-container']}>
- <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbface.com/e/rcbolve9s4jj.html" />
+ <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbface.com/e/rcbolve9s4jj.html" />
                    
              </div></div>
           </div>
@@ -189,9 +188,15 @@ function togglePopup() {
         }
       `}</style>
     </div>
+
+
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
+ 
+ 
+
+
 <Max />
-</div>
+
 <Link href="../../TvShowsAds"><button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
  
   Back To Tv Show Section
@@ -199,7 +204,7 @@ function togglePopup() {
 </button></Link>
  < ShareThis async defer />
 </div>
-    </div> 
+    </div> </div>
   )
 }
 

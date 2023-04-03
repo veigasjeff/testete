@@ -46,10 +46,7 @@ function ATFAAds() {
           
           <div class="mt-5 text-center sm:mt-0 sm:ml-4 sm:text-Center">
     
-            <h2 class="text-4xl font-bold leading-6 text-red-600" id="modal-title">Connecting To Server 
-           </h2>
-            <h3 class="text-2xl font-bold leading-6 text-center items-center text-gray-500 my-5"  id="modal-title"> 
-            Retrieving File Wait For 10 Sec...</h3> 
+          
             <div class="sm:flex sm:items-start">
             <div class="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
              
@@ -62,13 +59,8 @@ function ATFAAds() {
                 </div>
             </div>
           </div>
-            <div class="mt-2">
-            <video class="w-full"  autoPlay loop >
-<source src="../../official-trailer.mp4" type="video/mp4" alt="Official Trailer" poster="https://uwatchfree.vercel.app/coverads.webp">
-</source>
-</video>
-            
-          </div>
+
+    
         </div>
       </div>
       <div class="bg-gray-50 px-4 py-3 sm:flex flex flex-col items-center justify-center sm:flex-row-reverse sm:px-6">

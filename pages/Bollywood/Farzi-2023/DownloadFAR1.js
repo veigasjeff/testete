@@ -4,7 +4,7 @@
      
 import Head from "next/head"
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 import Image from "next/image";
 
@@ -18,8 +18,8 @@ const DownloadFAR1 = () => {
 
 
   </Head>
-<Translate/>
-         <div className="bg-gray-900 ">
+
+           <div className="bg-gray-900 ">
 
 
 

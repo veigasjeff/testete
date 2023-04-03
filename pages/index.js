@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import React, { useEffect } from 'react'
-import '@styles/mystyles.module.css'
-import Translate from '@components/Translate';
+import '@styles/styles.module.css'
 import ShareThis from '@components/ShareThis';
 
 
@@ -95,18 +94,18 @@ const schemaData   = {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
       <div className="bg-gray-900 ">
-
+      
       <Head>
         <title>Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free</title>
         <meta name="robots" content="index, follow" />  
         <meta name="revisit-after" content="1 days" />
         <meta name="facebook-domain-verification" content="13auzwhblf4oo4jn5vl6gcmebugsqb" />
         <meta property="fb:app_id" content="602176271414602" />
-       <meta name="description" content="Uwatch4free™ - Watch Movies, TV-Series & Sports Live Online Free" />
+		    <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+	      <meta name="description" content="Uwatch4free™ - Watch Movies, TV-Series & Sports Live Online Free" />
 	     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-   <meta name="keywords" content="uwatch4free,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+       <meta name="keywords" content="uwatch4free,uwatch free.com,uwatch free.ns,uwatch free tv,uwatch free.ce,uwatch free in,uwatchfree.to,uwatchfree uv,uwatchfree.it,www2 uwatch free tv,uwatchfree.now,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	     <meta property="og:locale" content="en_US" />   
-  
        <meta property=" Content-Security-Policy: frame-ancestors 'self' uwatch4free.vercel.app *.uwatch4free.vercel.app;" />
        <meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free " />
 	     <meta property="og:type" content="website" />
@@ -120,7 +119,7 @@ const schemaData   = {
 	     <meta name="twitter:title" content="Uwatch4free™ - Watch Movies, TV-Series & Sports Live Online Free " />
 	     <meta name="twitter:description" content=" Uwatch4free™ - Watch Movies, TV-Series & Sports Live Online Free " />
 	     <meta name="twitter:image" content="https://uwatch4free.vercel.app/og_image.jpg" />
-       <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+     
       
   <link rel="alternate" hrefLang="en-us" 	href="https://uwatch4free.vercel.app/"/>
 	<link rel="alternate" hrefLang="en-gb" 	href="https://uwatch4free.vercel.app/"/>
@@ -138,17 +137,17 @@ const schemaData   = {
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest"></link>
   <link rel="canonical" href="https://uwatch4free.vercel.app/" />
-  
+
       </Head>
-    
+      
      
-<Translate />
+
       <main>
         <div>
         <div className="flex flex-col items-center justify-center space-y-12">
     <section className="text-gray-600 body-font">
 
-    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> Uwatch4free™ Watch Latest Movies</h1>
+    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> Uwatch4free™ Watch Movies, TV-Series & Sports Live</h1>
 
   
     <div className="flex container flex-wrap sm:-m-4 -mx-0 -mb-10 -mt-4 md:space-y-0 space-y-6 ">
@@ -157,7 +156,7 @@ const schemaData   = {
         <a href="../../Sports-2023/Sports">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/sports.webp' alt='TU JHOOTHI MAIN MAKKAAR - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/sports.webp' alt='SPORTS LIVE - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -171,236 +170,79 @@ const schemaData   = {
          
         </div>
       </div>
+    
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/BasketballWives-2023/BasketballWives">
+        <a href="../../Sports-2023/IPL-2023/IPLMatch01">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/basketball-wives-2023.webp' alt='BASKETBALL WIVES (2023) '  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ipl-2023-match06.webp' alt='IPL CHENNAI SUPER KINGS vs LUCKNOW SUPER GIANTS - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">BASKETBALL WIVES (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">Follow the daily lives, drama-filled parties, and outrageous fights that unfold among the wives, ex-wives, and girlfriends of basketball players.</h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-               3.6 Out of 10</h3>
-         
-         
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IPL CHENNAI SUPER KINGS vs LUCKNOW SUPER GIANTS </h2>
+          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 06 April Monday 03rd, 07:30 IST @ MA Chidambaram Stadium, Chennai.  </h3>
+                
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : REALITY TV, DRAMA
-       </div>
-       <a href="../../TvShows/BasketballWives-2023/BasketballWives">
+      GENRE : Match 06 - IPL 2023     </div>
+      <a href="../../Sports-2023/IPL-2023/IPLMatch01">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/UnaFamiliaDeDiez-2023/UnaFamiliaDeDiez">
+        <a href="../../Sports-2023/IPL-2023/IPLMatch01">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/una-familia-de-diez-2023.webp' alt='UNA FAMILIA DE DIEZ (2023) '  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ipl-2023-match07.webp' alt='IPL DELHI CAPITAL vs GUJARAT TITANS - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">UNA FAMILIA DE DIEZ (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">The misadventures and problems about a big family of ten who live in one apartment. Una familia de diez is a Comedy, Family, Romance Series.</h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-               7.4 Out of 10</h3>
-         
-         
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IPL DELHI CAPITAL vs GUJARAT TITANS </h2>
+          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 07 April Tuesday 04th, 07:30 IST @ Arun Jaitley Stadium, Delhi.  </h3>
+                
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : FAMILY, ROMANCE
-       </div>
-       <a href="../../TvShows/UnaFamiliaDeDiez-2023/UnaFamiliaDeDiez">
+      GENRE : Match 07 - IPL 2023     </div>
+      <a href="../../Sports-2023/IPL-2023/IPLMatch01">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/FastestInAmerica-2023/FastestInAmerica">
+        <a href="../../Sports-2023/IPL-2023/IPLMatch01">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/fastest-in-america-2023.webp' alt='STREET OUTLAWS: FASTEST IN AMERICA (2023) '  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ipl-2023-match08.webp' alt='IPL PUNJAB KINGS VS RAJASTHAN ROYALS - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">FASTEST IN AMERICA (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">Eight of the fastest teams in the U.S. descend on Memphis to compete for the biggest street race yet, for a prize of $100,000.</h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-               7.2 Out of 10</h3>
-         
-         
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IPL PUNJAB KINGS VS RAJASTHAN ROYALS </h2>
+          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 08 April Wednesday 05th, 07:30 IST @ Barsapara Cricket Stadium, Guwahati.  </h3>
+                
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : REALITY TV, ADVENTURE
-       </div>
-       <a href="../../TvShows/FastestInAmerica-2023/FastestInAmerica">
+      GENRE : Match 08 - IPL 2023     </div>
+      <a href="../../Sports-2023/IPL-2023/IPLMatch01">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/PerdonaNuestrosEcados-2023/PerdonaNuestrosEcados">
+        <a href="../../Sports-2023/IPL-2023/IPLMatch01">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/perdona-nuestros-ecados-2023.webp' alt='PERDONA NUESTROS PECADOS (2023) '  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ipl-2023-match09.webp' alt='IPL KOLKATA KNIGHT RIDERS VS ROYAL CHALLENGERS BANGALORE - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">PERDONA NUESTROS PECADOS (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">Elsa, the daughter of the richest man in town, falls in love with Andrés, the son of her family's maid, he vows to stop at nothing to keep them apart..</h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-               7.0 Out of 10</h3>
-         
-         
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IPL KOLKATA KNIGHT RIDERS VS ROYAL CHALLENGERS BANGALORE </h2>
+          <h3 className="leading-relaxed text-white text-base">Watch Live and Execusive Match 09 April Thursday 06th, 07:30 IST @ Eden Gardens, Kolkata.  </h3>
+                
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : DRAMA, FAMILY.
-       </div>
-       <a href="../../TvShows/PerdonaNuestrosEcados-2023/PerdonaNuestrosEcados">
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
-         
-        </div>
-      </div>
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/Enamor-2023/Enamor">
-     
-<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/enamorándonos-2023.webp' alt='ENAMORANDONOS (2023)'  width={400} height={300} loading="lazy"/>
-</div></a>
-        </div>
-        <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">ENAMORANDONOS (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">Watch full episodes Enamorándonos through DIRECTV today! Learn more here and start watching your favorite shows now!</h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-               5.9 Out of 10</h3>
-         
-         
-             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : REALITY TV, ADVENTURE
-       </div>
-       <a href="../../TvShows/Enamor-2023/Enamor">
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
-         
-        </div>
-      </div>
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/AllAmerican-2023/AllAmerican">
-     
-<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/all-american-2023.webp' alt='ALL AMERICAN (2023)'  width={400} height={300} loading="lazy"/>
-</div></a>
-        </div>
-        <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">ALL AMERICAN (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">When a star high school football player from South Central is recruited to play for Beverly Hills High School, two separate worlds collide. </h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-    7.6 Out of 10</h3>
-         
-         
-             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : DRAMA, SPORTS
-       </div>
-       <a href="../../TvShows/AllAmerican-2023/AllAmerican">
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
-         
-        </div>
-      </div>
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/IheartRadioMusicAwards-2023/IheartRadioMusicAwards">
-     
-<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/iheart-radio-music-awards-2023.webp' alt='iHEARTRADIO MUSIC AWARDS (2023)'  width={400} height={300} loading="lazy"/>
-</div></a>
-        </div>
-        <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">iHEARTRADIO MUSIC AWARDS (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">Afrobeats Artist of the Year. Burna Boy. CKay. Fireboy DML. Tems. Wizkid. Alternative Artist of the Year. Imagine Dragons. Red Hot Chili Peppers.</h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-                6.0 Out of 10</h3>
-         
-         
-             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : REALITY TV, MUSIC
-       </div>
-       <a href="../../TvShows/IheartRadioMusicAwards-2023/IheartRadioMusicAwards">
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
-         
-        </div>
-      </div>
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/TheVoice-2023/TheVoice">
-     
-<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/the-voice-2023.webp' alt='THE VOICE (2023) '  width={400} height={300} loading="lazy"/>
-</div></a>
-        </div>
-        <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg "> THE VOICE (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">In search for the best voices in America singers to become artists. America will decide which singer will be worthy of the grand prize.</h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-                6.5 Out of 10</h3>
-         
-         
-             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : REALITY TV, MUSIC
-       </div>
-       <a href="../../TvShows/TheVoice-2023/TheVoice">
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
-         
-        </div>
-      </div>
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../TvShows/TheBachelor-2023/TheBachelor">
-     
-<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer leading-none tracking-tight rounded-3xl"  src='/the-bachelor-2023.webp' alt='THE BACHELOR (2023)'  width={400} height={300} loading="lazy"/>
-</div></a>
-        </div>
-        <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">THE BACHELOR (2023) </h2>
-          <h3 className="leading-relaxed text-white text-base">A single bachelor dates multiple women over several weeks, narrowing them down to hopefully find his true love.</h3>
-        
-          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
-          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
-    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-                3.2 Out of 10</h3>
-         
-         
-             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : REALITY TV, GAME SHOW.
-       </div>
-       <a href="../../TvShows/TheBachelor-2023/TheBachelor">
+      GENRE : Match 09 - IPL 2023     </div>
+      <a href="../../Sports-2023/IPL-2023/IPLMatch01">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
@@ -410,21 +252,21 @@ const schemaData   = {
         <a href="../../TvShows/Lacasadelosfamosos-2023/Lacasadelosfamosos">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/La-casa-de-los-amosos.webp' alt='LA CASA DE LOS FAMOSOS - S3, Ep60 (2023)'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/La-casa-de-los-amosos.webp' alt='LA CASA DE LOS FAMOSOS - S3 (2023) '  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">LA CASA DE LOS FAMOSOS - S3, EP60 </h2>
-          <h3 className="leading-relaxed text-white text-base">Celebrities gathered and cut off from the outside world are recorded by cameras 24 hours a day, as they compete with one goal: to win.</h3>
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">LA CASA DE LOS FAMOSOS - S3 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">Celebrities gathered under one roof and cut off from the outside world are recorded by cameras 24 hours a day, seven days a week, as they compete with one goal: to win.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
           <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
     <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
-                5.7 Out of 10</h3>
+               5.7 Out of 10</h3>
          
          
              <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
-      GENRE : REALITY TV, TV SHOW.
+      GENRE : ACTION, DRAMA.
        </div>
        <a href="../../TvShows/Lacasadelosfamosos-2023/Lacasadelosfamosos">
 <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
@@ -433,10 +275,168 @@ const schemaData   = {
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../TvShows/AmericanIdol-2023/AmericanIdol">
+     
+<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/american-idol.webp' alt='AMERICAN IDOL - S21 (2023) '  width={400} height={300} loading="lazy"/>
+</div></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">AMERICAN IDOL - S21 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">Twelve American finalists (six men and six women) compete in a singing contest.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
+    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+               4.2 Out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
+      GENRE : REALITY TV, MUSIC
+       </div>
+       <a href="../../TvShows/AmericanIdol-2023/AmericanIdol">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../TvShows/TheVoice-2023/TheVoice">
+     
+<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/the-voice-2023.webp' alt='THE VOICE - S23 (2023) '  width={400} height={300} loading="lazy"/>
+</div></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">THE VOICE - S23 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">Four famous musicians search for the best voices in America and will mentor these singers to become artists. America will decide which singer will be worthy of the grand prize.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
+    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+               6.5 Out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
+      GENRE : CRIME, MYSTERY.
+       </div>
+       <a href="../../TvShows/TheVoice-2023/TheVoice">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../TvShows/Enamorandonos-2023/Enamorandonos ">
+     
+<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/enamorándonos-2023.webp' alt='ENAMORANDONOS - S4 (2023) '  width={400} height={300} loading="lazy"/>
+</div></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">ENAMORANDONOS - S4 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">“Enamorándonos” has been an international hit in countries and has tallied more than 500 marriages and 272 babies around the world.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
+    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+               6.8 Out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
+      GENRE : REALITY TV, TV SHOW
+       </div>
+       <a href="../../TvShows/Enamorandonos-2023/Enamorandonos">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+         
+        </div>
+      </div>
+        
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../TvShows/PerdonaNuestrosPecados-2023/PerdonaNuestrosPecados">
+     
+<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/perdona-nuestros-ecados-2023.webp' alt='WALKER - S3 (2023)'  width={400} height={300} loading="lazy"/>
+</div></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">PERDONA NUESTROS PECADOS - S1 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">Elsa, the daughter of the richest man in town, falls in love with Andrés, the son of her family's maid. When her philandering father Armando discovers their relationship, he vows to stop at nothing to keep them apart.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
+    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+               1.1 Out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
+      GENRE : DRAMA, FAMILY
+       </div>
+       <a href="../../TvShows/PerdonaNuestrosPecados-2023/PerdonaNuestrosPecados">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../TvShows/BasketballWives-2023/BasketballWives">
+     
+<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/basketball-wives-2023.webp' alt='BASKETBALL WIVES - S10 (2023)'  width={400} height={300} loading="lazy"/>
+</div></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">BASKETBALL WIVES - S10 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">Jackie demands a ponderosa with the ladies to set the record straight; Brooke tries to sever ties with her husband. Duffey and Iman encounter relationship roadblock.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
+    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                7.6 Out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
+      GENRE : REALITY TV, GAME SHOW
+       </div>
+       <a href="../../TvShows/BasketballWives-2023/BasketballWives">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+         
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
+        <a href="../../TvShows/PerryMason-2023/PerryMason">
+     
+<div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/perry-mason-2023.webp' alt='PERRY MASON - S2 (2023)'  width={400} height={300} loading="lazy"/>
+</div></a>
+        </div>
+        <div className="flex-grow">
+          <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">PERRY MASON - S2 (2023) </h2>
+          <h3 className="leading-relaxed text-white text-base">In booming 1932 Los Angeles, a down-and-out defense attorney takes on the case of a lifetime.</h3>
+        
+          <h3 className="w-70 h-50 inline-flex items-center justify-center font-bold text-yellow-400 mb-5 flex-shrink-0" > IMDb RATING:</h3>
+          <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
+    <svg aria-hidden="true" className="w-5 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                7.6 Out of 10</h3>
+         
+         
+             <div className="p-4 mx-5 py-1flex text-white font-bold flex-row text-center items-center">
+      GENRE : CRIME, THRILLER
+       </div>
+       <a href="../../TvShows/PerryMason-2023/PerryMason">
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+         
+        </div>
+      </div>
+   
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Hollywood/ShazamFuryOfTheGods-2023/ShazamFuryOfTheGods">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/shazam-fury-of-the-gods-2023.webp' alt='SHAZAM FURY OF THE GODS - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/shazam-fury-of-the-gods-2023.webp' alt='SHAZAM FURY OF THE GODS - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -462,7 +462,7 @@ const schemaData   = {
         <a href="../../Bollywood/MrsChatterjeeVsNorway-2023/MrsChatterjeeVsNorway">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/mrs-chatterjee-vs-norway-2023.webp' alt='HAPPY FAMILY CONDITION APPLY - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/mrs-chatterjee-vs-norway-2023.webp' alt='HAPPY FAMILY CONDITION APPLY - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -488,7 +488,7 @@ const schemaData   = {
         <a href="../../Bollywood/HappyFamilyConditionsApply-2023/HappyFamilyConditionsApply">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/happy-family-conditions-apply-2023.webp' alt='HAPPY FAMILY CONDITION APPLY - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/happy-family-conditions-apply-2023.webp' alt='HAPPY FAMILY CONDITION APPLY - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -514,7 +514,7 @@ const schemaData   = {
         <a href="../../Bollywood/Kabzaa-2023/Kabzaa">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/kabzaa-2023.webp' alt='AGILAN - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/kabzaa-2023.webp' alt='AGILAN - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -540,7 +540,7 @@ const schemaData   = {
         <a href="../../Bollywood/Agilan-2023/Agilan">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/agilan-2023.webp' alt='AGILAN - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/agilan-2023.webp' alt='AGILAN - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -566,7 +566,7 @@ const schemaData   = {
         <a href="../../Bollywood/AngerTales-2023/AngerTales">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/anger-tales-2023.webp' alt='ANGER TAIES - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/anger-tales-2023.webp' alt='ANGER TAIES - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -592,7 +592,7 @@ const schemaData   = {
         <a href="../../Bollywood/65-2023/SixtyFive">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/65 2023.webp' alt='65 - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/65 2023.webp' alt='65 - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -618,7 +618,7 @@ const schemaData   = {
         <a href="../../Bollywood/Christy-2023/Christy">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/christy-2023.webp' alt='CHRISTY - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/christy-2023.webp' alt='CHRISTY - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -644,7 +644,7 @@ const schemaData   = {
         <a href="../../Bollywood/SexLife-2023/SexLife">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/sex-life-2023.webp' alt='POP KAUN - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/sex-life-2023.webp' alt='POP KAUN - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -670,7 +670,7 @@ const schemaData   = {
         <a href="../../Bollywood/RunBabyRun-2023/RunBabyRun">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/run-baby-run-2023.webp' alt='RUN BABY RUN - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/run-baby-run-2023.webp' alt='RUN BABY RUN - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -696,7 +696,7 @@ const schemaData   = {
         <a href="../../Bollywood/PopKaun-2023/PopKaun">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/pop-kaun-2023.webp' alt='POP KAUN - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/pop-kaun-2023.webp' alt='POP KAUN - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -722,7 +722,7 @@ const schemaData   = {
         <a href="../../Hollywood/OutOfExile-2023/OutOfExile">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/out-of-exile-2023.webp' alt='OUT OF EXILE - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/out-of-exile-2023.webp' alt='OUT OF EXILE - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -748,7 +748,7 @@ const schemaData   = {
         <a href="../../Hollywood/TheSiege-2023/TheSiege">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/the-siege-2023.webp' alt='THE SIEGE - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/the-siege-2023.webp' alt='THE SIEGE - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -774,7 +774,7 @@ const schemaData   = {
         <a href="../../Hollywood/Supercell-2023/Supercell">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/supercell-2023.webp' alt='SUPERCELL - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/supercell-2023.webp' alt='SUPERCELL - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -800,7 +800,7 @@ const schemaData   = {
         <a href="../../Hollywood/TheMatchStickFlame-2023/TheMatchStickFlame">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/the-match-stick-flame-2023.webp' alt='THE MATCH-STICK FLAME 2 LUNADA BAY - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/the-match-stick-flame-2023.webp' alt='THE MATCH-STICK FLAME 2 LUNADA BAY - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -826,7 +826,7 @@ const schemaData   = {
         <a href="../../Adult/SecretaryPart1-2023/SecretaryPart1">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/secretary-2023.webp' alt='SECRETARY PART 1 - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/secretary-2023.webp' alt='SECRETARY PART 1 - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -853,7 +853,7 @@ const schemaData   = {
         <a href="../../Bollywood/TuJhoothiMainMakkaar-2023/TuJhoothiMainMakkaar">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/tu-jhoothi-main-makkaar-2023.webp' alt='TU JHOOTHI MAIN MAKKAAR - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/tu-jhoothi-main-makkaar-2023.webp' alt='TU JHOOTHI MAIN MAKKAAR - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -880,7 +880,7 @@ const schemaData   = {
       <a href="../../Bollywood/SatarchaSalman-2023/SatarchaSalman">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/satarcha-salman-2023.webp' alt='SATARCHA SALMAN - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/satarcha-salman-2023.webp' alt='SATARCHA SALMAN - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -907,7 +907,7 @@ const schemaData   = {
         <a href="../../Bollywood/VictoriaEkRahasya-2023/VictoriaEkRahasya">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/victoria-ek-rahasya-2023.webp'  alt='VICTORIA EK RAHASYA - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/victoria-ek-rahasya-2023.webp'  alt='VICTORIA EK RAHASYA - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -933,7 +933,7 @@ const schemaData   = {
         <a href="../../Bollywood/TheLegend-2023/TheLegend">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-legend-2023.webp' alt='THE LEGEND - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-legend-2023.webp' alt='THE LEGEND - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -959,7 +959,7 @@ const schemaData   = {
         <a href="../../Bollywood/Raundal-2023/Raundal">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/raundal-2023.webp' alt='RAUNDAL - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/raundal-2023.webp' alt='RAUNDAL - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -985,7 +985,7 @@ const schemaData   = {
         <a href="../../Bollywood/LoveAtFirstKiss-2023/LoveAtFirstKiss">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/love-at-first-kiss-2023.webp' alt='LOVE AT FIRST KISS - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/love-at-first-kiss-2023.webp' alt='LOVE AT FIRST KISS - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1011,7 +1011,7 @@ const schemaData   = {
         <a href="../../Bollywood/InCar-2023/InCar">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/incar-2023.webp' alt='INCAR - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/incar-2023.webp' alt='INCAR - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1037,7 +1037,7 @@ const schemaData   = {
         <a href="../../Bollywood/Gulmohar-2023/Gulmohar">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/gulmohar-2023.webp' alt='GULMOHAR - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/gulmohar-2023.webp' alt='GULMOHAR - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1063,7 +1063,7 @@ const schemaData   = {
           <a href="../../Hollywood/LittleDixie-2023/LittleDixie" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/little-dixie-2023.webp' alt='LITTLE DIXIE - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/little-dixie-2023.webp' alt='LITTLE DIXIE - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -1081,7 +1081,7 @@ const schemaData   = {
        </div>
           
        <a href="../../Hollywood/LittleDixie-2023/LittleDixie" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -1091,7 +1091,7 @@ const schemaData   = {
           <a href="../../Hollywood/Creed3-2023/Creed3" >
  
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/creed-III-2023.webp' alt='CREED III - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/creed-III-2023.webp' alt='CREED III - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -1109,7 +1109,7 @@ const schemaData   = {
        </div>
           
        <a href="../../Hollywood/Creed3-2023/Creed3" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -1119,7 +1119,7 @@ const schemaData   = {
           <a href="../../Hollywood/Ambush-2023/Ambush" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/ambush-2023.webp' alt='AMBUSH - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/ambush-2023.webp' alt='AMBUSH - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -1137,7 +1137,7 @@ const schemaData   = {
        </div>
           
        <a href="../../Hollywood/Ambush-2023/Ambush" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -1146,7 +1146,7 @@ const schemaData   = {
         <a href="../../Adult/MohanChabhiwalaP1-2023/MohanChabhiwalaP1">
      
         <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/mohan-chabhiwala-p1-2023.webp' alt='MOHAN CHABHIWALA P1 - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/mohan-chabhiwala-p1-2023.webp' alt='MOHAN CHABHIWALA P1 - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1164,7 +1164,7 @@ const schemaData   = {
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/MohanChabhiwalaP1-2023/MohanChabhiwalaP1">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -1174,7 +1174,7 @@ const schemaData   = {
         <a href="../../Adult/Nasha-2023/Nasha">
      
         <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/nasha-2023.webp' alt='NASHA - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/nasha-2023.webp' alt='NASHA - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1192,7 +1192,7 @@ const schemaData   = {
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/Nasha-2023/Nasha">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -1202,7 +1202,7 @@ const schemaData   = {
         <a href="../../Adult/JungleCottage-2023/JungleCottage">
      
         <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/jungle-cottage-2023.webp' alt='JUNGLE COTTAGE - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/jungle-cottage-2023.webp' alt='JUNGLE COTTAGE - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1220,7 +1220,7 @@ const schemaData   = {
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/JungleCottage-2023/JungleCottage">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -1230,7 +1230,7 @@ const schemaData   = {
         <a href="../../Bollywood/Selfiee-2023/Selfiee">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/selfiee-2023.webp' alt='SELFIEE - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/selfiee-2023.webp' alt='SELFIEE - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1255,7 +1255,7 @@ const schemaData   = {
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Bollywood/OuterBanks-2023/OuterBanks">
      <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"   src='/outer-banks-2023.webp' alt='OUTER BANKS - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"   src='/outer-banks-2023.webp' alt='OUTER BANKS - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1281,7 +1281,7 @@ const schemaData   = {
         <a href="../../Bollywood/Triptych-2023/Triptych">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"   src='/Triptych-2023.webp' alt='TRIPTYCH - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"   src='/Triptych-2023.webp' alt='TRIPTYCH - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1308,7 +1308,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/WeHaveAGhost-2023/WeHaveAGhost" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/we-have-a-ghost-2023.webp' alt='WE HAVE A GHOST - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/we-have-a-ghost-2023.webp' alt='WE HAVE A GHOST - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -1326,7 +1326,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/WeHaveAGhost-2023/WeHaveAGhost" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -1337,7 +1337,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
          
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-blacklist-2023.webp' alt='THE BLACKLIST SEASON 1 - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-blacklist-2023.webp' alt='THE BLACKLIST SEASON 1 - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -1355,7 +1355,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/TheBlacklist-2023/TheBlacklistP1" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -1364,7 +1364,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/LutherTheFallenSun-2023/LutherTheFallenSun" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/luther-the-fallen-sun-2023.webp' alt='LUTHER THE FALLEN SUN - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/luther-the-fallen-sun-2023.webp' alt='LUTHER THE FALLEN SUN - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -1382,7 +1382,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/LutherTheFallenSun-2023/LutherTheFallenSun" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -1391,7 +1391,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/GandiIBaatS7-2023/GandiIBaatS7">
      
           <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/gandii-baat-s7-2023.webp' alt='GANDII BAAT - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/gandii-baat-s7-2023.webp' alt='GANDII BAAT - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1409,7 +1409,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/GandiIBaatS7-2023/GandiIBaatS7">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -1418,7 +1418,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/LoveGuruS2-P2-2023/LoveGuruS2P2">
      
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/love-guru-s2-p2-2023.webp' alt='LOVE GURU S2 (PART 2) - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/love-guru-s2-p2-2023.webp' alt='LOVE GURU S2 (PART 2) - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1436,7 +1436,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/LoveGuruS2-P2-2023/LoveGuruS2P2">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -1445,7 +1445,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/KhidkiP1-2023/KhidkiP1">
      
         <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/khidki-p1-2023.webp' alt='KHIDKI PART 1 - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/khidki-p1-2023.webp' alt='KHIDKI PART 1 - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1463,7 +1463,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/KhidkiP1-2023/KhidkiP1">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -1472,7 +1472,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/Lagaslas-2023/Lagaslas">
      
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/lagaslas-2023.webp' alt='LAGASLAS - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/lagaslas-2023.webp' alt='LAGASLAS - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1490,7 +1490,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/Lagaslas-2023/Lagaslas">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -1499,7 +1499,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/Veronica-2023/Veronica">
      
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/veronica-2030.webp' alt='Veronica - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/veronica-2030.webp' alt='Veronica - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1517,7 +1517,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/Veronica-2023/Veronica">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -1526,7 +1526,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/IruDhuruvam-2023/IruDhuruvam">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/iru-dhuruvam-2023.webp' alt='IRU DHURUVAM - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/iru-dhuruvam-2023.webp' alt='IRU DHURUVAM - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1552,7 +1552,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/DieHart-2023/DieHart">
     
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/die-hart-2023.webp' alt='DIE HART - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/die-hart-2023.webp' alt='DIE HART - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1577,7 +1577,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Hunt-2023/Hunt">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/hunt-2023.webp' alt='HUNT - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/hunt-2023.webp' alt='HUNT - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1603,7 +1603,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/TheHeadOfLoaquinmMurrieta-2023/TheHeadOfLoaquinmMurrieta" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-head-of-joaquin-murrieta-2023.webp' alt='THE HEAD OF JOAQUIN MURRIETA - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-head-of-joaquin-murrieta-2023.webp' alt='THE HEAD OF JOAQUIN MURRIETA - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -1621,7 +1621,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/TheHeadOfLoaquinmMurrieta-2023/TheHeadOfLoaquinmMurrieta" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -1630,7 +1630,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/12DesparateHours-2023/DesparateHours" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/12-desperate-hours-2023.webp' alt='12 DESPERATE HOURS' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/12-desperate-hours-2023.webp' alt='12 DESPERATE HOURS' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -1648,7 +1648,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/12DesparateHours-2023/DesparateHours" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -1658,7 +1658,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/HoJaMukat-2023/HoJaMukat">
  
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/ho-ja-mukat-2023.webp' alt='HO JA MUKAT - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/ho-ja-mukat-2023.webp' alt='HO JA MUKAT - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1684,7 +1684,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Shehzada-2023/Shehzada">
   
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/shehzada-2023.webp' alt='SHEHZADA - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/shehzada-2023.webp' alt='SHEHZADA - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1710,7 +1710,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/TheNightManager-2023/TheNightManager">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-night-manager-2023.webp' alt='THE NIGHT MANAGER - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-night-manager-2023.webp' alt='THE NIGHT MANAGER - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1736,7 +1736,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Vaathi-2023/Vaathi">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/vaathi-2023.webp' alt='VAATHI - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/vaathi-2023.webp' alt='VAATHI - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
 
         </div>
@@ -1763,7 +1763,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/MrLocal-2023/MrLocal">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/mr-local-2023.webp' alt='MR.LOCAL - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/mr-local-2023.webp' alt='MR.LOCAL - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1789,7 +1789,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/TheCheckPost-2023/TheCheckPost">
   
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"   src='/the-check-post-2023.webp' alt='THE CHECK POST - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"   src='/the-check-post-2023.webp' alt='THE CHECK POST - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1815,7 +1815,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Lost-2023/Lost">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"   src='/lost-2023.webp' alt='LOST - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"   src='/lost-2023.webp' alt='LOST - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1841,7 +1841,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/MinusOne-2023/MinusOne">
    
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/minus-one-2023.webp' alt='MINUS ONE - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/minus-one-2023.webp' alt='MINUS ONE - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1868,7 +1868,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Amigos-2023/Amigos">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/amigos-2023.webp' alt='AMIGOS - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/amigos-2023.webp' alt='AMIGOS - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1894,7 +1894,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Christopher-2023/Christopher">
  
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/christopher-2023.webp' alt='CHRISTOPHER - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/christopher-2023.webp' alt='CHRISTOPHER - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1920,7 +1920,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Dishkiyaoon-2023/Dishkiyaoon">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/dishkiyaoon-2023.webp' alt='DISHKIYAOON - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/dishkiyaoon-2023.webp' alt='DISHKIYAOON - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1946,7 +1946,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Farzi-2023/Farzi">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/farzi-2023.webp' alt='FARZI - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/farzi-2023.webp' alt='FARZI - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1972,7 +1972,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/JaanbaazHindustanKe-2023/JaanbaazHindustanKe">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/jaanbaaz-hindustan-ke-2023.webp' alt='JAANBAAZ HINDUSTAN KE - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/jaanbaaz-hindustan-ke-2023.webp' alt='JAANBAAZ HINDUSTAN KE - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -1998,7 +1998,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/JagguAniJulite-2023/JagguAniJulite">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/jaggu-ani-juliet-2023.webp' alt='JAGGU ANI JULIET - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/jaggu-ani-juliet-2023.webp' alt='JAGGU ANI JULIET - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2024,7 +2024,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Kranti-2023/Kranti">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/kranti-2023.webp' alt='KRANTI - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/kranti-2023.webp' alt='KRANTI - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2050,7 +2050,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Michale-2023/Michale">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/michael-2023.webp' alt='MICHAEL - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/michael-2023.webp' alt='MICHAEL - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2076,7 +2076,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/MrTharak-2023/MrTharak">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/mr-tharak-2023.webp' alt='MR THARAK - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/mr-tharak-2023.webp' alt='MR THARAK - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
 
         </div>
@@ -2103,7 +2103,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/RaftaRafta-2023/RaftaRafta">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/rafta-rafta-2023.webp' alt='RAFTA RAFTA - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/rafta-rafta-2023.webp' alt='RAFTA RAFTA - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2130,7 +2130,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
      
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/shiv-shastri-balboa-2023.webp' alt='SHIV SHASTRI BALBOA - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/shiv-shastri-balboa-2023.webp' alt='SHIV SHASTRI BALBOA - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2156,7 +2156,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/ZindagiShatranjHai-2023/ZindagiShatranjHai">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/zindagi-shatranj-hai-2023.webp' alt='ZINDAGI SHATRANJ HAI - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/zindagi-shatranj-hai-2023.webp' alt='ZINDAGI SHATRANJ HAI - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2182,7 +2182,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/MissionMajnu-2023/MissionMajnu">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/mission-maju-2023.webp' alt='MASSION MAJNU - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/mission-maju-2023.webp' alt='MASSION MAJNU - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2208,7 +2208,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Pathaan-2023/Pathaan">
     
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"   src='/pathan-2023.webp' alt='PATHAAN - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"   src='/pathan-2023.webp' alt='PATHAAN - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2234,7 +2234,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/TheY-2023/TheY">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-y-2023.webp' alt='THE Y - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-y-2023.webp' alt='THE Y - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2261,7 +2261,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/TaazaKhabar-2023/TaazaKhabar">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/taaza-khabar-2023.webp' alt='TAAZA KHABAR - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/taaza-khabar-2023.webp' alt='TAAZA KHABAR - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2288,7 +2288,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/Suki-2023/Suki">
      
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/suki-2023.webp' alt='SUKI - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/suki-2023.webp' alt='SUKI - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2306,7 +2306,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/Suki-2023/Suki">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2315,7 +2315,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/EroticaManila-2023/EroticaManila">
 
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/erotica-manila-2023.webp' alt='EROTICA MANILA - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/erotica-manila-2023.webp' alt='EROTICA MANILA - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2333,7 +2333,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/EroticaManila-2023/EroticaManila">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2342,7 +2342,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/MissBriganaza-2023/MissBriganaza">
      
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/miss-briganaza-2023.webp' alt='WATCHMAN - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/miss-briganaza-2023.webp' alt='WATCHMAN - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2360,7 +2360,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/MissBriganaza-2023/MissBriganaza">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2369,7 +2369,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/Watchman-2023/WatchmanP1">
   
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/watchman-part1-2023.webp' alt='WATCHMAN - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/watchman-part1-2023.webp' alt='WATCHMAN - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2387,7 +2387,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/Watchman-2023/WatchmanP1">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2396,7 +2396,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/LaQuerida-2023/LaQuerida">
      
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/la-querida-2023.webp' alt='LA QUERIDA - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/la-querida-2023.webp' alt='LA QUERIDA - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2414,7 +2414,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/LaQuerida-2023/LaQuerida">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2423,7 +2423,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/LadyDoctor-2023/LadyDoctor">
      
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/lady-doctor-2023.webp' alt='LADY DOCTOR - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/lady-doctor-2023.webp' alt='LADY DOCTOR - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2441,7 +2441,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/LadyDoctor-2023/LadyDoctor">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2450,7 +2450,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/Kaand-2023/KaandP1">
      
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/kaand-2023.webp' alt='KAAD - 2023'   width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/kaand-2023.webp' alt='KAAD - 2023'   width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2468,7 +2468,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/Kaand-2023/KaandP1">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2476,7 +2476,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
         <a href="../../Adult/Ishqiya-2023/Ishqiya">
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ishqiya-2023.webp' alt='ISHQIYA - 2023'   width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ishqiya-2023.webp' alt='ISHQIYA - 2023'   width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2494,7 +2494,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/Ishqiya-2023/Ishqiya">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2503,7 +2503,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/FarebiYarr-2023/FarebiYarrP1">
     
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/farebi-yaar-part-1-2023.webp' alt='FAREBI YARR - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/farebi-yaar-part-1-2023.webp' alt='FAREBI YARR - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2521,7 +2521,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/FarebiYarr-2023/FarebiYarrP1">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2530,7 +2530,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/Babuji-2023/BabujiP1">
      
          <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/babuJi-2023.webp' alt='BABUJI - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/babuJi-2023.webp' alt='BABUJI - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2548,7 +2548,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/Babuji-2023/BabujiP1">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2557,7 +2557,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/Pamasahe-2023/Pamasahe">
    
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/pamasahe-2022.webp' alt='PAMASAHE - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/pamasahe-2022.webp' alt='PAMASAHE - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2575,7 +2575,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/Pamasahe-2023/Pamasahe">
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
          
         </div>
       </div>
@@ -2584,7 +2584,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/ILoveyou-2023/ILoveyou">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/i-love-you-P2-2023.webp' alt='I LOVE YOU PART 2 - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/i-love-you-P2-2023.webp' alt='I LOVE YOU PART 2 - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2602,7 +2602,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ADULT, HOT +18
        </div>
        <a href="../../Adult/ILoveyou-2023/ILoveyou">
-      <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+       <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
 
          
         </div>
@@ -2612,7 +2612,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/PlanB-2023/PlanB">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/plan-b-2023.webp' alt='PLAN B 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/plan-b-2023.webp' alt='PLAN B 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2639,7 +2639,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/LustDaries-2023/LustDaries">
     
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/lust-diaries-pehla-pyar-2023.webp' alt='LUST DARIES... - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/lust-diaries-pehla-pyar-2023.webp' alt='LUST DARIES... - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -2667,7 +2667,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/Better-2023/BetterP1" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/better-2023.webp' alt='BETTER - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/better-2023.webp' alt='BETTER - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2685,7 +2685,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/Better-2023/BetterP1" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -2694,7 +2694,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/TheWeapon-2023/TheWeapon" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-weapon-2023.webp' alt='THE WEAPON - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-weapon-2023.webp' alt='THE WEAPON - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2712,7 +2712,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/TheWeapon-2023/TheWeapon" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -2721,7 +2721,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/CarnivalRow-2023/CarnivalRowP1" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/carnival-row-2023.webp' alt='CARNIVAL ROW - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/carnival-row-2023.webp' alt='CARNIVAL ROW - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2739,7 +2739,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/CarnivalRow-2023/CarnivalRowP1" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -2748,7 +2748,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/AntMan-2023/AntMan" >
  
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/ant-Man-and-the-wasp-2023.webp' alt='ANT-MAN AND THE Wasp - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/ant-Man-and-the-wasp-2023.webp' alt='ANT-MAN AND THE Wasp - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2766,7 +2766,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/AntMan-2023/AntMan" >
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -2775,7 +2775,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/TheArk-2023/TheArkP1" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-ark-2023.webp' alt='THE ARK - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-ark-2023.webp' alt='THE ARK - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2793,7 +2793,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/TheArk-2023/TheArkP1" >
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -2802,7 +2802,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP1" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/mayfair-witches-2023.webp' alt='MAYFAIR WITCHES - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/mayfair-witches-2023.webp' alt='MAYFAIR WITCHES - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2820,7 +2820,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP1" >
-     <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+      <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -2829,7 +2829,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/InFormTheCold-2023/InFormTheColdP1" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/in-from-the-cold-2023.webp' alt='IN FORM THE COLD - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/in-from-the-cold-2023.webp' alt='IN FORM THE COLD - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2847,7 +2847,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
        </div>
           
        <a href="../../Hollywood/InFormTheCold-2023/InFormTheColdP1" >
-       <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+        <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
            
           </div>
         </div>
@@ -2857,7 +2857,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/BlackPantherWaka-2023/BlackPantherWaka" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/black-panther-wakanda-forever-2022.webp' alt='BLACK PANTHER WAKANDA FOREVER - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/black-panther-wakanda-forever-2022.webp' alt='BLACK PANTHER WAKANDA FOREVER - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2883,7 +2883,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/ExtraOrdinary-2023/ExtraOrdinaryP1" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/extraordinary-2023.webp' alt='EXTRAORDINARY - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/extraordinary-2023.webp' alt='EXTRAORDINARY - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2909,7 +2909,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/Fear-2023/Fear" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/fear-2023.webp' alt='FEAR - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/fear-2023.webp' alt='FEAR - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2935,7 +2935,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/Imani-2023/Imani" >
     
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/imani-2023.webp' alt='IMANI - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/imani-2023.webp' alt='IMANI - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2961,7 +2961,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/Kaleidoscope-2023/KaleidoscopeP1" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/kaleidoscope-2022.webp' alt='KALEIDOSCOPE - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/kaleidoscope-2022.webp' alt='KALEIDOSCOPE - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -2987,7 +2987,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/KnockAtTheCabin-2023/KnockAtTheCabin" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/knock-at-the-cabin-2023.webp' alt='KNOCK AT THE CABIN - 2023'width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/knock-at-the-cabin-2023.webp' alt='KNOCK AT THE CABIN - 2023'width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3013,7 +3013,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/LockwoodAndCo-2023/LockwoodAndCoP1" >
      
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/lockwood-and-co-2023.webp' alt='LOCKWOOD AND CO - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/lockwood-and-co-2023.webp' alt='LOCKWOOD AND CO - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3039,7 +3039,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/NightTrain-2023/NightTrain" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/night-train-2023.webp' alt='NIGHT TRAIN - 2023'   width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/night-train-2023.webp' alt='NIGHT TRAIN - 2023'   width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3065,7 +3065,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/PockerFace-2023/PockerFace" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/poker-face-2022.webp' alt='POKER FACE - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/poker-face-2022.webp' alt='POKER FACE - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3091,7 +3091,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/TeenWolfTheMovie-2023/TeenWolfTheMovie" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/teen-wolf-the-movie-2023.webp' alt='TEEN WOLF THE MOVIE - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/teen-wolf-the-movie-2023.webp' alt='TEEN WOLF THE MOVIE - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3117,7 +3117,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/The3rdGuest-2023/The3rdGuest" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-3rd-guest-2023.webp' alt='THE 3RD GUEST - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-3rd-guest-2023.webp' alt='THE 3RD GUEST - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3143,7 +3143,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/TheMummyResurrection-2023/TheMummyResurrection" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-mummy-resurrection-2022.webp' alt='THE MUMMY RESURRECTION - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-mummy-resurrection-2022.webp' alt='THE MUMMY RESURRECTION - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3169,7 +3169,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/TheRig-2023/TheRigP1" >
      
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-rig-2023.webp' alt='THE RIG - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-rig-2023.webp' alt='THE RIG - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3195,7 +3195,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/TulsaKing-2023/TulsaKingP1" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/tulsa-king-2023.webp' alt='TULSA KING - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/tulsa-king-2023.webp' alt='TULSA KING - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3221,7 +3221,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/WakingKarma-2023/WakingKarma" >
 
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/waking-karma-2023.webp' alt='WAKING KARMA - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/waking-karma-2023.webp' alt='WAKING KARMA - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3247,7 +3247,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Hollywood/Transfusion-2023/Transfusion" >
          
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/transfusion-2023.webp' alt='TRANSFUSION - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/transfusion-2023.webp' alt='TRANSFUSION - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3273,7 +3273,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/Plane-2023/Plane">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/plane-2023.webp' alt='PLANE - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/plane-2023.webp' alt='PLANE - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3300,7 +3300,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/Narvik-2023/Narvik">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/narvik-2022.webp' alt='NARVIK 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/narvik-2022.webp' alt='NARVIK 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3328,7 +3328,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/Imli-2023/Imli">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/Imli-P2-2023.webp' alt='IMLI - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/Imli-P2-2023.webp' alt='IMLI - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3355,7 +3355,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/TeekhiChutteny-2022/TeekhiChutteny">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/teekhi-chutney-part2-2022.webp' alt='TEEKHI CHUTENY PART 2 - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/teekhi-chutney-part2-2022.webp' alt='TEEKHI CHUTENY PART 2 - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3382,7 +3382,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/Darji-2022/Darji">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/darji-2022.webp' alt='DARJI - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/darji-2022.webp' alt='DARJI - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3409,7 +3409,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/AnAffairToForget-2022/AnAffairToForget">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/an-affair-to-forget-2022.webp' alt='AN AFFAIR TO FORGET - 2022' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/an-affair-to-forget-2022.webp' alt='AN AFFAIR TO FORGET - 2022' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3436,7 +3436,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/ChingariChaubey-2023/ChingariChaubey">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/chingari-chaubey-2023.webp' alt='CHINGARI CHAUBEY - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/chingari-chaubey-2023.webp' alt='CHINGARI CHAUBEY - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3463,7 +3463,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/VirginBahus-2023/VirginBahus">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/virgin-bahus-2023.webp' alt='VIRGIN BAHUS - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/virgin-bahus-2023.webp' alt='VIRGIN BAHUS - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3491,7 +3491,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/WalkManP1-2022/WalkManP1">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/walkman1-2022.webp' alt='WALKMAN PART 1 - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/walkman1-2022.webp' alt='WALKMAN PART 1 - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3518,7 +3518,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/WalkManP2-2022/WalkManP2">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/walkman2-2022.webp' alt='WALKMAN PART 2 - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/walkman2-2022.webp' alt='WALKMAN PART 2 - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3545,7 +3545,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Adult/WalkManP3-2022/WalkManP3">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/walkman3-2022.webp' alt='WALKMAN PART 3 - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/walkman3-2022.webp' alt='WALKMAN PART 3 - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3573,7 +3573,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Thunivu-2023/Thunivu">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/thunivu-2023.webp' alt='THUNIVU - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/thunivu-2023.webp' alt='THUNIVU - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3600,7 +3600,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Varisu-2023/Varisu">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/varisu-2023.webp' alt='VARISU - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/varisu-2023.webp' alt='VARISU - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3618,7 +3618,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ACTION, DRAMA
        </div>
        <a href="../../Bollywood/Varisu-2023/Varisu">
-      <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+       <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
 
          
         </div>
@@ -3628,7 +3628,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/TrailByFire-2023/TrailByFire">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/trial-by-fire-2023.webp' alt='TRAIL BY FIRE - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/trial-by-fire-2023.webp' alt='TRAIL BY FIRE - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3655,7 +3655,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/MumbaiMafia-2023/MumbaiMafia">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/mumbai-mafia-2022.webp' alt='MUMBAI MAFIA... - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/mumbai-mafia-2022.webp' alt='MUMBAI MAFIA... - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3682,7 +3682,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Chhatriwali-2023/Chhatriwali">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/chhatriwali-2023.webp' alt='CHHATRIWALI - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/chhatriwali-2023.webp' alt='CHHATRIWALI - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3709,7 +3709,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       <a href="../../Bollywood/Vaalvi-2023/Vaalvi">
    
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/vaalvi-2023.webp' alt='VAALVI 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/vaalvi-2023.webp' alt='VAALVI 2023' width={400} height={300} loading="lazy"/>
 </div></a>
       </div>
       <div className="flex-grow">
@@ -3726,7 +3726,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :COMEDY, DARAMA
        </div>
        <a href="../../Bollywood/Vaalvi-2023/Vaalvi">
-      <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+       <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
        
       </div>
     </div>
@@ -3735,7 +3735,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
           <a href="../../Bollywood/DharaviBank-2022/DharaviBank">
     
  <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/dharavi-bank-2022.webp' alt='DHARAVI BANK - 2022' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/dharavi-bank-2022.webp' alt='DHARAVI BANK - 2022' width={400} height={300} loading="lazy"/>
 </div></a>
           </div>
           <div className="flex-grow">
@@ -3762,7 +3762,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Kantara-2022/Kantara">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"   src='/kantara-2022.webp' alt='KANTARA - 2022'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"   src='/kantara-2022.webp' alt='KANTARA - 2022'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3789,7 +3789,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Freddy-2022/Freddy">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/freddy-2022.webp' alt='FREDDY - 2022' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/freddy-2022.webp' alt='FREDDY - 2022' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3816,7 +3816,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Dhokha-2022/Dhokha">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/dhokha-2022.webp' alt='DHOKHA - 2022' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/dhokha-2022.webp' alt='DHOKHA - 2022' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3843,7 +3843,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Bollywood/Kuttey-2023/Kuttey">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/kuttey-2023.webp' alt='KUTTEY - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/kuttey-2023.webp' alt='KUTTEY - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3870,7 +3870,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/OperationFortune-2023/OperationFortune">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/operation-fortune-ruse-de-uerre-2023.webp' alt='OPERATION FORTUNE... - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/operation-fortune-ruse-de-uerre-2023.webp' alt='OPERATION FORTUNE... - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3897,7 +3897,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/Babylon-2023/Babylon">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/babylon-2022.webp' alt='BABYLON - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/babylon-2022.webp' alt='BABYLON - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3924,7 +3924,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/Devotion-2023/Devotion">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/devotion-2023.webp' alt='DEVOTION - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/devotion-2023.webp' alt='DEVOTION - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3951,7 +3951,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/Shahmaran-2023/Shahmaran">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/shahmaran-2023.webp' alt='SHAHMARAN - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/shahmaran-2023.webp' alt='SHAHMARAN - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -3978,7 +3978,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/JungE-2023/JungE">
  
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/jung-e-2023.webp' alt='JUNG-E - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/jung-e-2023.webp' alt='JUNG-E - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -4005,7 +4005,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/TheOldWay-2023/TheOldWay">
  
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-old-way-2023.webp' alt='THE OLD WAY - 2023'  width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-old-way-2023.webp' alt='THE OLD WAY - 2023'  width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -4032,7 +4032,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/VikingsValhalla-2023/VikingsValhallaP1">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/vikings-valhalla-2023.webp' alt='VIKINGS VALHALLA - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/vikings-valhalla-2023.webp' alt='VIKINGS VALHALLA - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -4059,7 +4059,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/Hunters-2023/Hunters">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/hunters-2023.webp' alt='HUNTERS - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/hunters-2023.webp' alt='HUNTERS - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -4086,7 +4086,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/GinnyAndGeorgia-2023/GinnyAndGeorgia">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ginny-georgia-2023.webp' alt='GINNY & GEORGIA - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/ginny-georgia-2023.webp' alt='GINNY & GEORGIA - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -4113,7 +4113,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/LastOfUs-2023/LastOfUs">
 
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl"  src='/the-last-of-us-2023.webp' alt='THE LAST OF US - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl"  src='/the-last-of-us-2023.webp' alt='THE LAST OF US - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -4141,7 +4141,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/Againsttheice/againsttheice" >
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/against-the-ice-2022.webp' alt='AGAINST THE ICE - 2022' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/against-the-ice-2022.webp' alt='AGAINST THE ICE - 2022' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -4168,7 +4168,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/PlayDead-2023/PlayDead">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/play-dead-2022.webp' alt='PLAY DEAD - 2023' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/play-dead-2022.webp' alt='PLAY DEAD - 2023' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -4195,7 +4195,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
         <a href="../../Hollywood/TheLastHeist-2022/TheLastHeist">
      
 <div className="rounded-3xl blur-invert drop-shadowrounded-3xl">
-  <img className="scale-120 hover:scale-110 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-last-heist-2022.webp' alt='THE LAST HEIST - 2022' width={400} height={300} loading="lazy"/>
+  <img className="scale-100 hover:scale-105 ease-in duration-500 cursor-pointer rounded-3xl" src='/the-last-heist-2022.webp' alt='THE LAST HEIST - 2022' width={400} height={300} loading="lazy"/>
 </div></a>
         </div>
         <div className="flex-grow">
@@ -4213,7 +4213,7 @@ It follows Becca, a forensics expert who, when investigating a murder.</h3>
       GENRE :ACTION, THRILLER
        </div>
        <a href="../../Hollywood/TheLastHeist-2022/TheLastHeist">
-      <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
+       <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">Watch Now</button></a>
 
          
         </div>

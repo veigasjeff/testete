@@ -2,13 +2,13 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import Link from 'next/link';
-import { Carousel } from "@components/HCarousel";
+import { Carousel } from "@components/TVCarousel";
 
 
 function Most() {
   const [showAd, setShowAd] = useState(false);
   const [isClosed, setIsClosed] = useState(false);
-  const [remainingTime, setRemainingTime] = useState(30);
+  const [remainingTime, setRemainingTime] = useState(10);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -42,12 +42,12 @@ function Most() {
 
 
 
-<div class="flex bg-gray-500 bg-opacity-75 transition-opacity " >
+<div className="flex bg-gray-500 bg-opacity-75 transition-opacity " >
   <div className="carousel-inner relative w-full cursor-pointer mx-10 flex-col overflow-hidden " >
 
 
   <h1 className="mb-4 py-5  font-bold leading-none tracking-tight text-white  flex flex-col items-center justify-center text-2xl dark:text-white"  >
-    Latest Updated Live Tv Shows
+    Latest TV Shows Updated
    </h1>
  
                <Carousel />

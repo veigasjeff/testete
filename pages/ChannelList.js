@@ -1,7 +1,7 @@
 import Table from '@components/Table '
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 import WorldClock from '@components/WorldClock';
 
@@ -20,7 +20,7 @@ const ChannelList = () => {
     <div>
       
          <WorldClock />
-        <Translate />
+      
 <div className="flex  text-blue-600 text-center ">
     <Link href="/">
                <button className="close-button  mx-10" >

@@ -28,7 +28,6 @@ const Ch358 = () => {
    <meta property="og:locale" content="en_US" />   
 
 
-
    <meta property="og:site_name" content="Uwatch4free™ | Watch Movies, TV-Series & Sports Live Online Free. " />
    <meta property="og:type" content="website" />
    <meta property="og:image:height" content="1280"/>
@@ -62,31 +61,31 @@ const Ch358 = () => {
 <link rel="canonical" href="https://uwatch4free.vercel.app/" />
 
   </Head>
-    <div className="bg-[#1a202c] ">
+    <div classNameName="bg-[#1a202c] ">
 <WorldClock />
 
-    <h1 className=" py-5 font-bold leading-none tracking-tight text-green-500  text-center text-3xl dark:text-white">
+    <h1 classNameName=" py-5 font-bold leading-none tracking-tight text-green-500  text-center text-3xl dark:text-white">
       Watch Stream 358 Live
 
 
   </h1>
-    <div className="flex flex-col  text-blue-600 text-center items-center justify-center">
+    <div classNameName="flex flex-col  text-blue-600 text-center items-center justify-center">
     <Link href="/">
-               <button className="close-button  mx-10" >
-               <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
+               <button classNameName="close-button  mx-10" >
+               <h2 classNameName="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button></Link>
-<div className={styles['iframe-container']}>
-    <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitAllowFullScreen mozallowfullscreen allowFullScreen" marginheight="0" marginwidth="0" src="https://daddylivehd.sx/embed/stream-358.php" name="iframe_a" scrolling="no" allowfullscreen="yes" width="100%" height="100%" frameborder="0"></iframe>
+<div classNameName={styles['iframe-container']}>
+    <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitallowFullScreen mozallowFullScreen allowFullScreen" marginHeight="0" marginWidth="0" src="https://daddylivehd.sx/embed/stream-358.php" name="iframe_a" scrolling="no" allowFullScreen="yes" width="100%" height="100%" frameBorder="0"></iframe>
    
 
     </div>
-    <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: In the Player Setting Pls Select  to <a className="mb-9 text-xl  text-black-500 text-blue-600 text-center xl:px-4 "> UNMUTE PLAYER </a> it Takes time  to Unmute.</h3>
+    <h3 classNameName="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: In the Player Setting Pls Select  to <a classNameName="mb-9 text-xl  text-black-500 text-blue-600 text-center xl:px-4 "> UNMUTE PLAYER </a> it Takes time  to Unmute.</h3>
     </div>
     
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">
+    <h1 classNameName="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">
 24/7 Live Sports & Entertainment Channels</h1>
-<div className="flex  items-center justify-center">
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+<div classNameName="flex  items-center justify-center">
+<button classNameName="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../ChannelList" > 
       <h1 >Click To Watch Channel List</h1></a></button>
      

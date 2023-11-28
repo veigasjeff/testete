@@ -11,7 +11,7 @@ function Application({ Component, pageProps }) {
 
 
       <div className="center">
-        <GoogleAnalytics measurementId="G-HNVB3X7H2R" />
+        <GoogleAnalytics measurementId="G-K66D167PL8" />
 
         <PageTransition>
           <Hamburger />

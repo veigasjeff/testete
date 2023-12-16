@@ -1,0 +1,52 @@
+/* styles/ImageGrid.module.css */
+/* .imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    margin-bottom: 10px;
+  }
+
+  .movieCard {
+    margin: 0 10px 20px 10px; 
+  }
+
+  .tvshowCard {
+    margin: 0 10px 20px 10px; 
+  }
+
+.horizontalContainer {
+  display: flex;
+  overflow-x: auto; 
+  gap: 20px; 
+} */
+
+/* styles/ImageGrid.module.css */
+.imageGrid {
+  display: flex;
+  flex-direction: column; /* Display in a column */
+  align-items: center; /* Center the content horizontally */
+  margin-bottom: 10px;
+   filter: contrast(1.1) saturate(1.2) brightness(1.3) hue-rotate(-5deg);
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px; /* Add margin between Movies and TV Shows */
+}
+
+.movieCard,
+.tvshowCard {
+  margin: 0 10px 20px 10px;
+  flex: 1 1 calc(20% - 20px); /* Distribute items evenly with 20px gap */
+  max-width: calc(20% - 20px); /* Set a maximum width for each item */
+}
+
+.horizontalContainer {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}

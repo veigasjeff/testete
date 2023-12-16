@@ -1,0 +1,31 @@
+/* VideoPlayer.module.css */
+.videoPlayer {
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+  }
+  
+  .videoWrapper {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Assuming a 16:9 aspect ratio, adjust as needed */
+  }
+  
+  .videoFrame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+  }
+  
+  .controls {
+    margin-top: 10px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 600px) {
+    .videoPlayer {
+      max-width: 100%; /* Adjust as needed for smaller screens */
+    }
+  }
+ 

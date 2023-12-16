@@ -1,0 +1,59 @@
+/* styles/Footer.module.css */
+
+/* Add your existing styles here */
+
+/* Custom styles for the footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #ccc;
+  }
+  
+  footer img {
+    width: 500px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  /* Mobile styles */
+  @media screen and (max-width: 768px) {
+    footer {
+      padding: 30px 0;
+    }
+  
+    footer div {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    footer img {
+      width: 100%;
+      height: auto;
+    }
+  
+    footer a {
+      margin: 0.5rem 0;
+    }
+  
+    footer div.md {
+      display: none;
+      width: 100%;
+    }
+  
+    footer div.block {
+      display: block;
+    }
+  }
+  

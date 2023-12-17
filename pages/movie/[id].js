@@ -39,7 +39,6 @@ const Movie = ({ movie }) => {
     director: movie.director,
     actor: movie.starring,
     contentRating: movie.contentRating,
-    videoUrl: movie.videoUrl,
     embedUrl: movie.embedUrl,
     aggregateRating: movie.aggregateRating,
     trailer: movie.trailer && {

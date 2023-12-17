@@ -33,7 +33,7 @@ const Movie = ({ movie }) => {
     name: movie.name,
     description: movie.synopsis,
     keywords: movie.keywords,
-    image: movie.thumbnail,
+    image: movie.image,
     genre: movie.genre,
     datePublished: movie.yearRelease,
     director: movie.director,
@@ -91,9 +91,7 @@ const Movie = ({ movie }) => {
     title,
     synopsis,
     thumbnail,
-    videoUrl,
     embedUrl,
-    downloadUrl,
     director,
     starring,
     type,
@@ -270,7 +268,10 @@ const Movie = ({ movie }) => {
           <meta name="twitter:title" content={tag} />
           <meta name="twitter:image" content={thumbnail} />
           <meta name="description" content={type} />
-          <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+          <meta
+            name="google-site-verification"
+            content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg"
+          />
           <link rel="canonical" href={canonical} />
         </Head>
         {adult === "adult" && <Adult />}

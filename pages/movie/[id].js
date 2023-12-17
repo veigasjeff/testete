@@ -4,7 +4,7 @@ import VideoPlayer from "../../components/VideoPlayer";
 import TrailerPlayer from "../../components/TrailerPlayer";
 import styles from "../../styles/cover.module.css";
 import moviesData from "../../public/movies.json";
-import Rating from "pages/Rating";
+import Rating from "@components/Rating";
 import ShareButtons from "@components/ShareButtons";
 import Adult from "@components/Adult";
 import Script from "next/script";

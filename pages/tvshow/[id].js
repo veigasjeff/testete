@@ -5,7 +5,7 @@ import VideoPlayer from "../../components/VideoPlayer";
 import TrailerPlayer from "../../components/TrailerPlayer";
 import styles from "../../styles/cover.module.css";
 import tvshowData from "../../public/tvshow.json"; // Corrected import statement
-import Rating from "pages/Rating";
+import Rating from "@components/Rating";
 import ShareButtons from "@components/ShareButtons";
 import Adult from "@components/Adult";
 import Script from "next/script";
@@ -395,7 +395,10 @@ const TvShow = ({ tvshow }) => {
           <meta name="twitter:title" content={tag} />
           <meta name="twitter:image" content={thumbnail} />
           <meta name="description" content={type} />
-          <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+          <meta
+            name="google-site-verification"
+            content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg"
+          />
           <link rel="canonical" href={canonical} />
         </Head>
         {adult === "adult" && <Adult />}

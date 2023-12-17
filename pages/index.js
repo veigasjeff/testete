@@ -2,6 +2,7 @@ import Head from "next/head";
 import ImageGrid from "../components/ImageGrid";
 import moviesData from "../public/movies.json";
 import tvshowData from "../public/tvshow.json"; // Change the variable name to `tvshowData`
+
 import styles from "../styles/Home.module.css";
 
 
@@ -21,6 +22,7 @@ const Home = () => {
           property="og:image:secure_url"
           content="https://uwatch4free.vercel.app/og_image.jpg"
         />
+         <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
       </Head>
       <div className={styles.container}>
         <main>

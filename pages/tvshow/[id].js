@@ -395,10 +395,7 @@ const TvShow = ({ tvshow }) => {
           <meta name="twitter:title" content={tag} />
           <meta name="twitter:image" content={thumbnail} />
           <meta name="description" content={type} />
-          <meta
-            name="google-site-verification"
-            content="o8uNsADswyHnNPA69n9gI7u6L4_cdjN4iT5lRhHHtMU"
-          />
+          <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
           <link rel="canonical" href={canonical} />
         </Head>
         {adult === "adult" && <Adult />}

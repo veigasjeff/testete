@@ -28,6 +28,81 @@ const TvShow = ({ tvshow }) => {
     marginTop: "15px",
   };
 
+  // const ldJsonData = JSON.stringify({
+  //   "@context": "https://schema.org",
+  //   "@type": "TVSeries",
+  //   name: tvshow.name,
+  //   description: tvshow.synopsis,
+  //   keywords: tvshow.keywords,
+  //   image: tvshow.image,
+  //   genre: tvshow.genre,
+  //   startDate: tvshow.startDate,
+  //   dateCreated: tvshow.dateCreated,
+  //   director: tvshow.director,
+  //   actor: tvshow.starring,
+  //   contentRating: tvshow.contentRating,
+  //   embedUrl: tvshow.embedUrl,
+  //   aggregateRating: tvshow.aggregateRating,
+  //   additionalProperty: tvshow.additionalProperties,
+  //   trailer: tvshow.trailer && {
+  //     "@type": "VideoObject",
+  //     name: `${tvshow.name} Trailer`,
+  //     description: `Watch the thrilling trailer of ${tvshow.name}.`,
+  //     thumbnailUrl: tvshow.thumbnailUrl,
+  //     embedUrl: tvshow.embedUrl,
+  //     uploadDate: tvshow.uploadDate,
+  //     duration: tvshow.duration,
+  //   },
+  //   actors:
+  //     tvshow.actors &&
+  //     tvshow.actors.map((actor) => ({
+  //       "@type": "Person",
+  //       name: actor.name,
+  //     })),
+  //   season:
+  //     tvshow.season &&
+  //     tvshow.season.map((season) => ({
+  //       "@type": "TVSeason",
+  //       name: season.name,
+  //       numberOfEpisodes: season.episode.length,
+  //       episodes: season.episode.map((episode, episodeIndex) => ({
+  //         "@type": "TVEpisode",
+  //         name: `Episode ${episodeIndex + 1}`,
+  //         description: episode.description,
+  //         episodeNumber: episode.episodeNumber,
+  //         image: episode.image,
+  //         url: episode.url,
+  //       })),
+  //     })),
+  //   director: tvshow.director && {
+  //     "@type": "Person",
+  //     name: tvshow.director,
+  //   },
+  //   uploadDate: tvshow.uploadDate,
+  //   contentRating: tvshow.contentRating,
+  //   Originalnetwork: tvshow.originalNetwork,
+  //   author: [
+  //     {
+  //       "@type": "Person",
+  //       name: "DrTrailer",
+  //       url: "https://uwatch4free.vercel.app/DrTrailer.jpg",
+  //     },
+  //   ],
+  //   publisher: {
+  //     "@type": "Organization",
+  //     name: "Uwatchfree",
+  //     logo: {
+  //       "@type": "ImageObject",
+  //       url: "https://uwatch4free.vercel.app/og_image.jpg",
+  //     },
+  //   },
+  //   additionalProperty: {
+  //     "@type": "PropertyValue",
+  //     name: "Action Platform",
+  //     value: ["Desktop Web Platform", "iOS Platform", "Android Platform"],
+  //   },
+  // });
+
   const ldJsonData = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "TVSeries",
@@ -38,12 +113,24 @@ const TvShow = ({ tvshow }) => {
     genre: tvshow.genre,
     startDate: tvshow.startDate,
     dateCreated: tvshow.dateCreated,
-    director: tvshow.director,
-    actor: tvshow.starring,
+    director: tvshow.director && {
+      "@type": "Person",
+      name: tvshow.director,
+    },
+    actor: tvshow.starring && tvshow.starring.map((actor) => ({
+      "@type": "Person",
+      name: actor.name,
+    })),
     contentRating: tvshow.contentRating,
     embedUrl: tvshow.embedUrl,
     aggregateRating: tvshow.aggregateRating,
-    additionalProperty: tvshow.additionalProperties,
+    additionalProperty: [
+      {
+        "@type": "PropertyValue",
+        name: "Action Platform",
+        value: ["Desktop Web Platform", "iOS Platform", "Android Platform"],
+      },
+    ],
     trailer: tvshow.trailer && {
       "@type": "VideoObject",
       name: `${tvshow.name} Trailer`,
@@ -53,33 +140,20 @@ const TvShow = ({ tvshow }) => {
       uploadDate: tvshow.uploadDate,
       duration: tvshow.duration,
     },
-    actors:
-      tvshow.actors &&
-      tvshow.actors.map((actor) => ({
-        "@type": "Person",
-        name: actor.name,
+    season: tvshow.season && tvshow.season.map((season) => ({
+      "@type": "TVSeason",
+      name: season.name,
+      numberOfEpisodes: season.episode.length,
+      episodes: season.episode.map((episode, episodeIndex) => ({
+        "@type": "TVEpisode",
+        name: `Episode ${episodeIndex + 1}`,
+        description: episode.description,
+        episodeNumber: episode.episodeNumber,
+        image: episode.image,
+        url: episode.url,
       })),
-    season:
-      tvshow.season &&
-      tvshow.season.map((season) => ({
-        "@type": "TVSeason",
-        name: season.name,
-        numberOfEpisodes: season.episode.length,
-        episodes: season.episode.map((episode, episodeIndex) => ({
-          "@type": "TVEpisode",
-          name: `Episode ${episodeIndex + 1}`,
-          description: episode.description,
-          episodeNumber: episode.episodeNumber,
-          image: episode.image,
-          url: episode.url,
-        })),
-      })),
-    director: tvshow.director && {
-      "@type": "Person",
-      name: tvshow.director,
-    },
+    })),
     uploadDate: tvshow.uploadDate,
-    contentRating: tvshow.contentRating,
     Originalnetwork: tvshow.originalNetwork,
     author: [
       {
@@ -96,12 +170,8 @@ const TvShow = ({ tvshow }) => {
         url: "https://uwatch4free.vercel.app/og_image.jpg",
       },
     },
-    additionalProperty: {
-      "@type": "PropertyValue",
-      name: "Action Platform",
-      value: ["Desktop Web Platform", "iOS Platform", "Android Platform"],
-    },
   });
+  
 
   const [currentVideoUrl, setCurrentVideoUrl] = useState(tvshow.videoUrl);
 

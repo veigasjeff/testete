@@ -36,8 +36,7 @@ const Dmca = () => {
 	<meta name="twitter:description" content=" Watch Movies, TV-Series & Sports Live Online Free " />
 	<meta name="twitter:image" content="/og_image.jpg" />
 	
-  
-  <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+  <meta name="google-site-verification" content="o8uNsADswyHnNPA69n9gI7u6L4_cdjN4iT5lRhHHtMU" />
   <link rel="alternate" hrefLang="en-us" href="/"/>
 	<link rel="alternate" hrefLang="en-gb" 	href="/"/>
 	<link rel="alternate" hrefLang="en-ca" 	href="/"/>

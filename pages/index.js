@@ -28,7 +28,7 @@ const Home = () => {
             name="monetag"
             content="076afbb772da1a62ef6f43756dfa5f65"
           ></meta>
-          <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+          <meta name="google-site-verification" content="o8uNsADswyHnNPA69n9gI7u6L4_cdjN4iT5lRhHHtMU" />
           <meta
             name="description"
             content="Uwatch4free™ - Watch HD Quality Movies & TV Series Online Free."

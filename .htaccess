@@ -17,5 +17,5 @@ ErrorDocument 404 /404.html
 
 # Prevent image hotlinking
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?uwatchfree.vercel.app [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?uwatch4free.vercel.app [NC]
 RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]

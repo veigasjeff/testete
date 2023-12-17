@@ -262,10 +262,10 @@ const Movie = ({ movie }) => {
           <meta property="og:type" content="movie" />
           <meta property="og:title" content={title} />
           <meta property="og:url" content={canonical} />
-          <meta property="og:image" content="https://uwatch4free.vercel.app/og_image.jpg"/>
-          <meta property="og:image:secure_url"content="https://uwatch4free.vercel.app/og_image.jpg"/>
-          <meta property="og:image:width" content="1280" />
-          <meta property="og:image:height" content="720" />
+          <meta property="og:image" content={thumbnail} />
+          <meta property="og:image:secure_url" content={thumbnail} />
+          <meta property="og:image:width" content="303" />
+          <meta property="og:image:height" content="430" />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:title" content={tag} />
           <meta name="twitter:image" content={thumbnail} />

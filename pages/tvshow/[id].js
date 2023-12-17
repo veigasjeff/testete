@@ -34,7 +34,7 @@ const TvShow = ({ tvshow }) => {
     name: tvshow.name,
     description: tvshow.synopsis,
     keywords: tvshow.keywords,
-    image: tvshow.thumbnail,
+    image: tvshow.image,
     genre: tvshow.genre,
     startDate: tvshow.startDate,
     dateCreated: tvshow.dateCreated,

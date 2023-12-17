@@ -6,7 +6,9 @@ export default function ErrorPage() {
     <div>
       <div className="text-red-600 text-4xl font-bold flex title-font py-5 items-center justify-center">
         Error message: Oops! Something Went WRONG!!!
+       
       </div>
+      <p className="text-red-600 text-4xl font-bold flex title-font py-5 items-center justify-center">Or Wait... You will Return to Home Page </p>
       <div className="flex items-center justify-center">
         <img
           src="https://res.cloudinary.com/dezf3wemk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681689464/page-not-found_iwuhyv.webp"
@@ -25,6 +27,7 @@ export default function ErrorPage() {
             </span>
           </button>{' '}
         </a>
+       
       </div>
       <Script>
         {`

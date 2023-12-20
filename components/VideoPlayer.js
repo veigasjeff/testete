@@ -63,7 +63,7 @@ const VideoPlayer = ({ videoUrl, adUrl }) => {
         {showAd ? (
           <div className={adStyles.overlay}>
             <video
-              src="/movie/official-trailer.mp4"
+              src="/image/official-trailer.mp4"
               width="800"
               height="450"
               frameBorder="0"

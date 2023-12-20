@@ -15,7 +15,7 @@ const schemaData = {
         "@id": "/#organization",
       },
       description:
-        "Watch free movies online free. UWatchFree is a movie streaming site with all new Hollywood and Bollywood movies added daily. No registration required for free streaming movie.",
+        "Download Latest Bollywood And Hollywood Movies, Hindi South Dubbed, Dual Audio Movies and Web Series, Netflix and Amazon Prime Series and lots more Series and Movies only on Uwatch4free™",
       breadcrumb: {
         "@id": "/#breadcrumb",
       },

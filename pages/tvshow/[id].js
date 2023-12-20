@@ -442,7 +442,7 @@ const TvShow = ({ tvshow }) => {
           dangerouslySetInnerHTML={{ __html: ldJsonData }}
         />
         <Head>
-          <title>Watch {title} Full Movie Online Free | Uwatch4free???</title>
+        {`Watch ${movie.title} | Uwatch4free™`}
           <meta
             name="robots"
             content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
@@ -456,7 +456,7 @@ const TvShow = ({ tvshow }) => {
           <meta property="og:site_name" content={tag} />
           <meta property="og:type" content="movie" />
           <meta property="og:title" content={title} />
-          <meta property="og:url" content={canonical} />
+          <meta property="og:url" content={thumbnail} />
           <meta property="og:image" content={thumbnail} />
           <meta property="og:image:secure_url" content={thumbnail} />
           <meta property="og:image:width" content="303" />
@@ -708,7 +708,7 @@ const TvShow = ({ tvshow }) => {
             ></iframe>
           </div>
           <Rating />
-          <h3
+          <h2
             className="flex flex-col text-center mb-8 text-white font-bold"
             style={{
               marginTop: "10px",
@@ -717,7 +717,7 @@ const TvShow = ({ tvshow }) => {
             }}
           >
             Watch Now
-          </h3>
+          </h2>
 
           {/* Video Player */}
           <div className={styles.playerWrapper}>
@@ -726,7 +726,7 @@ const TvShow = ({ tvshow }) => {
             </div>
           </div>
 
-          <h3
+          <h2
             className="flex flex-col text-center mb-8 text-white font-bold"
             style={{
               marginTop: "10px",
@@ -735,7 +735,7 @@ const TvShow = ({ tvshow }) => {
             }}
           >
             Select Server 1{" "}
-          </h3>
+          </h2>
 
           <div>
             {/* ... (other code) */}
@@ -744,7 +744,7 @@ const TvShow = ({ tvshow }) => {
             </div>
             {/* ... (other code) */}
           </div>
-          <h3
+          <h2
             className="flex flex-col text-center mb-8 text-white font-bold"
             style={{
               marginTop: "10px",
@@ -753,7 +753,7 @@ const TvShow = ({ tvshow }) => {
             }}
           >
             Select Server 2{" "}
-          </h3>
+          </h2>
 
           <div>
             {/* ... (other code) */}
@@ -761,7 +761,7 @@ const TvShow = ({ tvshow }) => {
               {generateServerButtons()}
             </div>
             {/* ... (other code) */}
-          </div>
+          </div>  
           <div style={bannerIframeStyle}>
             <iframe
               scrolling="no"
@@ -771,7 +771,7 @@ const TvShow = ({ tvshow }) => {
               src="https://refbanners.com/I?tag=d_2915177m_9769c_&site=2915177&ad=9769"
             ></iframe>
           </div>
-          <h3
+          <h2
             className="flex flex-col text-center mb-8 text-white font-bold"
             style={{
               marginTop: "10px",
@@ -780,7 +780,7 @@ const TvShow = ({ tvshow }) => {
             }}
           >
             Official Trailer
-          </h3>
+          </h2>
           <div className={styles.videoPlayer}>
             <div className={styles.videoWrapper}>
               <TrailerPlayer embedUrl={tvshow.embedUrl} />
@@ -794,7 +794,7 @@ const TvShow = ({ tvshow }) => {
           />
 
           {/* Download button */}
-          <h3
+          <h2
             className="flex flex-col text-center mb-8 text-white font-bold"
             style={{
               marginTop: "10px",
@@ -804,13 +804,13 @@ const TvShow = ({ tvshow }) => {
           >
             {" "}
             Download Server 1
-          </h3>
+          </h2>
           <div className="button-container mt-5 flex flex-wrap justify-center gap-4">
             {generateDownloadButtons()}
           </div>
 
           {/* Download button */}
-          <h3
+          <h2
             className="flex flex-col text-center mb-8 text-white font-bold"
             style={{
               marginTop: "10px",
@@ -820,7 +820,7 @@ const TvShow = ({ tvshow }) => {
           >
             {" "}
             Download Server 2
-          </h3>
+          </h2>
           <div className="button-container mt-5 flex flex-wrap justify-center gap-4">
             {generateUploadButtons()}
           </div>

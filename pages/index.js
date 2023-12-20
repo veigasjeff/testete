@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <Head>
       <title>
-            Uwatch4free™ | Watch HD Quality Movies & TV Series Online Free.
+            Uwatch4free™ | Watch HD Movies & TV Series Online Free.
           </title>
           <meta name="robots" content="index, follow" />
           <meta name="googlebot" content="index,follow" />
@@ -103,13 +103,13 @@ const Home = () => {
         </Head>
       <div className={styles.container}>
         <main>
-          <h1
+          <h2
             className="text-center mb-8 text-white font-bold"
             style={{ fontSize: "30px", textShadow: "2px 3px 5px #2b2 " }}
           >
             {" "}
-            Watch HD Quality Movies & TV Shows Online Free.
-          </h1>
+            Uwatch4free™ - Watch HD Quality Movies & TV Shows Online Free.
+          </h2>
           <ImageGrid movies={moviesData} />
           <ImageGrid tvshows={tvshowData} />{" "}
           {/* Change the prop name to `tvshows` */}

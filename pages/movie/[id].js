@@ -244,7 +244,7 @@ const Movie = ({ movie }) => {
         />
         <Head>
           <title>
-            {`Watch ${movie.title} Full Movie Online Free | Uwatch4free™`}
+            {`Watch ${movie.title} | Uwatch4free™`}
           </title>
           <meta
             name="robots"
@@ -259,7 +259,7 @@ const Movie = ({ movie }) => {
           <meta property="og:site_name" content={tag} />
           <meta property="og:type" content="movie" />
           <meta property="og:title" content={title} />
-          <meta property="og:url" content={canonical} />
+          <meta property="og:url" content={thumbnail} />
           <meta property="og:image" content={thumbnail} />
           <meta property="og:image:secure_url" content={thumbnail} />
           <meta property="og:image:width" content="303" />
@@ -510,7 +510,7 @@ const Movie = ({ movie }) => {
             ></iframe>
           </div>
           <Rating />
-          <h3
+          <h2
             className="flex flex-col text-center mb-8 text-white font-bold"
             style={{
               marginTop: "10px",
@@ -519,14 +519,14 @@ const Movie = ({ movie }) => {
             }}
           >
             Watch Now{" "}
-          </h3>
+          </h2>
           {/* Video Player */}
           <div className={styles.playerWrapper}>
             <div className={styles.videoWrapper}>
               <VideoPlayer videoUrl={currentVideoUrl} />
             </div>
           </div>
-          <h3
+          <h2
             className="flex flex-col text-center mb-8 text-white font-bold"
             style={{
               marginTop: "10px",
@@ -535,7 +535,7 @@ const Movie = ({ movie }) => {
             }}
           >
             Select Server
-          </h3>
+          </h2>
           {/* ... (other code) */}
           <div className="button-container mt-5 flex flex-wrap justify-center gap-4">
             {generateServerButtons()}
@@ -549,7 +549,7 @@ const Movie = ({ movie }) => {
               src="https://refbanners.com/I?tag=d_2915177m_9769c_&site=2915177&ad=9769"
             ></iframe>
           </div>
-          <h3
+          <h2
             className="flex flex-col text-center mb-8 text-white font-bold"
             style={{
               marginTop: "10px",
@@ -558,7 +558,7 @@ const Movie = ({ movie }) => {
             }}
           >
             Official Trailer
-          </h3>
+          </h2>
           <div className={styles.videoPlayer}>
             <div className={styles.videoWrapper}>
               <TrailerPlayer embedUrl={embedUrl} />
@@ -571,7 +571,7 @@ const Movie = ({ movie }) => {
             image="https://uwatchfree.vercel.app/og_image.jpg"
           />
           {/* Download button */}
-          <h3
+          <h2
             className="flex flex-col text-center mb-8 text-white font-bold"
             style={{
               marginTop: "10px",
@@ -580,7 +580,7 @@ const Movie = ({ movie }) => {
             }}
           >
             Click to Download
-          </h3>
+          </h2>
           <div className="button-container mt-5 flex flex-wrap justify-center gap-4">
             {generateDownloadButtons()}
           </div>

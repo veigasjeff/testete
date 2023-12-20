@@ -15,7 +15,7 @@ const schemaData = {
         "@id": "/#organization",
       },
       description:
-        "Download Latest Bollywood And Hollywood Movies, Hindi South Dubbed, Dual Audio Movies and Web Series, Netflix and Amazon Prime Series and lots more Series and Movies only on Uwatch4free™",
+        "Uwatch4free™ - Watch n Download Latest Bollywood And Hollywood Movies, Hindi South Dubbed, Dual Audio Movies and Web Series, Netflix and Amazon Prime Series and lots more Series and Movies.",
       breadcrumb: {
         "@id": "/#breadcrumb",
       },

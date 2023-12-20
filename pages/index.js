@@ -31,7 +31,8 @@ const Home = () => {
           <meta name="google-site-verification" content="o8uNsADswyHnNPA69n9gI7u6L4_cdjN4iT5lRhHHtMU" />
           <meta
             name="description"
-            content="Download Latest Bollywood And Hollywood Movies, Hindi South Dubbed, Dual Audio Movies and Web Series, Netflix and Amazon Prime Series and lots more Series and Movies only on Uwatch4free™" />
+            content="Uwatch4free™ -  Watch n Download Latest Bollywood And Hollywood Movies, Hindi South Dubbed, Dual Audio Movies and Web Series, Netflix and Amazon Prime Series and lots more Series and Movies."
+          />
           <meta
             name="robots"
             content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"

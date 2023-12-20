@@ -442,7 +442,7 @@ const TvShow = ({ tvshow }) => {
           dangerouslySetInnerHTML={{ __html: ldJsonData }}
         />
         <Head>
-        {`Watch ${movie.title} | Uwatch4free™`}
+        {`Watch ${tvshow.title} | Uwatch4free™`}
           <meta
             name="robots"
             content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"

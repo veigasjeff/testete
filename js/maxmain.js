@@ -174,13 +174,41 @@ fetch("/movies.json")
       const urlParts = movie["movie.watch"];
       link.href = `/${urlParts}`;
 
+      // // Create image element
+      // const img = document.createElement("img");
+      // img.src = `/wp-content/uploads/2023/06/${movie.poster}`;
+      // img.src = `${movie.poster}`;
+      // img.style.borderRadius = "10%";
+      // img.style.marginTop = "5px";
+      // img.style.border = "2px solid #40D7BC";
+      // img.alt = movie.title;
       // Create image element
-      const img = document.createElement("img");
-      img.src = `/wp-content/uploads/2023/06/${movie.poster}`;
-      img.style.borderRadius = "10%";
-      img.style.marginTop = "5px";
-      img.style.border = "2px solid #40D7BC";
-      img.alt = movie.title;
+const img = document.createElement("img");
+
+// Attempt to set the first source
+img.src = `/wp-content/uploads/2023/06/${movie.poster}`;
+
+// Create a temporary image to check if the first source is valid
+const tempImg = new Image();
+tempImg.src = img.src;
+tempImg.onload = () => {
+    // If the first image loads successfully, do nothing
+    img.style.borderRadius = "10%";
+    img.style.marginTop = "5px";
+    img.style.border = "2px solid #40D7BC";
+    img.alt = movie.title;
+    // Append the image to the DOM or wherever needed
+}  
+tempImg.onerror = () => {
+    // If the first image fails, fallback to the second source
+    img.src = `${movie.poster}`;
+    img.style.borderRadius = "10%";
+    img.style.marginTop = "5px";
+    img.style.border = "2px solid #40D7BC";
+    img.alt = movie.title///////////////;
+    // Append the image to the DOM or wherever needed
+}
+
 
       // Append image to the link
       link.appendChild(img);

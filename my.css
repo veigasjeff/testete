@@ -1100,125 +1100,7 @@ span {
 .animate-blink {
   animation: blink 2s infinite; /* You can adjust the duration as needed */
 }
-/* body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
 
-.slide {
-  display: flex;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.5s ease-in-out;
-  text-align: center;
-  border: 4px solid grey;
-  border-radius: 8px;
-}
-
-
-
-.slide {
-  flex: 0 0 100%;
-  text-align: center;
-}
-
-
-
-.slide img {
-  width: 500px;
-  height: auto;
-  border: 4px solid grey;
-  border-radius: 8px;
-  justify-content: center;
-  align-items: center;
-  display: inline-block;
-  cursor: pointer;
-
-}   */
-
-/* Trailer POPUP */
-/* #popup {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  justify-content: center;
-  align-items: center;
-}
-
-#popup-content {
-  border-radius: 20px;
-  width: 90vw;
-  height: 90vh;
-  max-width: 800px;
-  max-height: 600px;
-  position: relative;
-  text-align: center;
-}
-
-#close-btn {
-  position: relative;
-  top: 2px;
-  right: 10px;
-  cursor: pointer;
-  font-size: 24px;
-  color: #000;
-}
-@media (max-width: 768px) {
-  #popup-content {
-    width: 90vw;
-    height: 90vh;
-  }
-}
-
-@media (max-width: 767px) {
-  #resize {
-    display: none;
-  }
-}
-
-#popup {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  z-index: 9999;
-  overflow: auto;
-}
-
-#popup-content {
-  position: relative;
-  margin: auto;
-  padding: 20px;
-  border-radius: 20px;
-  color: #000;
-  margin-top: 30px;
-}
-
-#popup-content iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  border-radius: 20px;
-}
-@media only screen and (orientation: landscape) {
-  .fullscreen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-  }
-} */
 
 #popup {
   display: none;
@@ -1390,6 +1272,8 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 10px;
+  margin-right: 5px;
+  
 }
 
 .button {
@@ -1398,6 +1282,7 @@ a {
   justify-content: center;
   margin: 10px; /* Adjust margin for both desktop and mobile */
   padding: 10px 20px;
+  
   border-radius: 5px;
   font-size: 20px;
   font-weight: bold;
@@ -1425,4 +1310,31 @@ a {
       font-size: 18px;
   }
 }
+.socialContainer {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  z-index: 10000;
+}
+
+.shareButton {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.shareButton:hover {
+  transform: scale(1.3);
+}
+
+.shareButton img {
+  width: 40px;
+  height: 40px;
+}
+
+
 

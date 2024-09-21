@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://uwatch4free.vercel.app/sitemap.xml
+Sitemap: https://justw4tch.onrender.com/sitemap.xml

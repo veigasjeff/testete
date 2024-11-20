@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://justw4tch.onrender.com/sitemap.xml

@@ -187,6 +187,36 @@
       color: #000;
       text-shadow: 1px 1px 1px #000000;
     }
+    #google_translate_element_container {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 130px;
+  margin-bottom: 20px;
+  /* width: 50%;  Make it responsive by setting width */
+  max-width: 400px;  /* Limit maximum width */
+}
+
+@media (max-width: 768px) {
+  #google_translate_element_container {
+    margin-top: 150px; /* Reduce top margin for smaller screens */
+    /* width: 85%;  Make the width smaller on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  #google_translate_element_container {
+    margin-top: 180px; /* Further reduce top margin on very small screens */
+    /* width: 90%;  Ensure it's still responsive */
+  }
+}
+
   </style>
 
 </head>
@@ -208,12 +238,8 @@
 
     <div id="video-list"></div>
 
-    <!-- Add Google Translate HTML Container at the Top -->
-    <div id="google_translate_element_container"
-      style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); text-align: center;  background: white; padding: 10px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); margin-top: 125px; margin-bottom: 20px;">
-
+    <div id="google_translate_element_container">
       <div id="google_translate_element"></div>
-
     </div>
     <!-- Social Sharing Buttons -->
     <div class="socialContainer">

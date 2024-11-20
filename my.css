@@ -137,19 +137,6 @@ h1 {
   }
 }
 
-@media (max-width: 768px) {
-  .item {
-  width: calc(50% - 10px); /* 2 items per row on mobile */
-  }
-  #google_translate_element_container {
-    text-align: center;
-    margin-top: 20px;
-  }
-  #language_heading {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-}
 /* Mobile responsiveness - Optional */
 @media (max-width: 768px) {
   .video-card {

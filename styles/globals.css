@@ -39,4 +39,9 @@
   .center {
     text-align: center;
   }
-  
+    /* styles/globals.css */
+.custom-message {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}

@@ -2,7 +2,7 @@ import '@styles/globals.css';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { PageTransition } from "../components/PageTransition";
-
+import DisableInteractions from '../components/DisableInteractions';
 import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 
 import { useEffect } from 'react';
@@ -50,7 +50,7 @@ function Application({ Component, pageProps }) {
 
           {/* Main Content */}
           <main>
-           
+          <DisableInteractions />  
             <Component {...pageProps} />
            
           </main>

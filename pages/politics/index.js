@@ -94,7 +94,7 @@ const HomePage = () => {
             '@type': 'Article',
             '@id': 'https://worldsnews24.vercel.app/politics',
             url: 'https://worldsnews24.vercel.app/politics',
-            headline: 'Movie',
+            headline: 'World News 24™',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
              publisher: {

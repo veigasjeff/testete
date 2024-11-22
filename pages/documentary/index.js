@@ -163,11 +163,11 @@ const HomePage = () => {
         />
         <meta
           property="og:description"
-          content="World News 24™: Your trusted source for breaking news, global updates, and in-depth analysis from around the world. Stay informed 24/7 with real-time coverage of politics, business, technology, culture, and more."
+          content="World News 24™: Your trusted source for breaking news, global updates, and real-time coverage of politics, business, technology, culture, sports, and more—24/7."
         />
         <meta
           name="description"
-          content="World News 24™: Your trusted source for breaking news, global updates, and in-depth analysis from around the world. Stay informed 24/7 with real-time coverage of politics, business, technology, culture, and more."
+          content="World News 24™: Your trusted source for breaking news, global updates, and real-time coverage of politics, business, technology, culture, sports, and more—24/7."
         />
         <link
           rel="canonical"
@@ -215,7 +215,7 @@ const HomePage = () => {
         />
         <meta
           name="twitter:description"
-          content="World News 24™: Your trusted source for breaking news, global updates, and in-depth analysis from around the world. Stay informed 24/7 with real-time coverage of politics, business, technology, culture, and more."
+          content="World News 24™: Your trusted source for breaking news, global updates, and real-time coverage of politics, business, technology, culture, sports, and more—24/7."
         />
         <meta
           name="twitter:image"

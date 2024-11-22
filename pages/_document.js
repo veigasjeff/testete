@@ -46,7 +46,7 @@ class MyDocument extends Document {
           />
           <meta
             name='description'
-             content="World News 24™: Your trusted source for breaking news, global updates, and in-depth analysis from around the world. Stay informed 24/7 with real-time coverage of politics, business, technology, culture, and more."
+             content="World News 24™: Your trusted source for breaking news, global updates, and real-time coverage of politics, business, technology, culture, sports, and more—24/7."
           />
           <link
             rel='canonical'
@@ -60,7 +60,7 @@ class MyDocument extends Document {
           />
           <meta
             property='og:description'
-             content="World News 24™: Your trusted source for breaking news, global updates, and in-depth analysis from around the world. Stay informed 24/7 with real-time coverage of politics, business, technology, culture, and more."
+             content="World News 24™: Your trusted source for breaking news, global updates, and real-time coverage of politics, business, technology, culture, sports, and more—24/7."
           />
           <meta
             property='og:url'
@@ -74,8 +74,8 @@ class MyDocument extends Document {
             property='og:image'
             content='https://worldsnews24.vercel.app/og_image.jpg'
           />
-          <meta property='og:image:width' content='1280' />
-          <meta property='og:image:height' content='720' />
+          <meta property='og:image:width' content='1200' />
+          <meta property='og:image:height' content='630' />
           <meta property='og:image:type' content='image/jpg' />
           <meta
             name='application-name'
@@ -94,7 +94,7 @@ class MyDocument extends Document {
           <meta name='twitter:card' content='summary_large_image' />
           <meta
           name="twitter:description"
-          content="World News 24™: Your trusted source for breaking news, global updates, and in-depth analysis from around the world. Stay informed 24/7 with real-time coverage of politics, business, technology, culture, and more."
+          content="World News 24™: Your trusted source for breaking news, global updates, and real-time coverage of politics, business, technology, culture, sports, and more—24/7."
         />
           <meta
             name='google-adsense-account'

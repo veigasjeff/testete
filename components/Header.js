@@ -16,7 +16,7 @@ export default function Home() {
   <div className="px-4 mx-auto md:flex md:items-center md:justify-between md:px-8">
           <div className="flex items-center py-3 md:py-5">
             <div className="flex items-center flex-col">
-              <img src='/logo.png' alt='Logo' width={450} height={100} className="rounded-3xl" />
+              <img src='/logo.png' alt='Logo' width={250} height={75} className="rounded-3xl" />
           
             </div>
            

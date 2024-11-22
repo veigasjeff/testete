@@ -9,7 +9,7 @@ class MyDocument extends Document {
             rel='sitemap'
             type='application/xml'
             title='Sitemap'
-            href='https://softwarebay.vercel.app/sitemap.xml'
+            href='https://worldsnews24.vercel.app/sitemap.xml'
           />
           <link
             rel='icon'
@@ -42,44 +42,44 @@ class MyDocument extends Document {
           />
           <meta
             name='keywords'
-            content='download, software, freeware, shareware, trial versions, program, utilities, security, network, multimedia, movies, mobile, games, graphic design, file sharing, education, development, desktop, browser'
+           content="latest news, live news, business news, news in India, online news, bollywood news, breaking news, current news, world news, sports news, india latest news, news headlines, news site, news website, top news, India news, entertainment news, national news, political news, Asian News International"
           />
           <meta
             name='description'
-            content='Explore. Discover. Download - Free Your Desired Software.'
+             content="World News 24™: Your trusted source for breaking news, global updates, and in-depth analysis from around the world. Stay informed 24/7 with real-time coverage of politics, business, technology, culture, and more."
           />
           <link
             rel='canonical'
-            href='https://softwarebay.vercel.app/'
+            href='https://worldsnews24.vercel.app/'
           />
           <meta property='og:locale' content='en_US' />
           <meta property='og:type' content='website' />
           <meta
             property='og:title'
-            content='Softwarebay™ - Explore. Discover. Download.'
+            content='World News 24™ – Stay Informed, Stay Ahead.'
           />
           <meta
             property='og:description'
-            content='SoftwareBay is the top platform for exploring and downloading software,the premier platform for the latest releases and secure downloads.'
+             content="World News 24™: Your trusted source for breaking news, global updates, and in-depth analysis from around the world. Stay informed 24/7 with real-time coverage of politics, business, technology, culture, and more."
           />
           <meta
             property='og:url'
-            content='https://softwarebay.vercel.app/'
+            content='https://worldsnews24.vercel.app/'
           />  
           <meta
             property='og:site_name'
-            content='Softwarebay - Explore. Discover. Download.'
+            content='World News 24™ – Stay Informed, Stay Ahead.'
           />
           <meta
             property='og:image'
-            content='https://softwarebay.vercel.app/og_image.jpg'
+            content='https://worldsnews24.vercel.app/og_image.jpg'
           />
           <meta property='og:image:width' content='1280' />
           <meta property='og:image:height' content='720' />
           <meta property='og:image:type' content='image/webp' />
           <meta
             name='application-name'
-            content='Softwarebay - Explore. Discover. Download.'
+            content='World News 24™ – Stay Informed, Stay Ahead.'
           />
           <meta
             property='article:modified_time'
@@ -89,7 +89,7 @@ class MyDocument extends Document {
             rel='sitemap'
             type='application/xml'
             title='Sitemap'
-            href='https://softwarebay.vercel.app/sitemap.xml'
+            href='https://worldsnews24.vercel.app/sitemap.xml'
           />
           <meta name='twitter:card' content='summary_large_image' />
       
@@ -99,7 +99,7 @@ class MyDocument extends Document {
           />
           <meta
             name='google-site-verification'
-            content='4gdbnCGat0T4Ow3Y_RYzPM4vwtsXvhUel5Q-2yULK6k'
+            content='BZNZaUyoS1nXyRfa99f4VJ3ABKZUZhkKB0pZ3DU3L8s'
           />
           <meta
             name='facebook-domain-verification'
@@ -110,11 +110,7 @@ class MyDocument extends Document {
             content='dmdzuqt3p027t2adn'
           />
           <meta name='monetag' content='35a75bbdeae678c82776e64fb78cdac5' />
-          {/* <script
-            dangerouslySetInnerHTML={{
-              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W62BF3BQ');`,
-            }}
-          /> */}
+       
         </Head>
 
         <body>

@@ -314,11 +314,18 @@ const HomePage = () => {
       </div>
 
       <div
+        // style={{
+        //   display: "flex",
+        //   justifyContent: "center", // Centers horizontally
+        //   alignItems: "center", // Centers vertically
+        //   height: "100vh", // Full height of the viewport
+        // }}
         style={{
           display: "flex",
           justifyContent: "center", // Centers horizontally
-          alignItems: "center", // Centers vertically
-          height: "100vh", // Full height of the viewport
+          alignItems: "center",    // Centers vertically
+          marginTop: "20px",       // Adjust based on your layout needs
+          padding: "20px",         // Adds some padding around the container
         }}
       >
         <div

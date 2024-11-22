@@ -82,7 +82,7 @@ const HomePage = () => {
         '@type': 'WebPage',
         '@id': 'https://worldsnews24.vercel.app/live-news#webpage',
         url: 'https://worldsnews24.vercel.app/live-news',
-        name: 'News',
+        name: 'World News 24',
         datePublished: '2024-01-13T13:00:00+00:00',
         dateModified: '2024-01-13T13:13:00+00:00',
         isPartOf: {

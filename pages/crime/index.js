@@ -1,7 +1,4 @@
-
-
-
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Livenews from "../../components/Crime";
 import SocialSharing from "../../components/SocialSharing";
 import Head from "next/head";
@@ -11,7 +8,15 @@ const HomePage = () => {
 
   const getFormattedDate = () => {
     const today = new Date();
-    const options = { weekday: "long", day: "numeric", month: "long", year: "numeric", hour: '2-digit', minute: '2-digit', second: '2-digit' };
+    const options = {
+      weekday: "long",
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+    };
     return today.toLocaleString("en-GB", options); // We use toLocaleString to get both date and time
   };
 
@@ -22,102 +27,101 @@ const HomePage = () => {
     const intervalId = setInterval(() => {
       setCurrentDate(getFormattedDate()); // Update every second for real-time
     }, 1000);
-    
+
     return () => clearInterval(intervalId); // Cleanup the interval on unmount
   }, []);
-
 
   const NewsSchema = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "NewsMediaOrganization",
-    "name": "World News 24™ – Crime News Section.",
-    "url": "https://worldsnews24.vercel.app",
-    "sameAs": [
+    name: "World News 24™ – Crime News Section.",
+    url: "https://worldsnews24.vercel.app",
+    sameAs: [
       "https://www.facebook.com/news24channel",
       "https://twitter.com/WorldNews24",
       "https://www.youtube.com/@News24thinkfirst",
-      "https://www.instagram.com/WorldNews24official/"
+      "https://www.instagram.com/WorldNews24official/",
     ],
-    "logo": {
+    logo: {
       "@type": "ImageObject",
-      "url": "https://worldsnews24.vercel.app/logo.png",
-      "width": "150",
-      "height": "60"
+      url: "https://worldsnews24.vercel.app/logo.png",
+      width: "150",
+      height: "60",
     },
-    "address": {
+    address: {
       "@type": "PostalAddress",
-      "streetAddress": "World News 24 Broadcast India Limited,FC-23",
-      "addressLocality": "Sector 16A, Film City Mumbai",
-      "addressRegion": "Mumbai, India",
-      "postalCode": "400099",
-      "addressCountry": "IN"
-    }
+      streetAddress: "World News 24 Broadcast India Limited,FC-23",
+      addressLocality: "Sector 16A, Film City Mumbai",
+      addressRegion: "Mumbai, India",
+      postalCode: "400099",
+      addressCountry: "IN",
+    },
   });
 
   const rankMathSchema = JSON.stringify({
-    '@context': 'https://schema.org',
-    '@graph': [
-       {
-        '@type': 'Organization',
-        '@id': 'https://worldsnews24.vercel.app/#organization',
-        name: 'World News 24™ – Crime News Section.',
-        url: 'https://worldsnews24.vercel.app/'
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://worldsnews24.vercel.app/#organization",
+        name: "World News 24™ – Crime News Section.",
+        url: "https://worldsnews24.vercel.app/",
       },
       {
-        '@type': 'WebSite',
-        '@id': 'https://worldsnews24.vercel.app/crime#website',
-        url: 'https://worldsnews24.vercel.app/crime',
-        name: 'World News 24™ – Crime News Section.',
+        "@type": "WebSite",
+        "@id": "https://worldsnews24.vercel.app/crime#website",
+        url: "https://worldsnews24.vercel.app/crime",
+        name: "World News 24™ – Crime News Section.",
         publisher: {
-          '@type': 'Organization',
-          '@id': 'https://worldsnews24.vercel.app/#organization'
+          "@type": "Organization",
+          "@id": "https://worldsnews24.vercel.app/#organization",
         },
         potentialAction: {
-          '@type': 'SearchAction',
-          target: 'https://worldsnews24.vercel.app/?s={search_term_string}',
-          'query-input': 'required name=search_term_string'
-        }
+          "@type": "SearchAction",
+          target: "https://worldsnews24.vercel.app/?s={search_term_string}",
+          "query-input": "required name=search_term_string",
+        },
       },
       {
-        '@type': 'WebPage',
-        '@id': 'https://worldsnews24.vercel.app/crime#webpage',
-        url: 'https://worldsnews24.vercel.app/crime',
-        name: 'News',
-        datePublished: '2024-01-13T13:00:00+00:00',
-        dateModified: '2024-01-13T13:13:00+00:00',
+        "@type": "WebPage",
+        "@id": "https://worldsnews24.vercel.app/crime#webpage",
+        url: "https://worldsnews24.vercel.app/crime",
+        name: "World News 24",
+        datePublished: "2024-01-13T13:00:00+00:00",
+        dateModified: "2024-01-13T13:13:00+00:00",
         isPartOf: {
-          '@id': 'https://worldsnews24.vercel.app/#website'
+          "@id": "https://worldsnews24.vercel.app/#website",
         },
-        inLanguage: 'en-US',
+        inLanguage: "en-US",
         mainEntity: [
           {
-            '@type': 'Article',
-            '@id': 'https://worldsnews24.vercel.app/crime',
-            url: 'https://worldsnews24.vercel.app/crime',
-            headline: 'World News 24™',
-            datePublished: '2024-01-13T13:00:00+00:00',
-            dateModified: '2024-01-13T13:13:00+00:00',
-             publisher: {
-              '@type': 'Organization',
-              '@id': 'https://worldsnews24.vercel.app/#organization',
-              name: 'World News 24™ – Crime News Section.',
-              url: 'https://worldsnews24.vercel.app/'
-            }
-          }
+            "@type": "Article",
+            "@id": "https://worldsnews24.vercel.app/crime",
+            url: "https://worldsnews24.vercel.app/crime",
+            headline: "World News 24™",
+            datePublished: "2024-01-13T13:00:00+00:00",
+            dateModified: "2024-01-13T13:13:00+00:00",
+            publisher: {
+              "@type": "Organization",
+              "@id": "https://worldsnews24.vercel.app/#organization",
+              name: "World News 24™ – Crime News Section.",
+              url: "https://worldsnews24.vercel.app/",
+            },
+          },
         ],
-        "sameAs": [
+        sameAs: [
           "https://www.facebook.com/news24channel",
           "https://twitter.com/WorldNews24",
           "https://www.youtube.com/@News24thinkfirst",
-          "https://www.instagram.com/WorldNews24official/"
+          "https://www.instagram.com/WorldNews24official/",
         ],
-      }
-    ]
-  })
+      },
+    ],
+  });
 
   return (
     <div>
-    <Head>
+      <Head>
         <title> World News 24™ – Crime News Section.</title>
 
         <link
@@ -172,7 +176,10 @@ const HomePage = () => {
           property="og:title"
           content=" World News 24™ – Crime News Section. "
         />
-        <meta property="og:url" content="https://worldsnews24.vercel.app/crime" />
+        <meta
+          property="og:url"
+          content="https://worldsnews24.vercel.app/crime"
+        />
         <meta
           property="og:site_name"
           content=" World News 24™ – Crime News Section. "
@@ -225,23 +232,21 @@ const HomePage = () => {
           content="dm3bs67ukdegz9qik"
         />
         <meta name="monetag" content="98a412cb5612b9188cd76b9744304b6c" />
-
-      
       </Head>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: NewsSchema }}
       />
-        <script
-            type='application/ld+json'
-            dangerouslySetInnerHTML={{ __html: rankMathSchema }}
-          />
-     
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: rankMathSchema }}
+      />
+
       <div
         style={{
           display: "flex",
-          justifyContent: "center",  // Centers the title
-          alignItems: "center",  // Centers items vertically
+          justifyContent: "center", // Centers the title
+          alignItems: "center", // Centers items vertically
           marginTop: "50px",
         }}
       >
@@ -250,33 +255,31 @@ const HomePage = () => {
           style={{
             textShadow: "1px 1px 0px #000",
             fontSize: "30px",
-            textAlign: "center",  // Ensures the title is centered
-            flex: 1,  // Ensures title takes up all available space
+            textAlign: "center", // Ensures the title is centered
+            flex: 1, // Ensures title takes up all available space
             // color: "white",  // Ensures the title is visible
           }}
         >
           World News 24™ <br></br>
-          
           Crime News Section.
         </h1>
-        
       </div>
 
       <div
         style={{
           display: "flex",
-          justifyContent: "flex-end",  // Align the date to the right
+          justifyContent: "flex-end", // Align the date to the right
           marginTop: "20px",
           paddingRight: "20px", // Adds padding so it's not too close to the edge
         }}
       >
         <div
           style={{
-            color: "white",  // Makes sure the date is visible
+            color: "white", // Makes sure the date is visible
             fontSize: "18px",
-            backgroundColor: "rgba(0, 0, 0, 0.5)",  // Adds a background for contrast (optional)
+            backgroundColor: "rgba(0, 0, 0, 0.5)", // Adds a background for contrast (optional)
             padding: "5px 10px",
-            borderRadius: "5px",  // Optional: for better readability
+            borderRadius: "5px", // Optional: for better readability
           }}
         >
           {currentDate}
@@ -284,147 +287,145 @@ const HomePage = () => {
       </div>
       <SocialSharing />
       <div
-          className='shadow-lg flex items-center justify-center'
-          role='navigation'
-          
+        className="shadow-lg flex items-center justify-center"
+        role="navigation"
+      >
+        <ul
+          id="menu-header-menu"
+          className="menu flex flex-wrap justify-center"
         >
-          <ul
-            id='menu-header-menu'
-            className='menu flex flex-wrap justify-center'
-          >
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-35' className='menu-home active'>
-                <a
-                  href='/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Home<span className='p'></span>
-                </a>
-              </li>
-            </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-35" className="menu-home active">
+              <a
+                href="/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Home<span className="p"></span>
+              </a>
+            </li>
+          </button>
 
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-284913' className='menu-softwarecategories'>
-                <a href='../live-news/'>
-                  <h3 className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'>
-                    Live News<span className='p'></span>
-                  </h3>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-248' className='menu-operating-systems'>
-                <a
-                  href='../worldnews/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  World News<span className='p'></span>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-11605' className='menu-3dcad'>
-                <a
-                  href='../politics/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Politics<span className='p'></span>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-11610' className='menu-graphicdesign'>
-                <a
-                  href='../sport/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Sport <span className='p'></span>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-11610' className='menu-graphicdesign'>
-                <a
-                  href='../tech/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Technology <span className='p'></span>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-196' className='menu-multimedia'>
-                <a
-                  href='../shopping/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Shopping<span className='p'></span>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-196' className='menu-multimedia'>
-                <a
-                  href='../health/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Health<span className='p'></span>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-161' className='menu-development'>
-                <a
-                  href='../business/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Business<span className='p'></span>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-84' className='menu-antivirus'>
-                <a
-                  href='../crime/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Crime<span className='p'></span>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-84' className='menu-antivirus'>
-                <a
-                  href='../auto/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Auto<span className='p'></span>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-84' className='menu-antivirus'>
-                <a
-                  href='../entertainment/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Entertainment<span className='p'></span>
-                </a>
-              </li>
-            </button>
-            <button className='border border-black p-2 m-1 hover:bg-orange-100'>
-              <li id='menu-item-84' className='menu-antivirus'>
-                <a
-                  href='../documentary/'
-                  className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
-                >
-                  Documentary<span className='p'></span>
-                </a>
-              </li>
-            </button>
-           
-          </ul>
-        </div>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-284913" className="menu-softwarecategories">
+              <a href="../live-news/">
+                <h3 className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl">
+                  Live News<span className="p"></span>
+                </h3>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-248" className="menu-operating-systems">
+              <a
+                href="../worldnews/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                World News<span className="p"></span>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-11605" className="menu-3dcad">
+              <a
+                href="../politics/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Politics<span className="p"></span>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-11610" className="menu-graphicdesign">
+              <a
+                href="../sport/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Sport <span className="p"></span>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-11610" className="menu-graphicdesign">
+              <a
+                href="../tech/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Technology <span className="p"></span>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-196" className="menu-multimedia">
+              <a
+                href="../shopping/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Shopping<span className="p"></span>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-196" className="menu-multimedia">
+              <a
+                href="../health/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Health<span className="p"></span>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-161" className="menu-development">
+              <a
+                href="../business/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Business<span className="p"></span>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-84" className="menu-antivirus">
+              <a
+                href="../crime/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Crime<span className="p"></span>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-84" className="menu-antivirus">
+              <a
+                href="../auto/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Auto<span className="p"></span>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-84" className="menu-antivirus">
+              <a
+                href="../entertainment/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Entertainment<span className="p"></span>
+              </a>
+            </li>
+          </button>
+          <button className="border border-black p-2 m-1 hover:bg-orange-100">
+            <li id="menu-item-84" className="menu-antivirus">
+              <a
+                href="../documentary/"
+                className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
+              >
+                Documentary<span className="p"></span>
+              </a>
+            </li>
+          </button>
+        </ul>
+      </div>
 
       <div
         className="shadow-lg flex items-center justify-center"

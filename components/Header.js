@@ -139,24 +139,41 @@ export default function Home() {
 
           {/* Links Section */}
           <div
-            className={`md:flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 ${
-              navbar ? 'block' : 'hidden'
-            }`}
+            className={`md:flex ${navbar ? 'block' : 'hidden'} space-x-6 md:w-auto md:items-right`}
           >
-            {[
-              { name: 'Home', href: '/' },
-              { name: 'Contact', href: '/intro/contact' },
-              { name: 'Privacy Policy', href: '/intro/privacy' },
-              { name: 'Terms of Use', href: '/intro/tearms' },
-              { name: 'D.M.C.A', href: '/intro/dmca' },
-              { name: 'Cookie Policy', href: '/intro/cookiepolicy' },
-            ].map((link) => (
-              <Link key={link.name} href={link.href}>
-                <a className="text-white text-lg font-bold hover:text-blue-400 transition duration-300">
-                  {link.name}
-                </a>
-              </Link>
-            ))}
+            <div className="md:flex-grow"></div>
+            <div className="md:flex md:items-center text-center">
+              <a href="/">
+                <div className="px-px-0 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl hover:text-blue-800 block mt-4 md:inline-block md:mt-0 mr-4 font-bold">
+                  Home
+                </div>
+              </a>
+              <a href="/intro/contact">
+                <div className="px-px-0 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl hover:text-blue-800 block mt-4 md:inline-block md:mt-0 mr-4 font-bold">
+                  Contact
+                </div>
+              </a>
+              <a href="/intro/privacy">
+                <div className="px-px-0 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl hover:text-blue-800 block mt-4 md:inline-block md:mt-0 mr-4 font-bold">
+                  Privacy Policy
+                </div>
+              </a>
+              <a href="/intro/tearms">
+                <div className="px-px-0 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl hover:text-blue-800 block mt-4 md:inline-block md:mt-0 mr-4 font-bold">
+                  Terms of Use
+                </div>
+              </a>
+              <a href="/intro/dmca">
+                <div className="px-px-0 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl hover:text-blue-800 block mt-4 md:inline-block md:mt-0 mr-4 font-bold">
+                  D.M.C.A
+                </div>
+              </a>
+              <a href="/intro/cookiepolicy">
+                <div className="px-px-0 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl hover:text-blue-800 block mt-4 md:inline-block md:mt-0 mr-4 font-bold">
+                  Cookie Policy
+                </div>
+              </a>
+            </div>
           </div>
         </div>
 

@@ -269,11 +269,12 @@ const HomePage = () => {
       </div>
 
       <div
-        style={{
+       style={{
           display: "flex",
-          justifyContent: "flex-end", // Align the date to the right
-          marginTop: "20px",
-          paddingRight: "20px", // Adds padding so it's not too close to the edge
+          justifyContent: "center", // Centers horizontally
+          alignItems: "center",    // Centers vertically
+          marginTop: "20px",       // Adjust based on your layout needs
+          padding: "20px",         // Adds some padding around the container
         }}
       >
         <div

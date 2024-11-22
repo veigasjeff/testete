@@ -164,6 +164,11 @@ const VideosPage = () => {
                     }}
                   />
                 )}
+                 {video.source && video.source !== "#" && (
+              <div className="player-wrapper">
+                <div id={`player-${index}`} className="video-player" />
+              </div>
+            )}
                 {video.description2 && <p>{video.description2}</p>}
                 {video.image1 && (
                   <img
@@ -179,11 +184,11 @@ const VideosPage = () => {
                 )}
               </div>
             </div>
-            {video.source && video.source !== "#" && (
+            {/* {video.source && video.source !== "#" && (
               <div className="player-wrapper">
                 <div id={`player-${index}`} className="video-player" />
               </div>
-            )}
+            )} */}
           </div>
         ))}
       </div>

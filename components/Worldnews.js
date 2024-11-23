@@ -184,11 +184,13 @@ const VideosPage = () => {
                 )}
               </div>
             </div>
-            {/* {video.source && video.source !== "#" && (
-              <div className="player-wrapper">
-                <div id={`player-${index}`} className="video-player" />
-              </div>
-            )} */}
+          {/* Embed MP3 Player */}
+      {video.mp3 && (
+        <audio controls>
+          <source src={video.mp3} type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      )}
           </div>
         ))}
       </div>

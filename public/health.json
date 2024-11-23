@@ -1,10 +1,12 @@
 {
   "videos": [
     {
-      "title": "Breaking News: Global Event",
-      "source": "4st9LQZE-MY",
+      "title": "Trump’s Agenda on LGBTQIA+ Rights Explained",
+      "source": "_O4QLpOcPA0",
       "description": "A major global event is taking place right now. Stay tuned for updates.",
-      "thumbnail": "https://img.youtube.com/vi/4st9LQZE-MY/0.jpg",
+      "thumbnail": "https://img.youtube.com/vi/_O4QLpOcPA0/0.jpg",
+      "image1": "https://cdn.24.co.za/files/Cms/General/d/12315/01453460de0b4824ac481d61394053a4.jpg",
+      "mp3": "https://dl.iono.fm/epi/prov_1864/epi_1493106_medium.m4a",
       "date": "2024-11-20",
       "time": "10:30 AM",
       "courtesy": "CNN"

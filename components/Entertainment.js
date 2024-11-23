@@ -170,16 +170,24 @@ const VideosPage = () => {
                   }}
                 />
               )}
-              {video.source && video.source !== "#" && (
-                <div className="player-wrapper">
-                  <div id={`player-${index}`} className="video-player" />
-                </div>
-              )}
-               {video.source1 && video.source1 !== "#" && (
-                <div className="player-wrapper">
-                  <div id={`player1-${index}`} className="video-player" />
-                </div>
-              )}
+          {video.source && video.source !== "#" && (
+  <div className="player-wrapper">
+    <div id={`player-${index}`} className="video-player">
+      {/* Logic to handle video.source */}
+      Source: {video.source}
+    </div>
+  </div>
+)}
+
+{video.source1 && video.source1 !== "#" && (
+  <div className="player-wrapper">
+    <div id={`player1-${index}`} className="video-player">
+      {/* Logic to handle video.source1 */}
+      Source1: {video.source1}
+    </div>
+  </div>
+)}
+
               {/* Embed MP3 Player */}
               {video.pod && (
                 <div

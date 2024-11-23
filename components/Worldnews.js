@@ -198,7 +198,11 @@ const VideosPage = () => {
                       <span
                         role="img"
                         aria-label="Podcast"
-                        style={{ marginRight: "8px" }}
+                        style={{
+                          marginRight: "8px",
+                          fontSize: "36px", // Increase font size for larger emoji
+                          lineHeight: "1.5", // Adjust line height for better spacing
+                        }}
                       >
                         🎙️
                       </span>

@@ -175,24 +175,52 @@ const VideosPage = () => {
                     <div id={`player-${index}`} className="video-player" />
                   </div>
                 )}
-                  {/* Embed MP3 Player */}
-            {video.mp3 && (
-              <div style={{  marginTop: "10px" }}>
-                <iframe
-                  width="100%"
-                  height="80"
-                  src={`https://www.youtube.com/embed/${new URL(
-                    video.mp3
-                  ).searchParams.get("v")}?list=${new URL(
-                    video.mp3
-                  ).searchParams.get("list")}&controls=1`}
-                  frameBorder="0"
-                  allow="encrypted-media"
-                  allowFullScreen
-                  style={{ borderRadius: "5px" }}
-                />
-              </div>
-            )}
+                {/* Embed MP3 Player */}
+                {video.mp3 && (
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                      marginTop: "20px",
+                    }}
+                  >
+                    {/* Podcast Indicator */}
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: "10px",
+                        fontSize: "18px",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <span
+                        role="img"
+                        aria-label="Podcast"
+                        style={{ marginRight: "8px" }}
+                      >
+                        🎙️
+                      </span>
+                      Podcast
+                    </div>
+
+                    {/* Embed YouTube Player */}
+                    <iframe
+                      width="100%"
+                      height="80"
+                      src={`https://www.youtube.com/embed/${new URL(
+                        video.mp3
+                      ).searchParams.get("v")}?list=${new URL(
+                        video.mp3
+                      ).searchParams.get("list")}&controls=1`}
+                      frameBorder="0"
+                      allow="encrypted-media"
+                      allowFullScreen
+                      style={{ borderRadius: "5px" }}
+                    />
+                  </div>
+                )}
                 {video.description2 && <p>{video.description2}</p>}
                 {video.image1 && (
                   <img
@@ -208,7 +236,6 @@ const VideosPage = () => {
                 )}
               </div>
             </div>
-          
           </div>
         ))}
       </div>

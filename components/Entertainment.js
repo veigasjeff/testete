@@ -161,7 +161,7 @@ const VideosPage = () => {
               {video.image && (
                 <img
                   src={video.image}
-                  alt={`${video.title} Image`}
+                    alt={`${video.title} Image`}
                   style={{
                     width: "100%",
                     height: "auto",
@@ -170,23 +170,23 @@ const VideosPage = () => {
                   }}
                 />
               )}
-  {video.source && video.source !== "#" && (
-  <div className="player-wrapper">
-    <div id={`player-${index}`} className="video-player">
-      {/* Render the video source */}
-      <p>Source: {video.source}</p>
-    </div>
-  </div>
-)}
+     {/* Render Video Source */}
+     {video.source && video.source !== "#" && (
+            <div className="player-wrapper">
+              <div id={`player-${index}`} className="video-player">
+                <p>Source: {video.source}</p>
+              </div>
+            </div>
+          )}
 
-{video.source1 && video.source1 !== "#" && (
-  <div className="player-wrapper">
-    <div id={`player1-${index}`} className="video-player">
-      {/* Render the video source1 */}
-      <p>Source1: {video.source1}</p>
-    </div>
-  </div>
-)}
+          {/* Render Video Source1 */}
+          {video.source1 && video.source1 !== "#" && (
+            <div className="player-wrapper">
+              <div id={`player1-${index}`} className="video-player">
+                <p>Source1: {video.source1}</p>
+              </div>
+            </div>
+          )}
 
 
               {/* Embed MP3 Player */}

@@ -175,22 +175,7 @@ const VideosPage = () => {
                     <div id={`player-${index}`} className="video-player" />
                   </div>
                 )}
-                {video.description2 && <p>{video.description2}</p>}
-                {video.image1 && (
-                  <img
-                    src={video.image1}
-                    alt={`${video.title} Image 1`}
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                      marginTop: "10px",
-                      borderRadius: "5px",
-                    }}
-                  />
-                )}
-              </div>
-            </div>
-            {/* Embed MP3 Player */}
+                  {/* Embed MP3 Player */}
             {video.mp3 && (
               <div style={{  marginTop: "10px" }}>
                 <iframe
@@ -208,6 +193,22 @@ const VideosPage = () => {
                 />
               </div>
             )}
+                {video.description2 && <p>{video.description2}</p>}
+                {video.image1 && (
+                  <img
+                    src={video.image1}
+                    alt={`${video.title} Image 1`}
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      marginTop: "10px",
+                      borderRadius: "5px",
+                    }}
+                  />
+                )}
+              </div>
+            </div>
+          
           </div>
         ))}
       </div>

@@ -176,7 +176,7 @@ const VideosPage = () => {
                   </div>
                 )}
                 {/* Embed MP3 Player */}
-                {video.mp3 && (
+                {video.pod && (
                   <div
                     style={{
                       display: "flex",
@@ -214,15 +214,53 @@ const VideosPage = () => {
                       width="50%"
                       height="80"
                       src={`https://www.youtube.com/embed/${new URL(
-                        video.mp3
+                        video.pod
                       ).searchParams.get("v")}?list=${new URL(
-                        video.mp3
+                        video.pod
                       ).searchParams.get("list")}&controls=1`}
                       frameBorder="0"
                       allow="encrypted-media"
                       allowFullScreen
                       style={{ borderRadius: "5px" }}
                     />
+                  </div>
+                )}
+                {/* Embed MP3 Player */}
+                {video.mp3 && (
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      marginTop: "10px",
+                    }}
+                  >
+                       {/* Podcast Indicator */}
+                       <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: "10px",
+                        fontSize: "18px",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <span
+                        role="img"
+                        aria-label="Podcast"
+                        style={{
+                          marginRight: "8px",
+                          fontSize: "36px", // Increase font size for larger emoji
+                          lineHeight: "1.5", // Adjust line height for better spacing
+                        }}
+                      >
+                        🎙️
+                      </span>
+                      Podcast
+                    </div>
+                    <audio controls style={{ width: "100%" }}>
+                      <source src={video.mp3} type="audio/mpeg" />
+                      Your browser does not support the audio element.
+                    </audio>
                   </div>
                 )}
                 {video.description2 && <p>{video.description2}</p>}

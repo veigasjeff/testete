@@ -189,10 +189,10 @@ const VideosPage = () => {
                   />
                 )}
               </div>
-            </div>
+           
             {/* Embed MP3 Player */}
             {video.mp3 && (
-              <div style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
+              <div style={{  marginTop: "10px" }}>
                 <iframe
                   width="100%"
                   height="80"
@@ -208,6 +208,7 @@ const VideosPage = () => {
                 />
               </div>
             )}
+          </div>
           </div>
         ))}
       </div>

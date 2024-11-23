@@ -170,6 +170,95 @@ const VideosPage = () => {
                 <div id={`player-${index}`} className="video-player" />
               </div>
             )}
+                {/* Embed MP3 Player */}
+                {video.pod && (
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                      marginTop: "20px",
+                    }}
+                  >
+                    {/* Podcast Indicator */}
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: "10px",
+                        fontSize: "18px",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <span
+                        role="img"
+                        aria-label="Podcast"
+                        style={{
+                          marginRight: "8px",
+                          fontSize: "36px", // Increase font size for larger emoji
+                          lineHeight: "1.5", // Adjust line height for better spacing
+                        }}
+                      >
+                        🎙️
+                      </span>
+                      Podcast
+                    </div>
+
+                    {/* Embed YouTube Player */}
+                    <iframe
+                      width="50%"
+                      height="80"
+                      src={`https://www.youtube.com/embed/${new URL(
+                        video.pod
+                      ).searchParams.get("v")}?list=${new URL(
+                        video.pod
+                      ).searchParams.get("list")}&controls=1`}
+                      frameBorder="0"
+                      allow="encrypted-media"
+                      allowFullScreen
+                      style={{ borderRadius: "5px" }}
+                    />
+                  </div>
+                )}
+                {/* Embed MP3 Player */}
+                {video.mp3 && (
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      marginTop: "10px",
+                    }}
+                  >
+                       {/* Podcast Indicator */}
+                       <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: "10px",
+                        marginRight: "8px",
+                        fontSize: "18px",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <span
+                        role="img"
+                        aria-label="Podcast"
+                        style={{
+                          marginRight: "8px",
+                          fontSize: "36px", // Increase font size for larger emoji
+                          lineHeight: "1.5", // Adjust line height for better spacing
+                        }}
+                      >
+                        🎙️
+                      </span>
+                      Podcast
+                    </div>
+                    <audio controls style={{ width: "50%" }}>
+                      <source src={video.mp3} type="audio/mpeg" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                )}
                 {video.description2 && <p>{video.description2}</p>}
                 {video.image1 && (
                   <img

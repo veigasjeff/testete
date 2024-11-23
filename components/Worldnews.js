@@ -211,7 +211,7 @@ const VideosPage = () => {
 
                     {/* Embed YouTube Player */}
                     <iframe
-                      width="100%"
+                      width="50%"
                       height="80"
                       src={`https://www.youtube.com/embed/${new URL(
                         video.mp3

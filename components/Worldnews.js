@@ -82,24 +82,30 @@ const VideosPage = () => {
             textShadow: "1px 1px 0px #000",
             fontSize: "20px",
             textAlign: "center",
-          }} >
+          }}
+        >
           Previous
         </button>
-        <span   style={{
-          textShadow: "1px 1px 0px #000",
-          fontSize: "20px",
-          textAlign: "center",
-        }}>
+        <span
+          style={{
+            textShadow: "1px 1px 0px #000",
+            fontSize: "20px",
+            textAlign: "center",
+          }}
+        >
           Page {currentPage} of {totalPages}
         </span>
         <button
-          onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+          onClick={() =>
+            setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+          }
           disabled={currentPage === totalPages}
           style={{
             textShadow: "1px 1px 0px #000",
             fontSize: "20px",
             textAlign: "center",
-          }}  >
+          }}
+        >
           Next
         </button>
       </div>
@@ -164,11 +170,11 @@ const VideosPage = () => {
                     }}
                   />
                 )}
-                 {video.source && video.source !== "#" && (
-              <div className="player-wrapper">
-                <div id={`player-${index}`} className="video-player" />
-              </div>
-            )}
+                {video.source && video.source !== "#" && (
+                  <div className="player-wrapper">
+                    <div id={`player-${index}`} className="video-player" />
+                  </div>
+                )}
                 {video.description2 && <p>{video.description2}</p>}
                 {video.image1 && (
                   <img
@@ -184,13 +190,24 @@ const VideosPage = () => {
                 )}
               </div>
             </div>
-          {/* Embed MP3 Player */}
-      {video.mp3 && (
-        <audio controls>
-          <source src={video.mp3} type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
-      )}
+            {/* Embed MP3 Player */}
+            {video.mp3 && (
+              <div style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
+                <iframe
+                  width="100%"
+                  height="80"
+                  src={`https://www.youtube.com/embed/${new URL(
+                    video.mp3
+                  ).searchParams.get("v")}?list=${new URL(
+                    video.mp3
+                  ).searchParams.get("list")}&controls=1`}
+                  frameBorder="0"
+                  allow="encrypted-media"
+                  allowFullScreen
+                  style={{ borderRadius: "5px" }}
+                />
+              </div>
+            )}
           </div>
         ))}
       </div>
@@ -203,29 +220,35 @@ const VideosPage = () => {
             textShadow: "1px 1px 0px #000",
             fontSize: "20px",
             textAlign: "center",
-          }} >
+          }}
+        >
           Previous
         </button>
-        <span   style={{
-          textShadow: "1px 1px 0px #000",
-          fontSize: "20px",
-          textAlign: "center",
-        }}>
+        <span
+          style={{
+            textShadow: "1px 1px 0px #000",
+            fontSize: "20px",
+            textAlign: "center",
+          }}
+        >
           Page {currentPage} of {totalPages}
         </span>
         <button
-          onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+          onClick={() =>
+            setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+          }
           disabled={currentPage === totalPages}
           style={{
             textShadow: "1px 1px 0px #000",
             fontSize: "20px",
             textAlign: "center",
-          }}  >
+          }}
+        >
           Next
         </button>
       </div>
 
-        <style jsx>{`
+      <style jsx>{`
         .videos-page {
           padding: 20px;
         }
@@ -318,19 +341,3 @@ const VideosPage = () => {
 };
 
 export default VideosPage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

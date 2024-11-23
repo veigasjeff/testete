@@ -257,7 +257,7 @@ const VideosPage = () => {
                       </span>
                       Podcast
                     </div>
-                    <audio controls style={{ width: "100%" }}>
+                    <audio controls style={{ width: "50%" }}>
                       <source src={video.mp3} type="audio/mpeg" />
                       Your browser does not support the audio element.
                     </audio>

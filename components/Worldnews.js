@@ -240,7 +240,7 @@ const VideosPage = () => {
                         display: "flex",
                         alignItems: "center",
                         marginBottom: "10px",
-                        marginLeft: "8px",
+                        marginRight: "8px",
                         fontSize: "18px",
                         fontWeight: "bold",
                       }}

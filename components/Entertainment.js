@@ -170,11 +170,11 @@ const VideosPage = () => {
                   }}
                 />
               )}
-          {video.source && video.source !== "#" && (
+  {video.source && video.source !== "#" && (
   <div className="player-wrapper">
     <div id={`player-${index}`} className="video-player">
-      {/* Logic to handle video.source */}
-      Source: {video.source}
+      {/* Render the video source */}
+      <p>Source: {video.source}</p>
     </div>
   </div>
 )}
@@ -182,11 +182,12 @@ const VideosPage = () => {
 {video.source1 && video.source1 !== "#" && (
   <div className="player-wrapper">
     <div id={`player1-${index}`} className="video-player">
-      {/* Logic to handle video.source1 */}
-      Source1: {video.source1}
+      {/* Render the video source1 */}
+      <p>Source1: {video.source1}</p>
     </div>
   </div>
 )}
+
 
               {/* Embed MP3 Player */}
               {video.pod && (

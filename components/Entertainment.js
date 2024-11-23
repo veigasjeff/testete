@@ -177,7 +177,7 @@ const VideosPage = () => {
               )}
                {video.source1 && video.source1 !== "#" && (
                 <div className="player-wrapper">
-                  <div id={`player-${index}`} className="video-player" />
+                  <div id={`player1-${index}`} className="video-player" />
                 </div>
               )}
               {/* Embed MP3 Player */}

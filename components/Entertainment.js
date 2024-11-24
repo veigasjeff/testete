@@ -194,6 +194,12 @@ const VideosPage = () => {
               </div>
               {/* Conditional Rendering */}
               {video.description1 && <p>{video.description1}</p>}
+             
+              {video.source && video.source !== "#" && (
+                <div className="player-wrapper">
+                  <div id={`player-${index}`} className="video-player" />
+                </div>
+              )}
               {video.image && (
                 <img
                   src={video.image}
@@ -206,12 +212,6 @@ const VideosPage = () => {
                   }}
                 />
               )}
-              {video.source && video.source !== "#" && (
-                <div className="player-wrapper">
-                  <div id={`player-${index}`} className="video-player" />
-                </div>
-              )}
-             
               {/* Embed MP3 Player */}
               {video.pod && (
                 <div

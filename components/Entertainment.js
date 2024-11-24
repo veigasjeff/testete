@@ -94,7 +94,7 @@ const VideosPage = () => {
       });
     });
   }, [pageVideos]);
-  
+
   return (
     <div className="videos-page">
     {/* <div
@@ -212,8 +212,8 @@ const VideosPage = () => {
                   <div id={`player-${index}`} className="video-player" />
                 </div>
               )} */}
-                 {/* Render video sources */}
-                 {video.source && video.source.length > 0 && (
+                  {/* Render YouTube players */}
+              {video.source && Array.isArray(video.source) && video.source.length > 0 && (
                 <div className="player-wrapper">
                   {video.source.map((videoId, idx) => (
                     <div
@@ -225,7 +225,6 @@ const VideosPage = () => {
                   ))}
                 </div>
               )}
-
               {/* Embed MP3 Player */}
               {video.pod && (
                 <div

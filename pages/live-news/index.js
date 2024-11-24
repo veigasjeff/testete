@@ -3,6 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Livenews from "../../components/Livenews";
+import Marquee from "../components/Marquee";
 import SocialSharing from "../../components/SocialSharing";
 import Head from "next/head";
 
@@ -423,7 +424,15 @@ const HomePage = ({ videos }) => {
            
           </ul>
         </div>
-
+        <h2 className="flex flex-col items-center space-x-4">
+          <span
+            className='animate-pulse px-0 bg-gradient-to-r from-black to-black bg-clip-text text-transparent text-xl hover:text-blue-800 font-bold mt-2'
+            style={{ marginBottom: '15px' }}
+          >
+            Most Trending News:
+          </span>
+        </h2>
+      <Marquee/>
       <div
         className="shadow-lg flex items-center justify-center"
         role="navigation"

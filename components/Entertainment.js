@@ -211,11 +211,7 @@ const VideosPage = () => {
                   <div id={`player-${index}`} className="video-player" />
                 </div>
               )}
-                {video.source1 && video.source1 !== "#" && (
-                <div className="player-wrapper">
-                  <div id={`player1-${index}`} className="video-player" />
-                </div>
-              )}
+             
               {/* Embed MP3 Player */}
               {video.pod && (
                 <div
@@ -306,6 +302,11 @@ const VideosPage = () => {
                 </div>
               )}
               {video.description2 && <p>{video.description2}</p>}
+              {video.source1 && video.source1 !== "#" && (
+                <div className="player-wrapper">
+                  <div id={`player1-${index}`} className="video-player" />
+                </div>
+              )}
               {video.image1 && (
                 <img
                   src={video.image1}

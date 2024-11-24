@@ -179,6 +179,11 @@ const Marquee = () => {
       href: "../sport/",
       image: 'https://img.youtube.com/vi/KOgtICimh5E/maxresdefault.jpg'
     },
+    {
+      text: 'Highlights: Australia v India 2024-25 | First Test',
+      href: "../sport/",
+      image: 'https://img.youtube.com/vi/3I0kpPFonSc/maxresdefault.jpg'
+    },
   ];
 
   return (

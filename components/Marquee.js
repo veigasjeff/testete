@@ -174,6 +174,11 @@ const Marquee = () => {
       href: "../worldnews/",
       image: 'https://news24online.com/wp-content/uploads/2024/11/adani.jpg'
     },
+    {
+      text: 'Highlights: Southampton vs Liverpool | Salah Double Wins It! (2-3)',
+      href: "../sport/",
+      image: 'https://img.youtube.com/vi/KOgtICimh5E/maxresdefault.jpg'
+    },
   ];
 
   return (

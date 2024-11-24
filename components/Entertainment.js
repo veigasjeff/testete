@@ -23,8 +23,43 @@ const VideosPage = () => {
   // Calculate total pages
   const totalPages = Math.ceil(videos.length / videosPerPage);
 
-  // Load YouTube IFrame API and initialize players for visible videos
+  // // Load YouTube IFrame API and initialize players for visible videos
+  // useEffect(() => {
+  //   const loadYouTubeAPI = () => {
+  //     return new Promise((resolve) => {
+  //       if (window.YT && window.YT.Player) {
+  //         resolve();
+  //       } else {
+  //         const tag = document.createElement("script");
+  //         tag.src = "https://www.youtube.com/iframe_api";
+  //         tag.onload = () => {
+  //           window.onYouTubeIframeAPIReady = resolve;
+  //         };
+  //         document.body.appendChild(tag);
+  //       }
+  //     });
+  //   };
+
+  //   loadYouTubeAPI().then(() => {
+  //     pageVideos.forEach((video, index) => {
+  //       if (video.source && video.source !== "#") {
+  //         new window.YT.Player(`player-${index}`, {
+  //           videoId: video.source,
+  //           playerVars: {
+  //             playsinline: 1,
+  //             autoplay: 1,
+  //             mute: 1,
+  //             loop: 1,
+  //             playlist: video.source,
+  //           },
+  //         });
+  //       }
+  //     });
+  //   });
+  // }, [pageVideos]);
+
   useEffect(() => {
+    // Load YouTube API and initialize players for visible videos
     const loadYouTubeAPI = () => {
       return new Promise((resolve) => {
         if (window.YT && window.YT.Player) {
@@ -42,22 +77,24 @@ const VideosPage = () => {
 
     loadYouTubeAPI().then(() => {
       pageVideos.forEach((video, index) => {
-        if (video.source && video.source !== "#") {
-          new window.YT.Player(`player-${index}`, {
-            videoId: video.source,
-            playerVars: {
-              playsinline: 1,
-              autoplay: 1,
-              mute: 1,
-              loop: 1,
-              playlist: video.source,
-            },
+        if (video.source && Array.isArray(video.source) && video.source.length > 0) {
+          video.source.forEach((videoId, idx) => {
+            new window.YT.Player(`player-${index}-${idx}`, {
+              videoId: videoId,
+              playerVars: {
+                playsinline: 1,
+                autoplay: 1,
+                mute: 1,
+                loop: 1,
+                playlist: video.source.join(','), // If multiple sources, use playlist
+              },
+            });
           });
         }
       });
     });
   }, [pageVideos]);
-
+  
   return (
     <div className="videos-page">
     {/* <div
@@ -175,20 +212,20 @@ const VideosPage = () => {
                   <div id={`player-${index}`} className="video-player" />
                 </div>
               )} */}
-                 {/* Render each video source */}
-          {video.source && video.source.length > 0 && (
-            <div className="player-wrapper">
-              {video.source.map((videoId, idx) => (
-                <div
-                  key={idx}
-                  className="custom-video-player"
-                  style={{ margin: "10px 0" }}
-                >
-                  <VideoPlayer videoId={videoId} />
+                 {/* Render video sources */}
+                 {video.source && video.source.length > 0 && (
+                <div className="player-wrapper">
+                  {video.source.map((videoId, idx) => (
+                    <div
+                      key={idx}
+                      id={`player-${index}-${idx}`}
+                      className="video-player"
+                      style={{ marginBottom: "20px" }}
+                    ></div>
+                  ))}
                 </div>
-              ))}
-            </div>
-          )}
+              )}
+
               {/* Embed MP3 Player */}
               {video.pod && (
                 <div

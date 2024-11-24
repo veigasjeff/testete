@@ -191,7 +191,13 @@ const VideosPage = () => {
              
               {video.source && video.source !== "#" && (
                 <div className="player-wrapper">
-                  <div id={`player-${index}`} className="video-player" />
+                  <div id={`player-${index}`} className="video-player" 
+                    style={{
+                      boxShadow: "0 10px 10px 10px #000",
+                      filter:
+                        "contrast(1.1) saturate(1.2) brightness(1.3) hue-rotate(0deg)",
+                    }}
+                  />
                 </div>
               )}
               {video.image && (
@@ -203,6 +209,8 @@ const VideosPage = () => {
                     height: "auto",
                     marginTop: "10px",
                     borderRadius: "5px",
+                    filter:
+                    "contrast(1.2) saturate(1.3) brightness(1.1) hue-rotate(0deg)",
                   }}
                 />
               )}
@@ -298,7 +306,13 @@ const VideosPage = () => {
               {video.description2 && <p>{video.description2}</p>}
               {video.source1 && video.source1 !== "#" && (
                 <div className="player-wrapper">
-                  <div id={`player1-${index}`} className="video-player" />
+                  <div id={`player1-${index}`} className="video-player" 
+                   style={{
+                    boxShadow: "0 10px 10px 10px #000",
+                    filter:
+                      "contrast(1.1) saturate(1.2) brightness(1.3) hue-rotate(0deg)",
+                  }}
+                  />
                 </div>
               )}
               {video.image1 && (
@@ -310,6 +324,8 @@ const VideosPage = () => {
                     height: "auto",
                     marginTop: "10px",
                     borderRadius: "5px",
+                    filter:
+                    "contrast(1.2) saturate(1.3) brightness(1.1) hue-rotate(0deg)",
                   }}
                 />
               )}

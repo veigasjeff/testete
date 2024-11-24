@@ -1,51 +1,41 @@
-/* components/Marquee.module.css */
 .marquee {
-  display: inline-block;
+  display: block;
   overflow: hidden;
-  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
   white-space: nowrap;
-  box-sizing: border-box;
   position: relative;
-  vertical-align: middle;
-  width: 100%; /* Make sure the marquee takes up the full width */
+  width: 100%;
+  background-color: #f9f9f9; /* Optional background */
+  padding: 10px 0; /* Optional padding */
 }
 
 .marqueeContent {
   display: inline-block;
-  animation: marquee 30s linear infinite;
   white-space: nowrap;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: -10s; /* Set animation delay to 0 seconds */
+  animation: marquee 15s linear infinite; /* Speed set to 30s */
+  animation-delay: -10s; /* Ensure no delay at start */
 }
 
 .marqueeItem {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   padding: 0 20px;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: bold;
   color: #000;
   text-decoration: none;
   transition: transform 0.2s ease-in-out;
-}
-
-.marqueeItem:hover {
-  transform: scale(1.1);
-  color: #ff6347; /* Change color on hover */
+  gap: 10px;
 }
 
 .marqueeItem img {
-  width: 250px;
-  height: 150px;
-  margin-right: 10px;
-  vertical-align: middle; /* Align the image vertically with the text */
-}
-
-.marqueeItem p {
-  display: block; /* Ensure the text appears below the image */
+  width: 120px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .marquee:hover .marqueeContent {
-  animation-play-state: paused; /* Pause the animation on hover */
+  animation-play-state: paused; /* Pause on hover */
 }
 
 @keyframes marquee {
@@ -57,25 +47,15 @@
   }
 }
 
-/* Hide the marquee on screens with a width of 768px or less */
-
-
+/* Responsive design for smaller screens */
 @media screen and (max-width: 768px) {
-  .marquee {
-    display: none;
+  .marqueeItem {
+    font-size: 16px; /* Reduce text size for smaller screens */
+    padding: 0 10px;
   }
 
-
-    /* Additional styles for smaller screens */
-    /* @media screen and (max-width: 768px) {
-      .marqueeItem {
-        font-size: 16px; 
-      }
-    
-      .marqueeItem img {
-        width: 250px; 
-        height: 150px; 
-      } */
-
-    }
-
+  .marqueeItem img {
+    width: 120px; /* Adjust image size for smaller screens */
+    height: 80px;
+  }
+}

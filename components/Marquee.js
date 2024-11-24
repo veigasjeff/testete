@@ -211,11 +211,14 @@
 
 // export default Marquee;
 
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import styles from "@styles/Marquee.module.css";
 
 const Marquee = () => {
+  const marqueeRef = useRef(null);
+  const [animationDuration, setAnimationDuration] = useState(20); // Default duration
+
   const itemsnames = [
     {
       text: "Stay Informed: Watch Al Jazeera English Live: @Al Jazeera English, we focus on people and events that affect people's lives.",
@@ -225,8 +228,7 @@ const Marquee = () => {
     {
       text: "Trump Is Running His Transition Team on Secret Money.",
       href: "../",
-      image:
-        "https://cdn.24.co.za/files/Cms/General/d/12054/43818184510d4a7f9724bf22209b0aa4.jpg",
+      image: "https://cdn.24.co.za/files/Cms/General/d/12054/43818184510d4a7f9724bf22209b0aa4.jpg",
     },
     {
       text: "US Gautam Adani Group Bribery Allegations.",
@@ -245,9 +247,24 @@ const Marquee = () => {
     },
   ];
 
+  useEffect(() => {
+    if (marqueeRef.current) {
+      const contentWidth = marqueeRef.current.scrollWidth; // Get the full width of marquee content
+      const viewportWidth = window.innerWidth; // Get viewport width
+      const totalScrollDistance = contentWidth + viewportWidth;
+
+      // Set duration based on total scroll distance (speed = 50px/s)
+      setAnimationDuration(totalScrollDistance / 50); // Adjust speed as needed
+    }
+  }, [itemsnames]);
+
   return (
     <div className={styles.marquee}>
-      <div className={styles.marqueeContent}>
+      <div
+        className={styles.marqueeContent}
+        ref={marqueeRef}
+        style={{ animationDuration: `${animationDuration}s` }}
+      >
         {itemsnames.map((item, index) => (
           <Link href={item.href} key={index} passHref>
             <div className={styles.marqueeItem}>
@@ -259,12 +276,18 @@ const Marquee = () => {
                   loading="lazy"
                   style={{
                     boxShadow: "0 0 10px 0 #000",
-                    filter:
-                      "contrast(1.1) saturate(1.1) brightness(1.0) hue-rotate(0deg)",
+                    filter: "contrast(1.1) saturate(1.1) brightness(1.0) hue-rotate(0deg)",
                   }}
                 />
               )}
-              <span className={styles.marqueeText}>{item.text}</span>
+              <span
+                className="bg-gradient-to-r from-black to-blue-900 bg-clip-text text-transparent text-xl hover:text-blue-800 font-bold mt-2"
+                style={{
+                  textShadow: "1px 1px 0px #000",
+                }}
+              >
+                {item.text}
+              </span>
             </div>
           </Link>
         ))}

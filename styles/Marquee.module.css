@@ -11,8 +11,7 @@
 .marqueeContent {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 20s linear infinite; /* Speed set to 30s */
-  animation-delay: -10s; /* Ensure no delay at start */
+  animation: marquee linear infinite; /* Speed dynamically set via JS */
 }
 
 .marqueeItem {
@@ -44,18 +43,5 @@
   }
   100% {
     transform: translateX(-100%);
-  }
-}
-
-/* Responsive design for smaller screens */
-@media screen and (max-width: 768px) {
-  .marqueeItem {
-    font-size: 16px; /* Reduce text size for smaller screens */
-    padding: 0 10px;
-  }
-
-  .marqueeItem img {
-    width: 120px; /* Adjust image size for smaller screens */
-    height: 80px;
   }
 }

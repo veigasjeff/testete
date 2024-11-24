@@ -120,6 +120,100 @@ const HomePage = ({ videos }) => {
     ],
   });
 
+  const soap2daySchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://worldsnews24.vercel.app/sport",
+        "url": "https://worldsnews24.vercel.app/sport",
+        "name": "World News 24™ – Stay Informed, Stay Ahead.",
+        "isPartOf": { "@id": "https://worldsnews24.vercel.app/#website" },
+        "about": { "@id": "https://worldsnews24.vercel.app/#organization" },
+        "primaryImageOfPage": {
+          "@id": "https://worldsnews24.vercel.app/#primaryimage",
+        },
+        "image": {
+          "@id": "https://worldsnews24.vercel.app/#primaryimage",
+        },
+        "thumbnailUrl": "https://worldsnews24.vercel.app/og_image.jpg",
+        "datePublished": "2023-07-02T18:30:00+00:00",
+        "dateModified": "2024-09-24T05:11:20+00:00",
+        "breadcrumb": {
+          "@id": "https://worldsnews24.vercel.app/sport#breadcrumb",
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": ["https://worldsnews24.vercel.app/sport"],
+          },
+        ],
+      },
+      {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://worldsnews24.vercel.app/#primaryimage",
+        "url": "https://worldsnews24.vercel.app/og_image.jpg",
+        "contentUrl": "https://worldsnews24.vercel.app/og_image.jpg",
+        "width": 1280,
+        "height": 720,
+        "caption": "World News 24™ – Stay Informed, Stay Ahead.",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://worldsnews24.vercel.app/worldnews#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Sports",
+            "item": "https://worldsnews24.vercel.app/sport",
+          },
+        ],
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://worldsnews24.vercel.app/#website",
+        "url": "https://worldsnews24.vercel.app/",
+        "name": "World News 24™ – Stay Informed, Stay Ahead.",
+        "description": "Your trusted source for the latest global news and updates.",
+        "publisher": { "@id": "https://worldsnews24.vercel.app/#organization" },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate":
+                "https://worldsnews24.vercel.app/?s={search_term_string}",
+            },
+            "query-input": "required name=search_term_string",
+          },
+        ],
+        "inLanguage": "en-US",
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://worldsnews24.vercel.app/#organization",
+        "name": "World News 24™ – Stay Informed, Stay Ahead.",
+        "url": "https://worldsnews24.vercel.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://worldsnews24.vercel.app/#logo",
+          "url": "https://worldsnews24.vercel.app/logo.png",
+          "contentUrl": "https://worldsnews24.vercel.app/logo.png",
+          "width": 280,
+          "height": 100,
+          "caption": "World News 24™ – Stay Informed, Stay Ahead.",
+        },
+        "image": {
+          "@id": "https://worldsnews24.vercel.app/#logo",
+        },
+      },
+    ],
+  });
+
   return (
     <div>
       <Head>
@@ -230,8 +324,7 @@ const HomePage = ({ videos }) => {
           content="dm3bs67ukdegz9qik"
         />
         <meta name="monetag" content="98a412cb5612b9188cd76b9744304b6c" />
-      </Head>
-      <script
+        <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: NewsSchema }}
       />
@@ -239,7 +332,12 @@ const HomePage = ({ videos }) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: rankMathSchema }}
       />
-
+     <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: soap2daySchema }}
+      />
+      </Head>
+      
       <div
         style={{
           display: "flex",

@@ -58,6 +58,42 @@ const VideosPage = () => {
     });
   }, [pageVideos]);
 
+
+  // Load YouTube IFrame API and initialize players for visible videos
+  useEffect(() => {
+    const loadYouTubeAPI = () => {
+      return new Promise((resolve) => {
+        if (window.YT && window.YT.Player) {
+          resolve();
+        } else {
+          const tag = document.createElement("script");
+          tag.src = "https://www.youtube.com/iframe_api";
+          tag.onload = () => {
+            window.onYouTubeIframeAPIReady = resolve;
+          };
+          document.body.appendChild(tag);
+        }
+      });
+    };
+
+    loadYouTubeAPI().then(() => {
+      pageVideos.forEach((video, index) => {
+        if (video.source1 && video.source1 !== "#") {
+          new window.YT.Player(`player-${index}`, {
+            videoId: video.source1,
+            playerVars: {
+              playsinline: 1,
+              autoplay: 1,
+              mute: 1,
+              loop: 1,
+              playlist: video.source1,
+            },
+          });
+        }
+      });
+    });
+  }, [pageVideos]);
+
   return (
     <div className="videos-page">
     {/* <div
@@ -171,6 +207,11 @@ const VideosPage = () => {
                 />
               )}
               {video.source && video.source !== "#" && (
+                <div className="player-wrapper">
+                  <div id={`player-${index}`} className="video-player" />
+                </div>
+              )}
+                {video.source1 && video.source1 !== "#" && (
                 <div className="player-wrapper">
                   <div id={`player-${index}`} className="video-player" />
                 </div>

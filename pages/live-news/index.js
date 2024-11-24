@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Livenews from "../../components/Livenews";
-import Marquee from "../components/Marquee";
+import Marquee from "../../components/Marquee";
 import SocialSharing from "../../components/SocialSharing";
 import Head from "next/head";
 

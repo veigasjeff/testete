@@ -95,10 +95,7 @@ const contact = () => {
           name="robots"
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
-        <meta
-          name="keywords"
-          content="latest news, live news, business news, news in India, online news, bollywood news, breaking news, current news, world news, sports news, india latest news, news headlines, news site, news website, top news, India news, entertainment news, national news, political news, Asian News International"
-        />
+       <meta name="keywords" content="world news 24, world news, united kingdom, united states, australia, canada, europe, asia, japan, china, south america" />
         <meta
           name="description"
           content="World News 24™: Your trusted source for breaking news, global updates, and real-time coverage of politics, business, technology, culture, sports, and more—24/7."

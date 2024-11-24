@@ -58,6 +58,41 @@ const VideosPage = () => {
     });
   }, [pageVideos]);
 
+    // Load YouTube IFrame API and initialize players for visible videos
+    useEffect(() => {
+      const loadYouTubeAPI = () => {
+        return new Promise((resolve) => {
+          if (window.YT && window.YT.Player) {
+            resolve();
+          } else {
+            const tag = document.createElement("script");
+            tag.src = "https://www.youtube.com/iframe_api";
+            tag.onload = () => {
+              window.onYouTubeIframeAPIReady = resolve;
+            };
+            document.body.appendChild(tag);
+          }
+        });
+      };
+  
+      loadYouTubeAPI().then(() => {
+        pageVideos.forEach((video, index) => {
+          if (video.source1 && video.source1 !== "#") {
+            new window.YT.Player(`player1-${index}`, {
+              videoId: video.source1,
+              playerVars: {
+                playsinline: 1,
+                autoplay: 1,
+                mute: 1,
+                loop: 1,
+                playlist: video.source1,
+              },
+            });
+          }
+        });
+      });
+    }, [pageVideos]);
+    
   return (
     <div className="videos-page">
     {/* <div
@@ -158,6 +193,12 @@ const VideosPage = () => {
               </div>
               {/* Conditional Rendering */}
               {video.description1 && <p>{video.description1}</p>}
+             
+              {video.source && video.source !== "#" && (
+                <div className="player-wrapper">
+                  <div id={`player-${index}`} className="video-player" />
+                </div>
+              )}
               {video.image && (
                 <img
                   src={video.image}
@@ -169,11 +210,6 @@ const VideosPage = () => {
                     borderRadius: "5px",
                   }}
                 />
-              )}
-              {video.source && video.source !== "#" && (
-                <div className="player-wrapper">
-                  <div id={`player-${index}`} className="video-player" />
-                </div>
               )}
               {/* Embed MP3 Player */}
               {video.pod && (
@@ -265,6 +301,11 @@ const VideosPage = () => {
                 </div>
               )}
               {video.description2 && <p>{video.description2}</p>}
+              {video.source1 && video.source1 !== "#" && (
+                <div className="player-wrapper">
+                  <div id={`player1-${index}`} className="video-player" />
+                </div>
+              )}
               {video.image1 && (
                 <img
                   src={video.image1}
@@ -412,3 +453,4 @@ const VideosPage = () => {
 };
 
 export default VideosPage;
+

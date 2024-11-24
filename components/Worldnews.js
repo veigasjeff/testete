@@ -198,7 +198,7 @@ const VideosPage = () => {
                 <div className="player-wrapper">
                   <div id={`player-${index}`} className="video-player" 
                     style={{
-                      boxShadow: "0 10px 10px 10px #000",
+                      boxShadow: "0 0 10px 0 #000",
                       filter:
                         "contrast(1.1) saturate(1.2) brightness(1.3) hue-rotate(0deg)",
                     }}
@@ -313,7 +313,7 @@ const VideosPage = () => {
                 <div className="player-wrapper">
                   <div id={`player1-${index}`} className="video-player" 
                    style={{
-                    boxShadow: "0 10px 10px 10px #000",
+                    boxShadow: "0 0 10px 0 #000",
                     filter:
                       "contrast(1.1) saturate(1.2) brightness(1.3) hue-rotate(0deg)",
                   }}

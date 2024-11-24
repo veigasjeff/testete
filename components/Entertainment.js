@@ -79,7 +79,7 @@ const VideosPage = () => {
     loadYouTubeAPI().then(() => {
       pageVideos.forEach((video, index) => {
         if (video.source1 && video.source1 !== "#") {
-          new window.YT.Player(`player-${index}`, {
+          new window.YT.Player(`player1-${index}`, {
             videoId: video.source1,
             playerVars: {
               playsinline: 1,
@@ -213,7 +213,7 @@ const VideosPage = () => {
               )}
                 {video.source1 && video.source1 !== "#" && (
                 <div className="player-wrapper">
-                  <div id={`player-${index}`} className="video-player" />
+                  <div id={`player1-${index}`} className="video-player" />
                 </div>
               )}
               {/* Embed MP3 Player */}

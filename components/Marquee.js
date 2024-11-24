@@ -165,15 +165,11 @@ const Marquee = () => {
       image: "https://img.youtube.com/vi/gCNeDWCI0vo/0.jpg",
     },
     {
-      text: 'Softwarebay Desktop 2024.',
-      href: '../worldnews/',
-      // image: 'https://res.cloudinary.com/dm37icb6j/image/upload/v1717477537/Desktop_ikjv44.webp'
+      text: 'Trump Is Running His Transition Team on Secret Money',
+      href: '../',
+      image: 'https://cdn.24.co.za/files/Cms/General/d/12054/43818184510d4a7f9724bf22209b0aa4.jpg'
     },
-    {
-      text: 'Softwarebay Multimedia 2024.',
-      href: '../politics/',
-      // image: 'https://res.cloudinary.com/dm37icb6j/image/upload/v1717472629/multimedia_nzsixs.webp'
-    }
+   
   ];
 
   return (

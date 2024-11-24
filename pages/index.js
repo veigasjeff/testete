@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Youtube from "../components/Youtube";
 import SocialSharing from "../components/SocialSharing";
+import Marquee from "../components/Marquee";
 import Head from "next/head";
 import Script from "next/script";
 

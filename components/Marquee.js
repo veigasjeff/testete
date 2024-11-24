@@ -169,7 +169,11 @@ const Marquee = () => {
       href: '../',
       image: 'https://cdn.24.co.za/files/Cms/General/d/12054/43818184510d4a7f9724bf22209b0aa4.jpg'
     },
-   
+    {
+      text: 'US Gautam Adani Group Bribery Allegations.',
+      href: "../worldnews/",
+      image: 'https://news24online.com/wp-content/uploads/2024/11/adani.jpg'
+    },
   ];
 
   return (

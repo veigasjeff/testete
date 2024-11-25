@@ -8,13 +8,13 @@
   padding: 10px 0; /* Optional padding */
 }
 
-
 .marqueeContent {
   display: inline-block;
   white-space: nowrap;
   animation: marquee 25s linear infinite; /* Speed set to 30s */
   animation-delay: -10s; /* Ensure no delay at start */
 }
+
 .marqueeItem {
   display: inline-flex;
   align-items: center;

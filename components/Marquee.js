@@ -165,6 +165,11 @@ const Marquee = () => {
       image: "https://img.youtube.com/vi/gCNeDWCI0vo/0.jpg",
     },
     {
+      text: "MPs break into 'protest haka' to disrupt New Zealand parliament",
+      href: "../",
+      image: "https://i.ytimg.com/vi/V188_OKQ2Jo/maxresdefault.jpg",
+    },
+    {
       text: 'Trump Is Running His Transition Team on Secret Money.',
       href: '../',
       image: 'https://cdn.24.co.za/files/Cms/General/d/12054/43818184510d4a7f9724bf22209b0aa4.jpg'

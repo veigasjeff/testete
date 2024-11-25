@@ -11,7 +11,7 @@
 .marqueeContent {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 0s linear infinite; /* Speed set to 30s */
+  animation: marquee 25s linear infinite; /* Speed set to 30s */
   animation-delay: -10s; /* Ensure no delay at start */
 }
 

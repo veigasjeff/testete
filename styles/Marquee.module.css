@@ -12,7 +12,7 @@
   display: inline-block;
   white-space: nowrap;
   animation: marquee 25s linear infinite; /* Speed set to 30s */
-  animation-delay: -10s; /* Ensure no delay at start */
+  animation-delay: -5s; /* Ensure no delay at start */
 }
 
 .marqueeItem {

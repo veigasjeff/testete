@@ -254,7 +254,7 @@ const Marquee = () => {
       const totalScrollDistance = contentWidth + viewportWidth;
 
       // Set duration based on total scroll distance (speed = 50px/s)
-      setAnimationDuration(totalScrollDistance / 10); // Adjust speed as needed
+      setAnimationDuration(totalScrollDistance / 100); // Adjust speed as needed
     }
   }, [itemsnames]);
 

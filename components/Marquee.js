@@ -221,7 +221,7 @@ const Marquee = () => {
 
   const itemsnames = [
     {
-      text: "Stay Informed: Watch Al Jazeera English Live: @Al Jazeera English, we focus on people and events that affect people's lives.",
+      text: "Stay Informed: Watch Al Jazeera English Live: @Al Jazeera English",
       href: "../live-news/",
       image: "https://img.youtube.com/vi/gCNeDWCI0vo/0.jpg",
     },

@@ -426,7 +426,7 @@ export default function HomePage({ allData }) {
   <div
     className="w-full sm:w-[60%] h-[300px] sm:h-full bg-no-repeat bg-center bg-contain rounded-lg "
     style={{
-      backgroundImage: "url(http://localhost:3000/og_image.jpg)",
+      backgroundImage: "url(https://worldsnews24.vercel.app/og_image.jpg)",
       backgroundSize: "contain",  // Ensures the image remains proportionate
       backgroundPosition: "center", 
       filter:

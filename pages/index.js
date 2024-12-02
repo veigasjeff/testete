@@ -428,14 +428,14 @@ export default function HomePage({ allData }) {
       <Image
         src="https://worldsnews24.vercel.app/og_image.jpg"
         alt="World News 24"
-        className="flex flex-col sm:flex-row items-center justify-center sm:justify-between h-auto sm:h-[30vh] p-2 "
+        className="flex flex-col sm:flex-row items-center justify-center sm:justify-between h-auto  p-2 "
         width={500}
         height={300}
         quality={90}
         loading="lazy"
         style={{
-          // width: "400px",
-          // height: "500px",
+          width: "500px",
+          height: "300px",
            margin: "auto",
           // marginTop: "50px",
           marginBottom: "20px",

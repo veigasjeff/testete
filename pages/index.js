@@ -425,17 +425,17 @@ export default function HomePage({ allData }) {
    
     {/* <header className="flex flex-col sm:flex-row items-center justify-center sm:justify-between h-auto sm:h-[70vh] p-5 bg-blue-600"> */}
       {/* Hero Image Section */}
-      <Image
-        src="https://worldsnews24.vercel.app/og_image.jpg"
+        <Image
+        src="/logo.png"
         alt="World News 24"
-        className="flex flex-col sm:flex-row items-center justify-center sm:justify-between h-auto  p-2 "
+        className=" items-center justify-center h-auto sm:h-[30vh] p-2 "
         width={500}
         height={300}
         quality={90}
         loading="lazy"
         style={{
-          width: "500px",
-          height: "300px",
+          // width: "500px",
+          // height: "300px",
            margin: "auto",
           // marginTop: "50px",
           marginBottom: "20px",
@@ -446,7 +446,7 @@ export default function HomePage({ allData }) {
       /> 
 
       {/* Hero Content Section */}
-      <div className="w-full sm:w-[100%] flex flex-col items-center justify-center p-5 bg-blue-600 text-white text-center sm:ml-5 rounded-lg mt-5 sm:mt-0">
+      <div className="w-full sm:w-[100%] flex flex-col items-center justify-center p-5 bg-blue-600 text-white text-center sm:ml-5 rounded-lg mt-5 sm:mt-0"     style={{ textShadow: "1px 1px 5px #000", marginTop: "50px",}}>
         <h1
           className="text-3xl sm:text-5xl font-bold mb-4"
           style={{ textShadow: "1px 1px 5px #000" }}

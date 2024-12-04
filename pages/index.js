@@ -48,7 +48,7 @@ export async function getStaticProps() {
       const jsonData = await fs.readFile(filePath, "utf-8");
       const parsedData = JSON.parse(jsonData);
 
-      allData[category] = Array.isArray(parsedData) ? parsedData.slice(0, 3) : [];
+      allData[category] = Array.isArray(parsedData) ? parsedData.slice(0, 5) : [];
     }
   } catch (error) {
     console.error(`Error loading data for category ${category}:`, error); // category will be accessible here

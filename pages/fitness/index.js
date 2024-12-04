@@ -64,7 +64,7 @@ export default function fitness({ fitnessData }) {
     return () => clearInterval(intervalId); // Cleanup the interval on unmount
   }, []);
 
-  const itemsPerPage = 5;
+  const itemsPerPage = 10;
   const [currentPage, setCurrentPage] = React.useState(1);
 
   const totalPages = Math.ceil((fitnessData?.length || 0) / itemsPerPage);

@@ -64,7 +64,7 @@ export default function business({ businessData }) {
     return () => clearInterval(intervalId); // Cleanup the interval on unmount
   }, []);
 
-  const itemsPerPage = 5;
+  const itemsPerPage = 10;
   const [currentPage, setCurrentPage] = React.useState(1);
 
   const totalPages = Math.ceil((businessData?.length || 0) / itemsPerPage);

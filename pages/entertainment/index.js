@@ -81,7 +81,7 @@ export default function entertainment({ entertainmentData }) {
     return () => clearInterval(intervalId); // Cleanup the interval on unmount
   }, []);
 
-  const itemsPerPage = 5;
+  const itemsPerPage = 10;
   const [currentPage, setCurrentPage] = React.useState(1);
 
   const totalPages = Math.ceil((entertainmentData?.length || 0) / itemsPerPage);

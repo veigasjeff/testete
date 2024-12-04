@@ -38,6 +38,7 @@ export async function getStaticProps() {
     "entertainment",
     "fitness",
     "tech",
+    "business",
   ];
   const allData = {};
   let category = ""; // Declare category outside the loop
